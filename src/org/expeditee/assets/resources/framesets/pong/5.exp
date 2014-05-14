@@ -1,0 +1,577 @@
+V 8
+U jts
+D 16Feb2014[16:43]
+M jts
+d 16Feb2014[16:53]
+Z
+
+S T 163
+s 16Feb2014[16:45.41]
+P 211 35
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 3
+s 16Feb2014[16:43]
+d 0 0 100 100
+P 9 40
+T @thread
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1819
+h -1.0
+
+S T 158
+s 16Feb2014[14:29.59]
+P 24 74
+T var threadFunc = function() 
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 31
+s 16Feb2014[16:43.21]
+d 100 0 100 100
+P 38 88
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 64 70
+c 158 160
+
+S P 30
+s 16Feb2014[16:43.21]
+d 100 0 100 100
+P 1240 88
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 64 67
+c 158 159
+
+S T 4
+s 16Feb2014[16:43.21]
+P 45 137
+T setup()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 5
+s 16Feb2014[16:43.21]
+P 44 192
+T ball.calculateAngle()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 6
+s 16Feb2014[16:43.21]
+P 51 248
+T while(true)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 32
+s 16Feb2014[16:43.21]
+d 100 0 0 100
+P 63 263
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 73 76
+c 161 162
+
+S P 33
+s 16Feb2014[16:43.21]
+d 100 0 0 100
+P 1234 263
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 73 79
+c 161 163
+
+S T 7
+s 16Feb2014[16:43.21]
+P 76 299
+T if(ball.y + ball.dy > component.getHeight() - 5)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 168
+s 16Feb2014[16:47.57]
+d 50 50 50 100
+P 114 337
+T @bat
+F 6
+Q 0
+o jts
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 20
+s 16Feb2014[16:43.21]
+P 76 372
+T if(ball.y + ball.dy < 50)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 50
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 399 396
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 130 133
+c 180 181
+
+S P 51
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 96 396
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 130 136
+c 180 182
+
+S T 21
+s 16Feb2014[16:43.21]
+P 102 437
+T ball.a = Math.PI * 2 - ball.a
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 22
+s 16Feb2014[16:43.21]
+P 102 477
+T ball.calculateAngle()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 52
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 399 493
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 133 139
+c 181 183
+
+S P 53
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 96 493
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 136 139
+c 182 183
+
+S T 23
+s 16Feb2014[16:43.21]
+P 75 531
+T if(ball.x + ball.dx < 50 || ball.x + ball.dx > component.getWidth())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 54
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 393 566
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 142 145
+c 184 185
+
+S P 55
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 93 566
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 142 148
+c 184 186
+
+S T 24
+s 16Feb2014[16:43.21]
+P 109 602
+T ball.a = Math.PI - ball.a
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 25
+s 16Feb2014[16:43.21]
+P 109 638
+T ball.calculateAngle()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 56
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 393 667
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 145 151
+c 185 187
+
+S P 57
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 93 667
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 148 151
+c 186 187
+
+S T 26
+s 16Feb2014[16:43.21]
+P 80 707
+T ball.x += ball.dx
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 27
+s 16Feb2014[16:43.21]
+P 82 744
+T ball.y += ball.dy
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 28
+s 16Feb2014[16:43.21]
+P 82 781
+T component.doPaint()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 29
+s 16Feb2014[16:43.21]
+P 82 818
+T java.lang.Thread.sleep(10)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 58
+s 16Feb2014[16:43.21]
+d 100 0 0 100
+P 63 833
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 76 154
+c 162 188
+
+S P 59
+s 16Feb2014[16:43.21]
+d 100 0 0 100
+P 1234 833
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 79 154
+c 163 188
+
+S P 60
+s 16Feb2014[16:43.21]
+d 100 0 100 100
+P 38 853
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 70 157
+c 160 189
+
+S P 61
+s 16Feb2014[16:43.21]
+d 100 0 100 100
+P 1240 853
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 67 157
+c 159 189
+
+Z
+
+L 64 1
+s 30 31
+
+L 70 1
+s 31 60
+
+L 67 1
+s 61 30
+
+L 73 1
+s 33 32
+
+L 76 1
+s 32 58
+
+L 79 1
+s 59 33
+
+L 130 1
+s 50 51
+
+L 133 1
+s 52 50
+
+L 136 1
+s 51 53
+
+L 139 1
+s 53 52
+
+L 142 1
+s 54 55
+
+L 145 1
+s 56 54
+
+L 148 1
+s 55 57
+
+L 151 1
+s 57 56
+
+L 154 1
+s 58 59
+
+L 157 1
+s 60 61
+
+Z
+
+C 158 3
+s 30 31
+
+C 160 2
+s 31 60
+
+C 159 2
+s 61 30
+
+C 161 3
+s 33 32
+
+C 162 2
+s 32 58
+
+C 163 2
+s 59 33
+
+C 180 3
+s 50 51
+
+C 181 2
+s 52 50
+
+C 182 2
+s 51 53
+
+C 183 3
+s 53 52
+
+C 184 3
+s 54 55
+
+C 185 2
+s 56 54
+
+C 186 2
+s 55 57
+
+C 187 3
+s 57 56
+
+C 188 3
+s 58 59
+
+C 189 3
+s 60 61
+
+Z
+
+ActiveTime:00:01:38
+DarkTime:00:00:00
+52:35:649 230 80 Md
+52:35:720 230 80 Mu
+52:36:057 214 75 Md
+52:36:152 214 75 Mu
+52:36:474 279 132 Md
+52:36:553 279 132 Mu
+52:37:041 254 124 Md
+52:37:144 254 124 Mu
+52:37:398 251 126 kWindows
+52:43:830 368 198 kAlt
+52:45:598 811 386 kAlt
+52:52:658 336 355 Md
+52:52:753 336 355 Mu
+52:53:898 351 342 Md
+52:53:985 351 342 Mu
+52:54:815 364 347 kL
+52:54:926 375 347 kShift
+52:55:022 375 347 kSemicolon
+52:55:663 386 347 k6
+52:55:922 397 347 Md
+52:56:001 397 347 Mu
+52:56:682 159 318 Md
+52:56:737 159 318 Mu
+52:57:170 155 317 Md
+52:57:265 155 317 Mu
+52:57:842 161 330 Md
+52:57:945 161 330 Mu
+52:58:511 422 245 kWindows
+53:01:799 953 110 kWindows
+53:02:730 1224 88 Md
+53:02:825 1224 88 Mu
+53:04:273 1240 88 Md
+53:04:385 1240 88 Mu
+53:04:703 873 154 kWindows
+53:05:819 490 41 Ld
+53:05:913 492 41 Lu

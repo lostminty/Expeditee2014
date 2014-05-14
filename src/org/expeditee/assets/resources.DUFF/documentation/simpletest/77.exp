@@ -1,0 +1,160 @@
+V 3
+p UWW
+U root
+D 24Jun2008:1709
+M root
+d 24Jun2008:1709
+Z
+
+S P 52
+s 24Jun2008:1709
+P 460 12
+h 2.0
+l 60 55
+c 157 158
+
+S P 53
+s 24Jun2008:1709
+P 15 12
+h 2.0
+l 55 54
+c 157 160
+
+S T 56
+s 24Jun2008:1709
+P 29 48
+f tr33
+T Call Double $i.toDouble
+
+S T 57
+s 24Jun2008:1709
+d 0 0 100
+P 28 87
+T Add $i.toDouble $i.toDouble $i.toDouble
+
+S P 58
+s 24Jun2008:1709
+P 460 131
+h 2.0
+l 60 61
+c 158 159
+
+S P 59
+s 24Jun2008:1709
+P 15 131
+h 2.0
+l 54 61
+c 160 159
+
+S P 31
+s 24Jun2008:1709
+P 1004 571
+h 2.0
+l 35 41
+c 27 30
+
+S P 32
+s 24Jun2008:1709
+P 469 571
+h 2.0
+l 35 36
+c 27 29
+
+S T 7
+s 24Jun2008:1709
+P 792 608
+F Walmsley314
+T @Home
+
+S T 18
+s 24Jun2008:1709
+P 502 608
+X NewSimpleTest
+T @NewSimpleTest
+
+S T 5
+s 24Jun2008:1709
+P 885 609
+F SimpleTest0
+T @ZeroFrame
+
+S T 16
+s 24Jun2008:1709
+P 690 609
+X Format
+T @Format
+
+S P 33
+s 24Jun2008:1709
+P 469 631
+h 2.0
+l 36 40
+c 29 28
+
+S P 39
+s 24Jun2008:1709
+P 1004 631
+h 2.0
+l 41 40
+c 30 28
+
+Z
+
+L 60 1
+s 58 52
+
+L 55 1
+s 52 53
+
+L 54 1
+s 53 59
+
+L 61 1
+s 59 58
+
+L 35 1
+s 31 32
+
+L 41 1
+s 39 31
+
+L 36 1
+s 32 33
+
+L 40 1
+s 33 39
+
+Z
+
+C 157 3
+s 52 53
+
+C 158 2
+s 58 52
+
+C 160 2
+s 53 59
+
+C 159 3
+s 59 58
+
+C 27 3
+s 31 32
+
+C 30 2
+s 39 31
+
+C 29 2
+s 32 33
+
+C 28 3
+s 33 39
+
+Z
+
+ActiveTime:00:00:06
+DarkTime:00:00:00
+00:01:100 947 14 Rd
+00:01:214 947 14 Ru
+00:01:575 561 255 Ld
+00:01:660 561 255 Lu

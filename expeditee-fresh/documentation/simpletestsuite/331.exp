@@ -1,0 +1,50 @@
+V 4
+p 4
+U root
+D 02Jul2008:1647
+M root
+d 02Jul2008:1647
+Z
+
+S T 12
+s 02Jul2008:1647
+d 0 0 100
+P 34 49
+f sb41
+T //Search for a string not in the text
+
+S T 17
+s 02Jul2008:1646
+P 52 135
+T Set $s.pattern "not in the text"
+
+S T 18
+s 02Jul2008:1646
+P 52 170
+T SearchStr $s.searchStr $s.pattern $b.found $i.start $i.end
+
+S T 20
+s 02Jul2008:1646
+P 51 212
+T AssertFalse $b.found
+
+S T 5
+s 02Jul2008:1647
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:06
+DarkTime:00:00:00
+00:01:197 174 208 Md
+00:01:325 174 209 Mu
+00:01:892 172 216 Md
+00:01:988 172 216 Mu
+00:02:524 151 246 Ld
+00:02:604 151 246 Lu

@@ -1,0 +1,24 @@
++A+ Demo34
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Items that link somewhere have a small circle on their left
++S+ 4
++P+ 202 192
++f+ tr21
++T+ Clicking anywhere in 'free space' is the back command
++S+ 6
++P+ 166 264
++f+ tr21
++T+ After a back command, the item just followed is highlighted in red
++Z+

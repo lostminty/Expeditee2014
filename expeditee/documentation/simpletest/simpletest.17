@@ -1,0 +1,70 @@
++v+ 22
++V+ 5
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1016
++M+ root
++d+ 06Jun2008:1057
++A+ SimpleTest17
+
++S+ 25
++s+ 24Jan2008:1016
++P+ 25 18
++X+ RunFrame
++T+ Return
+
++S+ 21
++s+ 24Jan2008:1417
++P+ 80 46
++T+ Set $b.Flag false
+
++S+ 26
++s+ 05Jun2008:2011
++d+ 100 0 100
++P+ 418 50
++X+ DebugFrame
++T+ @DebugFrame
+
++S+ 5
++s+ 24Jan2008:1207
++P+ 84 87
++F+ SimpleTest19
++T+ Call TestReturn
+
++S+ 11
++s+ 24Jan2008:1208
++P+ 82 138
++F+ SimpleTest20
++T+ Call TestDeepReturn
+
++S+ 22
++s+ 24Jan2008:1416
++P+ 80 184
++T+ Set $b.Flag true
+
++S+ 23
++s+ 24Jan2008:1208
++P+ 77 226
++T+ Return
+
++S+ 24
++s+ 24Jan2008:1208
++P+ 76 262
++T+ This should not be reached!
++Z+
+ActiveTime:00:01:03
+DarkTime:00:00:00
+00:13:580 68 12 Rd
+00:13:635 68 12 Ld
+00:14:545 632 307 Md
+00:14:695 632 307 Mu
+00:17:681 688 353 Rd
+00:17:716 688 353 Md
+00:57:173 484 43 Rd
+00:57:205 484 43 Ld
+00:58:451 548 245 Md
+00:58:612 548 245 Mu
+00:59:112 555 250 Rd
+00:59:150 555 250 Md
+01:03:815 457 34 Ld
+01:03:905 457 34 Lu

@@ -1,0 +1,51 @@
+V 27
+U csl14A
+D 12Dec2013[10:08]
+M csl14A
+d 14Feb2014[16:55]
+Z
+
+S T 4
+s 12Dec2013[10:27.47]
+P 140 68
+T @iw: org.expeditee.items.widgets.JfxBrowser --anchorLeft 140 --anchorRight 0 --anchorTop 50 --anchorBottom 0 1540 833:http://www.waikato.ac.nz/
+Q 0
+R 140.0
+N 50.0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 1.0
+
+S T 8
+s 12Dec2013[10:28.05]
+d 50 50 50 100
+P 1770 68
+T @ao: 2
+F overlayset2
+Q 0
+H -150.0
+N 50.0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:08:13
+DarkTime:00:13:22
+55:46:893 1220 115 kF9
+55:47:797 1220 116 kF9
+55:48:461 1206 123 kF9
+55:48:805 1243 116 kF9

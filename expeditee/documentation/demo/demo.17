@@ -1,0 +1,37 @@
++A+ Demo17
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Text Editing
++S+ 5
++P+ 115 78
++f+ tr21
++T+ Text can be edited by positioning the mouse and typing
++S+ 7
++P+ 115 116
++f+ tr21
++T+ Arrow keys can also be used to move the cursor
++T+ 
++T+ Text items can also be merged, more on that later
++S+ 11
++P+ 695 175
++f+ tr21
++T+ @Todo: Text ranging
++S+ 12
++P+ 825 286
++f+ tr21
++T+ Text items are also
++T+  equipped with a
++T+  simple word wrap
++T+  function, like so:
++Z+

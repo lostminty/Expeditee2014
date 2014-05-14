@@ -1,0 +1,51 @@
+V 9
+p 4
+U root
+D 26Jul2008:1145
+M Michael
+d 17Nov2008:1340
+Z
+
+S T 12
+s 26Jul2008:1145
+d 0 0 100
+P 34 49
+T ForEachText $fp.copy $ip.text
+Q 0
+f sb41
+
+S T 14
+s 26Jul2008:1240
+P 61 104
+T IfNotAnnotation $ip.text  Calculate $fp.copy $ip.text
+Q 0
+w 951
+
+S T 5
+s 26Jul2008:1145
+P 940 572
+T @ao
+F 89
+Q 0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:03:14
+DarkTime:00:00:00
+00:02:068 511 42 kBackspace
+00:02:257 487 49 kBackspace
+00:02:427 448 49 kBackspace
+00:02:607 423 49 kBackspace
+00:03:089 405 49 kHome
+00:03:988 34 49 kBackspace
+00:07:062 405 28 kBackspace
+00:07:657 388 49 kC
+00:08:027 410 49 kO
+00:08:228 436 49 kP
+00:08:457 463 49 kY
+00:09:436 432 293 Ld
+00:09:582 433 293 Lu

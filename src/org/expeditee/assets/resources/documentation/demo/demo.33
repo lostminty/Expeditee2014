@@ -1,0 +1,38 @@
++A+ Demo33
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Following links
++S+ 4
++P+ 173 86
++F+ Demo34
++f+ tr21
++T+ Items that link somewhere have a small circle on their left
++S+ 12
++P+ 172 87
++l+ 15
++S+ 14
++P+ 296 175
++l+ 15
++S+ 7
++P+ 300 181
++f+ tr21
++T+ Like this one
++S+ 19
++P+ 183 259
++f+ tr21
++T+ left clicking on the item follows the link
++L+ 15 1
++s+ 14 12
++j+ 0 0.0
++Z+

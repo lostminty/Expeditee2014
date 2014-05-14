@@ -1,0 +1,145 @@
+V 3
+p 4
+U root
+D 08Apr2008:1527
+M root
+d 26Jun2008:0046
+Z
+
+S T 133
+s 08Apr2008:1527
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T ReadFileTest
+
+S T 374
+s 16Apr2008:1034
+d 0 0 0
+P 65 66
+T Set $s.File "fileThatDoesntExist.txt"
+
+S T 370
+s 16Apr2008:1033
+d 0 0 0
+P 65 95
+T OpenReadFile $s.File $f.Cur $b.Success
+
+S T 152
+s 16Apr2008:1232
+d 0 0 0
+P 65 124
+T AssertFalse $b.Success
+
+S T 266
+s 16Apr2008:1250
+d 0 0 0
+P 65 153
+T Set $s.File "Test.txt"
+
+S T 358
+s 16Apr2008:1251
+d 0 0 0
+P 65 182
+T OpenWriteFile $s.File $f.Cur $b.Success
+
+S T 373
+s 16Apr2008:1307
+d 0 0 0
+P 65 211
+T WriteLineFile $f.Cur $s.File
+
+S T 360
+s 16Apr2008:1250
+d 0 0 0
+P 65 240
+T CloseWriteFile $f.cur
+
+S T 352
+s 16Apr2008:1250
+d 0 0 0
+P 65 269
+T OpenReadFile $s.File $f.Cur $b.Success
+
+S T 414
+s 16Apr2008:1033
+d 0 0 0
+P 520 274
+T @ReadItemFile $f.Cur $ip.cur $b.Success
+
+S T 351
+s 16Apr2008:1250
+d 0 0 0
+P 65 298
+T AssertTrue $b.Success
+
+S P 418
+s 16Apr2008:1424
+P 484 323
+h 2.0
+l 420
+
+S T 185
+s 16Apr2008:1033
+d 0 0 100
+P 65 327
+T ReadLineFile $f.Cur $s.Line $b.Success
+
+S T 369
+s 16Apr2008:1305
+d 0 0 0
+P 65 356
+T AssertTrue $b.Success
+
+S T 367
+s 16Apr2008:1305
+d 0 0 0
+P 65 385
+T AssertEquals $s.File $s.Line
+
+S T 379
+s 16Apr2008:1308
+d 0 0 100
+P 65 414
+T ReadLineFile $f.Cur $s.Line $b.Success
+
+S T 381
+s 16Apr2008:1308
+d 0 0 0
+P 65 443
+T AssertFalse $b.Success
+
+S T 365
+s 16Apr2008:1034
+d 0 0 0
+P 65 472
+T CloseReadFile $f.cur
+
+S P 419
+s 16Apr2008:1424
+P 606 479
+j 24.0 0.5
+h 2.0
+l 420
+
+S T 135
+s 08Apr2008:1527
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 420 1
+s 418 419
+
+Z
+
+Z
+
+ActiveTime:00:00:01
+DarkTime:00:00:00
+00:00:728 109 15 Md
+00:00:765 109 15 Rd
+00:01:016 109 15 kPage Up

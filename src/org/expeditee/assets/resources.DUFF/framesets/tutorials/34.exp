@@ -1,0 +1,506 @@
+V 19
+U jts21A
+D 20Jan2014[15:22]
+M jts21A
+d 21Jan2014[10:54]
+Z
+
+S T 10
+s 20Jan2014[15:22]
+d 0 0 100 100
+P 16 55
+T Create a polygon, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 257
+s 20Jan2014[15:22.24]
+d 50 50 50 100
+P 22 89
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 256
+s 20Jan2014[15:22.24]
+P 29 118
+T var frame = loadTutorialFrame(28)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 258
+s 20Jan2014[15:22.57]
+P 43 149
+T var iterator = frame.getAllItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 259
+s 20Jan2014[15:24.09]
+P 55 180
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 260
+s 20Jan2014[15:23.20]
+P 75 219
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 231
+s 20Jan2014[15:23.42]
+d 0 0 100 100
+P 564 244
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 233 248
+c 126 129
+
+S P 232
+s 20Jan2014[15:23.42]
+d 0 0 100 100
+P 41 244
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 233 234
+c 126 128
+
+S T 235
+s 20Jan2014[15:23.44]
+P 59 270
+T var item = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 236
+s 20Jan2014[15:23.50]
+P 59 306
+T if(item instanceof Circle)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 237
+s 20Jan2014[15:23.59]
+d 0 70 0 100
+P 467 324
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 239 244
+c 163 166
+
+S P 238
+s 20Jan2014[15:23.59]
+d 0 70 0 100
+P 82 324
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 239 240
+c 163 165
+
+S T 241
+s 20Jan2014[15:24.01]
+P 97 351
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 242
+s 20Jan2014[15:23.59]
+d 0 70 0 100
+P 82 377
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 240 245
+c 165 164
+
+S P 243
+s 20Jan2014[15:23.59]
+d 0 70 0 100
+P 467 377
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 244 245
+c 166 164
+
+S P 246
+s 20Jan2014[15:23.42]
+d 0 0 100 100
+P 41 384
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 234 249
+c 128 127
+
+S P 247
+s 20Jan2014[15:23.42]
+d 0 0 100 100
+P 564 384
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 248 249
+c 129 127
+
+S T 230
+s 20Jan2014[15:22.24]
+P 26 428
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 218
+s 20Jan2014[15:23.34]
+d 100 0 0 100
+P 987 452
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 220 226
+c 86 89
+
+S P 219
+s 20Jan2014[15:23.34]
+d 100 0 0 100
+P 20 452
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 220 221
+c 86 88
+
+S T 222
+s 20Jan2014[15:22.24]
+P 44 489
+T frame.addText(70, 485, "Rectangles can be started by right clicking on the background of the frame,\nand ended by middle clicking", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 229
+s 20Jan2014[15:22.24]
+P 48 561
+T frame.addText(70, 542, "Create a rectangle, then click here to continue", "runJSFrame", "Tutorials35")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 224
+s 20Jan2014[15:23.34]
+d 100 0 0 100
+P 20 590
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 221 227
+c 88 87
+
+S P 225
+s 20Jan2014[15:23.34]
+d 100 0 0 100
+P 987 590
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 226 227
+c 89 87
+
+S T 214
+s 20Jan2014[15:22.24]
+P 22 631
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 205
+s 20Jan2014[15:22.24]
+d 0 0 100 100
+P 825 664
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 207 212
+c 166 167
+
+S P 206
+s 20Jan2014[15:22.24]
+d 0 0 100 100
+P 23 664
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 207 208
+c 166 168
+
+S T 209
+s 20Jan2014[15:22.24]
+P 36 698
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a circle to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 210
+s 20Jan2014[15:22.24]
+d 0 0 100 100
+P 23 719
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 208 213
+c 168 169
+
+S P 211
+s 20Jan2014[15:22.24]
+d 0 0 100 100
+P 825 719
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 212 213
+c 167 169
+
+Z
+
+L 233 1
+s 231 232
+
+L 248 1
+s 247 231
+
+L 234 1
+s 232 246
+
+L 239 1
+s 237 238
+
+L 244 1
+s 243 237
+
+L 240 1
+s 238 242
+
+L 245 1
+s 242 243
+
+L 249 1
+s 246 247
+
+L 220 1
+s 218 219
+
+L 226 1
+s 225 218
+
+L 221 1
+s 219 224
+
+L 227 1
+s 224 225
+
+L 207 1
+s 205 206
+
+L 212 1
+s 211 205
+
+L 208 1
+s 206 210
+
+L 213 1
+s 210 211
+
+Z
+
+C 126 3
+s 231 232
+
+C 129 2
+s 247 231
+
+C 128 2
+s 232 246
+
+C 163 3
+s 237 238
+
+C 166 2
+s 243 237
+
+C 165 2
+s 238 242
+
+C 164 3
+s 242 243
+
+C 127 3
+s 246 247
+
+C 86 3
+s 218 219
+
+C 89 2
+s 225 218
+
+C 88 2
+s 219 224
+
+C 87 3
+s 224 225
+
+C 166 3
+s 205 206
+
+C 167 2
+s 211 205
+
+C 168 2
+s 206 210
+
+C 169 3
+s 210 211
+
+Z
+
+ActiveTime:00:04:19
+DarkTime:00:00:00
+54:12:072 629 264 Md
+54:12:095 629 264 Rd
+54:13:440 832 306 Ld
+54:13:551 832 306 Lu

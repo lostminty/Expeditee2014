@@ -1,0 +1,48 @@
++A+ Demo26
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Property Merging
++S+ 44
++P+ 136 76
++f+ tr21
++T+ @Text items can be used as properties to merge into items
++S+ 59
++P+ 136 116
++f+ tr21
++T+ Text items can be used as properties to merge into items
++S+ 45
++P+ 713 165
++f+ tr21
++T+ @Color: black
++T+ size: 18
++S+ 9
++P+ 123 204
++f+ tr21
++T+ Color: blue
++S+ 48
++P+ 120 233
++f+ tr21
++T+ Size: 50
++S+ 13
++P+ 135 346
++f+ tr21
++T+ The text items can even be multi-line with many properties in them:
++S+ 49
++P+ 135 403
++f+ tr21
++T+ Color: Black
++T+ Text: This item has
++T+ been merged
++T+ font: Courier-BOLD-25
++Z+

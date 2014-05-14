@@ -1,0 +1,124 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 12Feb2008:1652
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite80
+
++S+ 17
++s+ 12Feb2008:1652
++d+ 0 0 100
++P+ 35 20
++F+ SimpleTestSuite82
++f+ tr35
++T+ if $b.True
+
++S+ 100
++s+ 26Jun2008:0047
++d+ 0 0 100
++P+ 35 20
++F+ SimpleTestSuite82
++f+ tr35
++T+ if $b.True
+
++S+ 99
++s+ 13Feb2008:1628
++P+ 119 146
++T+ ThisCodeShouldDisplay
+
++S+ 84
++s+ 12Feb2008:1652
++P+ 2 550
++h+ 2.0
++l+ 86 97
++c+ 163 165
+
++S+ 85
++s+ 12Feb2008:1652
++P+ 516 550
++h+ 2.0
++l+ 86 87
++c+ 165 164
+
++S+ 88
++s+ 12Feb2008:1652
++d+ 0 70 0
++P+ 22 577
++X+ RunSimpleTests SimpleTestSuite
++f+ tr21
++T+ @RunTestSuite
+
++S+ 89
++s+ 12Feb2008:1652
++P+ 174 577
++X+ Format
++T+ @Format
+
++S+ 90
++s+ 12Feb2008:1652
++P+ 271 579
++X+ ToggleTwinFramesMode
++f+ tr21
++T+ @TwinFrames
+
++S+ 91
++s+ 12Feb2008:1652
++P+ 22 602
++X+ NewSimpleTest
++T+ @NewSimpleTest
+
++S+ 92
++s+ 12Feb2008:1652
++P+ 189 602
++F+ Walmsley314
++T+ @Home
+
++S+ 93
++s+ 12Feb2008:1652
++P+ 271 602
++F+ SimpleTestSuite0
++T+ @ZeroFrame
+
++S+ 94
++s+ 12Feb2008:1652
++d+ 70 70 0
++P+ 393 603
++F+ SimpleDoc1
++f+ tr22
++T+ @SimpleDoc
+
++S+ 95
++s+ 12Feb2008:1652
++P+ 2 616
++h+ 2.0
++l+ 97 98
++c+ 163 166
+
++S+ 96
++s+ 12Feb2008:1652
++P+ 516 616
++h+ 2.0
++l+ 87 98
++c+ 164 166
++L+ 86 1
++s+ 84 85
++L+ 97 1
++s+ 95 84
++L+ 87 1
++s+ 85 96
++L+ 98 1
++s+ 96 95
++C+ 163 2
++s+ 84 95
++C+ 165 3
++s+ 85 84
++C+ 164 2
++s+ 96 85
++C+ 166 3
++s+ 95 96
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:559 109 20 kPage Down

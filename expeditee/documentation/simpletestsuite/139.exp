@@ -1,0 +1,70 @@
+V 1
+p UWW
+U root
+D 17Apr2008:1331
+M root
+d 17Apr2008:1344
+Z
+
+S T 133
+s 17Apr2008:1331
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T GetLastNumberInFramesetTest
+
+S T 136
+s 17Apr2008:1333
+d 0 0 0
+P 88 120
+T Set $s.cur "SimpleTestSuite"
+
+S T 137
+s 17Apr2008:1333
+d 0 0 0
+P 87 162
+T GetLastNumberInFrameset $s.cur $i.count
+
+S T 141
+s 17Apr2008:1338
+d 0 0 0
+P 93 190
+T Set $i.thisFrame 139
+
+S T 142
+s 17Apr2008:1337
+d 0 0 0
+P 88 229
+T Ifless $i.count $i.thisFrame ERROR!!
+
+S T 135
+s 17Apr2008:1331
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:01 179 24 Ld
+00:01 179 24 Lu
+01:55 132 247 kE
+01:55 140 249 kQ
+01:56 137 24 Ld
+01:56 137 24 Lu
+01:59 150 252 kBackspace
+01:59 140 249 kBackspace
+01:59 131 249 kBackspace
+02:00 123 249 kBackspace
+02:00 116 249 kBackspace
+02:01 106 249 kL
+02:01 111 249 kE
+02:01 121 249 kS
+02:01 130 249 kS
+02:02 172 44 Ld
+02:02 172 44 Lu
+

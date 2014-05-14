@@ -1,0 +1,37 @@
++A+ Demo46
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ F5 Creates a date item
++S+ 5
++P+ 139 114
++f+ tr21
++T+ Date items can be created in 'free space'
++S+ 7
++P+ 137 317
++f+ tr21
++T+ Or they can be prepended to existing text items
++S+ 14
++P+ 208 430
++f+ tr21
++T+ Like so:
++S+ 12
++P+ 544 432
++f+ tr21
++T+ @Like so:
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

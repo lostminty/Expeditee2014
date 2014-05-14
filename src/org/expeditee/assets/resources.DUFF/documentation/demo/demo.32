@@ -1,0 +1,29 @@
++A+ Demo32
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Item Deletion
++S+ 9
++P+ 173 129
++f+ tr21
++T+ Items are deleted by middle+right mouse buttons together
++S+ 16
++P+ 172 246
++f+ tr21
++T+ Undelete is middle+right mouse buttons in free space
++S+ 14
++P+ 858 506
++X+ Format
++f+ tr21
++T+ @Format
++Z+

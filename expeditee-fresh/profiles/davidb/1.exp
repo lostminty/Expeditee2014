@@ -1,0 +1,153 @@
+V 4
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[23:11]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+d 0 0 100 100
+P 25 50
+T davidb's Profile Frame
+Q 0
+o davidb
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 912
+h -1.0
+
+S T 4
+s 14Jan2014[17:56.15]
+d 0 70 0 100
+P 300 100
+T @Expeditee Help
+Q 0
+o davidb
+v S
+f sb25
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 50 100
+T @Start Pages
+Q 0
+o davidb
+v S
+f sb25
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.16]
+d 50 50 50 100
+P 550 100
+T @Settings
+F davidb2
+Q 0
+o davidb
+v S
+f sb25
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 5
+s 14Jan2014[17:56.15]
+d 50 50 50 100
+P 300 130
+T @Documentation
+F Documentation1
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 8
+s 14Jan2014[17:56.16]
+d 50 50 50 100
+P 50 130
+T @exploratorysearch
+F exploratorysearch1
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 6
+s 14Jan2014[17:56.15]
+d 50 50 50 100
+P 300 158
+T @SimpleDoc
+F SimpleDoc1
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.16]
+d 50 50 50 100
+P 50 158
+T @webbrowser
+F webbrowser1
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:01:06
+DarkTime:00:00:00
+11:05:050 391 318 Ld
+11:05:247 392 318 Lu
+11:14:696 213 321 Md
+11:14:810 213 321 Mu
+11:23:345 581 246 Md
+11:23:480 581 246 Mu
+11:25:818 288 365 Md
+11:25:914 288 365 Mu
+11:31:402 667 377 Rd
+11:31:489 667 377 Ru
+11:32:693 550 504 Rd
+11:32:777 550 504 Ru
+11:34:217 316 462 Ld
+11:34:224 316 462 Rd
+11:38:553 291 366 Md
+11:38:632 291 366 Mu
+11:43:210 563 408 Md
+11:43:225 563 408 Rd
+11:44:146 469 264 Rd
+11:44:160 469 264 Md

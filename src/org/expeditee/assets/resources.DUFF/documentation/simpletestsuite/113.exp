@@ -1,0 +1,33 @@
+V 151
+p 4
+U root
+D 15Mar2008:1506
+M Michael
+d 17Nov2008:1337
+Z
+
+S T 133
+s 15Mar2008:1506
+d 0 0 100
+P 26 24
+T @StageFrame
+Q 0
+f tr35
+
+S T 481
+s 17Nov2008:1337
+P 300 300
+T Type this first 
+T Type this second 
+Q 0
+f tr18
+w 1085
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:03:19
+DarkTime:00:01:23

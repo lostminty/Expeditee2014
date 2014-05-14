@@ -1,0 +1,150 @@
++v+ 22
++V+ 9
++p+ 1
++U+ ra33
++D+ 13Feb2008:1621
++M+ root
++d+ 09Jul2008:1532
++A+ SimpleTestSuite89
+
++S+ 147
++s+ 13Feb2008:1618
++P+ 1008 545
++h+ 2.0
++l+ 172 149
++c+ 165 164
+
++S+ 171
++s+ 13Feb2008:1618
++P+ 174 545
++h+ 2.0
++l+ 172 201
++c+ 165 163
+
++S+ 203
++s+ 21Feb2008:1300
++d+ 0 0 0
++P+ 470 569
++X+ NextTest
++T+ @Next
+
++S+ 216
++s+ 09Jul2008:1520
++P+ 198 569
++F+ SearchResults11
++X+ SearchFrameset
++T+ SearchFrameset
+
++S+ 215
++s+ 21Feb2008:1300
++d+ 0 0 0
++P+ 364 570
++X+ PreviousTest
++T+ @Previous
+
++S+ 205
++s+ 13Feb2008:1618
++P+ 794 572
++X+ ToggleTwinFramesMode
++f+ tr21
++T+ @TwinFrames
+
++S+ 182
++s+ 13Feb2008:1618
++P+ 698 573
++X+ Format
++T+ @Format
+
++S+ 189
++s+ 21Feb2008:1320
++d+ 0 0 0
++P+ 541 573
++X+ LastTest
++T+ @Last
+
++S+ 208
++s+ 21Feb2008:1326
++d+ 0 0 0
++P+ 609 573
++X+ DeleteFrame
++T+ @Delete
+
++S+ 153
++s+ 13Feb2008:1618
++P+ 517 596
++X+ NewSimpleTest
++T+ @NewSimpleTest
+
++S+ 212
++s+ 13Feb2008:1618
++d+ 0 70 0
++P+ 345 597
++X+ RunSimpleTests SimpleTestSuite
++f+ tr21
++T+ @RunTestSuite
+
++S+ 154
++s+ 13Feb2008:1618
++d+ 0 0 100
++P+ 681 598
++F+ Walmsley314
++T+ @Home
+
++S+ 155
++s+ 13Feb2008:1618
++P+ 764 598
++F+ SimpleTestSuite0
++T+ @ZeroFrame
+
++S+ 211
++s+ 27Feb2008:1119
++d+ 100 0 100
++P+ 192 598
++X+ RunSimpleTestsVerbose SimpleTestSuite
++f+ tr17
++T+ @RunTestSuiteV
+
++S+ 213
++s+ 13Feb2008:1618
++d+ 70 70 0
++P+ 889 598
++F+ SimpleDoc1
++f+ tr19
++T+ @SimpleDoc
+
++S+ 158
++s+ 13Feb2008:1618
++P+ 1008 609
++h+ 2.0
++l+ 149 202
++c+ 164 166
+
++S+ 200
++s+ 13Feb2008:1618
++P+ 174 609
++h+ 2.0
++l+ 201 202
++c+ 163 166
++L+ 172 1
++s+ 171 147
++L+ 149 1
++s+ 147 158
++L+ 201 1
++s+ 200 171
++L+ 202 1
++s+ 158 200
++C+ 165 3
++s+ 147 171
++C+ 164 2
++s+ 158 147
++C+ 163 2
++s+ 171 200
++C+ 166 3
++s+ 200 158
++Z+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:02:650 264 563 Md
+00:02:767 264 563 Mu
+00:03:397 335 449 Ld
+00:03:517 335 449 Lu

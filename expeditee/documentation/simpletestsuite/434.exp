@@ -1,0 +1,52 @@
+V 6
+p 4
+U root
+D 18Sep2008:2002
+M Michael
+d 17Nov2008:1338
+Z
+
+S T 12
+s 18Sep2008:2002
+d 0 0 100
+P 34 49
+T InvalidVarTest
+X runframe
+Q 0
+f sb41
+
+S T 29
+s 18Sep2008:2008
+d 50 50 50
+P 64 108
+T @ThrowsException
+Q 0
+w 935
+
+S T 19
+s 18Sep2008:2002
+P 59 151
+T Set $i.Int "TEst"
+Q 0
+f tr18
+w 945
+
+S T 5
+s 18Sep2008:2002
+P 940 572
+T @ao
+F 89
+Q 0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:13
+DarkTime:00:01:12
+00:00:678 300 364 Md
+00:00:767 300 364 Rd
+00:01:286 291 419 Ld
+00:01:414 291 419 Lu

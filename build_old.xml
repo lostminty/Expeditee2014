@@ -1,0 +1,159 @@
+<!--
+
+ANT build script for both the Apollo and Expeditee project.
+
+Originally created for the apollo project - but can be used for
+creating expeditee distributions.
+
+This does not include the lib jars within the distributed jar -
+such resources would have to be handled specially in code
+(i.e. jar loaders...).
+
+-->
+<project name="Expeditee" default="fresh_dist_exp">
+	
+	<tstamp>
+	    <format property="TODAY" pattern="d-MMMM-yyyy"/>
+		<format property="TODAY_EXP" pattern="ddMMMyyyy"/>
+	 </tstamp>
+	
+	<!-- Expeditee must be compatible run on Java 1.6" -->
+	<property name="sourcelevel" value="1.6" />
+	<property name="targetlevel" value="1.6" />
+	
+	<property name="resources.dir.apollo" location="resources_apollo" /> <!-- resources files for apollo -->
+
+	<property name="src.dir.exp" location="src" /> <!-- source files for expeditee -->
+	<property name="src.dir.apollo" location="src_apollo" /> <!-- source files for apollo -->
+	
+	<property name="build.dir" location="bin" /> <!-- compiled class files directory -->
+	
+	<property name="lib.dir.exp" location="releases/jars" /> <!-- external dependencies -->
+	<property name="lib.dir.apollo" location="jars_apollo" /> <!-- external dependencies -->
+	
+	<property name="dist.dir.exp" location="releases" /> <!-- Put the output jar file into the same directory as the others. The manifest file needs to be edited with relative dependencies if another directory structure is desired. -->
+	<property name="dist.dir.apollo" location="releases/apollo" /> <!-- Put the output jar file into the same directory as the others. The manifest file needs to be edited with relative dependencies if another directory structure is desired. -->
+	
+	<property name="dist.filename.exp" value="Exp${TODAY_EXP}A.jar" /> 
+	<property name="dist.filename.apollo" value="Apollo_jvm${targetlevel}-${TODAY}.jar" />
+	
+	<property name="manifest.path.exp"  value="makeFiles/Manifest.txt" />
+	<property name="manifest.path.apollo" value="makeFiles/apollo_manifest.mf" />
+	<property name="manifest.path.apollo-applet" value="makeFiles/apollo_applet_manifest.mf" />
+	
+	<path id="classpath.exp">
+		<!-- link with all jar files we can find in our defined lib directory -->
+		<fileset dir="${lib.dir.exp}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	
+	<path id="classpath.apollo">
+		<!-- link with all jar files we can find in our defined lib directory -->
+		<fileset dir="${lib.dir.exp}">
+			<include name="*.jar" />
+			<exclude name="jnmp2p.jar"/> <!-- This is a zero-sized file! Its totally invalid and will fail any builds - omitting !-->
+			<exclude name="jxta.jar"/> <!-- Ditto !-->
+		</fileset>
+		<fileset dir="${lib.dir.apollo}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	
+
+	<!-- TARGETS -->
+	<target name="clean" description="Deletes contents of build directory.">
+		<delete dir="${build.dir}" />
+		<mkdir dir="${build.dir}" />
+	</target>
+	
+	
+	<!-- Set up directories that are needed for building." -->
+	<target name="init_expeditee">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${lib.dir.exp}" />
+	</target>
+	
+	<target name="init_apollo" depends="init_expeditee">
+		<mkdir dir="${lib.dir.apollo}" />
+	</target>
+		
+	
+	<!-- Do the actual compilation." -->
+	<target name="compile_exp" depends="init_expeditee">
+		<javac 	srcdir="${src.dir.exp}" 
+				destdir="${build.dir}" 
+				debug="true" 
+				optimize="on" 
+				source="${sourcelevel}" 
+				target="${targetlevel}" 
+				compiler="modern" 
+	
+				listfiles="true">
+			<classpath refid="classpath.exp" />
+			<compilerarg value="-Xlint:unchecked"/>
+		</javac>
+	</target>
+			
+	<target name="compile_apollo" depends="init_apollo, compile_exp">
+	<javac 	srcdir="${src.dir.apollo}" 
+			destdir="${build.dir}" 
+			debug="true" 
+			optimize="on" 
+			source="${sourcelevel}" 
+			target="${targetlevel}" 
+			compiler="modern" 
+			listfiles="true">
+			<classpath refid="classpath.apollo" />
+			<compilerarg value="-Xlint:unchecked"/>
+		</javac>
+	</target>
+	
+	
+	<!-- Jaring up the projects." -->
+	<target name="lazy_dist_exp" depends="compile_exp" description="Warning: Does not clean before compile.">
+	  <jar destfile="${dist.dir.exp}/${dist.filename.exp}" manifest="${manifest.path.exp}">
+            <fileset dir="${build.dir}"/>	    
+	  </jar>  
+
+	  <!-- Now, with the most generic name possible, make a jar that is always the latest -->
+	  <copy file="${dist.dir.exp}/${dist.filename.exp}" toFile="${dist.dir.exp}/Expeditee.jar"/>
+	</target>
+	
+	<target name="fresh_dist_exp" depends="clean, lazy_dist_exp"/>
+	
+	<target name="lazy_dist_apollo" depends="compile_apollo" description="Warning: Does not clean before compile.">
+
+	  <!-- Now, with the most generic name possible, make a jar that is always the latest -->
+	  <jar destfile="${dist.dir.apollo}/${dist.filename.apollo}" manifest="${manifest.path.apollo}">
+	    <fileset dir="${build.dir}"/>
+	    <fileset dir="${resources.dir.apollo}"/>
+	    <fileset dir="releases" includes="jars/*,jars/*/*"/>
+	    <fileset dir="." includes="jars_apollo/*"/>
+	  </jar>  
+	  
+	  <!-- Now, with the most generic name possible, make a jar that is always the latest -->
+	  <copy file="${dist.dir.apollo}/${dist.filename.apollo}" toFile="${dist.dir.apollo}/Apollo.jar"/>
+	  	</target>
+
+	<target name="lazy_dist_apollo_applet" depends="compile_apollo">
+	  
+	  <jar destfile="${dist.dir.apollo}/ApolloApplet.jar" manifest="${manifest.path.apollo-applet}">
+	    <fileset dir="${build.dir}"/>
+	    <fileset dir="${resources.dir.apollo}"/>
+	    <fileset dir="unjarred-for-expeditee-applet" includes="*/"/>
+	    <fileset dir="unjarred-for-apollo-applet" includes="*/"/>
+	  </jar>
+	  
+	  <exec executable="./MAKE-APOLLO-SIGNED-JAR.sh" osfamily="unix" />
+	  <exec executable="MAKE-APOLLO-SIGNED-JAR.bat"  osfamily="windows"/>
+	</target>
+
+	<target name="sign-test">
+		<exec executable="dev/bin/script/MAKE-APOLLO-SIGNED-JAR.sh" osfamily="unix" />
+		<exec executable="dev/bin/script/MAKE-APOLLO-SIGNED-JAR.bat"  osfamily="windows"/>
+	</target>
+
+	<target name="fresh_dist_apollo" depends="clean, lazy_dist_apollo, lazy_dist_apollo_applet"/>
+
+</project>

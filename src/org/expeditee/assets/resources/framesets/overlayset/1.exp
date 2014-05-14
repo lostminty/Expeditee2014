@@ -1,0 +1,129 @@
+V 114
+U Nathaniel
+D 06Feb2014[17:16]
+M csl14A
+d 13Feb2014[17:08]
+Z
+
+S T 11
+s 10Feb2014[21:29.12]
+d 0 0 0 100
+P 2 27
+T Exploratory
+T Search
+Q 0
+R 0.0
+N 6.0
+o nathaniel
+v S
+f Roboto Condensed_r20
+t -23.0
+b -10.0
+m 0.0
+w 135
+k C
+h -1.0
+
+S T 24
+s 10Feb2014[21:29.35]
+d 50 50 50 100
+P -87 58
+T @ao: base
+F 4
+Q 0
+R -100.0
+N 50.0
+o nathaniel
+v S
+f DejaVu Sans Light_r9
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 78
+s 10Feb2014[21:33.55]
+P 7 65
+T @i: iconbutton_plus.png 127
+X startbrowsersession
+x F
+Q 0
+R 5.0
+N 65.0
+o nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 14
+s 10Feb2014[21:29.12]
+P 11 84
+T Web Browser
+X startBrowserSession
+x F
+Q 0
+R 9.0
+N 68.0
+o nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 116
+s 10Feb2014[21:35.24]
+P 7 95
+T @i: iconbutton_plus.png 127
+X startmindmapsession
+x F
+Q 0
+R 5.0
+N 95.0
+o nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 17
+s 10Feb2014[21:29.12]
+P 11 114
+T MindMap
+X startMindmapSession
+x F
+Q 0
+R 9.0
+N 98.0
+o nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:16:25
+DarkTime:00:01:59
+08:23:914 340 310 Ld
+08:23:978 340 310 Lu

@@ -1,0 +1,71 @@
+V 2
+p 4
+U root
+D 14May2008:1950
+M root
+d 25Jun2008:1913
+Z
+
+S T 42
+s 14May2008:1950
+d 0 0 100
+P 25 57
+X RunFrame
+f sb41
+T GetRandomIntegerTest
+
+S T 13
+s 14May2008:1956
+d 0 0 0
+P 27 102
+T Set $i.lowerBound -5
+
+S T 15
+s 14May2008:1956
+d 0 0 0
+P 27 138
+T Set $i.upperBound 10
+
+S T 17
+s 14May2008:1956
+d 0 0 0
+P 27 174
+T GetRandomInteger $i.lowerBound $i.upperBound $i.Result
+
+S T 39
+s 14May2008:2213
+d 0 0 0
+P 27 210
+T @MessageLn $i.Result
+
+S T 41
+s 14May2008:2001
+d 0 0 0
+P 27 246
+T ifgeq $i.Result $i.upperBound AssertFail	
+
+S T 40
+s 14May2008:2002
+d 0 0 0
+P 27 282
+T ifless $i.Result $i.lowerBound AssertFail	
+
+S T 5
+s 14May2008:1950
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:05
+DarkTime:00:00:00
+00:01:993 215 29 Md
+00:02:122 215 29 Mu
+00:02:623 213 56 Md
+00:02:712 213 56 Mu
+00:05:790 713 121 kPage Down

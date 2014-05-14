@@ -1,0 +1,239 @@
+V 68
+p 41
+U jts21A
+D 20Jan2014[09:27]
+M jts21A
+d 21Jan2014[14:36]
+Z
+
+S T 3
+s 20Jan2014[09:27]
+d 0 0 100 100
+P 15 55
+T Tutorials
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 899
+h -1.0
+
+S T 231
+s 20Jan2014[09:27.35]
+P 30 126
+T 1. Links and actions
+F 2
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 241
+s 20Jan2014[10:29.32]
+P 30 169
+T 2. Deletion
+F 11
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 123
+s 20Jan2014[11:09.57]
+d 0 0 100 100
+P 801 194
+e 100 100 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 277 127
+c 119 122
+
+S P 124
+s 20Jan2014[11:09.57]
+d 0 0 100 100
+P 453 194
+e 100 100 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 127 128
+c 119 121
+
+S T 228
+s 20Jan2014[09:55.20]
+P 30 212
+T 3. Text and Item interaction
+F 4
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 293
+s 20Jan2014[14:48.31]
+d 0 70 0 100
+P 484 236
+T // TODO: Remove these
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 291
+s 20Jan2014[14:48.46]
+P 30 255
+T 4. Shapes
+F 28
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 233
+s 20Jan2014[14:10.00]
+P 484 274
+T color:
+T tooltip:
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 301
+s 21Jan2014[09:32.31]
+P 30 298
+T 5. Pictures
+F 37
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 292
+s 20Jan2014[14:12.11]
+P 484 333
+T getIDs
+X getIDs
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 313
+s 21Jan2014[11:16.53]
+P 30 341
+T 6. Widgets
+F 44
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 125
+s 20Jan2014[11:09.57]
+d 0 0 100 100
+P 453 373
+e 100 100 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 128 278
+c 121 120
+
+S P 276
+s 20Jan2014[11:09.57]
+d 0 0 100 100
+P 801 373
+e 100 100 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 277 278
+c 122 120
+
+Z
+
+L 277 1
+s 276 123
+
+L 127 1
+s 123 124
+
+L 128 1
+s 124 125
+
+L 278 1
+s 125 276
+
+Z
+
+C 119 3
+s 123 124
+
+C 122 2
+s 276 123
+
+C 121 2
+s 124 125
+
+C 120 3
+s 125 276
+
+Z
+
+ActiveTime:00:08:47
+DarkTime:00:19:35
+36:13:200 90 203 Ld
+36:13:279 90 203 Lu

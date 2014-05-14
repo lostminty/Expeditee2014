@@ -1,0 +1,65 @@
+V 55
+U jts21A
+D 20Jan2014[14:48]
+M jts21A
+d 21Jan2014[11:16]
+Z
+
+S T 10
+s 20Jan2014[14:48]
+d 0 0 100 100
+P 16 55
+T Shapes
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 836
+s 20Jan2014[14:49.05]
+P 70 113
+T Arrows can be started by middle clicking on the background of the frame,
+T and ended by middle clicking again
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 837
+s 20Jan2014[14:50.03]
+P 70 170
+T Create an arrow, then click here to continue
+F 29
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:11:18
+DarkTime:00:01:21
+16:46:557 988 453 Rd
+16:46:579 988 453 Md
+16:47:037 490 348 Ld
+16:47:123 490 348 Lu

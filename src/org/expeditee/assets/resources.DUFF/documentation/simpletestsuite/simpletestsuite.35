@@ -1,0 +1,62 @@
++v+ 22
++V+ 8
++p+ 4
++U+ ra33
++D+ 07Feb2008:0944
++M+ root
++d+ 26Jun2008:0051
++A+ simpletestsuite35
+
++S+ 17
++s+ 07Feb2008:0944
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ CountCharsInItem Test
+
++S+ 37
++s+ 07Feb2008:0947
++P+ 447 67
++F+ SimpleTestSuite36
++T+ @TestFrame
+
++S+ 55
++s+ 07Feb2008:0948
++P+ 30 105
++T+ Set $i.count 0
+
++S+ 56
++s+ 07Feb2008:0948
++P+ 30 153
++T+ Set $s.pattern "test"
+
++S+ 45
++s+ 07Feb2008:0948
++d+ 0 100 100
++P+ 37 215
++F+ SimpleTestSuite37
++T+ ForEach $fp.TestFrame $ip.
+
++S+ 53
++s+ 07Feb2008:0951
++P+ 37 291
++T+ Set $i.expectedCount 5
+
++S+ 51
++s+ 07Feb2008:0951
++d+ 0 100 100
++P+ 37 329
++T+ AssertEquals $i.expectedCount $i.count
+
++S+ 54
++s+ 21Feb2008:1503
++P+ 946 502
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:01
+DarkTime:00:00:00
+00:00:521 105 17 Rd
+00:00:561 105 17 Md
+00:01:120 105 17 kPage Down

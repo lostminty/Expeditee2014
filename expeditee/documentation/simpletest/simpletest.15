@@ -1,0 +1,116 @@
++A+ SimpleTest15
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1014
++M+ ra33
++d+ 29Jan2008:1435
++Z+
++v+ 22
+
++S+ 3
++s+ 24Jan2008:1014
++P+ 20 0
++F+ SimpleTest15
++X+ RunFrame
++T+ ExitAll
+
++S+ 22
++s+ 29Jan2008:1433
++P+ 96 57
++T+ //Follow the links to reach the ExitAll statement
+
++S+ 11
++s+ 24Jan2008:1018
++P+ 91 105
++T+ Set $i.1 5
+
++S+ 12
++s+ 24Jan2008:1018
++P+ 91 144
++T+ Set $i.2 5
+
++S+ 21
++s+ 25Jan2008:1250
++P+ 89 192
++F+ SimpleTest44
++T+ Call Test
+
++S+ 19
++s+ 24Jan2008:1127
++P+ 91 329
++T+ This should not be reached!!
++Z+
+00:03 101 77 kSlash
+00:03 110 77 kSlash
+00:03 119 77 kShift
+00:03 119 77 kE
+00:04 130 77 kBackspace
+00:05 119 77 kShift
+00:05 119 77 kF
+00:05 129 77 kO
+00:05 140 77 kL
+00:05 146 77 kL
+00:06 151 77 kO
+00:06 162 77 kW
+00:06 177 77 kSpace
+00:06 182 77 kT
+00:06 189 77 kH
+00:06 200 77 kE
+00:06 210 77 kSpace
+00:07 215 77 kL
+00:07 221 77 kI
+00:07 227 77 kN
+00:07 238 77 kK
+00:08 249 77 kS
+00:08 258 77 kSpace
+00:08 263 77 kT
+00:08 270 77 kO
+00:08 281 77 kSpace
+00:08 287 77 kR
+00:08 295 77 kE
+00:08 304 77 kA
+00:09 314 77 kD
+00:09 326 77 kBackspace
+00:09 314 77 kC
+00:09 323 77 kH
+00:09 334 77 kSpace
+00:09 340 77 kT
+00:09 347 77 kH
+00:10 358 77 kE
+00:10 368 77 kSpace
+00:10 373 77 kE
+00:10 383 77 kX
+00:11 393 77 kI
+00:11 399 77 kT
+00:11 406 77 kSpace
+00:11 411 77 kA
+00:11 421 77 kL
+00:11 426 77 kL
+00:11 432 77 kSpace
+00:12 438 77 kS
+00:12 447 77 kT
+00:12 454 77 kA
+00:12 463 77 kT
+00:12 471 77 kE
+00:12 480 77 kM
+00:13 497 77 kE
+00:13 507 77 kN
+00:13 518 77 kT
+01:48 411 71 kBackspace
+01:49 406 77 kLeft
+01:49 399 77 kLeft
+01:49 393 77 kLeft
+01:50 383 77 kBackspace
+01:50 373 77 kShift
+01:50 373 77 kE
+01:50 384 77 kRight
+01:50 394 77 kRight
+01:50 399 77 kRight
+01:51 406 77 kRight
+01:51 416 77 kBackspace
+01:51 406 77 kShift
+01:51 406 77 kA
+01:56 933 14 kRight
+

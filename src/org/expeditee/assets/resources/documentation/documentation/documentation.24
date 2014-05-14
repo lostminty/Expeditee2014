@@ -1,0 +1,246 @@
++A+ Documentation24
++V+ 1
++v+ 22
++p+ UWW
++U+ root
++D+ 21Feb2008:0953
++M+ root
++d+ 21Feb2008:1124
++Z+
++v+ 22
+
++S+ 3
++s+ 21Feb2008:0953
++d+ 0 0 100
++P+ 28 41
++f+ tb55
++T+ Family
+
++S+ 361
++s+ 21Feb2008:1052
++d+ 0 0 0
++P+ 684 73
++X+ GetAvailableFontFamilyNames
++T+ GetAvailableFontFamilyNames
++T+ action gets a list of fonts available
++T+ on your system.
+
++S+ 339
++s+ 21Feb2008:0952
++P+ 314 96
++h+ 2.0
++l+ 363 342
++c+ 14630 14632
+
++S+ 362
++s+ 21Feb2008:0952
++P+ 637 96
++h+ 2.0
++l+ 363 364
++c+ 14630 14633
+
++S+ 206
++s+ 21Feb2008:0954
++P+ 29 98
++h+ 2.0
++l+ 236 207
++c+ 14653 14655
+
++S+ 235
++s+ 21Feb2008:0954
++P+ 278 98
++h+ 2.0
++l+ 236 237
++c+ 14653 14656
+
++S+ 343
++s+ 21Feb2008:1056
++d+ 0 0 0
++P+ 343 133
++D+ 1
++f+ tb21
++T+ Standard Physical Fonts
+
++S+ 210
++s+ 21Feb2008:1055
++d+ 0 0 0
++P+ 51 140
++f+ tb21
++T+ Standard Logical Fonts
+
++S+ 324
++s+ 21Feb2008:1054
++d+ 0 0 0
++P+ 716 151
++f+ tr11
++T+ Bitstream Charter
++T+ Bitstream Vera Sans
++T+ Bitstream Vera Sans Mono
++T+ Bitstream Vera Serif
++T+ Century Schoolbook L
++T+ Courier
++T+ Courier 10 Pitch
++T+ Cursor
++T+ DejaVu LGC Sans
++T+ DejaVu LGC Sans Condensed
++T+ DejaVu LGC Sans Light
++T+ DejaVu LGC Sans Mono
++T+ DejaVu LGC Serif
++T+ DejaVu LGC Serif Condensed
++T+ Dialog
++T+ DialogInput
++T+ Dingbats
++T+ Hershey
++T+ Lucida Bright
++T+ Lucida Sans
++T+ Lucida Sans Typewriter
++T+ Luxi Mono
++T+ Luxi Sans
++T+ Luxi Serif
++T+ Monospaced
++T+ Nimbus Mono L
++T+ Nimbus Roman No9 L
++T+ Nimbus Sans L
++T+ Nimbus Sans L Condensed
++T+ SansSerif
++T+ Serif
++T+ Standard Symbols L
++T+ URW Bookman L
++T+ URW Chancery L
++T+ URW Gothic L
++T+ URW Palladio L
++T+ Utopia
++T+ 
+
++S+ 357
++s+ 21Feb2008:1101
++d+ 0 0 0
++P+ 349 189
++T+ The fonts below are 
++T+ standard with any java 
++T+ system.
+
++S+ 211
++s+ 21Feb2008:0933
++d+ 0 0 0
++P+ 54 198
++f+ tr21
++T+ Serif
+
++S+ 212
++s+ 21Feb2008:0933
++d+ 0 0 0
++P+ 54 243
++f+ tr21
++T+ Sans-Serif
+
++S+ 356
++s+ 21Feb2008:0931
++d+ 0 0 0
++P+ 352 283
++f+ tr21
++T+ Family: Lucida Bright
+
++S+ 213
++s+ 21Feb2008:0933
++d+ 0 0 0
++P+ 54 288
++f+ tr21
++T+ Monospaced
+
++S+ 355
++s+ 21Feb2008:0931
++d+ 0 0 0
++P+ 354 329
++f+ tr21
++T+ Family: Lucida Sans
+
++S+ 214
++s+ 21Feb2008:0934
++d+ 0 0 0
++P+ 54 333
++f+ tr21
++T+ Dialog
+
++S+ 388
++s+ 21Feb2008:0931
++d+ 0 0 0
++P+ 331 371
++f+ tr21
++T+ Family: Lucida Sans Typewriter
+
++S+ 215
++s+ 21Feb2008:0934
++d+ 0 0 0
++P+ 54 378
++f+ tr21
++T+ DialogInput
+
++S+ 216
++s+ 21Feb2008:0954
++P+ 29 405
++h+ 2.0
++l+ 207 217
++c+ 14655 14654
+
++S+ 218
++s+ 21Feb2008:0954
++P+ 278 405
++h+ 2.0
++l+ 237 217
++c+ 14656 14654
+
++S+ 347
++s+ 21Feb2008:0952
++P+ 314 406
++h+ 2.0
++l+ 342 353
++c+ 14632 14631
+
++S+ 351
++s+ 21Feb2008:0952
++P+ 637 406
++h+ 2.0
++l+ 364 353
++c+ 14633 14631
+
++S+ 37
++s+ 21Feb2008:1008
++d+ 100 0 100
++P+ 935 600
++F+ Documentation27
++T+ @ao
++L+ 363 1
++s+ 362 339
++L+ 342 1
++s+ 339 347
++L+ 364 1
++s+ 351 362
++L+ 236 1
++s+ 235 206
++L+ 207 1
++s+ 206 216
++L+ 237 1
++s+ 218 235
++L+ 217 1
++s+ 216 218
++L+ 353 1
++s+ 347 351
++C+ 14630 3
++s+ 362 339
++C+ 14632 2
++s+ 339 347
++C+ 14633 2
++s+ 351 362
++C+ 14653 3
++s+ 235 206
++C+ 14655 2
++s+ 206 216
++C+ 14656 2
++s+ 218 235
++C+ 14654 3
++s+ 216 218
++C+ 14631 3
++s+ 347 351
++Z+
+

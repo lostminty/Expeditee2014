@@ -1,0 +1,310 @@
+V 211
+U csl14A
+D 12Dec2013[10:15]
+M csl14A
+d 13Feb2014[16:57]
+Z
+
+S P 673
+s 06Feb2014[22:05.01]
+d 90 90 90 100
+P -41 -20
+e 95 95 95 100
+Q 0
+N -20.0
+o Nathaniel
+v S
+h 2.0
+l 674 675
+c 40 42
+
+S P 672
+s 06Feb2014[22:05.01]
+d 90 90 90 100
+P 140 -20
+e 95 95 95 100
+Q 0
+R 140.0
+N -20.0
+o Nathaniel
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 674 697
+c 40 41
+
+S T 676
+s 06Feb2014[22:05.01]
+d 0 0 0 100
+P 2 27
+T Mindmap
+Q 0
+R 0.0
+N 6.0
+o Nathaniel
+v S
+f Roboto Condensed_r20
+t -1.0
+b 0.0
+m 0.0
+w 135
+k C
+h -1.0
+
+S T 1433
+s 06Feb2014[22:05.01]
+P 7 40
+T @i: iconbutton_plus.png 127
+F PlatonicForms1
+X getItemsFromChildFrame
+x F
+Q 0
+R 5.0
+N 40.0
+o Nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 947
+s 06Feb2014[22:09.56]
+P 11 59
+T Square
+F PlatonicForms1
+X getItemsFromChildFrame
+x F
+Q 0
+R 9.0
+N 43.0
+o Nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 1438
+s 11Feb2014[00:05.44]
+d 50 50 50 100
+P -87 58
+T @ao: base
+F 4
+Q 0
+R -100.0
+N 50.0
+o nathaniel
+v S
+f DejaVu Sans Light_r9
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1444
+s 13Feb2014[16:44.56]
+d 50 50 50 100
+P 1048 68
+T @ao: 3
+F overlayset4
+Q 0
+H -100.0
+N 50.0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1432
+s 06Feb2014[22:09.56]
+P 7 70
+T @i: iconbutton_plus.png 127
+F PlatonicForms2
+X getItemsFromChildFrame
+x F
+Q 0
+R 5.0
+N 70.0
+o Nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 680
+s 06Feb2014[22:05.01]
+P 11 89
+T Arrow
+F PlatonicForms2
+X getItemsFromChildFrame
+x F
+Q 0
+R 9.0
+N 73.0
+o Nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 1434
+s 06Feb2014[22:05.01]
+P 7 100
+T @i: iconbutton_plus.png 127
+F PlatonicForms3
+X getItemsFromChildFrame
+x F
+Q 0
+R 5.0
+N 100.0
+o Nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 684
+s 06Feb2014[22:05.01]
+P 11 119
+T Circle
+F PlatonicForms3
+X getItemsFromChildFrame
+x F
+Q 0
+R 9.0
+N 103.0
+o Nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 1435
+s 06Feb2014[22:11.53]
+P 7 130
+T @i: iconbutton_plus.png 127
+F PlatonicForms4
+X getItemsFromChildFrame
+x F
+Q 0
+R 5.0
+N 130.0
+o Nathaniel
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 1117
+s 06Feb2014[22:11.53]
+P 11 149
+T Hexagon
+F PlatonicForms4
+X getItemsFromChildFrame
+x F
+Q 0
+R 9.0
+N 133.0
+o Nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S P 695
+s 06Feb2014[22:05.01]
+d 90 90 90 100
+P -41 643
+e 95 95 95 100
+Q 0
+I -30.0
+o Nathaniel
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 675 698
+c 42 43
+
+S P 696
+s 06Feb2014[22:05.01]
+d 90 90 90 100
+P 140 643
+e 95 95 95 100
+Q 0
+R 140.0
+I -30.0
+o Nathaniel
+j 14.000001 0.3 0.75
+v S
+h 2.0
+l 697 698
+c 41 43
+
+Z
+
+L 674 1
+s 672 673
+
+L 675 1
+s 673 695
+
+L 697 1
+s 696 672
+
+L 698 1
+s 695 696
+
+Z
+
+C 40 3
+s 672 673
+
+C 42 2
+s 673 695
+
+C 41 2
+s 696 672
+
+C 43 3
+s 695 696
+
+Z
+
+ActiveTime:01:25:21
+DarkTime:00:13:54
+57:03:046 287 245 Ld
+57:03:109 287 245 Lu

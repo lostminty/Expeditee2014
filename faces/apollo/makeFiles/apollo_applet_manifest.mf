@@ -1,0 +1,5 @@
+Manifest-Version: Dev-2013
+Created-By: Brook Novak and David Bainbridge
+Main-Class: org.apollo.ApolloSystem
+Permissions: all-permissions
+Application-Name: Expeditee

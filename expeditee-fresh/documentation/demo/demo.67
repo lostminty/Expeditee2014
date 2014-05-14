@@ -1,0 +1,38 @@
++A+ Demo67
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Esc - Aligns current item
++S+ 7
++P+ 100 83
++f+ tr21
++T+ If an item is highlighted (like when you are typing a text item), and you tap ESC
++T+ the cursor will move down so the next created item is aligned with the one above it.
++T+ It will also push down any items in the way so that the inter-item vertical spacing is maintained
++S+ 9
++P+ 100 157
++f+ tr21
++T+ If you have an item attached to the cursor and tap ESC, the cursor will be positioned so that
++T+ the item has correct alignment to the items above it. Items below it will be pushed down so that
++T+ the inter-item vertical spacing is maintained
++S+ 11
++P+ 100 231
++f+ tr21
++T+ If you are in free-space and tap ESC, the cursor will be positioned below the last non-annotation
++T+ text item on the frame, so that it lines up with it and the inter-item vertical spacing is correct
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

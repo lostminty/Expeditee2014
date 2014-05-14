@@ -1,0 +1,82 @@
+V 46
+U jts21A
+D 21Jan2014[09:32]
+M jts21A
+d 21Jan2014[11:21]
+Z
+
+S T 10
+s 21Jan2014[09:32]
+d 0 0 100 100
+P 16 55
+T Pictures
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 779
+s 21Jan2014[09:32.50]
+P 70 125
+T Pictures can be created multiple ways:
+T  - typing "@i:<path-to-image>"
+T  - dragging and dropping image data from another program
+T  - copy and pasting image data from another program
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 59
+s 21Jan2014[09:38.12]
+P 70 224
+T Unfortunately image drag+drop and copy+paste from web browsers can be unreliable
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 834
+s 21Jan2014[09:32.50]
+P 70 260
+T Create an image on this frame, and then click here
+F 38
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:16:47
+DarkTime:00:12:08
+21:22:913 141 43 kShift
+21:23:065 141 43 kEnd
+21:23:505 340 55 kBackspace
+21:24:971 56 336 Ld
+21:25:059 56 336 Lu

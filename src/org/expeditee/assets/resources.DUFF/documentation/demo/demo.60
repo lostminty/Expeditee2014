@@ -1,0 +1,54 @@
++A+ Demo60
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Sort - swaps positions on a frame so they are ordered
++S+ 7
++P+ 63 127
++f+ tr21
++T+ A This is a sort example
++S+ 13
++P+ 414 196
++f+ tr21
++T+ D This is a sort example
++S+ 22
++P+ 801 243
++X+ Sort
++f+ tr21
++T+ @Sort
++S+ 9
++P+ 56 257
++f+ tr21
++T+ X This is a sort example
++S+ 11
++P+ 213 320
++f+ tr21
++T+ C This is a sort example
++S+ 19
++P+ 291 375
++f+ tr21
++T+ qThis is a sort example
++S+ 15
++P+ 537 429
++f+ tr21
++T+ zThis is a sort example
++S+ 17
++P+ 275 510
++f+ tr21
++T+ fThis is a sort example
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

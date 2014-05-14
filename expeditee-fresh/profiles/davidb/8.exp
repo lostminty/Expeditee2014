@@ -1,0 +1,207 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+P 15 42
+T settings
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 927
+h -1.0
+
+S T 6
+s 14Jan2014[17:56.16]
+P 35 82
+T Spelling
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 82
+T // Enables the dictionary and adds the items in the child frame to the dictionary
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.16]
+P 35 145
+T GreenstoneSettings
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 145
+T // Greenstone settings (TODO: What are these for?)
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 12
+s 14Jan2014[17:56.16]
+P 35 185
+T Reminders
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 13
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 185
+T // Reminders (TODO: What are these for?)
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 15
+s 14Jan2014[17:56.16]
+P 35 225
+T MailSettings
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 16
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 225
+T // Mail Settings (TODO: How does this work?)
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 18
+s 14Jan2014[17:56.16]
+P 35 265
+T CursorFrame
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 19
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 265
+T // Items on this frame will be used as the cursor (clearing the frame or removing the link will default back to a normal cursor)
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 4
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 846 648
+T @Previous
+F davidb7
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+S T 5
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 767 648
+T @First
+F davidb2
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

@@ -1,0 +1,307 @@
+V 13
+U jts21A
+D 20Jan2014[14:16]
+M jts21A
+d 21Jan2014[10:47]
+Z
+
+S T 10
+s 20Jan2014[14:16]
+d 0 0 100 100
+P 16 55
+T Type some text on this frame, and then click here
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 14
+s 20Jan2014[14:16.19]
+d 50 50 50 100
+P 38 93
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 15
+s 20Jan2014[14:16.19]
+P 35 143
+T var frame = loadTutorialFrame(4)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 16
+s 20Jan2014[14:16.19]
+P 39 179
+T var numText = frame.getTextItems().size()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 17
+s 20Jan2014[14:16.19]
+P 46 218
+T if(numText > 3)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 62
+s 20Jan2014[14:16.54]
+d 100 0 0 100
+P 867 239
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 64 86
+c 43 46
+
+S P 63
+s 20Jan2014[14:16.54]
+d 100 0 0 100
+P 13 239
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 64 65
+c 43 45
+
+S T 66
+s 20Jan2014[14:16.19]
+P 21 266
+T var t = frame.addText(70, 217, "Items can be picked up by middle clicking them,\nand placed down by middle clicking again", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 72
+s 20Jan2014[14:16.19]
+P 22 327
+T t.setData("itemToMove")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 87
+s 20Jan2014[14:16.19]
+P 27 374
+T frame.addText(70, 274, "Move the above item, then click here", "runJSFrame", "Tutorials6")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 68
+s 20Jan2014[14:16.54]
+d 100 0 0 100
+P 13 422
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 65 85
+c 45 44
+
+S P 84
+s 20Jan2014[14:16.54]
+d 100 0 0 100
+P 867 422
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 86 85
+c 46 44
+
+S T 98
+s 20Jan2014[14:16.19]
+P 25 450
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 89
+s 20Jan2014[14:16.19]
+d 100 0 0 100
+P 935 473
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 91 97
+c 280 281
+
+S P 90
+s 20Jan2014[14:16.19]
+d 100 0 0 100
+P 31 473
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 91 92
+c 280 282
+
+S T 99
+s 20Jan2014[14:16.19]
+P 66 511
+T org.expeditee.gui.MessageBay.errorMessage("You need to create some text to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 94
+s 20Jan2014[14:16.19]
+d 100 0 0 100
+P 31 539
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 92 96
+c 282 283
+
+S P 95
+s 20Jan2014[14:16.19]
+d 100 0 0 100
+P 935 539
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 97 96
+c 281 283
+
+Z
+
+L 64 1
+s 62 63
+
+L 86 1
+s 84 62
+
+L 65 1
+s 63 68
+
+L 85 1
+s 68 84
+
+L 91 1
+s 89 90
+
+L 97 1
+s 95 89
+
+L 92 1
+s 90 94
+
+L 96 1
+s 94 95
+
+Z
+
+C 43 3
+s 62 63
+
+C 46 2
+s 84 62
+
+C 45 2
+s 63 68
+
+C 44 3
+s 68 84
+
+C 280 3
+s 89 90
+
+C 281 2
+s 95 89
+
+C 282 2
+s 90 94
+
+C 283 3
+s 94 95
+
+Z
+
+ActiveTime:00:02:22
+DarkTime:00:00:00
+47:16:265 173 495 Md
+47:16:376 173 495 Mu
+47:16:673 176 505 Md
+47:16:768 174 505 Mu
+47:18:350 789 800 kRight

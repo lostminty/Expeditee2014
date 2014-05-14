@@ -1,0 +1,149 @@
+V 15
+p 4
+U root
+D 06May2008:1426
+M root
+d 25Jun2008:2041
+Z
+
+S T 69
+s 06May2008:1426
+d 0 0 100
+P 30 47
+X RunFrame
+f sb41
+T SetFrameValueTest
+
+S T 169
+s 25Jun2008:1100
+P 63 94
+T Set $s.destinationFrameset "TestFrameset"
+
+S T 171
+s 25Jun2008:1057
+P 63 127
+T CopyFrame $fp.InitialFrame $fp. $s.destinationFrameset
+
+S T 168
+s 06May2008:1431
+d 100 0 100
+P 618 162
+F 289
+T @InitialFrame
+
+S T 137
+s 06May2008:1433
+P 63 160
+T Set $s.att1 "@test"
+
+S T 138
+s 06May2008:1433
+P 63 193
+T Set $s.att2 "apple"
+
+S T 120
+s 06May2008:1433
+P 63 226
+T Set $s.newValue "sdfasdf"
+
+S T 119
+s 06May2008:1433
+d 0 0 0
+P 63 259
+T SetFrameValue $fp. $s.att1 $s.newValue $b.
+
+S T 118
+s 06May2008:1445
+d 0 0 0
+P 63 292
+T AssertTrue $b.
+
+S T 117
+s 06May2008:1434
+d 0 0 0
+P 63 325
+T SetFrameValue $fp. $s.att2 $s.newValue $b.
+
+S T 116
+s 06May2008:1449
+d 0 0 0
+P 63 358
+T AssertTrue $b.
+
+S T 115
+s 06May2008:1449
+P 63 391
+T Set $s.att2 "Apple"
+
+S T 114
+s 06May2008:1449
+d 0 0 0
+P 63 424
+T SetFrameValue $fp. $s.att2 $s.newValue $b.
+
+S T 113
+s 06May2008:1445
+d 0 0 0
+P 63 457
+T AssertTrue $b.
+
+S T 99
+s 06May2008:1426
+P 949 570
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:07:52
+DarkTime:00:24:05
+00:00:508 628 154 Ld
+00:00:597 628 154 Lu
+00:02:682 253 78 Md
+00:02:711 253 78 Rd
+00:06:977 250 113 Md
+00:07:002 250 113 Rd
+00:09:012 265 134 kBackspace
+00:09:188 252 147 kBackspace
+00:09:329 241 147 kBackspace
+00:09:498 236 147 kBackspace
+00:09:629 225 147 kBackspace
+00:09:791 220 147 kBackspace
+00:09:951 212 147 kBackspace
+00:10:223 201 147 kShift
+00:10:735 201 147 kI
+00:10:984 207 147 kN
+00:11:257 218 147 kI
+00:11:628 224 147 kT
+00:11:808 231 147 kI
+00:11:899 236 147 kA
+00:12:063 246 147 kL
+00:12:667 252 147 kRight
+00:12:962 257 147 kBackspace
+00:13:077 252 147 kShift
+00:13:170 252 147 kF
+00:13:395 262 147 kR
+00:13:565 270 147 kA
+00:13:741 279 147 kM
+00:13:858 296 147 kE
+00:15:899 499 77 Md
+00:15:999 499 77 Mu
+00:17:617 133 90 Md
+00:17:709 133 90 Mu
+00:18:182 128 138 Md
+00:18:289 128 138 Mu
+00:18:699 130 127 Md
+00:18:797 130 127 Mu
+00:19:203 475 190 Ld
+00:19:229 475 190 Rd
+00:20:517 228 126 Md
+00:20:648 228 126 Mu
+00:21:063 228 117 Md
+00:21:157 228 117 Mu
+00:21:494 448 212 Rd
+00:21:522 448 212 Ld
+00:46:705 608 382 kLeft

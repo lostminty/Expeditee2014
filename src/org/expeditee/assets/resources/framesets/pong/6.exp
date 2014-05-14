@@ -1,0 +1,518 @@
+V 2
+U jts
+D 16Feb2014[16:48]
+M jts
+d 16Feb2014[16:56]
+Z
+
+S T 3
+s 16Feb2014[16:48]
+d 0 0 100 100
+P 15 55
+T @bat
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1808
+h -1.0
+
+S T 4
+s 16Feb2014[16:48]
+P 169 55
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 5
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 1004 94
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 7 47
+c 164 165
+
+S P 6
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 41 94
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 7 8
+c 164 166
+
+S T 9
+s 16Feb2014[16:43.21]
+P 55 124
+T if(Math.abs(org.expeditee.gui.FrameMouseActions.getX() - widget.getX() - ball.x) < 75)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 10
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 72 141
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 12 13
+c 167 168
+
+S P 11
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 420 141
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 12 19
+c 167 169
+
+S T 14
+s 16Feb2014[16:43.21]
+P 80 165
+T score++
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 15
+s 16Feb2014[16:43.21]
+P 82 194
+T ball.a = Math.PI * 2 - ball.a
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 16
+s 16Feb2014[16:43.21]
+P 82 223
+T ball.calculateAngle()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 17
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 72 232
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 13 20
+c 168 170
+
+S P 18
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 420 232
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 19 20
+c 169 170
+
+S T 21
+s 16Feb2014[16:43.21]
+P 49 259
+T else
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 22
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 56 271
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 24 25
+c 171 172
+
+S P 23
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 994 271
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 24 43
+c 171 173
+
+S T 26
+s 16Feb2014[16:43.21]
+P 71 302
+T component.setAutoPaint(false)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 27
+s 16Feb2014[16:43.21]
+P 73 336
+T font = font.deriveFont(32.0)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 28
+s 16Feb2014[16:43.21]
+P 73 370
+T if(score > bestscore)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 29
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 308 383
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 31 36
+c 174 175
+
+S P 30
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 94 383
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 31 32
+c 174 176
+
+S T 33
+s 16Feb2014[16:43.21]
+P 119 416
+T bestscore = score
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 34
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 308 437
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 36 37
+c 175 177
+
+S P 35
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 94 437
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 32 37
+c 176 177
+
+S T 38
+s 16Feb2014[16:43.21]
+P 76 465
+T gameover = true
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 39
+s 16Feb2014[16:43.21]
+P 76 502
+T component.setAutoPaint(true)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 50
+s 16Feb2014[16:56.46]
+P 77 539
+T component.doPaint()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 40
+s 16Feb2014[16:43.21]
+P 76 576
+T break
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 41
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 56 621
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 25 44
+c 172 178
+
+S P 42
+s 16Feb2014[16:43.21]
+d 0 70 0 100
+P 994 621
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 43 44
+c 173 178
+
+S P 45
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 41 628
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 8 48
+c 166 179
+
+S P 46
+s 16Feb2014[16:43.21]
+d 0 0 100 100
+P 1004 628
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 47 48
+c 165 179
+
+Z
+
+L 7 1
+s 5 6
+
+L 47 1
+s 46 5
+
+L 8 1
+s 6 45
+
+L 12 1
+s 11 10
+
+L 13 1
+s 10 17
+
+L 19 1
+s 18 11
+
+L 20 1
+s 17 18
+
+L 24 1
+s 23 22
+
+L 25 1
+s 22 41
+
+L 43 1
+s 42 23
+
+L 31 1
+s 29 30
+
+L 36 1
+s 34 29
+
+L 32 1
+s 30 35
+
+L 37 1
+s 35 34
+
+L 44 1
+s 41 42
+
+L 48 1
+s 45 46
+
+Z
+
+C 164 3
+s 5 6
+
+C 165 2
+s 46 5
+
+C 166 2
+s 6 45
+
+C 167 3
+s 11 10
+
+C 168 2
+s 10 17
+
+C 169 2
+s 18 11
+
+C 170 3
+s 17 18
+
+C 171 3
+s 23 22
+
+C 172 2
+s 22 41
+
+C 173 2
+s 42 23
+
+C 174 3
+s 29 30
+
+C 175 2
+s 34 29
+
+C 176 2
+s 30 35
+
+C 177 3
+s 35 34
+
+C 178 3
+s 41 42
+
+C 179 3
+s 45 46
+
+Z
+
+ActiveTime:00:00:39
+DarkTime:00:00:00
+56:36:752 375 720 kWindows
+56:38:115 1200 564 Md
+56:38:218 1200 564 Mu
+56:40:163 1004 628 Md
+56:40:266 1004 628 Mu
+56:41:155 1197 555 Md
+56:41:234 1197 555 Mu
+56:42:468 994 621 Md
+56:42:547 994 621 Mu
+56:45:460 406 498 Md
+56:47:137 279 494 kEscape
+56:47:468 77 539 Md
+56:47:547 77 539 Mu
+56:49:185 406 495 kBackspace
+56:49:432 390 502 kBackspace
+56:50:601 1222 577 kWindows
+56:50:921 1197 585 kWindows
+56:53:304 529 704 kRight

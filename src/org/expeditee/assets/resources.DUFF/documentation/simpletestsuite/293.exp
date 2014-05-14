@@ -1,0 +1,105 @@
+V 5
+p 4
+U root
+D 25Jun2008:0933
+M root
+d 25Jun2008:0939
+Z
+
+S T 12
+s 25Jun2008:0933
+d 0 0 100
+P 34 49
+f sb41
+T @StageFrame
+
+S T 27
+s 25Jun2008:0934
+P 526 133
+T SimpleTestSuite292
+
+S T 17
+s 25Jun2008:0934
+P 137 162
+T SimpleTestSuite292
+
+S T 36
+s 25Jun2008:0934
+P 99 211
+T SimpleTestSuite292
+
+S T 34
+s 25Jun2008:0934
+P 79 225
+T SimpleTestSuite292
+
+S T 38
+s 25Jun2008:0934
+P 308 229
+F SimpleTestSuite292
+T SimpleTestSuite292
+
+S T 25
+s 25Jun2008:0934
+P 576 230
+T SimpleTestSuite292
+
+S T 32
+s 25Jun2008:0934
+P 134 258
+T SimpleTestSuite292
+
+S T 41
+s 25Jun2008:0934
+P 381 286
+T SimpleTestSuite292
+
+S T 19
+s 25Jun2008:0934
+P 154 322
+F SimpleTestSuite292
+T SimpleTestSuite292
+
+S T 43
+s 25Jun2008:0934
+P 374 334
+T SimpleTestSuite292
+
+S T 45
+s 25Jun2008:0934
+P 370 350
+T SimpleTestSuite292
+
+S T 23
+s 25Jun2008:0934
+P 484 376
+T SimpleTestSuite292
+
+S T 47
+s 25Jun2008:0934
+P 399 402
+T SimpleTestSuite292
+
+S T 21
+s 25Jun2008:0934
+P 215 407
+T SimpleTestSuite292
+
+S T 49
+s 25Jun2008:0934
+P 409 434
+T SimpleTestSuite292
+
+S T 50
+s 25Jun2008:0934
+P 261 479
+T SimpleTestSuite292
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:16
+DarkTime:00:00:00

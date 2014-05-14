@@ -1,0 +1,134 @@
++v+ 22
++V+ 8
++p+ 4
++U+ ra33
++D+ 02Feb2008:1343
++M+ root
++d+ 10Jul2008:1049
++A+ SimpleTestSuite11
+
++S+ 275
++s+ 02Feb2008:1343
++d+ 0 0 100
++P+ 32 35
++X+ RunFrame
++f+ tr35
++T+ ParseStr Test
+
++S+ 159
++s+ 02Feb2008:1343
++P+ 86 56
++T+ Set $s.Cur "This is a string with 7 tokens"
+
++S+ 249
++s+ 02Feb2008:1344
++P+ 86 79
++T+ Set $s.separators " "
+
++S+ 33
++s+ 02Feb2008:1344
++P+ 86 102
++T+ ParseStr $s.cur $s.separators $i.count $s.remainder
+
++S+ 37
++s+ 02Feb2008:1345
++d+ 100 0 0
++P+ 86 125
++T+ AssertEquals $s.remainder $s.cur
+
++S+ 78
++s+ 02Feb2008:1345
++d+ 0 0 100
++P+ 86 148
++T+ Set $i.expectedCount 0
+
++S+ 41
++s+ 02Feb2008:1345
++d+ 100 0 0
++P+ 86 171
++T+ AssertEquals $i.count $i.expectedCount
+
++S+ 188
++s+ 02Feb2008:1352
++P+ 86 194
++T+ ParseStr $s.cur $s.separators $i.count $s.remainder $s.1 $s.2
+
++S+ 189
++s+ 02Feb2008:1353
++d+ 0 0 100
++P+ 86 217
++T+ Set $s.expectedRemainder "a string with 7 tokens"
+
++S+ 190
++s+ 02Feb2008:1353
++d+ 100 0 0
++P+ 86 240
++T+ AssertEquals $s.remainder $s.expectedRemainder
+
++S+ 191
++s+ 02Feb2008:1353
++d+ 0 0 100
++P+ 86 263
++T+ Set $i.expectedCount 2
+
++S+ 192
++s+ 02Feb2008:1353
++d+ 100 0 0
++P+ 86 286
++T+ AssertEquals $i.count $i.expectedCount
+
++S+ 246
++s+ 02Feb2008:1355
++P+ 86 309
++T+ ParseStr $s.cur $s.separators $i.count $s.remainder $s.1 $s.2 $s.3 $s.4 $s.5 $s.6 $s.7 $s.8 $s.9
+
++S+ 247
++s+ 02Feb2008:1355
++d+ 0 0 100
++P+ 86 332
++T+ Set $s.expected4 "string"
+
++S+ 211
++s+ 02Feb2008:1355
++d+ 100 0 0
++P+ 86 401
++T+ AssertNull $s.Remainder
+
++S+ 258
++s+ 02Feb2008:1357
++d+ 100 0 0
++P+ 86 424
++T+ AssertEquals $s.expected4 $s.4
+
++S+ 300
++s+ 02Feb2008:1357
++d+ 100 0 0
++P+ 88 460
++T+ AssertNull $s.8
+
++S+ 257
++s+ 02Feb2008:1355
++d+ 0 0 100
++P+ 86 493
++T+ Set $i.expectedCount 7
+
++S+ 253
++s+ 02Feb2008:1355
++d+ 100 0 0
++P+ 86 516
++T+ AssertEquals $i.expectedCount $i.Count
+
++S+ 273
++s+ 21Feb2008:1501
++P+ 949 583
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:49
+DarkTime:00:00:00
+00:09:074 196 462 Md
+00:09:242 195 462 Mu
+00:10:825 197 452 Md
+00:10:945 197 452 Mu
+00:49:501 94 19 Ld
+00:49:580 94 19 Lu

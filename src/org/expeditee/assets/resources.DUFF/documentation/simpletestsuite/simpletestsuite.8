@@ -1,0 +1,156 @@
++v+ 22
++V+ 9
++p+ 4
++U+ ra33
++D+ 01Feb2008:2141
++M+ root
++d+ 26Jun2008:0052
++A+ SimpleTestSuite8
+
++S+ 17
++s+ 01Feb2008:2141
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ ParseFrameName
+
++S+ 120
++s+ 02Feb2008:1320
++P+ 569 42
++h+ 2.0
++l+ 122 130
++c+ 87 90
+
++S+ 121
++s+ 02Feb2008:1320
++P+ 78 42
++h+ 2.0
++l+ 122 123
++c+ 87 89
+
++S+ 124
++s+ 01Feb2008:2141
++d+ 0 0 100
++P+ 105 71
++T+ Set $s.Cur "SimpleTestSuite8"
+
++S+ 125
++s+ 01Feb2008:2141
++d+ 0 0 100
++P+ 106 104
++T+ Set $s.ExpectedFramesetName "SimpleTestSuite"
+
++S+ 126
++s+ 01Feb2008:2141
++d+ 0 0 100
++P+ 106 144
++T+ Set $i.ExpectedFrameNumber 8
+
++S+ 127
++s+ 02Feb2008:1320
++P+ 78 160
++h+ 2.0
++l+ 123 129
++c+ 89 88
+
++S+ 128
++s+ 02Feb2008:1320
++P+ 569 160
++h+ 2.0
++l+ 130 129
++c+ 90 88
+
++S+ 115
++s+ 01Feb2008:2146
++d+ 0 0 100
++P+ 106 193
++T+ Set $i.FrameNumber -1
+
++S+ 131
++s+ 01Feb2008:2142
++d+ 100 0 100
++P+ 106 236
++f+ tr30
++T+ ParseFrameName $s.Cur $b.Success $s.Frameset  $i.FrameNumber  
+
++S+ 40
++s+ 01Feb2008:2142
++d+ 100 0 0
++P+ 108 278
++F+ SimpleTestSuite9
++T+ IFNot $b.Success
+
++S+ 159
++s+ 02Feb2008:0822
++d+ 0 70 0
++P+ 470 280
++f+ tr27
++T+ @It appears that ParseFrameName does not
++T+ create the $i.FrameNumber variable
+
++S+ 49
++s+ 01Feb2008:2147
++d+ 0 0 100
++P+ 108 314
++T+ Set $s.FramesetLabel "Frameset: "
+
++S+ 56
++s+ 02Feb2008:0820
++d+ 0 0 100
++P+ 108 350
++T+ Set $s.FrameNumberLabel  "FrameNumber: "
+
++S+ 41
++s+ 01Feb2008:2145
++d+ 0 70 0
++P+ 105 386
++F+ 242
++f+ tr21
++T+ MessageLn $s.FramesetLabel $s.Frameset
+
++S+ 54
++s+ 01Feb2008:2145
++d+ 0 70 0
++P+ 104 422
++T+ MessageLn $s.FrameNumberLabel $i.FrameNumber
+
++S+ 37
++s+ 01Feb2008:2143
++d+ 100 0 100
++P+ 104 458
++T+ AssertEquals $s.Frameset $s.ExpectedFramesetName
+
++S+ 38
++s+ 01Feb2008:2144
++d+ 100 0 100
++P+ 103 494
++T+ AssertEquals $i.FrameNumber $i.ExpectedFrameNumber
+
++S+ 145
++s+ 21Feb2008:1501
++P+ 940 577
++F+ SimpleTestSuite89
++T+ @ao
++L+ 122 1
++s+ 120 121
++L+ 130 1
++s+ 128 120
++L+ 123 1
++s+ 121 127
++L+ 129 1
++s+ 127 128
++C+ 87 3
++s+ 120 121
++C+ 90 2
++s+ 128 120
++C+ 89 2
++s+ 121 127
++C+ 88 3
++s+ 127 128
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:433 104 20 Rd
+00:00:463 104 20 Md
+00:00:870 104 20 kPage Down

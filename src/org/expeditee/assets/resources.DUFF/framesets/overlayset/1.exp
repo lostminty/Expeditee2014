@@ -1,0 +1,314 @@
+V 56
+U csl14A
+D 12Dec2013[10:13]
+M csl14A
+d 17Jan2014[16:57]
+Z
+
+S P 55
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 0 0
+Q 0
+o csl14A
+v S
+h 2.0
+l 63 64
+c 36 37 38 39
+
+S P 56
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 140 0
+Q 0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 63 65
+c 36 40 41 42 43 942
+
+S T 50
+s 12Dec2013[10:14.00]
+d 0 0 0 100
+P 0 30
+T Exploratory
+T Search:
+Q 0
+o csl14A
+v S
+f sr25
+t -1.0
+b 0.0
+m 0.0
+w 140
+k C
+h -1.0
+
+S P 59
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 140 70
+Q 0
+o csl14A
+v S
+h 2.0
+l 67
+c 41 42 44 45
+
+S P 60
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 0 70
+Q 0
+o csl14A
+v S
+h 2.0
+l 67
+c 38 48
+
+S T 51
+s 12Dec2013[10:14.00]
+P 20 100
+T Go Browsing
+X startBrowserSession
+Q 0
+o csl14A
+v S
+f sr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 52
+s 12Dec2013[10:14.00]
+P 20 130
+T New Mindmap
+X startMindmapSession
+Q 0
+o csl14A
+v S
+f sr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 945
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 0 540
+Q 0
+o csl14A
+v S
+h 2.0
+l 943
+c 39 49
+
+S P 944
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 140 540
+Q 0
+o csl14A
+v S
+h 2.0
+l 943
+c 43 942 46 941
+
+S T 955
+s 17Jan2014[16:36.40]
+d 50 50 50 100
+P 52 554
+T @i: home.png 36
+X GoToHome
+Q 0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 494
+s 18Dec2013[15:20.05]
+d 50 50 50 100
+P 13 558
+T @i: leftArrow.png 32
+X Back
+Q 0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 531
+s 18Dec2013[15:20.05]
+d 50 50 50 100
+P 92 558
+T @i: rightArrow.png 32
+X Forward
+Q 0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 460
+s 13Dec2013[14:33.39]
+P 40 615
+T HELP
+F Documentation1
+Q 0
+o csl14A
+v S
+f sr25
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 899
+s 18Dec2013[15:26.35]
+d 100 0 0 100
+P 140 630
+Q 0
+o csl14A
+v S
+h 2.0
+l 901
+
+S P 900
+s 18Dec2013[15:26.35]
+d 100 0 0 100
+P 0 630
+Q 0
+o csl14A
+v S
+h 2.0
+l 901
+
+S T 947
+s 18Dec2013[15:47.27]
+P 40 651
+T @i: es.png 64
+Q 0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 57
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 140 8000
+Q 0
+o csl14A
+j 14.0 0.3 0.75
+v S
+h 2.0
+l 65 66
+c 40 44 45 46 941 47
+
+S P 58
+s 12Dec2013[10:14.00]
+d 100 0 0 100
+P 0 8000
+Q 0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 64 66
+c 37 48 49 47
+
+Z
+
+L 63 1
+s 56 55
+
+L 64 1
+s 55 58
+
+L 65 1
+s 57 56
+
+L 67 1
+s 60 59
+
+L 943 1
+s 945 944
+
+L 901 1
+s 900 899
+
+L 66 1
+s 58 57
+
+Z
+
+C 36 3
+s 56 55
+
+C 37 2
+s 55 58
+
+C 38 2
+s 60 55
+
+C 39 2
+s 945 55
+
+C 40 2
+s 57 56
+
+C 41 2
+s 59 56
+
+C 42 2
+s 59 56
+
+C 43 2
+s 944 56
+
+C 942 2
+s 944 56
+
+C 44 2
+s 59 57
+
+C 45 2
+s 59 57
+
+C 48 2
+s 60 58
+
+C 49 2
+s 945 58
+
+C 46 2
+s 944 57
+
+C 941 2
+s 944 57
+
+C 47 3
+s 58 57
+
+Z
+
+ActiveTime:00:29:42
+DarkTime:00:19:19
+57:08:244 1403 242 kRight

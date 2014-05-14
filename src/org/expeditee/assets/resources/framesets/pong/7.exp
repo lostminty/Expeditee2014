@@ -1,0 +1,499 @@
+V 2
+U jts
+D 16Feb2014[16:46]
+M jts
+d 16Feb2014[16:46]
+Z
+
+S T 3
+s 16Feb2014[16:46]
+d 0 0 100 100
+P 15 55
+T @paint
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1808
+h -1.0
+
+S T 4
+s 16Feb2014[16:46]
+P 169 55
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 70
+s 16Feb2014[14:29.59]
+P 47 111
+T paint = function(g)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 22
+s 16Feb2014[16:46.05]
+d 100 0 100 100
+P 53 132
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 36 39
+c 70 71
+
+S P 23
+s 16Feb2014[16:46.05]
+d 100 0 100 100
+P 1293 132
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 36 42
+c 70 72
+
+S T 5
+s 16Feb2014[16:46.05]
+P 60 172
+T g.setRenderingHint(java.awt.RenderingHints.KEY_ANTIALIASING, java.awt.RenderingHints.VALUE_ANTIALIAS_ON)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 6
+s 16Feb2014[16:46.05]
+P 63 212
+T g.setColor(java.awt.Color.BLACK)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 7
+s 16Feb2014[16:46.05]
+P 63 252
+T g.fillRect(0, 0, component.getWidth(), component.getHeight())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 8
+s 16Feb2014[16:46.05]
+P 63 292
+T g.setColor(java.awt.Color.WHITE)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 9
+s 16Feb2014[16:46.05]
+P 63 332
+T g.setFont(font)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 10
+s 16Feb2014[16:46.05]
+P 66 373
+T if(gameover)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 24
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 1156 395
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 45 48
+c 73 74
+
+S P 25
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 75 395
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 45 51
+c 73 75
+
+S T 11
+s 16Feb2014[16:46.05]
+P 87 420
+T g.drawString("Game Over", component.getWidth() / 2 - 100, component.getHeight() / 2 - 50)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 12
+s 16Feb2014[16:46.05]
+P 87 466
+T g.drawString("Score: " + score, component.getWidth() / 2 - 90, component.getHeight() / 2)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 13
+s 16Feb2014[16:46.05]
+P 87 512
+T g.drawString("Best: " + bestscore, component.getWidth() / 2 - 90, component.getHeight() / 2 + 50)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 26
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 75 557
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 51 54
+c 75 76
+
+S P 27
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 1156 557
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 48 54
+c 74 76
+
+S T 14
+s 16Feb2014[16:46.05]
+P 69 594
+T else
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 28
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 60 614
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 57 60
+c 77 78
+
+S P 29
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 1291 614
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 57 63
+c 77 79
+
+S T 15
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 76 640
+T // draw ball
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 16
+s 16Feb2014[16:46.05]
+P 76 679
+T g.fillOval(ball.x - 50, ball.y - 50, 50, 50)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 17
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 76 718
+T // draw bat
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 18
+s 16Feb2014[16:46.05]
+P 76 757
+T g.setColor(java.awt.Color.GRAY)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 19
+s 16Feb2014[16:46.05]
+P 76 796
+T g.fillRect(org.expeditee.gui.FrameMouseActions.getX() - widget.getX() - 50, component.getHeight() - 5, 100, 5)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 20
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 76 856
+T // draw score
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 21
+s 16Feb2014[16:46.05]
+P 76 895
+T g.drawString("Score: " + score + " (best: " + bestscore + ")", 10, 25)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 30
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 60 915
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 60 66
+c 78 80
+
+S P 31
+s 16Feb2014[16:46.05]
+d 0 70 0 100
+P 1291 915
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 63 66
+c 79 80
+
+S P 32
+s 16Feb2014[16:46.05]
+d 100 0 100 100
+P 53 921
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 39 69
+c 71 81
+
+S P 33
+s 16Feb2014[16:46.05]
+d 100 0 100 100
+P 1293 921
+e 100 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 42 69
+c 72 81
+
+Z
+
+L 36 1
+s 23 22
+
+L 39 1
+s 22 32
+
+L 42 1
+s 33 23
+
+L 45 1
+s 24 25
+
+L 48 1
+s 27 24
+
+L 51 1
+s 25 26
+
+L 54 1
+s 26 27
+
+L 57 1
+s 29 28
+
+L 60 1
+s 28 30
+
+L 63 1
+s 31 29
+
+L 66 1
+s 30 31
+
+L 69 1
+s 32 33
+
+Z
+
+C 70 3
+s 23 22
+
+C 71 2
+s 22 32
+
+C 72 2
+s 33 23
+
+C 73 3
+s 24 25
+
+C 74 2
+s 27 24
+
+C 75 2
+s 25 26
+
+C 76 3
+s 26 27
+
+C 77 3
+s 29 28
+
+C 78 2
+s 28 30
+
+C 79 2
+s 31 29
+
+C 80 3
+s 30 31
+
+C 81 3
+s 32 33
+
+Z
+
+ActiveTime:00:00:06
+DarkTime:00:00:00
+46:16:198 105 108 Md
+46:16:293 105 108 Mu
+46:17:043 1534 349 kLeft

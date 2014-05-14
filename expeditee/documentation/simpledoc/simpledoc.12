@@ -1,0 +1,118 @@
++A+ SimpleDoc12
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 04Feb2008:1031
++M+ root
++d+ 14May2008:2108
++Z+
++v+ 22
+
++S+ 99
++s+ 04Feb2008:1031
++P+ 27 13
++f+ tr33
++T+ StringActions
+
++S+ 109
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 82
++T+ ConcatStr
+
++S+ 137
++s+ 05Feb2008:1457
++d+ 0 0 100
++P+ 369 86
++T+ AttachStringToCursor
+
++S+ 111
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 118
++T+ ConvStrLower
+
++S+ 116
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 154
++T+ ConvStrUpper
+
++S+ 120
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 190
++T+ GetStrChar
+
++S+ 122
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 226
++T+ GetStrLength
+
++S+ 124
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 262
++T+ ParseFrameName
+
++S+ 126
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 298
++T+ ParseStr
+
++S+ 128
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 57 334
++T+ StripStr
+
++S+ 130
++s+ 04Feb2008:1032
++d+ 0 0 100
++P+ 57 370
++T+ SubStr
+
++S+ 132
++s+ 04Feb2008:1032
++d+ 0 0 100
++P+ 57 406
++T+ SubstStr
+
++S+ 134
++s+ 04Feb2008:1041
++d+ 0 0 100
++P+ 57 442
++F+ simpletestsuite22
++T+ CountCharInStr
+
++S+ 136
++s+ 05Feb2008:1321
++d+ 0 0 100
++P+ 57 478
++T+ SetStrChar
+
++S+ 105
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 867 563
++F+ simpledoc1
++T+ @Parent
+
++S+ 107
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 956 563
++F+ Walmsley20
++T+ @ao
+
++S+ 106
++s+ 04Feb2008:1031
++d+ 0 0 100
++P+ 859 587
++T+ @ItemTemplate
++Z+
+00:00:472 143 110 Ld
+00:00:587 143 110 Lu

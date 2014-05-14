@@ -1,0 +1,259 @@
+V 11
+U jts21A
+D 20Jan2014[11:23]
+M jts21A
+d 21Jan2014[14:18]
+Z
+
+S T 3
+s 20Jan2014[11:23]
+d 0 0 100 100
+P 15 78
+T @javaClassNames
+Q 0
+o jts21A
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 884
+h -1.0
+
+S T 6
+s 20Jan2014[11:24.10]
+P 59 134
+T System = java.lang.System
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 40
+s 20Jan2014[11:24.20]
+P 59 163
+T Item = org.expeditee.items.Item
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 61
+s 20Jan2014[15:06.52]
+P 59 192
+T Line = org.expeditee.items.Line
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 75
+s 20Jan2014[15:35.18]
+P 59 221
+T Dot = org.expeditee.items.Dot
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 68
+s 20Jan2014[15:24.28]
+P 59 250
+T Circle = org.expeditee.items.Circle
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 89
+s 21Jan2014[09:44.22]
+P 59 279
+T Picture = org.expeditee.items.Picture
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 96
+s 21Jan2014[10:15.31]
+P 59 308
+T Widget = org.expeditee.items.widgets.InteractiveWidget
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 82
+s 20Jan2014[15:56.02]
+P 58 337
+T Constraint = org.expeditee.items.Constraint
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 24
+s 20Jan2014[14:52.33]
+P 59 366
+T DisplayIO = org.expeditee.gui.DisplayIO
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 110
+s 21Jan2014[14:18.45]
+P 59 395
+T UserSettings = org.expeditee.settings.UserSettings
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 47
+s 20Jan2014[14:57.16]
+P 59 424
+T List = java.util.LinkedList
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 103
+s 21Jan2014[14:18.10]
+P 59 453
+T Color = java.awt.Color
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:45
+DarkTime:00:00:00
+18:44:655 269 351 kEscape
+18:45:007 59 395 kShift
+18:45:271 59 395 kU
+18:45:487 72 395 kS
+18:45:671 81 395 kE
+18:45:799 91 395 kR
+18:46:071 98 395 kShift
+18:46:159 98 395 kS
+18:46:343 108 395 kE
+18:46:463 118 395 kT
+18:46:599 125 395 kT
+18:46:759 132 395 kI
+18:46:879 137 395 kN
+18:46:945 149 395 kG
+18:47:079 159 395 kS
+18:47:279 168 395 kSpace
+18:47:375 174 395 kEquals
+18:47:935 188 395 kSpace
+18:48:151 193 395 kO
+18:48:231 204 395 kR
+18:48:423 212 395 kF
+18:48:503 219 395 kPeriod
+18:48:807 224 395 kBackspace
+18:48:943 219 395 kBackspace
+18:49:031 212 395 kG
+18:49:511 222 395 kPeriod
+18:49:647 227 395 kE
+18:49:783 237 395 kX
+18:49:927 247 395 kP
+18:49:991 258 395 kE
+18:50:135 268 395 kD
+18:50:255 279 395 kI
+18:50:343 285 395 kT
+18:50:487 292 395 kE
+18:50:623 301 395 kE
+18:50:743 311 395 kPeriod
+18:51:335 316 395 kS
+18:51:487 325 395 kE
+18:51:607 334 395 kT
+18:51:711 341 395 kT
+18:51:919 349 395 kI
+18:52:047 354 395 kN
+18:52:119 365 395 kG
+18:52:223 376 395 kS
+18:52:359 385 395 kPeriod
+18:52:719 390 395 kShift
+18:52:911 390 395 kU
+18:53:119 402 395 kS
+18:53:271 412 395 kE
+18:53:399 421 395 kR
+18:53:591 429 395 kShift
+18:53:655 429 395 kS
+18:53:815 439 395 kE
+18:53:951 448 395 kT
+18:54:095 455 395 kT
+18:54:263 462 395 kI
+18:54:343 468 395 kN
+18:54:391 479 395 kG
+18:54:559 490 395 kS
+18:55:506 278 625 Ld
+18:55:569 278 625 Lu

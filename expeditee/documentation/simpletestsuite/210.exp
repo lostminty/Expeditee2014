@@ -1,0 +1,147 @@
+V 24
+p 4
+U root
+D 29May2008:1746
+M root
+d 26Jun2008:0047
+Z
+
+S T 13
+s 29May2008:1746
+d 0 0 100
+P 35 55
+X RunFrame
+f sb41
+T AssociationTest
+
+S T 23
+s 29May2008:1747
+d 0 0 0
+P 96 102
+T Set $i.index 1
+
+S T 72
+s 29May2008:1746
+d 0 0 0
+P 96 133
+T Set $s.value "value1"
+
+S T 74
+s 29May2008:1748
+d 0 0 0
+P 379 133
+T Set $s.value2 "value2"
+
+S T 18
+s 29May2008:1747
+d 0 0 0
+P 96 164
+T CreateAssociation $ap.Array
+
+S T 116
+s 05Jun2008:1710
+d 100 0 100
+P 673 172
+X DebugFrame
+T @DebugFrame
+
+S T 21
+s 29May2008:1747
+d 0 0 0
+P 96 195
+T SetAssociation $ap.Array $i.index $s.value
+
+S T 25
+s 29May2008:1747
+d 0 0 0
+P 96 226
+T Add $i.index
+
+S T 30
+s 29May2008:1748
+d 0 0 0
+P 96 257
+T SetAssociation $ap.Array $i.index $s.value2
+
+S T 52
+s 29May2008:1748
+d 0 0 0
+P 96 288
+T GetAssociation $ap.Array $i.index $s.readValue2
+
+S T 53
+s 29May2008:1750
+d 0 0 0
+P 96 319
+T Set $i.index 1
+
+S T 55
+s 29May2008:1751
+d 0 0 0
+P 96 350
+T GetAssociation $ap.Array $i.index $s.readValue
+
+S T 61
+s 29May2008:1751
+d 0 0 0
+P 96 381
+T AssertEquals $s.readValue $s.value
+
+S T 63
+s 29May2008:1751
+d 0 0 0
+P 96 412
+F 213
+T AssertEquals $s.readValue2 $s.value2
+
+S T 88
+s 29May2008:2052
+d 0 0 0
+P 85 453
+T Set $i.total 0
+
+S T 94
+s 29May2008:2053
+d 0 0 0
+P 242 454
+T Set $i.expectedTotal 3
+
+S T 87
+s 29May2008:2033
+d 0 0 0
+P 94 490
+F 211
+T ForEachAssociation $ap.Array $i.index $s.value
+
+S T 89
+s 29May2008:2053
+d 0 0 0
+P 94 521
+T AssertEquals $i.expectedTotal $i.total
+
+S T 5
+s 29May2008:1746
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:06
+DarkTime:00:00:00
+00:00:558 109 26 kPage Up
+00:01:129 109 30 kPage Up
+00:01:766 109 32 kPage Up
+00:02:356 109 35 kPage Up
+00:02:798 109 35 kPage Up
+00:03:262 109 33 kPage Up
+00:03:679 109 32 kPage Up
+00:04:091 109 32 kPage Up
+00:04:491 109 33 kPage Up
+00:05:144 109 36 Rd
+00:05:177 109 36 Md
+00:05:450 109 36 kPage Up

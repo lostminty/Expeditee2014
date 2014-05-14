@@ -1,0 +1,136 @@
+V 1
+p UWW
+U root
+D 16Apr2008:1403
+M root
+d 16Apr2008:1404
+Z
+
+S T 133
+s 16Apr2008:1403
+d 0 0 100
+P 26 24
+f tr35
+T //Setup file
+
+S T 140
+s 16Apr2008:1330
+d 0 0 0
+P 84 91
+T Set $s.File "Test.txt"
+
+S T 141
+s 16Apr2008:1402
+d 0 0 0
+P 272 92
+T Set $s.Blank ""
+
+S T 142
+s 16Apr2008:1330
+d 0 0 0
+P 84 126
+T OpenWriteFile $s.File $f.Cur $b.Success
+
+S T 143
+s 16Apr2008:1330
+d 0 0 0
+P 84 161
+T WriteLineFile $f.Cur $s.File
+
+S T 144
+s 16Apr2008:1331
+d 0 0 0
+P 84 196
+T WriteLineFile $f.Cur $s.File
+
+S T 145
+s 16Apr2008:1402
+d 0 0 0
+P 84 231
+T WriteLineFile $f.Cur $s.Blank
+
+S T 146
+s 16Apr2008:1402
+d 0 0 0
+P 84 266
+T WriteLineFile $f.Cur $s.Blank
+
+S T 147
+s 16Apr2008:1402
+d 0 0 0
+P 84 301
+T WriteLineFile $f.Cur $s.File
+
+S T 155
+s 16Apr2008:1404
+d 0 0 0
+P 86 328
+T WriteLineFile $f.Cur $s.File
+
+S T 156
+s 16Apr2008:1404
+d 0 0 0
+P 84 358
+T WriteLineFile $f.Cur $s.File
+
+S T 157
+s 16Apr2008:1404
+d 0 0 0
+P 85 387
+T WriteLineFile $f.Cur $s.File
+
+S T 159
+s 16Apr2008:1404
+d 0 0 0
+P 75 414
+T WriteLineFile $f.Cur $s.Blank
+
+S T 160
+s 16Apr2008:1404
+d 0 0 0
+P 75 440
+T WriteLineFile $f.Cur $s.Blank
+
+S T 153
+s 16Apr2008:1330
+d 0 0 0
+P 77 474
+T CloseWriteFile $f.cur
+
+S T 135
+s 16Apr2008:1403
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:02 208 344 Md
+00:02 208 344 Mu
+00:03 201 482 Md
+00:03 201 482 Mu
+00:03 178 314 Rd
+00:03 178 314 Ru
+00:04 180 341 Rd
+00:04 180 341 Ru
+00:05 178 371 Rd
+00:05 178 371 Ru
+00:06 179 400 Rd
+00:06 179 400 Ru
+00:07 439 443 Rd
+00:07 439 443 Md
+00:08 271 277 Rd
+00:08 271 277 Ru
+00:10 262 425 Rd
+00:11 262 425 Ru
+00:12 262 451 Rd
+00:12 262 451 Ru
+00:13 568 422 Rd
+00:13 568 422 Md
+00:13 555 437 Ld
+00:13 555 437 Lu
+

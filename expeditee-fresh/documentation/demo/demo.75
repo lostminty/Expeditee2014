@@ -1,0 +1,45 @@
++A+ Demo75
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Setting the startup page, menu frameset, and frameset folder
++S+ 5
++P+ 104 82
++f+ tr21
++T+ To change any of these settings requires editing the file /system/framesets/profile.inf
++S+ 7
++P+ 104 120
++f+ tr21
++T+ The file is in the following format:
++S+ 10
++P+ 104 158
++f+ tr21
++T+ <user frameset path>
++T+ <first frame to load>
++T+ <first frame in the menu frameset>
++S+ 11
++P+ 104 232
++f+ tr21
++T+ The default looks like this:
++S+ 13
++P+ 104 270
++f+ tr21
++T+ ./framesets/
++T+ Demo16
++T+ Menus1
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

@@ -1,0 +1,236 @@
+V 2
+U jts21A
+D 20Jan2014[09:36]
+M jts21A
+d 20Jan2014[10:26]
+Z
+
+S T 3
+s 20Jan2014[09:36]
+d 0 0 100 100
+P 15 78
+T @loadTutorialFrame
+Q 0
+o jts21A
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 884
+h -1.0
+
+S T 4
+s 20Jan2014[09:36.02]
+P 34 130
+T loadTutorialFrame = function(num)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 8
+s 20Jan2014[09:36.02]
+d 70 70 0 100
+P 693 148
+e 100 78 0 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 16 19
+c 142 143
+
+S P 9
+s 20Jan2014[09:36.02]
+d 70 70 0 100
+P 60 148
+e 100 78 0 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 16 17
+c 142 144
+
+S T 5
+s 20Jan2014[09:36.02]
+P 92 180
+T if(typeof num == 'undefined')
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 12
+s 20Jan2014[09:36.02]
+d 100 0 0 100
+P 391 207
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 20 23
+c 146 147
+
+S P 13
+s 20Jan2014[09:36.02]
+d 100 0 0 100
+P 115 207
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 20 21
+c 146 148
+
+S T 6
+s 20Jan2014[09:36.02]
+P 158 246
+T num = 1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 14
+s 20Jan2014[09:36.02]
+d 100 0 0 100
+P 115 277
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 21 22
+c 148 149
+
+S P 15
+s 20Jan2014[09:36.02]
+d 100 0 0 100
+P 391 277
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 23 22
+c 147 149
+
+S T 7
+s 20Jan2014[09:36.02]
+P 90 323
+T return org.expeditee.gui.FrameIO.LoadFrame("Tutorials" + num)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 10
+s 20Jan2014[09:36.02]
+d 70 70 0 100
+P 60 359
+e 100 78 0 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 17 18
+c 144 145
+
+S P 11
+s 20Jan2014[09:36.02]
+d 70 70 0 100
+P 693 359
+e 100 78 0 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 19 18
+c 143 145
+
+Z
+
+L 16 1
+s 8 9
+
+L 19 1
+s 11 8
+
+L 17 1
+s 9 10
+
+L 20 1
+s 12 13
+
+L 23 1
+s 15 12
+
+L 21 1
+s 13 14
+
+L 22 1
+s 14 15
+
+L 18 1
+s 10 11
+
+Z
+
+C 142 3
+s 8 9
+
+C 143 2
+s 11 8
+
+C 144 2
+s 9 10
+
+C 146 3
+s 12 13
+
+C 147 2
+s 15 12
+
+C 148 2
+s 13 14
+
+C 149 3
+s 14 15
+
+C 145 3
+s 10 11
+
+Z
+
+ActiveTime:00:00:15
+DarkTime:00:00:00
+26:34:816 68 125 kBackspace
+26:34:976 62 130 kBackspace
+26:35:104 54 130 kBackspace
+26:35:264 44 130 kBackspace
+26:39:787 48 299 Ld
+26:39:906 48 299 Lu

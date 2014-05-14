@@ -1,0 +1,89 @@
+V 20
+p 4
+U root
+D 17Apr2008:1439
+M root
+d 26Jun2008:0046
+Z
+
+S T 393
+s 17Apr2008:1440
+d 100 0 100
+P 656 35
+F 143
+T @StageFrame
+
+S T 208
+s 17Apr2008:1439
+d 0 0 100
+P 47 44
+X RunFrame
+f tr35
+T ForEachDotTest
+
+S T 999
+s 17Apr2008:1440
+P 30 98
+T Set $s.frameName "SimpleTestSuite143"
+
+S T 1000
+s 17Apr2008:1440
+d 0 0 0
+P 30 134
+T ReadFrame $s.frameName $fp.cur
+
+S T 233
+s 17Apr2008:1449
+d 0 0 0
+P 30 170
+F 145
+T ForEach $fp.cur $ip.Item
+
+S T 333
+s 31May2008:1655
+d 0 0 0
+P 30 206
+F 144
+T ForEachText $fp.cur $ip.Item 
+
+S T 338
+s 31May2008:1655
+d 0 0 0
+P 30 242
+F 145
+T ForEach $fp.cur $ip.Item
+
+S T 873
+s 31May2008:1656
+d 0 0 0
+P 30 278
+F 146
+T ForEachDot  $fp.cur $ip.Item
+
+S T 874
+s 31May2008:1656
+d 0 0 0
+P 30 314
+F 145
+T ForEachLine  $fp.cur $ip.Item
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:50
+DarkTime:00:00:00
+00:00:461 102 17 kPage Up
+00:01:097 102 17 kPage Down
+00:01:493 102 17 kPage Up
+00:02:028 102 17 kPage Up
+00:03:989 102 17 kPage Up
+00:04:063 102 17 kPage Up
+00:04:239 102 17 kPage Up
+00:04:812 114 43 kPage Down
+00:05:179 114 43 kPage Down
+00:05:805 114 43 Rd
+00:05:830 114 43 Md
+00:06:436 113 39 kPage Up

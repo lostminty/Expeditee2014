@@ -1,0 +1,522 @@
+V 19
+U jts21A
+D 20Jan2014[10:31]
+M jts21A
+d 21Jan2014[14:12]
+Z
+
+S T 3
+s 20Jan2014[10:31]
+d 0 0 100 100
+P 15 55
+T Delete the above item, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 881
+h -1.0
+
+S T 83
+s 20Jan2014[10:31.23]
+d 50 50 50 100
+P 23 86
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 182
+s 20Jan2014[10:31.23]
+P 26 116
+T var frame = loadTutorialFrame(11)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 88
+s 21Jan2014[13:41.27]
+P 22 148
+T var iterator = frame.getTextItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 89
+s 21Jan2014[13:41.27]
+P 29 187
+T var success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 90
+s 21Jan2014[13:41.27]
+P 28 229
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 162
+s 21Jan2014[13:41.27]
+d 100 0 0 100
+P 973 280
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 164 181
+c 700 701
+
+S P 163
+s 21Jan2014[13:41.27]
+d 100 0 0 100
+P 32 280
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 164 165
+c 700 702
+
+S T 166
+s 21Jan2014[13:41.27]
+P 49 309
+T var t = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 167
+s 21Jan2014[13:41.27]
+P 53 346
+T if(t.getData() != null && t.getData().contains("itemToDelete") && (t.getX() != 70 || t.getY() != 217))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 168
+s 21Jan2014[13:41.27]
+d 0 0 100 100
+P 252 375
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 170 177
+c 704 705
+
+S P 169
+s 21Jan2014[13:41.27]
+d 0 0 100 100
+P 79 375
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 170 171
+c 704 706
+
+S T 172
+s 21Jan2014[13:41.27]
+P 103 401
+T success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 173
+s 21Jan2014[13:41.27]
+P 109 434
+T break
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 174
+s 21Jan2014[13:41.27]
+d 0 0 100 100
+P 79 446
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 171 176
+c 706 707
+
+S P 175
+s 21Jan2014[13:41.27]
+d 0 0 100 100
+P 252 446
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 176 177
+c 705 707
+
+S P 178
+s 21Jan2014[13:41.27]
+d 100 0 0 100
+P 32 467
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 165 180
+c 702 703
+
+S P 179
+s 21Jan2014[13:41.27]
+d 100 0 0 100
+P 973 467
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 180 181
+c 701 703
+
+S T 192
+s 21Jan2014[13:43.38]
+P 49 547
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 151
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 33 574
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 152 153
+c 280 282
+
+S P 154
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 1023 574
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 152 158
+c 280 281
+
+S T 160
+s 20Jan2014[10:31.23]
+P 61 614
+T frame.addText(70, 210, "You can undo a delete by clicking the middle+right mouse buttons on the background", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 161
+s 20Jan2014[10:31.23]
+P 60 680
+T frame.addText(70, 246, "Un-delete the item, then click here to continue", "runJSFrame", "Tutorials13")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 155
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 33 714
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 153 156
+c 282 283
+
+S P 157
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 1023 714
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 158 156
+c 281 283
+
+S T 150
+s 20Jan2014[10:31.23]
+P 36 764
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 133
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 931 795
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 135 140
+c 284 285
+
+S P 134
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 27 795
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 135 136
+c 284 286
+
+S T 137
+s 20Jan2014[10:31.23]
+P 63 835
+T org.expeditee.gui.MessageBay.errorMessage("You need to delete the item to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 138
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 27 861
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 136 141
+c 286 287
+
+S P 139
+s 20Jan2014[10:31.23]
+d 100 0 0 100
+P 931 861
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 140 141
+c 285 287
+
+Z
+
+L 164 1
+s 162 163
+
+L 181 1
+s 179 162
+
+L 165 1
+s 163 178
+
+L 170 1
+s 168 169
+
+L 177 1
+s 175 168
+
+L 171 1
+s 169 174
+
+L 176 1
+s 174 175
+
+L 180 1
+s 178 179
+
+L 152 1
+s 154 151
+
+L 153 1
+s 151 155
+
+L 158 1
+s 157 154
+
+L 156 1
+s 155 157
+
+L 135 1
+s 133 134
+
+L 140 1
+s 139 133
+
+L 136 1
+s 134 138
+
+L 141 1
+s 138 139
+
+Z
+
+C 700 3
+s 162 163
+
+C 701 2
+s 179 162
+
+C 702 2
+s 163 178
+
+C 704 3
+s 168 169
+
+C 705 2
+s 175 168
+
+C 706 2
+s 169 174
+
+C 707 3
+s 174 175
+
+C 703 3
+s 178 179
+
+C 280 3
+s 154 151
+
+C 282 2
+s 151 155
+
+C 281 2
+s 157 154
+
+C 283 3
+s 155 157
+
+C 284 3
+s 133 134
+
+C 285 2
+s 139 133
+
+C 286 2
+s 134 138
+
+C 287 3
+s 138 139
+
+Z
+
+ActiveTime:00:05:39
+DarkTime:00:00:00
+12:10:091 1074 490 Rd
+12:10:162 1074 490 Ru
+12:11:732 12 124 Rd
+12:11:826 12 124 Ru
+12:12:595 1182 336 Ld
+12:12:714 1182 336 Lu

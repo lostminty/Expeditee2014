@@ -1,0 +1,47 @@
++A+ SimpleDoc20
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 29Jan2008:1504
++M+ root
++d+ 20Feb2008:1359
++Z+
++v+ 22
+
++S+ 99
++s+ 29Jan2008:1504
++P+ 27 13
++f+ tr33
++T+ NextRepeat
+
++S+ 109
++s+ 29Jan2008:1503
++d+ 0 0 100
++P+ 121 162
++F+ SimpleTest42
++T+ @Example
+
++S+ 105
++s+ 29Jan2008:1504
++d+ 0 0 100
++P+ 867 563
++F+ SimpleDoc5
++T+ @Parent
+
++S+ 107
++s+ 29Jan2008:1504
++d+ 0 0 100
++P+ 956 563
++F+ Walmsley20
++T+ @ao
+
++S+ 106
++s+ 29Jan2008:1504
++d+ 0 0 100
++P+ 859 587
++T+ @ItemTemplate
++Z+
+00:03 176 179 Ld
+00:03 176 179 Lu
+

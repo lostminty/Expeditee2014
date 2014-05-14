@@ -1,0 +1,48 @@
++v+ 22
++V+ 7
++p+ 4
++U+ ra33
++D+ 07Feb2008:1507
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite68
+
++S+ 113
++s+ 07Feb2008:1507
++d+ 0 0 100
++P+ 32 51
++X+ RunFrame
++f+ tr35
++T+ MoveCursorTo Test
+
++S+ 100
++s+ 07Feb2008:1507
++P+ 22 86
++T+ Set $i.x 400
+
++S+ 102
++s+ 07Feb2008:1507
++P+ 22 122
++T+ Set $i.y 400
+
++S+ 104
++s+ 07Feb2008:1507
++P+ 22 158
++T+ MoveCursorTo $i.x $i.y
+
++S+ 108
++s+ 07Feb2008:1508
++P+ 22 194
++T+ ClickLeftButton
+
++S+ 112
++s+ 21Feb2008:1504
++P+ 941 532
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:01
+DarkTime:00:00:00
+00:00:920 110 30 Md
+00:00:957 110 30 Rd
+00:01:104 110 30 kPage Down

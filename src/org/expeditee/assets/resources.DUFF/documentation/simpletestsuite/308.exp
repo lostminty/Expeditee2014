@@ -1,0 +1,30 @@
+V 106
+p 4
+U root
+D 25Jun2008:2021
+M Michael
+d 17Nov2008:1337
+Z
+
+S T 603
+s 17Nov2008:1337
+P 200 200
+T ActiveTime:00:00:00
+T DarkTime:00:00:00
+Q 0
+f tr18
+
+S P 609
+s 17Nov2008:1337
+P 400 400
+Q 0
+h 2.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:31
+DarkTime:00:00:00

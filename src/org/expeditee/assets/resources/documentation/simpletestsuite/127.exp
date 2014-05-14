@@ -1,0 +1,38 @@
+V 1
+p UWW
+U root
+D 17Apr2008:1046
+M root
+d 17Apr2008:1047
+Z
+
+S T 133
+s 17Apr2008:1046
+d 0 0 100
+P 26 24
+f tr35
+T @StageFrame
+
+S T 136
+s 17Apr2008:1047
+d 0 0 0
+P 357 174
+T Test
+
+S T 135
+s 17Apr2008:1046
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:01 919 10 Rd
+00:01 918 10 Ru
+00:02 488 212 Ld
+00:02 488 212 Lu
+

@@ -1,0 +1,573 @@
+V 23
+U jts21A
+D 20Jan2014[10:56]
+M jts21A
+d 21Jan2014[14:35]
+Z
+
+S T 3
+s 20Jan2014[10:56]
+d 0 0 100 100
+P 15 55
+T Un-delete the shape, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 881
+h -1.0
+
+S T 82
+s 20Jan2014[10:56.12]
+d 50 50 50 100
+P 42 93
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 266
+s 20Jan2014[10:56.12]
+P 42 129
+T var frame = loadTutorialFrame(11)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 303
+s 21Jan2014[14:29.47]
+P 42 165
+T var count = 0
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 304
+s 21Jan2014[14:29.58]
+P 47 199
+T var iterator = frame.getAllItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 305
+s 21Jan2014[14:29.58]
+P 70 230
+T var success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 306
+s 21Jan2014[14:29.58]
+P 85 265
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 311
+s 21Jan2014[14:29.58]
+d 100 0 0 100
+P 686 279
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 319 342
+c 676 677
+
+S P 312
+s 21Jan2014[14:29.58]
+d 100 0 0 100
+P 92 279
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 319 320
+c 676 678
+
+S T 307
+s 21Jan2014[14:29.58]
+P 109 308
+T var t = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 308
+s 21Jan2014[14:29.58]
+P 113 345
+T if(t.getData() != null && t.getData().contains("itemsToDelete"))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 315
+s 21Jan2014[14:29.58]
+d 0 0 100 100
+P 290 374
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 323 333
+c 680 681
+
+S P 316
+s 21Jan2014[14:29.58]
+d 0 0 100 100
+P 139 374
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 323 324
+c 680 682
+
+S T 330
+s 21Jan2014[14:30.09]
+P 163 409
+T count++
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 317
+s 21Jan2014[14:29.58]
+d 0 0 100 100
+P 139 432
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 324 332
+c 682 683
+
+S P 331
+s 21Jan2014[14:29.58]
+d 0 0 100 100
+P 290 432
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 333 332
+c 681 683
+
+S P 313
+s 21Jan2014[14:29.58]
+d 100 0 0 100
+P 92 448
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 320 341
+c 678 679
+
+S P 340
+s 21Jan2014[14:29.58]
+d 100 0 0 100
+P 686 448
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 342 341
+c 677 679
+
+S T 346
+s 20Jan2014[10:56.12]
+P 39 501
+T if(count == 13)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 347
+s 20Jan2014[10:58.27]
+d 100 0 0 100
+P 1028 527
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 349 357
+c 60 63
+
+S P 348
+s 20Jan2014[10:58.27]
+d 100 0 0 100
+P 36 527
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 349 350
+c 60 62
+
+S T 351
+s 20Jan2014[14:44.40]
+P 47 554
+T frame.addText(70, 489, "You can also delete only the enclosing shape (keeping the enclosed items),\nby deleting while hovering it's edge, or by holding shift while deleting it", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 352
+s 20Jan2014[11:00.26]
+P 47 625
+T frame.addText(70, 544, "Click the background of the frame to return to the tutorials list", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 353
+s 20Jan2014[11:00.26]
+P 47 675
+T frame = loadTutorialFrame(1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 354
+s 20Jan2014[11:00.26]
+P 47 725
+T setCompleted(frame.getItemWithID(241))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 355
+s 20Jan2014[10:58.27]
+d 100 0 0 100
+P 36 741
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 350 358
+c 62 61
+
+S P 356
+s 20Jan2014[10:58.27]
+d 100 0 0 100
+P 1028 741
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 357 358
+c 63 61
+
+S T 359
+s 20Jan2014[10:56.12]
+P 32 779
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 360
+s 20Jan2014[10:56.12]
+d 100 0 0 100
+P 928 813
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 362 367
+c 289 290
+
+S P 361
+s 20Jan2014[10:56.12]
+d 100 0 0 100
+P 24 813
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 362 363
+c 289 291
+
+S T 364
+s 20Jan2014[10:56.12]
+P 51 844
+T org.expeditee.gui.MessageBay.errorMessage("You need to un-delete the shape to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 365
+s 20Jan2014[10:56.12]
+d 100 0 0 100
+P 928 879
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 367 368
+c 290 292
+
+S P 366
+s 20Jan2014[10:56.12]
+d 100 0 0 100
+P 24 879
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 363 368
+c 291 292
+
+Z
+
+L 319 1
+s 311 312
+
+L 342 1
+s 340 311
+
+L 320 1
+s 312 313
+
+L 323 1
+s 315 316
+
+L 333 1
+s 331 315
+
+L 324 1
+s 316 317
+
+L 332 1
+s 317 331
+
+L 341 1
+s 313 340
+
+L 349 1
+s 347 348
+
+L 357 1
+s 356 347
+
+L 350 1
+s 348 355
+
+L 358 1
+s 355 356
+
+L 362 1
+s 360 361
+
+L 367 1
+s 365 360
+
+L 363 1
+s 361 366
+
+L 368 1
+s 366 365
+
+Z
+
+C 676 3
+s 311 312
+
+C 677 2
+s 340 311
+
+C 678 2
+s 312 313
+
+C 680 3
+s 315 316
+
+C 681 2
+s 331 315
+
+C 682 2
+s 316 317
+
+C 683 3
+s 317 331
+
+C 679 3
+s 313 340
+
+C 60 3
+s 347 348
+
+C 63 2
+s 356 347
+
+C 62 2
+s 348 355
+
+C 61 3
+s 355 356
+
+C 289 3
+s 360 361
+
+C 290 2
+s 365 360
+
+C 291 2
+s 361 366
+
+C 292 3
+s 366 365
+
+Z
+
+ActiveTime:00:07:08
+DarkTime:00:00:00
+35:15:133 150 559 kBackspace
+35:15:301 138 571 kBackspace
+35:15:925 132 571 kBackspace
+35:16:277 118 571 kEquals
+35:16:373 132 571 kEquals
+35:16:445 146 571 kSpace
+35:16:621 152 571 k1
+35:16:709 163 571 k3
+35:17:581 293 507 kWindows
+35:21:216 140 507 Rd
+35:21:231 140 507 Md
+35:21:976 136 560 Md
+35:22:062 135 556 Mu
+35:22:560 130 486 Md
+35:22:655 130 486 Mu
+35:23:393 558 742 Md
+35:23:480 558 742 Mu
+35:24:104 561 686 Md
+35:24:183 561 686 Mu
+35:24:944 66 820 Md
+35:25:031 66 820 Mu
+35:25:688 68 766 Md
+35:25:783 68 766 Mu
+35:26:721 224 903 Md
+35:26:832 224 903 Mu
+35:27:416 226 864 Md
+35:27:511 226 864 Mu
+35:28:008 264 922 Ld
+35:28:079 264 922 Lu

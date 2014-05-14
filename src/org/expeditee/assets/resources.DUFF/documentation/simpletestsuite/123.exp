@@ -1,0 +1,128 @@
+V 3
+p 4
+U root
+D 16Apr2008:1253
+M root
+d 26Jun2008:0046
+Z
+
+S T 133
+s 16Apr2008:1253
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T ReadTest
+
+S T 636
+s 16Apr2008:1359
+d 0 0 0
+P 326 65
+T Set $s.frameName "SimpleTestSuite124"
+
+S T 608
+s 16Apr2008:1403
+d 0 70 0
+P 38 87
+F 125
+T //Setup file
+
+S T 637
+s 16Apr2008:1359
+d 0 0 0
+P 326 100
+T ReadFrame $s.frameName $fp.frame
+
+S T 638
+s 16Apr2008:1359
+d 0 0 0
+P 326 135
+D 0
+T Set $i.x 300
+
+S T 639
+s 16Apr2008:1400
+d 0 0 0
+P 326 170
+D 0
+T Set $i.y 300
+
+S T 640
+s 16Apr2008:1359
+d 0 0 100
+P 326 205
+T CreateItem $fp.Frame $i.x $i.y $ip.Cur $s.framename
+
+S T 641
+s 16Apr2008:1359
+d 0 0 0
+P 326 240
+D 0
+T AddItemToFrame $fp.Frame $ip.Cur
+
+S T 703
+s 16Apr2008:1330
+d 0 0 0
+P 138 319
+T OpenReadFile $s.File $f.Cur $b.Success
+
+S T 704
+s 16Apr2008:1330
+d 0 0 100
+P 138 345
+T ReadItemFile $f.Cur $ip.cur $b.Success
+
+S T 705
+s 16Apr2008:1330
+d 0 0 0
+P 138 374
+T AssertTrue $b.Success
+
+S T 706
+s 16Apr2008:1330
+d 0 0 0
+P 138 403
+T @AssertEquals $s.File $s.Line
+
+S T 707
+s 16Apr2008:1331
+d 0 0 100
+P 138 432
+T ReadItemFile $f.Cur $ip.cur $b.Success
+
+S T 238
+s 16Apr2008:1358
+d 100 0 100
+P 769 433
+F 124
+T @StageFrame
+
+S T 708
+s 16Apr2008:1330
+d 0 0 0
+P 138 461
+T AssertFalse $b.Success
+
+S T 709
+s 16Apr2008:1330
+d 0 0 0
+P 138 490
+T CloseReadFile $f.cur
+
+S T 135
+s 16Apr2008:1253
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:644 107 18 Md
+00:00:674 107 18 Rd
+00:00:916 108 18 kPage Up

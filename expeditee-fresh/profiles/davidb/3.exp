@@ -1,0 +1,124 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+P 15 42
+T settings.network
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 927
+h -1.0
+
+S T 5
+s 14Jan2014[17:56.16]
+P 35 82
+T Proxy
+F davidb4
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.16]
+P 35 163
+T SearchEngine: https://duckduckgo.com/?q=
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 8
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 163
+T // The search engine for the JfxBrowser
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.16]
+P 35 203
+T HomePage: https://duckduckgo.com
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 11
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 203
+T // The home page for the JfxBrowser
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 13
+s 14Jan2014[17:56.16]
+P 35 243
+T FrameShare
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 14
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 243
+T // Enable accessing remote frames
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

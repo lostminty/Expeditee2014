@@ -1,0 +1,411 @@
+V 304
+U csl14A
+D 12Dec2013[10:14]
+M csl14A
+d 13Feb2014[17:02]
+Z
+
+S P 1921
+s 13Feb2014[11:37.51]
+d 90 90 90 100
+P 1007 0
+e 95 95 95 100
+Q 0
+H -11.0
+N 0.0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 1927 1930
+c 4902 4903
+
+S P 1922
+s 13Feb2014[11:37.51]
+d 90 90 90 100
+P 140 0
+e 95 95 95 100
+Q 0
+R 140.0
+N 0.0
+o csl14A
+v S
+h 2.0
+l 1927 1928
+c 4902 4905
+
+S T 1496
+s 10Feb2014[21:44.02]
+d 0 0 0 100
+P 2 27
+T Web Browser
+Q 0
+R 0.0
+N 6.0
+o nathaniel
+v S
+f Roboto Condensed_r20
+t -23.0
+b -10.0
+m 0.0
+w 135
+k C
+h -1.0
+
+S P 1924
+s 13Feb2014[11:37.51]
+d 90 90 90 100
+P 1007 50
+e 95 95 95 100
+Q 0
+H -11.0
+N 50.0
+o csl14A
+j 14.000001 0.3 0.75
+v S
+h 2.0
+l 1930 1929
+c 4903 4906
+
+S P 1923
+s 13Feb2014[11:37.51]
+d 90 90 90 100
+P 140 50
+e 95 95 95 100
+Q 0
+R 140.0
+N 50.0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 1928 1929
+c 4905 4906
+
+S T 1680
+s 10Feb2014[22:04.30]
+d 50 50 50 100
+P 7 40
+T @i: iconbutton_plus.png 127
+X startbrowser
+x F
+Q 0
+R 5.0
+N 40.0
+o nathaniel
+v S
+f DejaVu Sans Light_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1355
+s 12Dec2013[10:14.45]
+P 11 59
+T Browser Widget
+X startBrowser
+x F
+Q 0
+R 9.0
+N 43.0
+o nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 1945
+s 13Feb2014[15:14.24]
+d 50 50 50 100
+P 1048 68
+T @ao: 3
+F overlayset4
+Q 0
+H -100.0
+N 50.0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1356
+s 12Dec2013[10:14.45]
+G 100 100 100 100
+P 12 89
+T New Browser: Drop url here for link
+X startBrowserWithOverlay
+x F
+Q 0
+R 10.0
+N 73.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 117
+k C
+h -1.0
+
+S T 1535
+s 10Feb2014[21:56.26]
+d 100 100 100 100
+G 73 73 73 100
+P 5 147
+T Commands:
+Q 0
+R 3.0
+N 130.0
+o nathaniel
+v S
+f Roboto Condensed_r16
+t -1.0
+b 0.0
+m 0.0
+w 130
+k C
+h -1.0
+
+S T 1712
+s 10Feb2014[22:37.57]
+d 53 53 53 100
+P 5 171
+T drop onto the browser :
+Q 0
+R 3.0
+N 158.0
+o nathaniel
+v S
+f Roboto Condensed_r12
+t -1.0
+b 0.0
+m 0.0
+w 130
+k C
+h -1.0
+
+S T 1360
+s 12Dec2013[10:14.45]
+P 80 196
+T forward
+Q 0
+R 78.0
+N 180.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 50
+k R
+h -1.0
+
+S T 1359
+s 12Dec2013[10:14.45]
+P 10 196
+T back
+Q 0
+R 8.0
+N 180.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1361
+s 12Dec2013[10:14.45]
+P 10 222
+T refresh
+Q 0
+R 8.0
+N 206.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1362
+s 13Dec2013[15:28.40]
+P 80 222
+T convert
+Q 0
+R 78.0
+N 206.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 50
+k R
+h -1.0
+
+S T 1805
+s 10Feb2014[23:44.45]
+P 10 248
+T www.example.com
+Q 0
+R 8.0
+N 232.0
+o nathaniel
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 120
+k C
+h -1.0
+
+S T 1870
+s 10Feb2014[23:48.05]
+d 100 100 100 100
+G 73 73 73 100
+P 5 285
+T Scratch Space:
+Q 0
+R 3.0
+N 268.0
+o nathaniel
+v S
+f Roboto Condensed_r16
+t -1.0
+b 0.0
+m 0.0
+w 130
+k C
+h -1.0
+
+S P 1896
+s 10Feb2014[23:49.05]
+d 90 90 90 100
+P 9 298
+e 100 100 100 100
+Q 0
+R 9.0
+N 298.0
+o nathaniel
+v S
+h 1.0
+l 1899 1900
+c 1891 1893
+
+S P 1895
+s 10Feb2014[23:49.05]
+d 90 90 90 100
+P 132 298
+e 100 100 100 100
+Q 0
+R 132.0
+N 298.0
+o nathaniel
+v S
+h 1.0
+l 1899 1902
+c 1891 1894
+
+S P 1897
+s 10Feb2014[23:49.05]
+d 90 90 90 100
+P 9 493
+e 100 100 100 100
+Q 0
+R 9.0
+I 225.0
+o nathaniel
+v S
+h 1.0
+l 1900 1901
+c 1893 1892
+
+S P 1898
+s 10Feb2014[23:49.05]
+d 90 90 90 100
+P 132 493
+e 100 100 100 100
+Q 0
+R 132.0
+I 225.0
+o nathaniel
+v S
+h 1.0
+l 1902 1901
+c 1894 1892
+
+Z
+
+L 1927 1
+s 1921 1922
+
+L 1930 1
+s 1924 1921
+
+L 1928 1
+s 1922 1923
+
+L 1929 1
+s 1923 1924
+
+L 1899 1
+s 1895 1896
+
+L 1900 1
+s 1896 1897
+
+L 1902 1
+s 1898 1895
+
+L 1901 1
+s 1897 1898
+
+Z
+
+C 4902 3
+s 1921 1922
+
+C 4903 2
+s 1924 1921
+
+C 4905 2
+s 1922 1923
+
+C 4906 3
+s 1923 1924
+
+C 1891 3
+s 1895 1896
+
+C 1893 2
+s 1896 1897
+
+C 1894 2
+s 1898 1895
+
+C 1892 3
+s 1897 1898
+
+Z
+
+ActiveTime:02:15:52
+DarkTime:01:31:51
+02:24:984 224 242 kF9
+02:50:807 55 437 Ld
+02:50:879 55 437 Lu

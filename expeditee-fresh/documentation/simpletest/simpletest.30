@@ -1,0 +1,65 @@
++v+ 22
++V+ 3
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1514
++M+ root
++d+ 05Jun2008:1255
++A+ SimpleTest30
+
++S+ 26
++s+ 24Jan2008:1514
++P+ 32 27
++X+ RunFrame
++T+ Repeat
+
++S+ 11
++s+ 24Jan2008:1514
++P+ 58 68
++T+ Set $i.Number 3
+
++S+ 13
++s+ 24Jan2008:1514
++P+ 57 112
++T+ Set $i.Exponent 5
+
++S+ 25
++s+ 29Jan2008:1457
++P+ 47 147
++T+ //The break statment is inside the procedure called below
+
++S+ 17
++s+ 24Jan2008:1514
++P+ 58 181
++F+ SimpleTest32
++T+ Call PowerByAdding $i.Number $i.Exponent $i.Result
+
++S+ 21
++s+ 24Jan2008:1610
++P+ 60 226
++T+ Set $i.Exponent 0
+
++S+ 22
++s+ 24Jan2008:1606
++P+ 63 283
++T+ MessageLn $i.Result
+
++S+ 5
++s+ 24Jan2008:1514
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+ActiveTime:00:00:22
+DarkTime:00:00:00
+00:11:947 52 10 Md
+00:12:122 52 10 Mu
+00:13:066 57 27 Md
+00:13:193 57 27 Mu
+00:15:566 62 24 Ld
+00:15:694 62 24 Lu
+00:19:233 162 285 kF4
+00:20:049 161 282 kF4
+00:21:144 189 275 kF4
+00:22:824 196 177 Ld
+00:22:958 196 177 Lu

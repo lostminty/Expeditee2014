@@ -1,0 +1,29 @@
++A+ Demo19
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Item Moving
++S+ 10
++P+ 158 129
++f+ tr21
++T+ Items can be moved by using the middle mouse button to pick them up
++S+ 8
++P+ 98 210
++f+ tr21
++T+ Middle click again to anchor the item
++S+ 9
++P+ 904 554
++X+ Format
++f+ tr21
++T+ @Format
++Z+

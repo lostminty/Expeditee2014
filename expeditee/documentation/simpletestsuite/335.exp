@@ -1,0 +1,72 @@
+V 9
+p 4
+U root
+D 02Jul2008:1708
+M root
+d 05Jul2008:1257
+Z
+
+S T 12
+s 02Jul2008:1708
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T SearchItemTest
+
+S T 34
+s 02Jul2008:1712
+P 459 81
+T Set $i.expectedStart 13
+
+S T 35
+s 02Jul2008:1712
+P 460 116
+T Set $i.expectedEnd 16
+
+S T 16
+s 02Jul2008:1709
+P 34 128
+T Set $s.pattern "item"
+
+S T 18
+s 02Jul2008:1709
+P 34 164
+T SearchItem $ip.ToSearch $s.pattern $b.found $i.startChar $i.endChar
+
+S T 20
+s 02Jul2008:1710
+P 34 200
+T AssertTrue $b.found
+
+S T 14
+s 02Jul2008:1708
+d 50 50 50
+P 525 231
+F 336
+T @ToSearch
+
+S T 43
+s 02Jul2008:1713
+P 32 237
+T AssertEquals $i.expectedStart $i.startChar
+
+S T 44
+s 02Jul2008:1713
+P 29 273
+T AssertEquals $i.expectedEnd $i.endChar
+
+S T 45
+s 02Jul2008:1708
+P 953 573
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:44
+DarkTime:00:00:00

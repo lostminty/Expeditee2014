@@ -1,0 +1,138 @@
+V 8
+p 4
+U root
+D 15Mar2008:1547
+M root
+d 25Jun2008:1845
+Z
+
+S T 176
+s 15Mar2008:1547
+d 0 0 100
+P 25 36
+X RunFrame
+f tr35
+T SetFrameValueTest
+
+S P 161
+s 15Mar2008:1601
+P 36 55
+h 2.0
+l 165 223
+c 157 160
+
+S P 162
+s 15Mar2008:1601
+P 629 55
+h 2.0
+l 165 219
+c 157 159
+
+S T 215
+s 15Mar2008:1548
+d 0 0 0
+P 66 78
+T Set $s.attribute "Money"
+
+S T 217
+s 15Mar2008:1548
+d 0 0 0
+P 66 113
+T Set $s.value "10990"
+
+S T 216
+s 25Jun2008:1842
+P 64 153
+T Set $s.frameSet "TestFrameset"
+
+S T 201
+s 25Jun2008:1842
+P 64 191
+T CopyFrame $fp.stageFrame $fp.copy $s.frameset
+
+S T 202
+s 15Mar2008:1547
+d 0 0 0
+P 61 235
+T SetFrameValue $fp.copy $s.attribute $s.value $b.found
+
+S T 225
+s 25Jun2008:1841
+P 64 310
+T AssertTrue $b.found
+
+S P 218
+s 15Mar2008:1601
+P 629 337
+h 2.0
+l 219 224
+c 159 158
+
+S P 222
+s 15Mar2008:1601
+P 36 337
+h 2.0
+l 223 224
+c 160 158
+
+S T 188
+s 15Mar2008:1549
+d 100 0 100
+P 533 423
+F 115
+T @StageFrame
+
+S T 135
+s 15Mar2008:1547
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 165 1
+s 161 162
+
+L 223 1
+s 222 161
+
+L 219 1
+s 162 218
+
+L 224 1
+s 218 222
+
+Z
+
+C 157 3
+s 161 162
+
+C 160 2
+s 222 161
+
+C 159 2
+s 162 218
+
+C 158 3
+s 218 222
+
+Z
+
+ActiveTime:00:03:19
+DarkTime:00:00:00
+00:01:143 363 344 Ld
+00:01:279 363 344 Lu
+00:03:251 127 283 Md
+00:03:400 127 283 Mu
+00:04:690 123 292 Md
+00:04:838 123 292 Mu
+00:05:695 35 322 Md
+00:05:822 35 322 Mu
+00:06:505 36 337 Md
+00:06:652 36 337 Mu
+00:07:538 86 293 Md
+00:07:658 86 293 Mu
+00:08:664 90 308 Md
+00:08:797 88 308 Mu
+00:10:058 560 415 Ld
+00:10:191 560 415 Lu

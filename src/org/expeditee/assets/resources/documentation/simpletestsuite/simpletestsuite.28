@@ -1,0 +1,101 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 05Feb2008:1355
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite28
+
++S+ 17
++s+ 05Feb2008:1355
++d+ 0 0 100
++P+ 35 20
++f+ tr35
++T+ ifannotation $ip.cur
+
++S+ 34
++s+ 05Feb2008:1355
++d+ 0 100 100
++P+ 79 197
++T+ SetCharInItem $ip. $c.char $i.row $i.col
+
++S+ 7
++s+ 05Feb2008:1355
++P+ 283 572
++h+ 2.0
++l+ 11 25
++c+ 50 52
+
++S+ 8
++s+ 05Feb2008:1355
++P+ 990 572
++h+ 2.0
++l+ 11 14
++c+ 52 51
+
++S+ 3
++s+ 05Feb2008:1355
++P+ 778 609
++F+ Walmsley314
++T+ @Home
+
++S+ 4
++s+ 05Feb2008:1355
++P+ 488 609
++X+ NewSimpleTest
++T+ @NewSimpleTest
+
++S+ 5
++s+ 05Feb2008:1355
++P+ 871 610
++F+ SimpleTestSuite0
++T+ @ZeroFrame
+
++S+ 6
++s+ 05Feb2008:1355
++P+ 676 610
++X+ Format
++T+ @Format
+
++S+ 23
++s+ 05Feb2008:1355
++d+ 0 70 0
++P+ 328 611
++X+ RunSimpleTests SimpleTestSuite
++f+ tr21
++T+ @RunTestSuite
+
++S+ 10
++s+ 05Feb2008:1355
++P+ 990 636
++h+ 2.0
++l+ 14 26
++c+ 51 53
+
++S+ 24
++s+ 05Feb2008:1355
++P+ 283 636
++h+ 2.0
++l+ 25 26
++c+ 50 53
++L+ 11 1
++s+ 7 8
++L+ 25 1
++s+ 24 7
++L+ 14 1
++s+ 8 10
++L+ 26 1
++s+ 10 24
++C+ 50 2
++s+ 7 24
++C+ 52 3
++s+ 8 7
++C+ 51 2
++s+ 10 8
++C+ 53 3
++s+ 24 10
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:383 105 18 kPage Down

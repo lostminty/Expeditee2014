@@ -1,0 +1,67 @@
+V 101
+U jts21A
+D 20Jan2014[10:03]
+M jts21A
+d 21Jan2014[14:36]
+Z
+
+S T 3
+s 20Jan2014[10:03]
+d 0 0 100 100
+P 15 55
+T Text
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 892
+h -1.0
+
+S T 6
+s 20Jan2014[10:03.35]
+P 70 145
+T Text can be created by typing anywhere on a frame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 15
+s 20Jan2014[10:04.46]
+P 70 181
+T Type some text on this frame, and then click here
+F 25
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:18:26
+DarkTime:00:01:37
+36:14:320 36 196 Md
+36:14:391 36 196 Mu
+36:14:824 748 285 Md
+36:14:832 748 285 Rd
+36:16:077 575 406 kWindows
+36:18:408 739 320 Ld
+36:18:511 739 320 Lu

@@ -1,0 +1,493 @@
+V 10
+U jts21A
+D 20Jan2014[15:14]
+M jts21A
+d 21Jan2014[10:48]
+Z
+
+S T 10
+s 20Jan2014[15:14]
+d 0 0 100 100
+P 16 55
+T Create a poly-line, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 280
+s 20Jan2014[15:14.39]
+d 50 50 50 100
+P 34 89
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 281
+s 20Jan2014[15:14.39]
+P 22 121
+T var frame = loadTutorialFrame(28)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 278
+s 20Jan2014[15:14.39]
+P 18 155
+T var polygons = countSides(frame, false)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 277
+s 20Jan2014[15:14.39]
+P 15 186
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 276
+s 20Jan2014[15:14.39]
+P 16 225
+T for(var i in polygons)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 258
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 32 257
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 260 261
+c 519 520
+
+S P 259
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 248 257
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 260 274
+c 519 521
+
+S T 262
+s 20Jan2014[15:14.39]
+P 49 281
+T if(polygons[i] > 1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 263
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 63 294
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 265 266
+c 523 524
+
+S P 264
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 235 294
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 265 270
+c 523 525
+
+S T 267
+s 20Jan2014[15:14.39]
+P 88 319
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 268
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 235 334
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 270 271
+c 525 526
+
+S P 269
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 63 334
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 266 271
+c 524 526
+
+S P 272
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 248 352
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 274 275
+c 521 522
+
+S P 273
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 32 352
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 261 275
+c 520 522
+
+S T 257
+s 20Jan2014[15:14.39]
+P 18 397
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 247
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 993 430
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 249 255
+c 527 528
+
+S P 248
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 18 430
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 249 250
+c 527 529
+
+S T 251
+s 20Jan2014[15:14.39]
+P 33 459
+T frame.addText(70, 320, "You can create polygons by ending a poly-line at the dot where you started it", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 252
+s 20Jan2014[15:14.39]
+P 38 507
+T frame.addText(70, 356, "Create a triangle, then click here to continue", "runJSFrame", "Tutorials33")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 253
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 18 530
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 250 256
+c 529 530
+
+S P 254
+s 20Jan2014[15:14.39]
+d 100 0 0 100
+P 993 530
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 255 256
+c 528 530
+
+S T 246
+s 20Jan2014[15:14.39]
+P 35 597
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 237
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 834 627
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 239 244
+c 531 532
+
+S P 238
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 32 627
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 239 240
+c 531 533
+
+S T 241
+s 20Jan2014[15:14.39]
+P 45 661
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a poly-line to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 242
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 32 682
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 240 245
+c 533 534
+
+S P 243
+s 20Jan2014[15:14.39]
+d 0 0 100 100
+P 834 682
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 244 245
+c 532 534
+
+Z
+
+L 260 1
+s 259 258
+
+L 261 1
+s 258 273
+
+L 274 1
+s 272 259
+
+L 265 1
+s 264 263
+
+L 266 1
+s 263 269
+
+L 270 1
+s 268 264
+
+L 271 1
+s 269 268
+
+L 275 1
+s 273 272
+
+L 249 1
+s 247 248
+
+L 255 1
+s 254 247
+
+L 250 1
+s 248 253
+
+L 256 1
+s 253 254
+
+L 239 1
+s 237 238
+
+L 244 1
+s 243 237
+
+L 240 1
+s 238 242
+
+L 245 1
+s 242 243
+
+Z
+
+C 519 3
+s 259 258
+
+C 520 2
+s 258 273
+
+C 521 2
+s 272 259
+
+C 523 3
+s 264 263
+
+C 524 2
+s 263 269
+
+C 525 2
+s 268 264
+
+C 526 3
+s 269 268
+
+C 522 3
+s 273 272
+
+C 527 3
+s 247 248
+
+C 528 2
+s 254 247
+
+C 529 2
+s 248 253
+
+C 530 3
+s 253 254
+
+C 531 3
+s 237 238
+
+C 532 2
+s 243 237
+
+C 533 2
+s 238 242
+
+C 534 3
+s 242 243
+
+Z
+
+ActiveTime:00:02:01
+DarkTime:00:00:00
+48:45:294 14 186 kV
+48:45:405 25 186 kA
+48:45:557 35 186 kR
+48:45:654 43 186 kSpace
+48:46:598 1113 903 kLeft

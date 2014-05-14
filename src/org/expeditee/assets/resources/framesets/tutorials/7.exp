@@ -1,0 +1,523 @@
+V 28
+U jts21A
+D 20Jan2014[10:12]
+M jts21A
+d 21Jan2014[10:45]
+Z
+
+S T 226
+s 20Jan2014[10:12]
+d 0 0 100 100
+P 15 55
+T Duplicate the above item, then click here
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 892
+h -1.0
+
+S T 229
+s 20Jan2014[10:15.56]
+d 50 50 50 100
+P 19 85
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 336
+s 20Jan2014[10:15.56]
+P 23 121
+T var frame = loadTutorialFrame(4)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 335
+s 20Jan2014[14:35.06]
+P 20 156
+T var iterator = frame.getTextItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 334
+s 20Jan2014[14:35.06]
+P 18 196
+T var count = 0
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 333
+s 20Jan2014[14:35.06]
+P 16 251
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 300
+s 20Jan2014[14:35.06]
+d 100 0 0 100
+P 16 282
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 302 303
+c 610 612
+
+S P 301
+s 20Jan2014[14:35.06]
+d 100 0 0 100
+P 841 282
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 302 320
+c 610 611
+
+S T 332
+s 20Jan2014[14:35.06]
+P 30 314
+T var t = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 331
+s 20Jan2014[14:35.06]
+P 30 348
+T if(t.getData() != null && t.getData().contains("itemToDupe"))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 322
+s 20Jan2014[14:35.06]
+d 0 0 100 100
+P 242 367
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 324 329
+c 614 615
+
+S P 323
+s 20Jan2014[14:35.06]
+d 0 0 100 100
+P 63 367
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 324 325
+c 614 616
+
+S T 326
+s 20Jan2014[14:37.48]
+P 95 397
+T count++
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 327
+s 20Jan2014[14:35.06]
+d 0 0 100 100
+P 63 420
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 325 330
+c 616 617
+
+S P 328
+s 20Jan2014[14:35.06]
+d 0 0 100 100
+P 242 420
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 329 330
+c 615 617
+
+S P 315
+s 20Jan2014[14:35.06]
+d 100 0 0 100
+P 16 435
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 303 321
+c 612 613
+
+S P 319
+s 20Jan2014[14:35.06]
+d 100 0 0 100
+P 841 435
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 320 321
+c 611 613
+
+S T 299
+s 20Jan2014[14:35.29]
+P 28 476
+T if(count > 1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 282
+s 20Jan2014[10:15.56]
+d 100 0 0 100
+P 24 503
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 284 285
+c 173 175
+
+S P 283
+s 20Jan2014[10:15.56]
+d 100 0 0 100
+P 1004 503
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 284 294
+c 173 174
+
+S T 298
+s 20Jan2014[10:15.56]
+P 40 538
+T frame.addText(70, 382, "You can also cut text regions from Text items by middle-click-dragging the text,\nor copy regions by right-click-dragging", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 297
+s 20Jan2014[10:15.56]
+P 40 601
+T frame.addText(70, 439, "Have a go at cutting / copying text from Text items", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 296
+s 20Jan2014[10:20.28]
+P 40 643
+T frame.addText(70, 475, "Then click here to finish this tutorial", "runJSFrame", "Tutorials8")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 289
+s 20Jan2014[10:15.56]
+d 100 0 0 100
+P 24 665
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 285 295
+c 175 176
+
+S P 293
+s 20Jan2014[10:15.56]
+d 100 0 0 100
+P 1004 665
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 294 295
+c 174 176
+
+S T 281
+s 20Jan2014[10:24.12]
+P 42 703
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 272
+s 20Jan2014[10:24.20]
+d 100 0 0 100
+P 25 736
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 274 275
+c 230 232
+
+S P 273
+s 20Jan2014[10:24.20]
+d 100 0 0 100
+P 924 736
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 274 279
+c 230 231
+
+S T 276
+s 20Jan2014[10:24.20]
+P 58 765
+T org.expeditee.gui.MessageBay.errorMessage("You need to duplicate the item to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 277
+s 20Jan2014[10:24.20]
+d 100 0 0 100
+P 25 786
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 275 280
+c 232 233
+
+S P 278
+s 20Jan2014[10:24.20]
+d 100 0 0 100
+P 924 786
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 279 280
+c 231 233
+
+Z
+
+L 302 1
+s 301 300
+
+L 303 1
+s 300 315
+
+L 320 1
+s 319 301
+
+L 324 1
+s 322 323
+
+L 329 1
+s 328 322
+
+L 325 1
+s 323 327
+
+L 330 1
+s 327 328
+
+L 321 1
+s 315 319
+
+L 284 1
+s 283 282
+
+L 285 1
+s 282 289
+
+L 294 1
+s 293 283
+
+L 295 1
+s 289 293
+
+L 274 1
+s 273 272
+
+L 275 1
+s 272 277
+
+L 279 1
+s 278 273
+
+L 280 1
+s 277 278
+
+Z
+
+C 610 3
+s 301 300
+
+C 612 2
+s 300 315
+
+C 611 2
+s 319 301
+
+C 614 3
+s 322 323
+
+C 615 2
+s 328 322
+
+C 616 2
+s 323 327
+
+C 617 3
+s 327 328
+
+C 613 3
+s 315 319
+
+C 173 3
+s 283 282
+
+C 175 2
+s 282 289
+
+C 174 2
+s 293 283
+
+C 176 3
+s 289 293
+
+C 230 3
+s 273 272
+
+C 232 2
+s 272 277
+
+C 231 2
+s 278 273
+
+C 233 3
+s 277 278
+
+Z
+
+ActiveTime:00:08:14
+DarkTime:00:00:00
+45:04:458 747 350 Ld
+45:04:467 747 350 Rd
+45:06:258 892 604 Ld
+45:06:268 892 604 Rd
+45:08:089 894 755 Rd
+45:08:096 894 755 Ld
+45:10:718 850 188 kRight

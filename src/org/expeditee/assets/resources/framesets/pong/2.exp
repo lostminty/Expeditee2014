@@ -1,0 +1,563 @@
+V 119
+U jts
+D 16Feb2014[14:29]
+M jts
+d 16Feb2014[16:53]
+Z
+
+S T 1994
+s 16Feb2014[16:45.38]
+P 272 33
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 4
+s 16Feb2014[14:29.59]
+d 0 0 100 100
+P 4 37
+T @runjsframe
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1783
+h -1.0
+
+S P 232
+s 16Feb2014[14:36.24]
+d 0 0 100 100
+P 13 63
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 235 236
+c 226 228
+
+S P 231
+s 16Feb2014[14:36.24]
+d 0 0 100 100
+P 1282 63
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 235 234
+c 226 227
+
+S T 5
+s 16Feb2014[14:29.59]
+P 22 90
+T var init = function()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+w 964
+h -1.0
+
+S P 45
+s 16Feb2014[14:29.59]
+d 100 0 0 100
+P 25 106
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 83 86
+c 189 190
+
+S P 46
+s 16Feb2014[14:29.59]
+d 100 0 0 100
+P 769 106
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 83 89
+c 189 191
+
+S T 6
+s 16Feb2014[14:29.59]
+P 34 130
+T var component = new org.expeditee.items.JSPanel(invocable, "paint")
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1942
+s 16Feb2014[16:44.37]
+d 50 50 50 100
+P 34 166
+T @mouseListener
+F 3
+Q 0
+o jts
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1758
+s 16Feb2014[16:42.10]
+d 50 50 50 100
+P 34 202
+T @setup
+F 4
+Q 0
+o jts
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1894
+s 16Feb2014[16:42.38]
+d 50 50 50 100
+P 34 238
+T @thread
+F 5
+Q 0
+o jts
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 28
+s 16Feb2014[14:29.59]
+P 34 274
+T threadRef = widget.addThread(threadFunc.toString())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 1935
+s 16Feb2014[16:44.21]
+P 34 310
+T threadRef.shouldRun(true)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 2001
+s 16Feb2014[16:46.00]
+d 50 50 50 100
+P 34 346
+T @paint
+F 7
+Q 0
+o jts
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 2028
+s 16Feb2014[16:46.56]
+P 34 382
+T return component
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+w 964
+h -1.0
+
+S P 48
+s 16Feb2014[14:29.59]
+d 100 0 0 100
+P 25 403
+e 100 59 59 100
+Q 0
+o jts
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 86 92
+c 190 192
+
+S P 47
+s 16Feb2014[14:29.59]
+d 100 0 0 100
+P 769 403
+e 100 59 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 89 92
+c 191 192
+
+S T 2029
+s 16Feb2014[16:46.56]
+P 23 444
+T var save = function(args)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+w 964
+h -1.0
+
+S P 2039
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 343 469
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2060 2063
+c 2088 2089
+
+S P 2040
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 29 469
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2060 2066
+c 2088 2090
+
+S T 2031
+s 16Feb2014[16:46.56]
+P 46 497
+T args.add("" + bestscore)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 2041
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 29 519
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2066 2069
+c 2090 2091
+
+S P 2042
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 343 519
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2063 2069
+c 2089 2091
+
+S T 2032
+s 16Feb2014[16:46.56]
+P 24 554
+T var load = function(args)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+w 964
+h -1.0
+
+S P 2043
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 543 571
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2072 2075
+c 2092 2093
+
+S P 2044
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 32 571
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2072 2078
+c 2092 2094
+
+S T 2033
+s 16Feb2014[16:46.56]
+P 49 599
+T if(args.length > 0) bestscore = args[0]
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 2045
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 32 634
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2078 2081
+c 2094 2095
+
+S P 2046
+s 16Feb2014[16:46.56]
+d 0 70 0 100
+P 543 634
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 2075 2081
+c 2093 2095
+
+S T 2034
+s 16Feb2014[16:46.56]
+P 23 665
+T var widget = new org.expeditee.items.widgets.JSWidget(600, 400, init.toString(), save.toString(), load.toString())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 2035
+s 16Feb2014[16:46.56]
+P 23 707
+T widget.setPosition(org.expeditee.gui.FrameMouseActions.getX(), org.expeditee.gui.FrameMouseActions.getY())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 2036
+s 16Feb2014[16:46.56]
+P 23 749
+T org.expeditee.gui.FrameMouseActions.pickup(widget.getItems())
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+w 964
+h -1.0
+
+S P 229
+s 16Feb2014[14:36.24]
+d 0 0 100 100
+P 13 780
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 236 233
+c 228 225
+
+S P 230
+s 16Feb2014[14:36.24]
+d 0 0 100 100
+P 1282 780
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 234 233
+c 227 225
+
+Z
+
+L 235 1
+s 231 232
+
+L 236 1
+s 232 229
+
+L 234 1
+s 230 231
+
+L 83 1
+s 46 45
+
+L 86 1
+s 45 48
+
+L 89 1
+s 47 46
+
+L 92 1
+s 48 47
+
+L 2060 1
+s 2039 2040
+
+L 2063 1
+s 2042 2039
+
+L 2066 1
+s 2040 2041
+
+L 2069 1
+s 2041 2042
+
+L 2072 1
+s 2043 2044
+
+L 2075 1
+s 2046 2043
+
+L 2078 1
+s 2044 2045
+
+L 2081 1
+s 2045 2046
+
+L 233 1
+s 229 230
+
+Z
+
+C 226 3
+s 231 232
+
+C 228 2
+s 232 229
+
+C 227 2
+s 230 231
+
+C 189 3
+s 46 45
+
+C 190 2
+s 45 48
+
+C 191 2
+s 47 46
+
+C 192 3
+s 48 47
+
+C 2088 3
+s 2039 2040
+
+C 2089 2
+s 2042 2039
+
+C 2090 2
+s 2040 2041
+
+C 2091 3
+s 2041 2042
+
+C 2092 3
+s 2043 2044
+
+C 2093 2
+s 2046 2043
+
+C 2094 2
+s 2044 2045
+
+C 2095 3
+s 2045 2046
+
+C 225 3
+s 229 230
+
+Z
+
+ActiveTime:01:22:37
+DarkTime:00:04:09
+53:07:927 325 352 kL
+53:08:031 336 352 kShift
+53:08:159 336 352 kSemicolon
+53:08:711 347 352 k7
+53:09:138 358 352 Md
+53:09:297 358 352 Mu
+53:10:058 88 346 Md
+53:10:137 87 345 Mu
+53:10:594 81 341 Ld
+53:10:665 81 341 Lu

@@ -1,0 +1,119 @@
+A SimpleTestSuite128
+V 2
+p UWW
+U root
+D 17Apr2008:1049
+M root
+d 29May2008:2105
+Z
+
+S T 133
+s 17Apr2008:1049
+d 0 0 100
+P 26 24
+f tr35
+T Call TestMethod
+
+S P 193
+s 17Apr2008:1109
+P 26 67
+h 2.0
+l 197 203
+c 189 192
+
+S P 194
+s 17Apr2008:1109
+P 490 67
+h 2.0
+l 197 198
+c 189 191
+
+S T 140
+s 17Apr2008:1042
+P 68 94
+T Set $s.FrameName "SimpleTestSuite127"
+
+S T 178
+s 17Apr2008:1042
+P 65 130
+T ReadFrame $s.FrameName $fp.Frame
+
+S P 195
+s 17Apr2008:1109
+P 490 143
+h 2.0
+l 198 202
+c 191 190
+
+S P 201
+s 17Apr2008:1109
+P 26 143
+h 2.0
+l 203 202
+c 192 190
+
+S T 177
+s 17Apr2008:1042
+P 67 170
+F 129
+T ForEach $fp.Frame $ip.Item
+
+S T 180
+s 17Apr2008:1049
+d 0 0 0
+P 72 236
+F 217
+T This line should never be reached!!
+
+S T 135
+s 17Apr2008:1049
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 197 1
+s 193 194
+
+L 203 1
+s 201 193
+
+L 198 1
+s 194 195
+
+L 202 1
+s 195 201
+
+Z
+
+C 189 3
+s 193 194
+
+C 192 2
+s 201 193
+
+C 191 2
+s 194 195
+
+C 190 3
+s 195 201
+
+Z
+
+ActiveTime:00:00:13
+DarkTime:00:00:00
+00:03:838 214 162 Rd
+00:07:485 309 165 Md
+00:07:585 309 165 Mu
+00:09:474 219 165 kBackspace
+00:09:654 213 170 kBackspace
+00:09:815 196 170 kBackspace
+00:09:926 187 170 kBackspace
+00:10:070 180 170 kBackspace
+00:10:210 174 170 kBackspace
+00:10:362 169 170 kBackspace
+00:10:518 158 170 kBackspace
+00:10:677 152 170 kBackspace
+00:13:317 146 206 Ld
+00:13:437 146 206 Lu

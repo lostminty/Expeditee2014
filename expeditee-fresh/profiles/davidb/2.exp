@@ -1,0 +1,371 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+P 15 42
+T settings
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 927
+h -1.0
+
+S T 5
+s 14Jan2014[17:56.16]
+P 35 82
+T Network
+F davidb3
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.16]
+P 35 108
+T Experimental
+F davidb5
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.16]
+P 35 163
+T ScaleFactor: 1.0
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 163
+T // Scale Factor for drawing (TODO: does this even do anything?)
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 12
+s 14Jan2014[17:56.16]
+P 35 203
+T FormatSpacingMin: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 13
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 203
+T // Minimum spacing ratio
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 15
+s 14Jan2014[17:56.16]
+P 35 243
+T FormatSpacingMax: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 16
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 243
+T // Maximum spacing ratio
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 18
+s 14Jan2014[17:56.16]
+P 35 283
+T Gravity: 3
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 19
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 283
+T // Distance the cursor has to be from a text item to select the text item
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 21
+s 14Jan2014[17:56.16]
+P 35 323
+T LineStraightenThreshold: 15
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 22
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 323
+T // Threshold for straightening a line (TODO: does this even do anything?)
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 24
+s 14Jan2014[17:56.16]
+P 35 363
+T NoOpThreshold: 60
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 25
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 363
+T // Distance the cursor may be dragged while clicking before the operation is cancelled
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 27
+s 14Jan2014[17:56.16]
+P 35 426
+T TitlePosition: 150
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 28
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 426
+T // Position of title item in frame (TODO: find whether this is x-offset or y-offset)
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 30
+s 14Jan2014[17:56.16]
+P 35 489
+T InitialWidth: 1024
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 31
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 489
+T // Initial width of Expeditee window
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 33
+s 14Jan2014[17:56.16]
+P 35 529
+T InitialHeight: 768
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 34
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 529
+T // Initial height of Expeditee window
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 36
+s 14Jan2014[17:56.16]
+P 35 569
+T ProfileName: davidb
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 37
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 569
+T // Profile name
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 39
+s 14Jan2014[17:56.16]
+P 35 609
+T UserName: davidb
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 40
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 609
+T // User name
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 42
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 955 648
+T @Next
+F davidb6
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

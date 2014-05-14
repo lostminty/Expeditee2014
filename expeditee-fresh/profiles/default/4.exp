@@ -1,0 +1,146 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+d 0 0 100 100
+P 15 81
+T settings.network.proxy
+Q 0
+o davidb
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 926
+h -1.0
+
+S T 5
+s 14Jan2014[17:56.17]
+P 35 163
+T Host: 
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 6
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 163
+T // The host for the proxy
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 8
+s 14Jan2014[17:56.17]
+P 35 203
+T Port: 80
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 203
+T // The port for the proxy (e.g. port 80)
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 11
+s 14Jan2014[17:56.17]
+P 35 243
+T User: 
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 12
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 243
+T // Your username for the proxy
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 14
+s 14Jan2014[17:56.17]
+P 35 283
+T @iw: org.expeditee.items.widgets.Password
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h 1.0
+
+S T 23
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 283
+T // Your password for the proxy
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

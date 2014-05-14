@@ -1,0 +1,127 @@
++A+ SimpleTest73
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 01Feb2008:1637
++M+ ra33
++d+ 01Feb2008:1828
++Z+
++v+ 22
+
++S+ 4
++s+ 01Feb2008:1637
++P+ 27 10
++X+ RunFrame
++T+ StringActions
+
++S+ 44
++s+ 01Feb2008:1828
++P+ 529 45
++h+ 2.0
++l+ 48 54
++c+ 40 43
+
++S+ 45
++s+ 01Feb2008:1828
++P+ 86 45
++h+ 2.0
++l+ 48 49
++c+ 40 42
+
++S+ 17
++s+ 01Feb2008:1637
++P+ 118 85
++T+ Set $s.start "Testing"
+
++S+ 18
++s+ 01Feb2008:1638
++P+ 117 121
++T+ Set $s.space " "
+
++S+ 20
++s+ 01Feb2008:1638
++P+ 117 157
++T+ Set $s.end "1, 2, 3"
+
++S+ 22
++s+ 01Feb2008:1639
++P+ 117 193
++T+ ConcatStr $s.start $s.space $s.end $s.cur
+
++S+ 30
++s+ 01Feb2008:1707
++P+ 120 236
++T+ Set $s.expectedResult "Testing 1, 2, 3"
+
++S+ 31
++s+ 01Feb2008:1647
++P+ 119 283
++T+ AssertEquals $s.cur $s.expectedResult
+
++S+ 46
++s+ 01Feb2008:1828
++P+ 86 348
++h+ 2.0
++l+ 49 53
++c+ 41 42
+
++S+ 52
++s+ 01Feb2008:1828
++P+ 529 348
++h+ 2.0
++l+ 53 54
++c+ 41 43
+
++S+ 7
++s+ 01Feb2008:1637
++P+ 792 608
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 01Feb2008:1637
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
+
++S+ 16
++s+ 01Feb2008:1637
++P+ 690 609
++X+ Format
++T+ @Format
++L+ 48 1
++s+ 44 45
++L+ 54 1
++s+ 52 44
++L+ 49 1
++s+ 45 46
++L+ 53 1
++s+ 46 52
++C+ 40 3
++s+ 44 45
++C+ 43 2
++s+ 52 44
++C+ 42 2
++s+ 45 46
++C+ 41 3
++s+ 46 52
++Z+
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:00 928 21 kRight
+00:02 91 65 Rd
+00:02 91 65 Ru
+00:03 534 368 Md
+00:03 534 368 Mu
+00:04 508 322 Rd
+00:04 508 322 Ru
+00:05 833 622 Ld
+00:06 833 622 Lu
+

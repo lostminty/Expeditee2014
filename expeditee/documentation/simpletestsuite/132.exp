@@ -1,0 +1,182 @@
+V 3
+p 4
+U root
+D 17Apr2008:1109
+M root
+d 26Jun2008:0046
+Z
+
+S T 133
+s 17Apr2008:1109
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T IfExistingFrameTest
+
+S P 521
+s 17Apr2008:1150
+P 60 49
+h 2.0
+l 525 531
+c 517 520
+
+S P 522
+s 17Apr2008:1150
+P 494 49
+h 2.0
+l 525 526
+c 517 519
+
+S T 498
+s 17Apr2008:1149
+P 100 80
+T Set $s.FrameName "SimpleTestSuite99999"
+
+S T 503
+s 17Apr2008:1150
+d 0 0 0
+P 103 121
+T IfExistingFrame $s.FrameName NONSENCE!!!
+
+S T 532
+s 17Apr2008:1231
+d 100 0 100
+P 731 152
+T @DisplayFramePause: 4.9
+
+S T 506
+s 17Apr2008:1109
+P 106 176
+T Set $s.FrameName "SimpleTestSuite132"
+
+S P 469
+s 17Apr2008:1122
+P 569 221
+h 2.0
+l 471
+
+S T 507
+s 17Apr2008:1110
+d 0 0 0
+P 101 234
+T IfExistingFrame $s.FrameName ExitAll
+
+S P 495
+s 17Apr2008:1125
+P 583 278
+h 2.0
+l 496
+
+S T 508
+s 17Apr2008:1110
+d 0 0 0
+P 104 279
+T This line should never be reached
+
+S P 523
+s 17Apr2008:1150
+P 494 315
+h 2.0
+l 526 530
+c 519 518
+
+S P 529
+s 17Apr2008:1150
+P 60 315
+h 2.0
+l 531 530
+c 520 518
+
+S P 491
+s 17Apr2008:1124
+P 394 340
+h 2.0
+l 490
+
+S P 465
+s 17Apr2008:1120
+P 501 344
+h 2.0
+l 471
+
+S P 464
+s 17Apr2008:1120
+P 661 344
+h 2.0
+l 496
+
+S P 488
+s 17Apr2008:1120
+P 493 424
+h 2.0
+l 490 489
+c 387
+
+S P 492
+s 17Apr2008:1120
+P 697 424
+h 2.0
+l 489
+c 387
+
+S T 135
+s 17Apr2008:1109
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 525 1
+s 521 522
+
+L 531 1
+s 529 521
+
+L 526 1
+s 522 523
+
+L 471 1
+s 465 469
+
+L 496 1
+s 495 464
+
+L 530 1
+s 523 529
+
+L 490 1
+s 488 491
+
+L 489 1
+s 492 488
+
+Z
+
+C 517 3
+s 521 522
+
+C 520 2
+s 529 521
+
+C 519 2
+s 522 523
+
+C 518 3
+s 523 529
+
+C 387 3
+s 492 488
+
+Z
+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:00:465 117 51 kPage Up
+00:00:903 109 35 kPage Up
+00:01:597 102 17 kPage Up
+00:02:016 102 17 kPage Up
+00:02:621 102 17 Rd
+00:02:648 102 17 Md
+00:03:022 102 17 kPage Up

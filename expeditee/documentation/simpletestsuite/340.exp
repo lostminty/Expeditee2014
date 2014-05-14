@@ -1,0 +1,42 @@
+V 3
+p 4
+U root
+D 08Jul2008:1336
+M root
+d 08Jul2008:1337
+Z
+
+S T 12
+s 08Jul2008:1336
+d 0 0 100
+P 34 49
+f sb25
+T But THIS phrase will not be found because it already found
+
+S T 5
+s 08Jul2008:1336
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:04
+DarkTime:00:00:00
+00:00:083 647 338 kSpace
+00:00:100 652 338 kT
+00:00:105 659 338 kH
+00:00:109 670 338 kE
+00:00:113 680 338 kSpace
+00:01:512 777 290 Rd
+00:01:599 776 290 Ru
+00:02:071 560 399 Md
+00:02:151 561 399 Mu
+00:02:426 614 357 Rd
+00:02:440 614 357 Md
+00:02:839 496 277 Ld
+00:02:950 496 277 Lu

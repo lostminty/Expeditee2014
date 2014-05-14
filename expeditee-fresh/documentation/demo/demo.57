@@ -1,0 +1,56 @@
++A+ Demo57
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Active Overlays
++S+ 6
++P+ 97 73
++F+ Documentation6
++f+ tr21
++T+ Active overlays allow items on overlays to be interacted with, with various levels of permission
++S+ 9
++P+ 720 171
++f+ tr21
++T+ 0 - None
++S+ 11
++P+ 720 209
++f+ tr21
++T+ 1 - Links
++S+ 16
++P+ 720 247
++f+ tr21
++T+ 2 - Copy
++S+ 18
++P+ 720 285
++f+ tr21
++T+ 3 - TDFC
++S+ 20
++P+ 720 323
++f+ tr21
++T+ 4+ - Full
++S+ 21
++P+ 99 439
++f+ tr21
++T+ NOTE: If you pick up an item on an active overlay and move it, it will be anchored on the top frame
++T+ and will disappear from the active overlay frame
++S+ 7
++P+ 477 512
++F+ Demo58
++f+ tr21
++T+ @ao 0
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

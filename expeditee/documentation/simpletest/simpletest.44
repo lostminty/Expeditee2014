@@ -1,0 +1,32 @@
++A+ SimpleTest44
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1250
++M+ ra33
++d+ 01Feb2008:1820
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1250
++P+ 27 10
++T+ Call Test
+
++S+ 7
++s+ 25Jan2008:1250
++P+ 61 98
++F+ SimpleTest45
++T+ Repeat
+
++S+ 5
++s+ 25Jan2008:1250
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 47 25 Rd
+00:01 47 25 Ru
+00:02 900 18 kRight
+

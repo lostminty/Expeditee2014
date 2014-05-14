@@ -1,0 +1,130 @@
+V 48
+p 4
+U root
+D 08May2008:1409
+M root
+d 25Jun2008:2113
+Z
+
+S T 157
+s 08May2008:1409
+d 0 0 100
+P 25 51
+X RunFrame
+f sb41
+T GetFrameLogTest
+
+S T 241
+s 25Jun2008:2057
+P 133 106
+T Set $r.secs 0.1
+
+S T 263
+s 08May2008:1650
+d 0 0 0
+P 271 107
+T Set $i.y 200
+
+S T 142
+s 08May2008:1650
+d 0 0 0
+P 23 109
+T Set $i.x 200
+
+S T 145
+s 25Jun2008:1926
+P 23 150
+T ClearFrame $fp.stageFrame
+
+S T 138
+s 25Jun2008:1916
+P 23 191
+T Goto $s.stageFrame
+
+S T 156
+s 25Jun2008:2020
+d 50 50 50
+P 534 206
+F 308
+T @StageFrame
+
+S T 204
+s 08May2008:1721
+d 0 0 100
+P 23 232
+T CreateText $fp.StageFrame $i.x $i.y $ip.Cur
+
+S T 239
+s 25Jun2008:2057
+d 0 0 0
+P 144 271
+T Set $i.y 400
+
+S T 229
+s 25Jun2008:2057
+d 0 0 0
+P 23 273
+T Set $i.x 400
+
+S T 237
+s 25Jun2008:2058
+P 23 314
+T MoveCursorTo $i.x $i.y
+
+S T 211
+s 25Jun2008:2055
+P 23 355
+T ClickMiddleButton
+
+S T 210
+s 25Jun2008:2055
+P 23 396
+T ClickMiddleButton
+
+S T 258
+s 25Jun2008:2107
+P 25 435
+T Pause $r.secs
+
+S T 262
+s 08May2008:1410
+d 0 0 0
+P 20 476
+T GetFrameLog $ip.cur
+
+S T 5
+s 08May2008:1409
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:16:21
+DarkTime:00:22:36
+05:03:490 117 462 Md
+05:03:629 117 462 Mu
+05:04:265 108 469 Md
+05:04:395 108 469 Mu
+05:08:003 97 429 kBackspace
+05:08:073 91 435 kR
+05:10:947 179 102 kBackspace
+05:11:071 176 106 kR
+05:11:504 184 106 kRight
+05:11:730 188 106 kRight
+05:11:910 198 106 kRight
+05:12:070 207 106 kRight
+05:12:232 216 106 kRight
+05:12:361 225 106 kRight
+05:13:112 231 106 k0
+05:13:313 242 106 kPeriod
+05:14:761 324 102 Md
+05:14:914 324 102 Mu
+05:15:264 344 104 Md
+05:15:360 344 104 Mu
+05:16:732 294 45 Ld
+05:16:814 294 45 Lu

@@ -1,0 +1,48 @@
+V 1
+U root
+D 08May2008:1829
+M root
+d 14May2008:2220
+Z
+
+S T 11
+s 08May2008:1829
+d 0 0 100
+P 27 30
+X RunFrame
+f sb41
+T @Test
+
+S T 13
+s 08May2008:1829
+d 0 0 0
+P 48 84
+T Set $s.CD "cd expeditee/bin; java HelloWorld"
+
+S T 15
+s 08May2008:1829
+d 0 0 0
+P 51 125
+T Set $s.classPath "expeditee/bin/"
+
+S T 12
+s 08May2008:1829
+d 0 0 0
+P 53 164
+T ExecuteOSCommand $s.CD
+
+S T 5
+s 08May2008:1829
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:05:283 36 47 kF4
+00:13:621 427 613 Ld
+00:13:815 427 613 Lu

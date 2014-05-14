@@ -1,0 +1,39 @@
++A+ Demo64
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Menus
++S+ 5
++P+ 180 136
++f+ tr21
++T+ Users can specify each menu and the items that are on it
++S+ 9
++P+ 180 200
++F+ Menus1
++f+ tr21
++T+ Here is the current menu frameset
++S+ 12
++P+ 180 264
++f+ tr21
++T+ The tag @Menu is used to indicate the item's link should be followed
++T+ and the child frame should be used
++S+ 15
++P+ 180 346
++f+ tr21
++T+ Any text item with a link or action is then placed on the menu
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

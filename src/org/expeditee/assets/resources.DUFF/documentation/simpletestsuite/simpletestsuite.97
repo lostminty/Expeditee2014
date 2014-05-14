@@ -1,0 +1,96 @@
++v+ 22
++V+ 16
++p+ 4
++U+ root
++D+ 20Feb2008:1148
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite97
+
++S+ 215
++s+ 20Feb2008:1148
++d+ 0 0 100
++P+ 24 36
++X+ RunFrame
++f+ tr35
++T+ GetFrameValue Test
+
++S+ 212
++s+ 20Feb2008:1155
++d+ 0 0 0
++P+ 73 69
++T+ Set $s.TargetAttribute "CustomAttribute"
+
++S+ 213
++s+ 20Feb2008:1155
++d+ 0 0 0
++P+ 73 107
++T+ GetFrameValue $fp.AttributeFrame $s.TargetAttribute $s.value $b.found
+
++S+ 201
++s+ 20Feb2008:1213
++d+ 0 0 0
++P+ 73 148
++f+ tr22
++T+ @AssertTrue $b.found
+
++S+ 199
++s+ 20Feb2008:1214
++d+ 0 0 0
++P+ 73 187
++T+ Set $s.expectedValue "55"
+
++S+ 200
++s+ 20Feb2008:1213
++d+ 0 0 0
++P+ 73 225
++T+ AssertEquals $s.expectedValue $s.value
+
++S+ 208
++s+ 20Feb2008:1234
++d+ 0 0 0
++P+ 73 263
++T+ Set $s.TargetAttribute "CustomAttribute2"
+
++S+ 207
++s+ 20Feb2008:1234
++d+ 0 0 0
++P+ 73 301
++T+ GetFrameValue $fp.AttributeFrame $s.TargetAttribute $s.value $b.found $ip.attribute
+
++S+ 209
++s+ 20Feb2008:1234
++d+ 0 0 0
++P+ 73 342
++f+ tr22
++T+ AssertTrue $b.found
+
++S+ 210
++s+ 20Feb2008:1234
++d+ 0 0 0
++P+ 73 381
++T+ Set $s.expectedValue "24"
+
++S+ 211
++s+ 20Feb2008:1234
++d+ 0 0 0
++P+ 73 419
++F+ 306
++T+ AssertEquals $s.expectedValue $s.value
+
++S+ 214
++s+ 20Feb2008:1149
++d+ 100 0 100
++P+ 683 438
++F+ 98
++T+ @AttributeFrame
+
++S+ 129
++s+ 20Feb2008:1148
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:475 147 50 kPage Up

@@ -1,0 +1,72 @@
++v+ 22
++V+ 3
++p+ 4
++U+ ra33
++D+ 01Feb2008:2149
++M+ root
++d+ 26Jun2008:0052
++A+ SimpleTestSuite10
+
++S+ 64
++s+ 01Feb2008:2149
++d+ 0 0 100
++P+ 33 49
++X+ RunFrame
++f+ tr35
++T+ @Test
+
++S+ 27
++s+ 01Feb2008:2149
++P+ 95 95
++T+ Set $s.Cur "Attribute: Value"
+
++S+ 48
++s+ 01Feb2008:2152
++P+ 95 131
++T+ Set $s.Cur "Height: 123"
+
++S+ 46
++s+ 01Feb2008:2149
++P+ 95 167
++T+ Set $s.Separators ":"
+
++S+ 32
++s+ 01Feb2008:2149
++P+ 95 203
++T+ ParseStr $s.Cur $s.Separators $i.Count $s.Remainder $s.Attribute $s.Value
+
++S+ 40
++s+ 01Feb2008:2150
++P+ 95 239
++T+ Set $s.2 "Count: "
+
++S+ 41
++s+ 01Feb2008:2150
++d+ 0 70 0
++P+ 95 275
++T+ MessageLn $s.2 $i.Count
+
++S+ 43
++s+ 01Feb2008:2151
++P+ 95 311
++T+ Set $s.3 "Attribute:""
+
++S+ 45
++s+ 01Feb2008:2151
++P+ 95 347
++T+ Set $s.4 "",  Value"
+
++S+ 39
++s+ 01Feb2008:2151
++P+ 95 383
++T+ MessageLn $s.3  $s.Attribute $s.4 $s.Value
+
++S+ 63
++s+ 21Feb2008:1501
++P+ 939 572
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:610 104 20 kPage Down

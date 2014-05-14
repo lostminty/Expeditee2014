@@ -1,0 +1,37 @@
++A+ SimpleTest62
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 29Jan2008:1332
++M+ ra33
++d+ 01Feb2008:1821
++Z+
++v+ 22
+
++S+ 4
++s+ 29Jan2008:1332
++P+ 27 10
++T+ If $b.Result
+
++S+ 8
++s+ 29Jan2008:1332
++P+ 172 223
++T+ This code should never be executed!
+
++S+ 7
++s+ 29Jan2008:1332
++P+ 792 608
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 29Jan2008:1332
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 113 25 Rd
+00:01 113 25 Ru
+00:02 904 16 kRight
+

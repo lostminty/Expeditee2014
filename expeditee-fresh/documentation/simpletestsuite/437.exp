@@ -1,0 +1,131 @@
+V 8
+p 4
+U Michael
+D 17Nov2008:1243
+M Michael
+d 17Nov2008:1317
+Z
+
+S T 12
+s 17Nov2008:1243
+d 0 0 100
+P 34 49
+T ComputeTreeTest
+X runframe
+Q 0
+f sb41
+w 1169
+
+S T 15
+s 17Nov2008:1243
+d 50 50 50
+P 521 112
+T @frame
+F 438
+Q 0
+w 864
+
+S T 32
+s 17Nov2008:1251
+P 80 136
+T Set $s.Total "Total"
+Q 0
+f tr18
+w 1305
+
+S T 14
+s 17Nov2008:1243
+P 80 172
+T ComputeTree $fp.frame
+Q 0
+f tr18
+w 1305
+
+S T 85
+s 17Nov2008:1254
+d 100 0 0
+P 676 177
+T @This will throw a numberFormatException if not working correctly
+Q 0
+f tr18
+h 2.0
+l 86
+
+S P 62
+s 17Nov2008:1254
+P 479 200
+Q 0
+j 26.0 0.5
+h 2.0
+l 86
+
+S T 115
+s 17Nov2008:1308
+P 80 208
+T WaitForAgent
+Q 0
+f tr18
+w 1305
+
+S T 30
+s 17Nov2008:1251
+P 80 244
+T GetFrameValue $fp.frame $s.Total $i.Value
+Q 0
+f tr18
+w 1305
+
+S T 45
+s 17Nov2008:1254
+P 80 280
+T Set $i.expected 165
+Q 0
+f tr18
+w 1305
+
+S T 35
+s 17Nov2008:1252
+P 80 316
+T AssertEquals $i.expected $i.value
+Q 0
+f tr18
+w 1305
+
+S T 5
+s 17Nov2008:1243
+P 940 572
+T @ao
+F 89
+Q 0
+
+Z
+
+L 86 1
+s 85 62
+
+Z
+
+Z
+
+ActiveTime:00:05:24
+DarkTime:00:13:15
+00:01:180 337 102 Ld
+00:01:307 337 102 Lu
+00:10:479 214 165 kEscape
+00:10:959 80 208 kShift
+00:11:209 80 208 kW
+00:11:512 97 208 kA
+00:11:758 106 208 kI
+00:11:998 112 208 kT
+00:12:397 119 208 kShift
+00:12:533 119 208 kF
+00:12:688 129 208 kO
+00:12:798 140 208 kR
+00:13:309 148 208 kShift
+00:13:407 148 208 kA
+00:13:717 161 208 kG
+00:13:917 171 208 kE
+00:14:078 181 208 kN
+00:14:180 192 208 kT
+09:20:879 226 20 Ld
+09:21:015 226 20 Lu

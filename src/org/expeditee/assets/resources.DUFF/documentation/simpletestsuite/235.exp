@@ -1,0 +1,112 @@
+V 23
+p 4
+U root
+D 05Jun2008:1214
+M root
+d 26Jun2008:0101
+Z
+
+S T 12
+s 05Jun2008:1214
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T ErrorMessageTest
+
+S P 132
+s 05Jun2008:1707
+P 46 75
+h 2.0
+l 145 134
+c 88 90
+
+S P 144
+s 05Jun2008:1707
+P 592 75
+h 2.0
+l 145 146
+c 88 91
+
+S T 135
+s 05Jun2008:1614
+d 100 0 100
+P 67 108
+T @ThrowsException
+
+S T 136
+s 05Jun2008:1619
+d 0 0 0
+P 71 147
+T #dgh gdh g hf
+
+S T 137
+s 05Jun2008:1219
+d 0 0 0
+P 73 184
+T Set $i.test 5
+
+S T 138
+s 05Jun2008:1214
+d 0 0 0
+P 73 235
+T Add $i.test 111 $i.TEst4 //This is a comment test
+
+S T 139
+s 05Jun2008:1220
+d 0 0 0
+P 72 277
+T @MessageLn $i.test3
+
+S P 140
+s 05Jun2008:1707
+P 46 306
+h 2.0
+l 134 142
+c 90 89
+
+S P 141
+s 05Jun2008:1707
+P 592 306
+h 2.0
+l 146 142
+c 91 89
+
+S T 5
+s 05Jun2008:1214
+P 940 572
+F 89
+T @ao
+
+Z
+
+L 145 1
+s 144 132
+
+L 134 1
+s 132 140
+
+L 146 1
+s 141 144
+
+L 142 1
+s 140 141
+
+Z
+
+C 88 3
+s 144 132
+
+C 90 2
+s 132 140
+
+C 91 2
+s 141 144
+
+C 89 3
+s 140 141
+
+Z
+
+ActiveTime:00:00:08
+DarkTime:00:00:00

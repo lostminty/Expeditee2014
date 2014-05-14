@@ -1,0 +1,103 @@
+V 14
+p 4
+U root
+D 26Feb2008:2221
+M root
+d 26Jun2008:0051
+Z
+
+S T 401
+s 26Feb2008:2221
+d 0 0 100
+P 33 40
+X RunFrame
+f tr35
+T Repaint Test
+
+S T 371
+s 25Jun2008:2025
+P 87 85
+T ClearFrame $fp.stageframe
+
+S T 140
+s 26Feb2008:2231
+d 0 0 0
+P 87 128
+T Goto $s.StageFrame
+
+S T 146
+s 26Feb2008:2232
+d 0 0 0
+P 87 171
+T Set $r. 0.5
+
+S T 361
+s 26Feb2008:2251
+d 0 0 0
+P 87 214
+T Set $i.x 300
+
+S T 362
+s 26Feb2008:2251
+d 0 0 0
+P 87 257
+T Set $i.y 300
+
+S T 363
+s 26Feb2008:2247
+P 87 300
+T CreateItem $fp.StageFrame $i.x $i.y $ip.
+
+S T 384
+s 26Feb2008:2232
+d 0 0 0
+P 89 334
+T Pause
+
+S T 385
+s 26Feb2008:2250
+d 0 70 0
+P 82 369
+F 110
+T //Set item color and thickness
+
+S T 136
+s 26Feb2008:2221
+d 100 0 100
+P 633 376
+F SimpleTestSuite106
+T @StageFrame
+
+S T 386
+s 25Jun2008:2025
+P 80 406
+T GetItemThickness $ip. $i.actualThickness
+
+S T 393
+s 25Jun2008:2026
+P 80 448
+T AssertEquals $i.thickness $i.actualThickness
+
+S T 394
+s 26Feb2008:2232
+d 0 0 0
+P 79 491
+T Repaint
+
+S T 135
+s 26Feb2008:2221
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:03:20
+DarkTime:00:00:00
+00:00:294 147 44 kPage Up
+00:00:571 147 44 kPage Up
+00:00:796 147 44 kPage Up

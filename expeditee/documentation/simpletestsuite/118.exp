@@ -1,0 +1,36 @@
+V 1
+p UWW
+U root
+D 15Mar2008:1602
+M root
+d 15Mar2008:1638
+Z
+
+S T 133
+s 15Mar2008:1602
+d 0 0 100
+P 26 24
+f tr35
+T ForEach $ip.Item $fp.Frame
+
+S T 135
+s 15Mar2008:1602
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:00 223 96 Rd
+00:00 223 96 Ru
+00:01 61 206 Md
+00:02 61 206 Mu
+00:02 82 186 Md
+00:02 82 186 Mu
+00:02 85 250 Ld
+00:02 85 250 Lu
+

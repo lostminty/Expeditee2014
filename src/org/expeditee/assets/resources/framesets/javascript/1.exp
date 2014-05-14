@@ -1,0 +1,247 @@
+V 28
+U jts21A
+D 20Jan2014[09:35]
+M jts21A
+d 21Jan2014[09:30]
+Z
+
+S T 72
+s 20Jan2014[11:56.12]
+d 50 50 50 100
+P 638 64
+T @a:runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 3
+s 20Jan2014[09:35]
+d 0 0 100 100
+P 15 78
+T Javascript
+Q 0
+o jts21A
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 899
+h -1.0
+
+S T 118
+s 20Jan2014[15:45.12]
+d 50 50 50 100
+P 638 100
+T @a:printJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 8
+s 20Jan2014[10:26.04]
+P 38 120
+T if(typeof __FUNCTIONS__ == 'undefined')
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 56
+s 20Jan2014[10:26.15]
+d 100 0 0 100
+P 877 132
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 58 67
+c 21 24
+
+S P 57
+s 20Jan2014[10:26.15]
+d 100 0 0 100
+P 46 132
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 58 59
+c 21 23
+
+S T 60
+s 20Jan2014[10:26.22]
+P 71 167
+T __FUNCTIONS__ = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 79
+s 20Jan2014[11:23.38]
+d 50 50 50 100
+P 71 197
+T @javaClassNames
+F 3
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 78
+s 20Jan2014[09:31.15]
+d 50 50 50 100
+P 71 227
+T @loadTutorialFrame
+F 2
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 64
+s 20Jan2014[11:51.12]
+d 50 50 50 100
+P 71 257
+T @setCompleted
+F 4
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 94
+s 20Jan2014[14:59.19]
+d 50 50 50 100
+P 71 287
+T @countSides
+F 6
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 110
+s 20Jan2014[15:33.41]
+d 50 50 50 100
+P 71 317
+T @hasRectangle
+F 8
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 65
+s 20Jan2014[10:26.15]
+d 100 0 0 100
+P 46 630
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 59 68
+c 23 22
+
+S P 66
+s 20Jan2014[10:26.15]
+d 100 0 0 100
+P 877 630
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 67 68
+c 24 22
+
+Z
+
+L 58 1
+s 56 57
+
+L 67 1
+s 66 56
+
+L 59 1
+s 57 65
+
+L 68 1
+s 65 66
+
+Z
+
+C 21 3
+s 56 57
+
+C 24 2
+s 66 56
+
+C 23 2
+s 57 65
+
+C 22 3
+s 65 66
+
+Z
+
+ActiveTime:00:04:29
+DarkTime:00:00:00
+30:43:955 846 431 Ld
+30:44:067 846 431 Lu

@@ -1,0 +1,45 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 12Feb2008:1651
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite79
+
++S+ 17
++s+ 12Feb2008:1651
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ @Display Error Frame Test
+
++S+ 104
++s+ 26Jun2008:0047
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ @Display Error Frame Test
+
++S+ 99
++s+ 12Feb2008:1652
++P+ 69 98
++T+ Set $b.True "True"
+
++S+ 102
++s+ 12Feb2008:1652
++P+ 75 148
++F+ SimpleTestSuite80
++T+ if $b.True
+
++S+ 103
++s+ 21Feb2008:1504
++P+ 949 516
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:953 109 15 kPage Down

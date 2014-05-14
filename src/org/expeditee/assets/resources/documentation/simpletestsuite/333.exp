@@ -1,0 +1,76 @@
+V 11
+p 4
+U root
+D 02Jul2008:1647
+M root
+d 02Jul2008:1713
+Z
+
+S T 12
+s 02Jul2008:1647
+d 0 0 100
+P 34 49
+f sb41
+T //Search for a regEx
+
+S T 24
+s 02Jul2008:1658
+d 0 70 0
+P 84 103
+T //Search for st followed by some characters ending in a g
+
+S T 13
+s 02Jul2008:1647
+P 661 143
+T Set $i.expectedStart 10
+
+S T 14
+s 02Jul2008:1647
+P 87 153
+T Set $s.pattern " st\w*g "
+
+S T 15
+s 02Jul2008:1647
+P 662 178
+T Set $i.expectedEnd 17
+
+S T 16
+s 02Jul2008:1647
+P 87 189
+T SearchStr $s.searchStr $s.pattern $b.found $i.start $i.end
+
+S T 17
+s 02Jul2008:1647
+P 87 225
+T AssertTrue $b.found
+
+S T 18
+s 02Jul2008:1647
+P 87 261
+T AssertEquals $i.expectedStart $i.start
+
+S T 19
+s 02Jul2008:1647
+P 84 297
+T AssertEquals $i.expectedEnd $i.end
+
+S T 5
+s 02Jul2008:1647
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:21
+DarkTime:00:00:00
+00:04:285 357 226 kLeft
+00:05:981 426 239 Rd
+00:06:060 426 239 Ru
+00:07:024 60 318 Rd
+00:07:091 60 318 Ru
+00:07:994 117 334 kRight

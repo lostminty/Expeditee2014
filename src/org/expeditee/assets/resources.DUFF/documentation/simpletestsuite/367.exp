@@ -1,0 +1,82 @@
+V 36
+p 4
+U root
+D 26Jul2008:1144
+M Michael
+d 17Nov2008:1348
+Z
+
+S T 12
+s 26Jul2008:1144
+d 0 0 100
+P 34 49
+T CalculateTest
+X runframe
+Q 0
+f sb41
+
+S T 63
+s 26Jul2008:1205
+P 80 83
+T Set $s.copyFrameset "CopyFrameset"
+Q 0
+
+S T 81
+s 26Jul2008:1147
+P 72 136
+T CopyFrame $fp.frame $fp.copy $s.copyFrameset
+Q 0
+w 941
+
+S T 122
+s 26Jul2008:1144
+d 50 50 50
+P 643 165
+T @Frame
+F 368
+Q 0
+w 602
+
+S T 82
+s 26Jul2008:1145
+P 83 191
+T ForEachText $fp.copy $ip.text
+F 369
+Q 0
+w 948
+
+S T 79
+s 26Jul2008:1156
+d 50 50 50
+P 642 207
+T @ResultFrame
+F 370
+Q 0
+w 602
+
+S T 60
+s 26Jul2008:1156
+P 76 248
+T AssertEqualFrames $fp.resultFrame $fp.copy
+Q 0
+w 935
+
+S T 5
+s 26Jul2008:1144
+P 940 572
+T @ao
+F 89
+Q 0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:12:16
+DarkTime:00:41:52
+00:02:459 158 35 Rd
+00:02:588 157 35 Ru
+00:02:963 243 394 Ld
+00:03:023 243 394 Lu

@@ -1,0 +1,92 @@
+V 6
+p 4
+U root
+D 07Jul2008:1222
+M root
+d 08Jul2008:1337
+Z
+
+S T 12
+s 07Jul2008:1222
+d 0 0 100
+P 34 49
+f sb41
+T @FrameToSearch
+
+S T 13
+s 07Jul2008:1222
+P 131 148
+T This is some text
+
+S T 15
+s 07Jul2008:1222
+P 131 184
+T Here is some more text
+
+S T 17
+s 07Jul2008:1222
+P 131 220
+T Search this text too
+
+S T 19
+s 07Jul2008:1222
+P 131 256
+T Find THIS phrase!!
+
+S T 21
+s 07Jul2008:1222
+P 131 292
+T Dont find this one
+
+S T 23
+s 08Jul2008:1336
+P 130 338
+T THIS phrase will not be found because it already found the previous one
+
+S T 5
+s 07Jul2008:1222
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:01:34
+DarkTime:00:00:00
+00:02:251 621 330 kAlt
+00:02:324 621 330 kL
+00:03:120 629 338 kBackspace
+00:03:812 624 338 kAlt
+00:04:106 624 338 kL
+00:05:361 624 338 kCtrl
+00:05:481 624 338 kL
+00:06:732 627 338 kRight
+00:07:042 635 338 kRight
+00:07:252 647 338 kRight
+00:07:831 647 338 kSpace
+00:08:010 652 338 kT
+00:08:084 659 338 kH
+00:08:210 671 338 kE
+00:08:302 682 337 kSpace
+00:08:461 686 338 kP
+00:08:485 697 338 kR
+00:08:576 705 338 kE
+00:08:875 715 338 kV
+00:08:972 725 338 kI
+00:09:150 730 338 kO
+00:09:253 741 338 kU
+00:09:393 752 338 kS
+00:09:495 761 338 kSpace
+00:10:113 767 338 kO
+00:10:293 778 338 kN
+00:11:331 789 338 kE
+00:15:871 164 331 kBackspace
+00:16:091 159 338 kBackspace
+00:16:285 152 338 kBackspace
+00:18:071 141 338 kBackspace
+00:22:099 377 123 Ld
+00:22:179 377 123 Lu

@@ -1,0 +1,122 @@
++A+ SimpleDoc22
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 29Jan2008:1237
++M+ ra33
++d+ 07Feb2008:0919
++Z+
++v+ 22
+
++S+ 99
++s+ 29Jan2008:1237
++P+ 27 13
++f+ tr33
++T+ ErrorLn/MessageLn
+
++S+ 109
++s+ 29Jan2008:1237
++d+ 0 0 100
++P+ 57 82
++T+ Take one or more parametres which indicate text to be displayed in the message box
+
++S+ 105
++s+ 29Jan2008:1237
++d+ 0 0 100
++P+ 867 563
++F+ SimpleDoc10
++T+ @Parent
+
++S+ 107
++s+ 29Jan2008:1237
++d+ 0 0 100
++P+ 956 563
++F+ Walmsley20
++T+ @ao
+
++S+ 106
++s+ 29Jan2008:1237
++d+ 0 0 100
++P+ 859 587
++T+ @ItemTemplate
++Z+
+00:02 79 577 Ld
+00:02 79 577 Rd
+00:03 683 318 Md
+00:03 683 318 Mu
+00:09 705 331 Rd
+00:10 705 331 Md
+00:15 93 536 kA
+00:15 102 536 kShift
+00:15 102 536 kSemicolon
+00:16 107 536 kShift
+00:16 107 536 kC
+00:20 120 536 kBackspace
+00:20 107 536 kBackspace
+00:20 102 536 kBackspace
+00:28 89 576 Ld
+00:28 89 576 Rd
+00:29 599 311 Md
+00:29 603 315 Mu
+00:32 827 385 kBackspace
+00:33 814 391 kBackspace
+00:33 803 391 kBackspace
+00:33 792 391 kBackspace
+00:33 784 391 kBackspace
+00:33 774 391 kBackspace
+00:33 764 391 kBackspace
+00:34 755 391 kBackspace
+00:34 747 391 kShift
+00:41 747 391 kShift
+00:41 747 391 kS
+00:41 757 391 kI
+00:42 762 391 kM
+00:42 779 391 kP
+00:42 791 391 kL
+00:42 797 391 kE
+00:42 806 391 kShift
+00:42 806 391 kD
+00:43 820 391 kO
+00:43 831 391 kC
+00:44 777 369 Md
+00:44 777 369 Mu
+00:45 943 478 Rd
+00:45 943 478 Md
+00:46 646 364 Md
+00:46 646 364 Mu
+00:47 71 576 Md
+00:48 71 576 Mu
+00:51 682 413 Md
+00:51 682 413 Mu
+00:52 635 296 kShift
+00:52 635 296 kT
+00:53 646 296 kBackspace
+00:53 635 296 kShift
+00:54 635 296 k2
+00:54 650 296 kShift
+00:54 650 296 kT
+00:54 662 296 kE
+00:54 672 296 kS
+00:54 681 296 kT
+00:55 688 296 kBackspace
+00:56 681 296 kBackspace
+00:56 672 296 kBackspace
+00:56 662 296 kBackspace
+00:56 650 296 kShift
+00:56 650 296 kC
+00:57 663 296 kO
+00:57 674 296 kP
+00:57 685 296 kY
+00:58 695 296 kShift
+00:58 695 296 kT
+00:58 707 296 kR
+00:58 715 296 kE
+00:58 724 296 kE
+00:59 645 441 Md
+00:59 645 441 Mu
+01:00 681 288 Md
+01:01 681 288 Mu
+01:02 669 292 Ld
+01:02 669 292 Lu
+

@@ -1,0 +1,36 @@
++A+ SimpleTest59
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1402
++M+ ra33
++d+ 01Feb2008:1821
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1402
++P+ 27 10
++T+ IfLinked $ip.Item
+
++S+ 6
++s+ 25Jan2008:1402
++P+ 92 119
++T+ Add $i.LinkedCount
+
++S+ 5
++s+ 25Jan2008:1402
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:03 661 130 kA
+00:04 670 130 kShift
+00:04 670 130 kSemicolon
+00:05 660 122 Md
+00:05 660 122 Mu
+00:06 91 22 Rd
+00:06 91 22 Ru
+00:08 918 15 kRight
+

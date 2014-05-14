@@ -1,0 +1,43 @@
++v+ 22
++V+ 2
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1208
++M+ root
++d+ 05Jun2008:1509
++A+ SimpleTest20
+
++S+ 11
++s+ 24Jan2008:1208
++P+ 46 47
++T+ Call TestDeepReturn
+
++S+ 6
++s+ 24Jan2008:1208
++P+ 128 138
++T+ Set $i.5 5
+
++S+ 9
++s+ 24Jan2008:1208
++P+ 123 200
++F+ SimpleTest21
++T+ //This is a comment
+
++S+ 10
++s+ 24Jan2008:1209
++P+ 118 264
++T+ This code should not be reached!!
+
++S+ 5
++s+ 24Jan2008:1208
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:752 150 8 Md
+00:01:895 150 8 Mu
+00:02:740 169 45 Md
+00:02:849 169 45 Mu
+00:03:794 598 102 kLeft

@@ -1,0 +1,38 @@
++A+ Demo30
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Spot-Welding
++S+ 4
++P+ 155 75
++f+ tr21
++T+ Lines can be 'spot welded' together by anchoring an endpoint in the middle of another line.
++S+ 31
++P+ 456 101
++l+ 33
++S+ 32
++P+ 456 172
++l+ 33
++S+ 26
++P+ 742 198
++l+ 25
++S+ 27
++P+ 190 198
++l+ 25
++L+ 33 1
++s+ 31 32
++j+ 0 0.0
++L+ 25 1
++s+ 27 26
++j+ 0 0.0
++Z+

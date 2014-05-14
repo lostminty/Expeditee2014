@@ -1,0 +1,527 @@
+V 8
+U jts21A
+D 21Jan2014[09:42]
+M jts21A
+d 21Jan2014[10:52]
+Z
+
+S T 10
+s 21Jan2014[09:42]
+d 0 0 100 100
+P 16 55
+T Create an image on this frame, and then click here
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 65
+s 21Jan2014[09:42.48]
+d 50 50 50 100
+P 47 91
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 64
+s 21Jan2014[09:42.48]
+P 48 120
+T var frame = loadTutorialFrame(37)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 63
+s 21Jan2014[09:42.48]
+P 56 144
+T var iterator = frame.getAllItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 66
+s 21Jan2014[09:42.48]
+P 62 170
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 67
+s 21Jan2014[09:42.48]
+P 73 202
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 68
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 573 228
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 70 85
+c 309 310
+
+S P 69
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 50 228
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 70 71
+c 309 311
+
+S T 72
+s 21Jan2014[09:42.48]
+P 68 254
+T var item = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 73
+s 21Jan2014[09:42.48]
+P 68 290
+T if(item instanceof Picture)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 74
+s 21Jan2014[09:42.48]
+d 0 70 0 100
+P 476 308
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 76 81
+c 313 314
+
+S P 75
+s 21Jan2014[09:42.48]
+d 0 70 0 100
+P 91 308
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 76 77
+c 313 315
+
+S T 78
+s 21Jan2014[09:42.48]
+P 106 335
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 79
+s 21Jan2014[09:42.48]
+d 0 70 0 100
+P 91 361
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 77 82
+c 315 316
+
+S P 80
+s 21Jan2014[09:42.48]
+d 0 70 0 100
+P 476 361
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 81 82
+c 314 316
+
+S P 83
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 50 368
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 71 86
+c 311 312
+
+S P 84
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 573 368
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 85 86
+c 310 312
+
+S T 19
+s 21Jan2014[09:42.48]
+P 14 405
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 32
+s 21Jan2014[09:42.48]
+d 100 0 0 100
+P 985 418
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 48 51
+c 317 318
+
+S P 33
+s 21Jan2014[09:42.48]
+d 100 0 0 100
+P 19 418
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 48 49
+c 317 319
+
+S T 20
+s 21Jan2014[09:42.48]
+P 43 455
+T frame.addText(70, 296, "Pictures can be cropped by right-click-dragging a region on the Picture", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 60
+s 21Jan2014[09:42.48]
+P 37 500
+T frame.addText(70, 332, "Create a cropped Picture, then click here to continue", "runJSFrame", "Tutorials39")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 34
+s 21Jan2014[09:42.48]
+d 100 0 0 100
+P 19 520
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 49 50
+c 319 320
+
+S P 35
+s 21Jan2014[09:42.48]
+d 100 0 0 100
+P 985 520
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 51 50
+c 318 320
+
+S T 22
+s 21Jan2014[09:42.48]
+P 9 543
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 36
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 835 558
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 52 55
+c 321 322
+
+S P 37
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 33 558
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 52 53
+c 321 323
+
+S T 23
+s 21Jan2014[09:42.48]
+P 46 592
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a Picture to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 38
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 33 613
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 53 54
+c 323 324
+
+S P 39
+s 21Jan2014[09:42.48]
+d 0 0 100 100
+P 835 613
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 55 54
+c 322 324
+
+Z
+
+L 70 1
+s 68 69
+
+L 85 1
+s 84 68
+
+L 71 1
+s 69 83
+
+L 76 1
+s 74 75
+
+L 81 1
+s 80 74
+
+L 77 1
+s 75 79
+
+L 82 1
+s 79 80
+
+L 86 1
+s 83 84
+
+L 48 1
+s 32 33
+
+L 51 1
+s 35 32
+
+L 49 1
+s 33 34
+
+L 50 1
+s 34 35
+
+L 52 1
+s 36 37
+
+L 55 1
+s 39 36
+
+L 53 1
+s 37 38
+
+L 54 1
+s 38 39
+
+Z
+
+C 309 3
+s 68 69
+
+C 310 2
+s 84 68
+
+C 311 2
+s 69 83
+
+C 313 3
+s 74 75
+
+C 314 2
+s 80 74
+
+C 315 2
+s 75 79
+
+C 316 3
+s 79 80
+
+C 312 3
+s 83 84
+
+C 317 3
+s 32 33
+
+C 318 2
+s 35 32
+
+C 319 2
+s 33 34
+
+C 320 3
+s 34 35
+
+C 321 3
+s 36 37
+
+C 322 2
+s 39 36
+
+C 323 2
+s 37 38
+
+C 324 3
+s 38 39
+
+Z
+
+ActiveTime:00:02:34
+DarkTime:00:00:00
+52:03:152 111 135 Md
+52:03:223 111 135 Mu
+52:04:152 154 135 Md
+52:04:239 154 135 Mu
+52:04:608 135 107 Md
+52:04:700 141 108 Mu
+52:06:080 176 113 Md
+52:06:183 176 113 Mu
+52:06:608 107 77 Md
+52:06:703 104 78 Mu
+52:07:496 106 83 Md
+52:07:591 106 83 Mu
+52:09:144 71 158 Md
+52:09:263 71 158 Mu
+52:09:832 120 156 Md
+52:09:919 120 156 Mu
+52:10:392 115 203 Md
+52:10:471 115 203 Mu
+52:11:616 178 201 Md
+52:11:695 178 201 Mu
+52:12:097 381 283 Md
+52:12:213 386 283 Mu
+52:13:040 407 281 Md
+52:13:111 407 281 Mu
+52:14:677 467 811 kRight

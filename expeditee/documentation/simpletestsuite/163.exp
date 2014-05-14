@@ -1,0 +1,48 @@
+A SimpleTestSuite163
+V 2
+p 4
+U root
+D 29Apr2008:1314
+M root
+d 29May2008:2100
+Z
+
+S T 10
+s 29Apr2008:1314
+d 0 0 100
+P 20 72
+f sb58
+T ForEachText $ip.text $fp.Frame
+
+S T 5
+s 29Apr2008:1313
+d 0 0 0
+P 78 141
+T CopyItem $ip.text $ip.copy
+
+S T 7
+s 29Apr2008:1317
+d 0 0 0
+P 79 181
+T AssertDefined $ip.copy
+
+S T 8
+s 29Apr2008:1341
+d 0 0 0
+P 80 218
+T AddItemToFrame $fp.stageFrame $ip.text
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:11
+DarkTime:00:00:00
+00:01:979 183 10 Md
+00:02:108 183 10 Mu
+00:04:225 183 52 Md
+00:04:388 183 52 Mu
+00:10:804 248 272 Ld
+00:10:989 248 272 Lu

@@ -1,0 +1,149 @@
+V 5
+p UWW
+U root
+D 17Apr2008:1410
+M root
+d 07Jun2008:0121
+Z
+
+S T 191
+s 17Apr2008:1410
+d 0 0 100
+P 22 35
+X RunFrame
+f tr35
+T GetListOfFramesetsTest
+k N
+
+S P 192
+s 17Apr2008:1440
+P 506 77
+h 2.0
+l 194 204
+c 162 165
+
+S P 193
+s 17Apr2008:1440
+P 42 77
+h 2.0
+l 194 195
+c 162 164
+
+S T 196
+s 17Apr2008:1410
+P 76 123
+T Set $s.frameName "SimpleTestSuite141"
+k N
+
+S T 197
+s 17Apr2008:1411
+d 0 0 0
+P 76 159
+T ReadFrame $s.frameName $fp.cur
+k N
+
+S T 140
+s 17Apr2008:1410
+d 100 0 100
+P 596 187
+F 141
+T @StageFrame
+k N
+
+S T 198
+s 17Apr2008:1411
+d 0 0 0
+P 78 199
+T Set $i.x 250
+k N
+
+S T 199
+s 17Apr2008:1411
+d 0 0 0
+P 80 235
+T Set $i.y 250
+k N
+
+S T 200
+s 17Apr2008:1412
+d 0 0 0
+P 77 268
+T GetListOfFramesets $s.cur
+k N
+
+S T 201
+s 17Apr2008:1411
+d 0 0 100
+P 69 298
+T CreateItem $fp.Cur $i.x $i.y $ip.Cur $s.cur
+k N
+
+S P 202
+s 17Apr2008:1440
+P 42 357
+h 2.0
+l 195 205
+c 164 163
+
+S P 203
+s 17Apr2008:1440
+P 506 357
+h 2.0
+l 204 205
+c 165 163
+
+S T 135
+s 17Apr2008:1410
+P 933 574
+F SimpleTestSuite89
+T @ao
+k N
+
+Z
+
+L 194 1
+s 192 193
+
+L 204 1
+s 203 192
+
+L 195 1
+s 193 202
+
+L 205 1
+s 202 203
+
+Z
+
+C 162 3
+s 192 193
+
+C 165 2
+s 203 192
+
+C 164 2
+s 193 202
+
+C 163 3
+s 202 203
+
+Z
+
+ActiveTime:00:00:25
+DarkTime:00:00:00
+00:03:090 219 377 Md
+00:03:272 219 377 Mu
+00:03:814 220 382 Rd
+00:03:852 220 382 Md
+00:07:755 183 14 Ld
+00:07:894 183 14 Lu
+00:18:913 202 10 Md
+00:19:116 202 10 Mu
+00:20:663 198 21 Md
+00:20:876 198 21 Mu
+00:22:061 158 311 Md
+00:22:215 158 311 Mu
+00:23:534 159 341 Md
+00:23:704 159 341 Mu
+00:25:008 630 182 Ld
+00:25:108 630 182 Lu

@@ -1,0 +1,493 @@
+V 12
+U jts21A
+D 20Jan2014[15:17]
+M jts21A
+d 21Jan2014[10:48]
+Z
+
+S T 10
+s 20Jan2014[15:17]
+d 0 0 100 100
+P 16 55
+T Create a triangle, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 127
+s 20Jan2014[15:17.13]
+d 50 50 50 100
+P 36 82
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 126
+s 20Jan2014[15:17.13]
+P 28 114
+T var frame = loadTutorialFrame(28)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 125
+s 20Jan2014[15:17.13]
+P 27 147
+T var polygons = countSides(frame, true)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 124
+s 20Jan2014[15:17.13]
+P 27 175
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 123
+s 20Jan2014[15:17.13]
+P 32 209
+T for(var i in polygons)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 105
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 44 235
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 107 108
+c 220 221
+
+S P 106
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 259 235
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 107 121
+c 220 222
+
+S T 109
+s 20Jan2014[15:17.13]
+P 61 259
+T if(polygons[i] == 3)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 110
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 75 272
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 112 113
+c 224 225
+
+S P 111
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 247 272
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 112 117
+c 224 226
+
+S T 114
+s 20Jan2014[15:17.13]
+P 100 297
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 115
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 247 312
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 117 118
+c 226 227
+
+S P 116
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 75 312
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 113 118
+c 225 227
+
+S P 119
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 259 330
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 121 122
+c 222 223
+
+S P 120
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 44 330
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 108 122
+c 221 223
+
+S T 104
+s 20Jan2014[15:17.13]
+P 33 369
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 93
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 28 406
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 96 94
+c 228 230
+
+S P 95
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 1007 406
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 96 102
+c 228 229
+
+S T 103
+s 20Jan2014[15:17.13]
+P 44 462
+T frame.addText(70, 392, "You can create circles by hovering an arrow and pressing ctrl+c,\nor typing \"@c\" and placing it on an arrow's head", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 98
+s 20Jan2014[15:17.13]
+P 48 548
+T frame.addText(70, 449, "Create a circle, then click here to continue", "runJSFrame", "Tutorials34")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 99
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 28 571
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 94 101
+c 230 231
+
+S P 100
+s 20Jan2014[15:17.13]
+d 100 0 0 100
+P 1007 571
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 102 101
+c 229 231
+
+S T 79
+s 20Jan2014[15:17.13]
+P 35 605
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 70
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 833 623
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 72 77
+c 232 233
+
+S P 71
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 31 623
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 72 73
+c 232 234
+
+S T 74
+s 20Jan2014[15:17.13]
+P 44 657
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a triangle to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 75
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 31 678
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 73 78
+c 234 235
+
+S P 76
+s 20Jan2014[15:17.13]
+d 0 0 100 100
+P 833 678
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 77 78
+c 233 235
+
+Z
+
+L 107 1
+s 106 105
+
+L 108 1
+s 105 120
+
+L 121 1
+s 119 106
+
+L 112 1
+s 111 110
+
+L 113 1
+s 110 116
+
+L 117 1
+s 115 111
+
+L 118 1
+s 116 115
+
+L 122 1
+s 120 119
+
+L 96 1
+s 95 93
+
+L 94 1
+s 93 99
+
+L 102 1
+s 100 95
+
+L 101 1
+s 99 100
+
+L 72 1
+s 70 71
+
+L 77 1
+s 76 70
+
+L 73 1
+s 71 75
+
+L 78 1
+s 75 76
+
+Z
+
+C 220 3
+s 106 105
+
+C 221 2
+s 105 120
+
+C 222 2
+s 119 106
+
+C 224 3
+s 111 110
+
+C 225 2
+s 110 116
+
+C 226 2
+s 115 111
+
+C 227 3
+s 116 115
+
+C 223 3
+s 120 119
+
+C 228 3
+s 95 93
+
+C 230 2
+s 93 99
+
+C 229 2
+s 100 95
+
+C 231 3
+s 99 100
+
+C 232 3
+s 70 71
+
+C 233 2
+s 76 70
+
+C 234 2
+s 71 75
+
+C 235 3
+s 75 76
+
+Z
+
+ActiveTime:00:03:47
+DarkTime:00:00:00
+48:53:376 98 84 Md
+48:53:467 94 84 Mu
+48:53:856 81 78 Md
+48:53:943 81 78 Mu
+48:55:957 973 927 kRight

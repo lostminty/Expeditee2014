@@ -1,0 +1,112 @@
++v+ 22
++V+ 12
++p+ 4
++U+ ra33
++D+ 05Feb2008:1222
++M+ root
++d+ 26Jun2008:0101
++A+ simpletestsuite24
+
++S+ 17
++s+ 05Feb2008:1222
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ GetFrameName Test
+
++S+ 119
++s+ 05Feb2008:1252
++P+ 36 67
++T+ GetCurrentFrame $fp.cur $s.currFrameName
+
++S+ 89
++s+ 05Feb2008:1252
++P+ 31 90
++h+ 2.0
++l+ 91 102
++c+ 57 60
+
++S+ 90
++s+ 05Feb2008:1252
++P+ 581 90
++h+ 2.0
++l+ 91 92
++c+ 57 59
+
++S+ 93
++s+ 05Feb2008:1250
++P+ 49 125
++T+ Set $s. "SimpleTestSuite24"
+
++S+ 94
++s+ 05Feb2008:1251
++d+ 0 0 0
++P+ 54 162
++T+ Goto
+
++S+ 95
++s+ 05Feb2008:1248
++P+ 46 205
++T+ GetCurrentFrame $fp.
+
++S+ 96
++s+ 05Feb2008:1248
++d+ 0 0 0
++P+ 48 249
++T+ GetFrameName
+
++S+ 97
++s+ 05Feb2008:1251
++P+ 55 292
++T+ Set $s.expectedFrameName "simpletestsuite24"
+
++S+ 98
++s+ 05Feb2008:1251
++d+ 0 0 0
++P+ 51 341
++T+ AssertEquals $s.expectedFrameName $s.
+
++S+ 99
++s+ 05Feb2008:1252
++P+ 581 363
++h+ 2.0
++l+ 92 101
++c+ 59 58
+
++S+ 100
++s+ 05Feb2008:1252
++P+ 31 363
++h+ 2.0
++l+ 102 101
++c+ 60 58
+
++S+ 103
++s+ 05Feb2008:1252
++P+ 44 433
++T+ Goto $s.currFrameName
+
++S+ 118
++s+ 21Feb2008:1503
++P+ 940 573
++F+ SimpleTestSuite89
++T+ @ao
++L+ 91 1
++s+ 89 90
++L+ 102 1
++s+ 100 89
++L+ 92 1
++s+ 90 99
++L+ 101 1
++s+ 99 100
++C+ 57 3
++s+ 89 90
++C+ 60 2
++s+ 100 89
++C+ 59 2
++s+ 90 99
++C+ 58 3
++s+ 99 100
++Z+
+ActiveTime:00:00:01
+DarkTime:00:00:00

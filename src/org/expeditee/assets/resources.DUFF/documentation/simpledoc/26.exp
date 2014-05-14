@@ -1,0 +1,121 @@
+V 1
+p UWW
+U root
+D 27Feb2008:1034
+M root
+d 15Mar2008:0921
+Z
+
+S T 99
+s 27Feb2008:1034
+P 27 13
+f tr33
+T UserInteraction
+
+S T 143
+s 27Feb2008:1034
+d 0 0 100
+P 69 116
+T ReadKbdCond
+
+S T 148
+s 27Feb2008:1037
+d 0 0 100
+P 249 162
+T ClickLeftButton
+
+S T 151
+s 27Feb2008:1037
+d 0 0 100
+P 424 162
+T ReleaseLeftButton
+
+S T 145
+s 27Feb2008:1036
+d 0 0 100
+P 70 166
+T PressLeftButton
+
+S T 155
+s 27Feb2008:1037
+d 0 0 100
+P 438 205
+T ReleaseRightButton
+
+S T 149
+s 27Feb2008:1037
+d 0 0 100
+P 256 206
+T ClickRightButton
+
+S T 146
+s 27Feb2008:1036
+d 0 0 100
+P 75 207
+T PressRightButton
+
+S T 152
+s 27Feb2008:1037
+d 0 0 100
+P 254 243
+T ClickMiddleButton
+
+S T 154
+s 27Feb2008:1037
+d 0 0 100
+P 453 244
+T ReleaseMiddleButton
+
+S T 147
+s 27Feb2008:1036
+d 0 0 100
+P 76 247
+T PressMiddleButton
+
+S T 156
+s 27Feb2008:1037
+d 0 0 100
+P 91 285
+T Repaint
+
+S T 157
+s 27Feb2008:1038
+d 0 0 100
+P 102 324
+T MoveCursorTo $i.x $i.y
+
+S T 158
+s 27Feb2008:1038
+d 0 0 100
+P 96 379
+T GlideCursorTo $i.x $i.y [$r.seconds]
+
+S T 105
+s 27Feb2008:1034
+d 0 0 100
+P 867 563
+F SimpleDoc1
+T @Parent
+
+S T 107
+s 27Feb2008:1034
+d 0 0 100
+P 956 563
+F Walmsley20
+T @ao
+
+S T 106
+s 27Feb2008:1034
+d 0 0 100
+P 859 587
+T @ItemTemplate
+
+Z
+
+Z
+
+Z
+
+00:01 923 579 Ld
+00:01 922 580 Lu
+

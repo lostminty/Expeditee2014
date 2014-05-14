@@ -1,0 +1,124 @@
+V 30
+p 4
+U root
+D 09Jul2008:0929
+M root
+d 29Jul2008:1540
+Z
+
+S T 12
+s 09Jul2008:0929
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T SearchFramesetTest
+
+S T 52
+s 09Jul2008:0929
+P 38 94
+T set $s.frameset "TestFrameset"
+
+S T 57
+s 09Jul2008:1209
+P 478 131
+T set $s.replacementString "StageF"
+
+S T 53
+s 09Jul2008:0931
+P 40 133
+T set $b.replace true
+
+S T 54
+s 09Jul2008:0933
+P 226 134
+T set $s.phrase "StageFrame"
+
+S T 60
+s 26Jul2008:1343
+P 36 160
+T set $i.start 5
+w 976
+
+S T 63
+s 26Jul2008:1343
+P 178 160
+T set $i.finish 50
+w 976
+
+S T 59
+s 09Jul2008:0930
+P 37 196
+T SearchFrameset $s.frameset $s.phrase $s.frameset $b.Replace $s.replacementString $s.ResultFrame $i.start $i.finish
+
+S T 58
+s 10Jul2008:1538
+P 39 230
+T Goto $s.resultFrame
+
+S T 109
+s 29Jul2008:1526
+P 48 285
+T set $s.frameset "TestFrameset"
+
+S T 51
+s 09Jul2008:1011
+d 50 50 50
+P 598 291
+F TestFrameset1
+T @TestFrameset
+
+S T 110
+s 29Jul2008:1526
+P 50 324
+T set $b.replace false
+
+S T 111
+s 29Jul2008:1526
+P 236 325
+T set $s.phrase "Test"
+
+S T 112
+s 29Jul2008:1526
+P 46 351
+T set $i.start 2
+w 976
+
+S T 113
+s 29Jul2008:1526
+P 188 351
+T set $i.finish 10000
+w 976
+
+S T 114
+s 29Jul2008:1526
+P 47 387
+T SearchFrameset $s.frameset $s.phrase $s.frameset $b.Replace $s.replacementString $s.ResultFrame $i.start $i.finish
+
+S T 115
+s 29Jul2008:1526
+P 49 421
+T Goto $s.resultFrame
+
+S T 23
+s 09Jul2008:0929
+P 955 567
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:15:50
+DarkTime:00:23:27
+00:05:340 827 241 Ld
+00:05:436 827 241 Lu
+00:07:308 131 192 kF4
+00:08:114 122 224 kF4
+00:08:403 126 230 kF4
+00:09:154 117 194 kF4
+00:10:137 87 13 Ld
+00:10:194 87 13 Lu

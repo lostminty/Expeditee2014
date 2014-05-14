@@ -1,0 +1,36 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 05Feb2008:1502
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite32
+
++S+ 17
++s+ 05Feb2008:1502
++d+ 0 70 0
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ @AttachStrToCursor Test
+
++S+ 29
++s+ 05Feb2008:1502
++P+ 35 86
++T+ Set $s.cur "AttachStrToCursorTestWorked [SimpleTest32]"
+
++S+ 31
++s+ 05Feb2008:1502
++P+ 35 122
++T+ AttachStrToCursor $s.cur
+
++S+ 32
++s+ 21Feb2008:1503
++P+ 936 536
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:427 105 17 kPage Down

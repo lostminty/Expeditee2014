@@ -1,0 +1,50 @@
+V 5
+p 4
+U root
+D 08May2008:1800
+M root
+d 27Jun2008:1254
+Z
+
+S T 39
+s 08May2008:1800
+d 0 0 100
+P 29 60
+f sb41
+T @HelloWorld
+
+S T 38
+s 08May2008:1800
+d 0 0 0
+P 113 147
+f mr21
+T public class HelloWorld {
+T    public static void main(String[] args) {
+T 	      System.out	.println("Hello Michael!");   		
+T    }	
+T }
+
+S T 15
+s 08May2008:1850
+d 0 0 0
+P 507 505
+F SimpleTestSuite182
+X RunFrame
+T @CompileAndRun
+
+S T 5
+s 08May2008:1800
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:01:34
+DarkTime:00:00:00
+00:03:376 371 317 Ld
+00:03:497 371 317 Lu

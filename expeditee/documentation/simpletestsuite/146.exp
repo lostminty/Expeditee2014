@@ -1,0 +1,53 @@
+V 1
+p UWW
+U root
+D 17Apr2008:1450
+M root
+d 17Apr2008:1451
+Z
+
+S T 133
+s 17Apr2008:1450
+d 0 0 100
+P 26 24
+f tr35
+T ForEachDot $ip.Item $fp.cur
+
+S T 136
+s 17Apr2008:1450
+d 0 0 0
+P 60 104
+T Set $s.color "Pink"
+
+S T 137
+s 17Apr2008:1450
+d 0 0 0
+P 73 146
+T SetItemColor $ip.Item $s.color
+
+S T 135
+s 17Apr2008:1450
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:00 124 203 Md
+00:00 125 203 Mu
+00:03 212 118 kBackspace
+00:03 206 124 kBackspace
+00:03 195 124 kBackspace
+00:03 189 124 kBackspace
+00:04 178 124 kShift
+00:04 178 124 kP
+00:04 188 124 kI
+00:05 194 124 kN
+00:05 205 124 kK
+00:05 162 284 Ld
+00:06 162 284 Lu
+

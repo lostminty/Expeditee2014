@@ -1,0 +1,29 @@
+V 1
+p UWW
+U root
+D 17Apr2008:1110
+M root
+d 17Apr2008:1231
+Z
+
+S T 133
+s 17Apr2008:1110
+d 0 0 100
+P 26 24
+f tr35
+T IfExistingFrame $s.FrameName 
+
+S T 135
+s 17Apr2008:1110
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:00 549 414 kLeft
+

@@ -1,0 +1,29 @@
+V 3
+p 4
+U root
+D 05Jun2008:1657
+M root
+d 05Jun2008:1657
+Z
+
+S T 12
+s 05Jun2008:1657
+d 0 0 100
+P 34 49
+f sb36
+T MessageLn $s.FramesetLabel $s.Frameset
+
+S T 5
+s 05Jun2008:1657
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:01
+DarkTime:00:00:00

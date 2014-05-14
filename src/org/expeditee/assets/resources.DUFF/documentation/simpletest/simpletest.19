@@ -1,0 +1,41 @@
++A+ SimpleTest19
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1207
++M+ ra33
++d+ 01Feb2008:1818
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1207
++P+ 27 10
++T+ Call TestReturn
+
++S+ 6
++s+ 24Jan2008:1207
++P+ 70 90
++T+ Set $i.5 5
+
++S+ 12
++s+ 24Jan2008:1207
++P+ 74 162
++T+ Return
+
++S+ 11
++s+ 24Jan2008:1208
++P+ 64 261
++T+ This should not be reached!!
+
++S+ 5
++s+ 24Jan2008:1207
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 88 24 Rd
+00:01 88 24 Ru
+00:02 902 16 kRight
+

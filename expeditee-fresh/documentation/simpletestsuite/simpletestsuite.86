@@ -1,0 +1,140 @@
++v+ 22
++V+ 6
++p+ 4
++U+ ra33
++D+ 13Feb2008:1618
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite86
+
++S+ 17
++s+ 13Feb2008:1618
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ Else If Test
+
++S+ 114
++s+ 13Feb2008:1617
++P+ 486 67
++h+ 2.0
++l+ 116 171
++c+ 176 178
+
++S+ 115
++s+ 13Feb2008:1617
++P+ 40 67
++h+ 2.0
++l+ 116 117
++c+ 178 177
+
++S+ 118
++s+ 13Feb2008:1617
++P+ 52 93
++T+ Set $s.cur "If Else Test"
+
++S+ 119
++s+ 13Feb2008:1617
++P+ 52 129
++T+ Set $b.True "true"
+
++S+ 132
++s+ 13Feb2008:1619
++P+ 52 165
++T+ Set $b.False "false"
+
++S+ 120
++s+ 13Feb2008:1617
++P+ 52 201
++T+ Set $b.ElseReached "false"
+
++S+ 121
++s+ 13Feb2008:1617
++P+ 52 237
++T+ ifnot $b.True ThisCodeShouldNotBeReached
+
++S+ 122
++s+ 13Feb2008:1617
++P+ 52 273
++T+ else if $b.True set $b.ElseReached "true"
+
++S+ 135
++s+ 13Feb2008:1619
++P+ 52 309
++T+ else ThisCodeShouldNotBeReached
+
++S+ 169
++s+ 13Feb2008:1617
++P+ 56 348
++T+ AssertTrue $b.ElseReached
+
++S+ 126
++s+ 13Feb2008:1617
++P+ 40 393
++h+ 2.0
++l+ 117 172
++c+ 177 179
+
++S+ 170
++s+ 13Feb2008:1617
++P+ 486 393
++h+ 2.0
++l+ 171 172
++c+ 176 179
+
++S+ 173
++s+ 13Feb2008:1621
++P+ 946 573
++F+ SimpleTestSuite89
++T+ @ao
++L+ 116 1
++s+ 114 115
++L+ 171 1
++s+ 170 114
++L+ 117 1
++s+ 115 126
++L+ 172 1
++s+ 126 170
++C+ 176 2
++s+ 114 170
++C+ 178 3
++s+ 115 114
++C+ 177 2
++s+ 126 115
++C+ 179 3
++s+ 170 126
++Z+
+ActiveTime:00:00:10
+DarkTime:00:00:00
+00:00:179 147 44 kPage Up
+00:00:379 146 44 kPage Up
+00:00:539 146 44 kPage Up
+00:00:758 146 44 kPage Up
+00:01:029 146 44 kPage Up
+00:01:254 146 44 kPage Up
+00:01:442 146 44 kPage Up
+00:01:763 146 44 kPage Down
+00:02:263 146 44 kPage Down
+00:02:297 146 44 kPage Down
+00:02:337 146 44 kPage Down
+00:02:766 146 44 kPage Down
+00:03:007 146 44 kPage Down
+00:03:197 146 44 kPage Down
+00:03:662 132 35 kPage Down
+00:04:442 123 27 kPage Down
+00:04:884 123 27 kPage Down
+00:05:264 123 27 kPage Down
+00:05:649 123 27 kPage Down
+00:06:031 123 27 kPage Down
+00:06:429 123 27 kPage Down
+00:06:981 123 27 kPage Down
+00:07:342 123 27 kPage Down
+00:07:722 123 27 kPage Down
+00:08:094 123 27 kPage Down
+00:08:419 123 27 kPage Down
+00:08:715 123 27 kPage Down
+00:09:097 123 27 kPage Down
+00:10:165 123 18 Rd
+00:10:209 123 18 Md
+00:10:293 123 18 kPage Down

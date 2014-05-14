@@ -1,0 +1,124 @@
+V 4
+p 4
+U root
+D 17Apr2008:1458
+M root
+d 26Jun2008:0046
+Z
+
+S T 204
+s 17Apr2008:1458
+d 0 0 100
+P 31 49
+X RunFrame
+f tr35
+T DeleteTest
+
+S P 158
+s 18Apr2008:1222
+P 39 103
+h 2.0
+l 162 168
+c 154 157
+
+S P 159
+s 18Apr2008:1222
+P 474 103
+h 2.0
+l 162 163
+c 154 156
+
+S T 136
+s 17Apr2008:1458
+P 82 142
+D 0
+T Set $s.frameName "SimpleTestSuite151"
+
+S T 137
+s 17Apr2008:1458
+d 0 0 0
+P 82 178
+D 0
+T ReadFrame $s.frameName $fp.cur
+
+S T 143
+s 17Apr2008:1458
+d 100 0 100
+P 500 210
+F 151
+D 0
+T @StageFrame
+
+S T 145
+s 17Apr2008:1458
+d 0 0 0
+P 91 248
+F 149
+D 0
+T ForEachText $fp.cur $ip.Item
+
+S T 196
+s 18Apr2008:1231
+d 0 0 0
+P 84 291
+T CloseFrame $fp.cur
+
+S P 160
+s 18Apr2008:1222
+P 474 314
+h 2.0
+l 163 167
+c 156 155
+
+S P 166
+s 18Apr2008:1222
+P 39 314
+h 2.0
+l 168 167
+c 157 155
+
+S T 135
+s 17Apr2008:1458
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 162 1
+s 158 159
+
+L 168 1
+s 166 158
+
+L 163 1
+s 159 160
+
+L 167 1
+s 160 166
+
+Z
+
+C 154 3
+s 158 159
+
+C 157 2
+s 166 158
+
+C 156 2
+s 159 160
+
+C 155 3
+s 160 166
+
+Z
+
+ActiveTime:00:00:19
+DarkTime:00:00:00
+00:00:521 113 38 kPage Up
+00:01:070 113 34 kPage Up
+00:01:556 114 29 kPage Up
+00:02:012 114 29 kPage Up
+00:02:842 116 34 Rd
+00:02:892 116 34 Md
+00:03:268 114 32 kPage Up
