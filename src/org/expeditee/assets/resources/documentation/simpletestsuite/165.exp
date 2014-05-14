@@ -1,0 +1,65 @@
+V 2
+p 4
+U root
+D 29Apr2008:1342
+M root
+d 25Jun2008:2041
+Z
+
+S T 35
+s 29Apr2008:1342
+d 0 0 100
+P 23 75
+f sb58
+T @StageFrame
+
+S T 4
+s 29Apr2008:1142
+P 70 133
+D 0
+f tr22
+T Set $s.frameName "SimpleTestSuite159"
+
+S T 5
+s 29Apr2008:1142
+d 0 0 0
+P 70 170
+T Set $s.destinationFrameset "FramesetThatDoesntExist"
+
+S T 34
+s 29Apr2008:1214
+d 0 0 0
+P 70 206
+T DeleteFrameset $s.destinationFrameset
+
+S T 33
+s 29Apr2008:1144
+d 0 0 0
+P 70 242
+T ReadFrame $s.FrameName $fp.Frame
+
+S T 32
+s 29Apr2008:1142
+d 0 0 0
+P 70 278
+T CopyFrame $fp.Frame $fp.Copy $s.destinationFrameset $b.success
+
+S T 31
+s 29Apr2008:1214
+d 0 0 0
+P 70 314
+T AssertFalse $b.success
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:04
+DarkTime:00:00:00
+00:01:773 227 17 Md
+00:01:896 227 17 Mu
+00:02:529 230 62 Md
+00:02:643 230 62 Mu
+00:04:958 599 395 kLeft

@@ -1,0 +1,53 @@
+V 3
+p 4
+U root
+D 17Apr2008:1038
+M root
+d 26Jun2008:0046
+Z
+
+S T 133
+s 17Apr2008:1038
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T ReturnForEachTest
+
+S T 284
+s 17Apr2008:1049
+d 0 0 0
+P 56 98
+F 128
+T Call TestMethod
+
+S T 276
+s 17Apr2008:1046
+d 100 0 100
+P 566 198
+F 127
+T @StageFrame
+
+S T 135
+s 17Apr2008:1038
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:04
+DarkTime:00:00:00
+00:00:599 108 18 kPage Up
+00:01:170 108 18 kPage Up
+00:01:882 108 18 Md
+00:01:908 108 18 Rd
+00:03:227 130 83 Md
+00:03:357 130 86 Mu
+00:04:033 127 92 Md
+00:04:174 127 92 Mu
+00:04:382 123 79 kPage Up

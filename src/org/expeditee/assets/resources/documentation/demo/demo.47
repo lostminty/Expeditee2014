@@ -1,0 +1,29 @@
++A+ Demo47
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ F6 Creates a new frameset, with the name of the item being pointed at
++S+ 10
++P+ 101 162
++f+ tr21
++T+ F6 will also automatically navigate to the first frame of the created frameset
++S+ 11
++P+ 151 307
++f+ tr21
++T+ TestFrameset
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

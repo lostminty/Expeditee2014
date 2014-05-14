@@ -1,0 +1,25 @@
++A+ Demo35
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Annotation items
++S+ 9
++P+ 137 162
++f+ tr21
++T+ Annotation items are any text items that start with @
++S+ 10
++P+ 83 219
++f+ tr21
++T+ They are ignored by agents (such as WriteTree) and allow the user to make notes that will
++T+ not be output to files when exporting frames.
++Z+

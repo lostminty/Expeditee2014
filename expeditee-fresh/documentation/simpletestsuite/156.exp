@@ -1,0 +1,76 @@
+V 6
+p 4
+U root
+D 21Apr2008:1251
+M root
+d 26Jun2008:0046
+Z
+
+S T 176
+s 21Apr2008:1251
+d 0 0 100
+P 33 48
+X RunFrame
+f tr35
+T CopyFramesetTest
+
+S T 136
+s 21Apr2008:1251
+P 94 106
+D 0
+f tr22
+T Set $s.framesetName "SimpleTestSuite"
+
+S T 184
+s 21Apr2008:1252
+d 0 0 0
+P 94 153
+T Set $s.copyName "CopySimpleTestSuite"
+
+S T 170
+s 21Apr2008:1323
+d 0 0 0
+P 94 199
+T DeleteFrameset $s.copyName
+
+S T 173
+s 21Apr2008:1251
+d 0 0 0
+P 94 245
+T CopyFrameset $s.framesetName $s.copyName $b.success
+
+S T 183
+s 21Apr2008:1251
+d 0 0 0
+P 94 291
+T AssertTrue $b.success
+
+S T 182
+s 21Apr2008:1323
+d 0 0 0
+P 94 337
+T CopyFrameset $s.framesetName $s.copyName $b.success
+
+S T 181
+s 21Apr2008:1323
+d 0 0 0
+P 94 383
+T AssertFalse $b.success
+
+S T 135
+s 21Apr2008:1251
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:57
+DarkTime:00:01:08
+00:00:702 112 30 Rd
+00:00:740 112 30 Md
+00:01:029 112 30 kPage Up

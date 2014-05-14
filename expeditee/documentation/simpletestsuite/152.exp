@@ -1,0 +1,86 @@
+V 3
+p 4
+U root
+D 18Apr2008:1222
+M root
+d 26Jun2008:0046
+Z
+
+S T 133
+s 18Apr2008:1222
+d 0 0 100
+P 26 24
+X RunFrame
+f tr35
+T DeleteFrameTest
+
+S T 211
+s 14May2008:2208
+P 77 100
+D 0
+T Set $s.framesetName "SimpleTestFrameset"
+
+S T 210
+s 14May2008:2208
+d 0 0 0
+P 72 131
+T DeleteFrameset $s.framesetName $b.success
+
+S T 209
+s 14May2008:2209
+d 0 0 0
+P 72 166
+T CreateFrameset $s.framesetName $b.success
+
+S T 147
+s 18Apr2008:1223
+d 100 0 100
+P 647 181
+F 153
+T @StageFrame
+
+S T 223
+s 18Apr2008:1222
+P 82 232
+D 0
+T Set $s.frameName "SimpleTestFrameset1"
+
+S T 224
+s 18Apr2008:1222
+d 0 0 0
+P 86 264
+D 0
+T ReadFrame $s.frameName $fp.cur
+
+S T 225
+s 18Apr2008:1223
+d 0 0 0
+P 85 302
+T DeleteFrame $fp.cur $b.result
+
+S T 257
+s 14May2008:2210
+d 0 0 0
+P 85 340
+T AssertTrue $b.result
+
+S T 135
+s 18Apr2008:1222
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:02
+DarkTime:00:00:00
+00:00:501 114 31 kPage Up
+00:00:995 112 27 kPage Up
+00:01:546 111 22 kPage Up
+00:02:399 112 24 Md
+00:02:429 112 24 Rd
+00:02:797 112 24 kPage Up

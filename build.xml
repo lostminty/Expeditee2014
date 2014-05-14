@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="Expeditee">
+
+	<tstamp>
+		<format property="TODAY_EXP" pattern="yy.MM.dd"/>
+	</tstamp>
+
+	<property environment="env"/>
+
+	<property name="dist.dir.exp" location="releases" />
+	<!--
+		<property name="dist.filename.exp" value="Exp.${TODAY_EXP}.jar" />
+	-->
+	<property name="dist.filename.exp"   value="Expeditee.jar" />
+	<property name="build.dir.exp"   location="bin" />
+	<property name="manifest.path.exp"  value="makeFiles/Manifest.txt" />
+	<property name="lib.dir.exp"  location="releases/jars" />
+	<property name="inst.dir.exp" location="inst" />
+
+	<!--
+	     If changing this value, make sure you run `ant clean`
+	-->
+	<property name="javac.source" value="1.8" />
+	<property name="javac.target" value="${javac.source}" />
+	
+        <property name="expeditee.server.port" value="3000"/>
+
+	<union id="portable.includes.exp">
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/junit.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/activation.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/cobra.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/iText-2.1.3.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/jcommon-1.0.13.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/JEP.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/JFreeCharts.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/js.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/lobo.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/lobo-pub.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/mail.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/xercesImpl.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/jazzy-core.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/PDFRenderer-0.9.1.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/json-simple-1.1.1.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/commons-cli-1.2.jar"/>
+		<zipfileset excludes="META-INF/*.SF" src="releases/jars/jgraphx.jar"/>
+	</union>
+
+	<path id="classpath.exp">
+		<fileset dir="${lib.dir.exp}">
+			<include name="*.jar" />
+			<include name="ext/*.jar" />
+		</fileset>
+	</path>
+	
+	<path id="classpath.jfx">
+		<!-- Check this points to an existing file, if you can't find the jar just compile with build-nojfx -->
+		<pathelement location="${java.home}/lib/jfxrt.jar"/>
+	</path>
+
+	<target name="clean">
+		<!-- delete only the class files built by expeditee -->
+		<delete dir="${build.dir.exp}/org"/>
+		<delete dir="${inst.dir.exp}" />
+	</target>
+	<target depends="clean" name="cleanall"/>
+
+	<target name="init">
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<mkdir dir="${build.dir.exp}"/>
+		<copy includeemptydirs="false" todir="${build.dir.exp}">
+			<fileset dir="src">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="${build.dir.exp}">
+			<fileset dir="tests">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target depends="init" name="build">
+		<javac source="${javac.source}" target="${javac.target}" debug="true" 
+                       destdir="${build.dir.exp}" includeantruntime="false">                       
+			
+			<src path="src"/>
+			<src path="tests"/>
+			
+			<exclude name="org/expeditee/items/widgets/WebBrowser.java"/>
+		
+			<classpath>
+				<path refid="classpath.exp"/>
+				
+				<!-- jfxrt.jar path -->
+				<path refid="classpath.jfx"/>
+			</classpath>
+		</javac>
+	</target>
+
+	<target depends="init" name="build-nojfx">
+		<javac source="${javac.source}" target="${javac.target}" debug="false" 
+                       destdir="${build.dir.exp}" includeantruntime="false">                       
+			
+			<src path="tests"/>
+			<src path="src"/>
+			<exclude name="org/expeditee/items/widgets/WebBrowser.java"/>
+			
+			<!-- Files that rely on JavaFX. Use build to build with them included -->
+			<exclude name="org/expeditee/items/widgets/JfxBrowser.java"/>
+			<exclude name="org/expeditee/io/WebParser.java"/>
+			<exclude name="org/expeditee/actions/JfxBrowserActions.java"/>	
+			
+			<classpath refid="classpath.exp"/>
+		</javac>
+	</target>
+	
+
+	
+	<target depends="build" name="jar">
+		<jar destfile="${dist.dir.exp}/${dist.filename.exp}" manifest="${manifest.path.exp}">
+			<manifest>
+				<attribute name="Main-Class" value="org.expeditee.gui.Browser"/>
+				<attribute name="Class-Path" value="."/>
+			</manifest>
+			<fileset dir="${build.dir.exp}">
+				<exclude name="src/**"/>
+			</fileset>
+		</jar>
+	</target>
+	<target depends="build" name="portablejar">
+		<jar destfile="${dist.dir.exp}/${dist.filename.exp}" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Main-Class" value="org.expeditee.gui.Browser"/>
+				<attribute name="Class-Path" value="."/>
+			</manifest>
+			<fileset dir="${build.dir.exp}">
+				<exclude name="src/**"/>
+			</fileset>
+			<resources refid="portable.includes.exp" />
+		</jar>
+	</target>
+	<target depends="jar" name="inst">
+		<mkdir dir="${inst.dir.exp}" />
+		<mkdir dir="${inst.dir.exp}/jars" />
+		<copy file="${dist.dir.exp}/${dist.filename.exp}" tofile="${inst.dir.exp}/${dist.filename.exp}" />
+		<copy todir="${inst.dir.exp}/jars">
+			<path refid="classpath.exp" />
+		</copy>
+	</target>
+
+	<target name="run">
+		<java classname="org.expeditee.gui.Browser" failonerror="true" fork="yes">
+			<classpath>
+				<path refid="classpath.exp"/>
+				
+				<!-- jfxrt.jar path -->
+				<path refid="classpath.jfx"/>
+
+				<pathelement location="${build.dir.exp}"/>
+			</classpath>
+		</java>
+	</target>
+
+	<target name="run-fresh">
+		<java classname="org.expeditee.gui.Browser" failonerror="true" fork="yes">
+			<classpath refid="classpath.exp"/>
+			<classpath>
+				<pathelement location="${build.dir.exp}"/>
+			</classpath>
+                        <jvmarg value="-Dexpeditee.home=${user.dir}/expeditee-fresh"/>
+		</java>
+	</target>
+
+
+
+
+	<target name="run-server">
+                <echo>Launching Command-line Expeditee Server on port ${expeditee.server.port}</echo>
+		<java classname="org.expeditee.network.FrameShare" failonerror="true" fork="yes">
+			<classpath refid="classpath.exp"/>
+			<classpath>
+				<pathelement location="${build.dir.exp}"/>
+			</classpath>
+                        <jvmarg value="-Dexpeditee.home=${user.dir}/expeditee-home"/>
+                        <arg value="${expeditee.server.port}"/>
+		</java>
+	</target>
+</project>

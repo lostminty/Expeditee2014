@@ -1,0 +1,80 @@
+V 42
+p 4
+U root
+D 26Jun2008:0001
+M root
+d 27Jun2008:1204
+Z
+
+S T 12
+s 26Jun2008:0001
+d 0 0 100
+P 34 49
+X DebugFrame
+f sb41
+T @DebugProcedureTest
+
+S T 119
+s 26Jun2008:0016
+P 45 116
+T Set $s. "FirstMessage"
+
+S T 130
+s 26Jun2008:0017
+P 401 154
+X DebugFrame 0.3
+T @DebugFrame 0.3
+
+S T 117
+s 26Jun2008:0016
+P 49 157
+T MessageLn
+
+S T 115
+s 26Jun2008:0001
+d 0 70 0
+P 48 199
+F 316
+T //This is a comment
+
+S T 143
+s 27Jun2008:1141
+d 50 50 50
+P 404 215
+X DebugFrame
+T @DebugFrame
+
+S T 114
+s 26Jun2008:0002
+P 51 247
+T Messageln $s.message
+
+S T 5
+s 26Jun2008:0001
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:24:14
+DarkTime:00:22:15
+00:01:158 430 264 kCtrl
+00:01:327 430 264 kSpace
+00:01:748 430 264 kSpace
+00:02:242 430 264 kSpace
+00:02:711 430 264 kSpace
+00:03:422 430 264 kSpace
+00:03:976 430 264 kSpace
+00:04:622 430 264 kSpace
+00:05:258 430 264 kSpace
+00:10:574 477 254 Md
+00:10:700 477 254 Mu
+00:11:728 475 203 Md
+00:11:848 475 203 Mu
+00:15:734 471 144 Ld
+00:15:881 471 144 Lu

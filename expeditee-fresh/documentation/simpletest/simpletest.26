@@ -1,0 +1,43 @@
++v+ 22
++V+ 4
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1436
++M+ root
++d+ 05Jun2008:1127
++A+ SimpleTest26
+
++S+ 21
++s+ 24Jan2008:1436
++P+ 22 27
++T+ Repeat
+
++S+ 9
++s+ 24Jan2008:1439
++P+ 73 69
++T+ Add $i.i
+
++S+ 12
++s+ 24Jan2008:1437
++P+ 73 114
++T+ Add $i.toAdd $i.Res
+
++S+ 18
++s+ 24Jan2008:1439
++P+ 76 198
++F+ SimpleTest28
++T+ Ifgeq $i.i $i.No
+
++S+ 5
++s+ 24Jan2008:1436
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+ActiveTime:00:00:08
+DarkTime:00:00:00
+00:00:966 348 289 kEscape
+00:05:846 48 2 Md
+00:05:996 48 3 Mu
+00:06:524 43 20 Md
+00:06:641 43 20 Mu

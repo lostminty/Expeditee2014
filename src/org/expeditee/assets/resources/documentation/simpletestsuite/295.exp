@@ -1,0 +1,68 @@
+V 25
+p 4
+U root
+D 25Jun2008:0931
+M root
+d 26Jun2008:0047
+Z
+
+S T 12
+s 25Jun2008:0931
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T AutoFrameVariableTest
+
+S T 61
+s 25Jun2008:1830
+d 50 50 50
+P 545 101
+F 303
+T @TestFrame
+
+S T 39
+s 25Jun2008:1830
+P 51 117
+T GetFrameItemCount $fp.testFrame $i.count
+
+S T 62
+s 25Jun2008:1834
+P 50 175
+T Set $i.expectedCount 7
+
+S T 83
+s 25Jun2008:1845
+P 52 234
+T Set $s.expectedName "SimpleTestSuite303"
+
+S T 82
+s 25Jun2008:1846
+P 50 295
+T AssertEquals $s.expectedName $s.testFrame
+
+S T 87
+s 25Jun2008:1834
+P 55 351
+T AssertEquals $i.count $i.expectedCount
+
+S T 5
+s 25Jun2008:0931
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:09:35
+DarkTime:00:09:58
+00:00:438 109 37 kPage Up
+00:00:839 109 37 kPage Up
+00:01:268 109 37 kPage Up
+00:01:847 109 37 Md
+00:01:872 109 37 Rd
+00:02:147 109 37 kPage Up

@@ -1,0 +1,95 @@
++v+ 22
++A+ SimpleTest64
++V+ 2
++p+ UWW
++U+ ra33
++D+ 30Jan2008:1610
++M+ root
++d+ 29May2008:1651
+
++S+ 37
++s+ 30Jan2008:1610
++P+ 39 41
++X+ RunFrame
++T+ DefaultParametre
+
++S+ 18
++s+ 30Jan2008:1620
++P+ 97 80
++T+ Set $s. "Lets output this message!"
+
++S+ 20
++s+ 30Jan2008:1620
++P+ 97 116
++T+ MessageLn
+
++S+ 22
++s+ 30Jan2008:1620
++P+ 97 152
++T+ ErrorLn
+
++S+ 25
++s+ 30Jan2008:1621
++P+ 97 188
++T+ Set $i. 5
+
++S+ 28
++s+ 30Jan2008:1621
++P+ 97 224
++T+ Add
+
++S+ 30
++s+ 30Jan2008:1621
++P+ 97 260
++T+ Add
+
++S+ 32
++s+ 30Jan2008:1621
++P+ 97 296
++T+ Subtract
+
++S+ 35
++s+ 30Jan2008:1621
++P+ 103 346
++F+ SimpleTest65
++T+ ifnotzero
+
++S+ 36
++s+ 30Jan2008:1622
++P+ 102 392
++F+ SimpleTest66
++T+ ifzero
+
++S+ 7
++s+ 30Jan2008:1610
++P+ 792 608
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 30Jan2008:1610
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
+
++S+ 16
++s+ 30Jan2008:1610
++P+ 690 609
++X+ Format
++T+ @Format
++Z+
+ActiveTime:00:00:27
+DarkTime:00:00:00
+00:05:591 97 4 Md
+00:05:738 98 5 Mu
+00:06:589 110 36 Md
+00:06:742 111 36 Mu
+00:18:578 183 74 kBackspace
+00:18:769 174 80 kBackspace
+00:18:930 162 80 kBackspace
+00:23:888 173 187 kRight
+00:24:338 178 188 kBackspace
+00:24:539 170 188 kBackspace
+00:24:699 159 188 kBackspace
+00:27:070 115 41 Ld
+00:27:211 115 41 Lu

@@ -1,0 +1,46 @@
+V 3
+U jts
+D 16Feb2014[14:29]
+M jts
+d 16Feb2014[16:45]
+Z
+
+S T 3
+s 16Feb2014[14:29.46]
+d 0 0 100 100
+P 15 55
+T game0
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1804
+h -1.0
+
+S T 4
+s 16Feb2014[16:28.25]
+P 169 55
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+45:34:949 232 43 Rd
+45:35:077 232 43 Ru
+45:35:219 303 155 kRight

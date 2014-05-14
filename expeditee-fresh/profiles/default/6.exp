@@ -1,0 +1,406 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+d 0 0 100 100
+P 15 81
+T settings
+Q 0
+o davidb
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 926
+h -1.0
+
+S T 6
+s 14Jan2014[17:56.17]
+P 35 160
+T AntiAlias: false
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 160
+T // Whether anti-aliasing should be enabled
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.17]
+P 35 200
+T LineHighlight: false
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 200
+T // Whether lines should be highlighted
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 12
+s 14Jan2014[17:56.17]
+P 35 240
+T Logging: false
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 13
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 240
+T // Whether logging should be enabled
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 15
+s 14Jan2014[17:56.17]
+P 35 280
+T LogStats: true
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 16
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 280
+T // Whether stats should be logged
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 18
+s 14Jan2014[17:56.17]
+P 35 320
+T Threading: true
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 19
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 320
+T // Whether threading should be enabled
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 21
+s 14Jan2014[17:56.17]
+P 35 360
+T DefaultFrame: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 22
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 360
+T // The default frame
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 24
+s 14Jan2014[17:56.17]
+P 35 400
+T StatisticsFrameset: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 25
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 400
+T // The statistics frameset
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 27
+s 14Jan2014[17:56.17]
+P 35 440
+T MenuFrame: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 28
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 440
+T // The menu frame
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 30
+s 14Jan2014[17:56.17]
+P 35 480
+T HomeFrame: 
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 31
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 480
+T // The home frame
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 33
+s 14Jan2014[17:56.17]
+P 35 520
+T FrameDirs
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 34
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 520
+T // Directories to look in for frames
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 36
+s 14Jan2014[17:56.17]
+P 35 560
+T FramesetDir
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 37
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 560
+T // Adds a directory to look in for frames
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 39
+s 14Jan2014[17:56.17]
+P 35 600
+T ImageDirs
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 40
+s 14Jan2014[17:56.17]
+d 0 70 0 100
+P 450 600
+T // Directories to look in for images
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 4
+s 14Jan2014[17:56.17]
+G 75 75 75 100
+K 25 25 25 100
+P 846 648
+T @Previous
+F default2
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+S T 5
+s 14Jan2014[17:56.17]
+G 75 75 75 100
+K 25 25 25 100
+P 767 648
+T @First
+F default2
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+S T 42
+s 14Jan2014[17:56.17]
+G 75 75 75 100
+K 25 25 25 100
+P 955 648
+T @Next
+F default7
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

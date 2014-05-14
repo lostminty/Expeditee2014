@@ -1,0 +1,124 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 07Feb2008:0947
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite36
+
++S+ 17
++s+ 07Feb2008:0947
++d+ 0 0 100
++P+ 35 20
++f+ tr35
++T+ @SimpleTestSuite36
+
++S+ 36
++s+ 07Feb2008:0947
++P+ 104 127
++T+ @This is an empty frame specifically for the test
+
++S+ 37
++s+ 07Feb2008:0949
++P+ 153 196
++T+ @It is searching for the pattern 'test' on this test frame
+
++S+ 39
++s+ 07Feb2008:0949
++P+ 153 265
++T+ @the pattern "test" occurs 5 times
+
++S+ 41
++s+ 07Feb2008:0949
++P+ 153 334
++F+ SimpleTestSuite67
++T+ @the pattern will be asserted to be equal to 5 for the test to pass
+
++S+ 8
++s+ 07Feb2008:0947
++P+ 990 581
++h+ 2.0
++l+ 34 14
++c+ 52 51
+
++S+ 33
++s+ 07Feb2008:0947
++P+ 163 581
++h+ 2.0
++l+ 34 35
++c+ 52 50
+
++S+ 3
++s+ 07Feb2008:0947
++P+ 778 609
++F+ Walmsley314
++T+ @Home
+
++S+ 4
++s+ 07Feb2008:0947
++P+ 488 609
++X+ NewSimpleTest
++T+ @NewSimpleTest
+
++S+ 5
++s+ 07Feb2008:0947
++P+ 871 610
++F+ SimpleTestSuite0
++T+ @ZeroFrame
+
++S+ 6
++s+ 07Feb2008:0947
++P+ 676 610
++X+ Format
++T+ @Format
+
++S+ 23
++s+ 07Feb2008:0947
++d+ 0 70 0
++P+ 328 611
++X+ RunSimpleTests SimpleTestSuite
++f+ tr21
++T+ @RunTestSuite
+
++S+ 32
++s+ 07Feb2008:0947
++d+ 70 70 0
++P+ 197 611
++F+ SimpleDoc1
++f+ tr22
++T+ @SimpleDoc
+
++S+ 10
++s+ 07Feb2008:0947
++P+ 990 636
++h+ 2.0
++l+ 14 26
++c+ 51 53
+
++S+ 24
++s+ 07Feb2008:0947
++P+ 163 636
++h+ 2.0
++l+ 35 26
++c+ 50 53
++L+ 34 1
++s+ 33 8
++L+ 14 1
++s+ 8 10
++L+ 35 1
++s+ 24 33
++L+ 26 1
++s+ 10 24
++C+ 52 3
++s+ 8 33
++C+ 51 2
++s+ 10 8
++C+ 50 2
++s+ 33 24
++C+ 53 3
++s+ 24 10
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:417 105 17 kPage Down

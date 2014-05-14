@@ -1,0 +1,50 @@
++v+ 22
++V+ 3
++p+ 4
++U+ root
++D+ 20Feb2008:1149
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite98
+
++S+ 133
++s+ 20Feb2008:1149
++d+ 0 0 100
++P+ 26 24
++f+ tr35
++T+ @AttributeFrame
+
++S+ 152
++s+ 26Jun2008:0047
++d+ 0 0 100
++P+ 26 24
++f+ tr35
++T+ @AttributeFrame
+
++S+ 149
++s+ 20Feb2008:1149
++d+ 100 0 0
++P+ 151 137
++T+ CustomAttribute: 55
+
++S+ 136
++s+ 20Feb2008:1233
++d+ 70 70 0
++P+ 141 269
++T+ CustomAttribute2:
+
++S+ 151
++s+ 20Feb2008:1234
++d+ 100 0 100
++P+ 321 269
++T+ 24
+
++S+ 129
++s+ 20Feb2008:1149
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:335 147 45 kPage Up

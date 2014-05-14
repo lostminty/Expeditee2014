@@ -1,0 +1,14 @@
+LGPL >= 2.1					jcommon-1.0.13.jar
+LGPL 2.1					PDFRenderer-0.9.1.jar
+LGPL / GPL					cobra.jar, ext/cobra-no-commons.jar
+LGPL						jazzy-core.jar
+LGPL						iText-2.1.3.jar
+LGPL						JFreeCharts.jar
+GPL							lobo-pub.jar, lobo.jar, ext/jweb-ext.jar, ext/primary.jar
+Public Domain? - or LGPL ?	ext/xpp3-1.1.3.4.M.jar
+Apache 2					xercesImpl.jar, json-simple-1.1.1.jar
+MPL 2						js.jar, ext/js.jar (same file - delete?)
+EPL 1						junit.jar
+Java Core (?)				activation.jar, mail.jar, ext/javafxrt.jar, ext/javafxc.jar, ext/jlfgr-1_0.jar, ext/Scenario-0.5.jar
+Commercial trial (?)		JEP.jar
+BSD 3-clause derivative		jgraphx.jar (see jgraphx_LICENSE.txt)

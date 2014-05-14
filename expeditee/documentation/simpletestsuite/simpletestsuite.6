@@ -1,0 +1,52 @@
++v+ 22
++V+ 6
++p+ 4
++U+ ra33
++D+ 01Feb2008:2132
++M+ root
++d+ 26Jun2008:0052
++A+ SimpleTestSuite6
+
++S+ 17
++s+ 01Feb2008:2132
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ GetStrLength  Test
+
++S+ 27
++s+ 01Feb2008:2132
++P+ 92 95
++T+ Set $s.Cur "123456789"
+
++S+ 31
++s+ 01Feb2008:2132
++d+ 0 100 100
++P+ 92 131
++T+ GetStrLength $s.Cur $i.Cur
+
++S+ 37
++s+ 01Feb2008:2133
++P+ 92 167
++T+ Set $i.ExpectedResult 9
+
++S+ 34
++s+ 01Feb2008:2133
++P+ 92 203
++T+ AssertEquals $i.cur $i.ExpectedResult
+
++S+ 39
++s+ 01Feb2008:2134
++P+ 92 239
++T+ @MessageLn $i.Cur
+
++S+ 65
++s+ 21Feb2008:1500
++P+ 940 574
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:513 104 20 kPage Down

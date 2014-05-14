@@ -1,0 +1,48 @@
++A+ SimpleTest65
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 30Jan2008:1622
++M+ ra33
++d+ 01Feb2008:1821
++Z+
++v+ 22
+
++S+ 4
++s+ 30Jan2008:1622
++P+ 27 10
++T+ ifnotzero
+
++S+ 17
++s+ 30Jan2008:1622
++P+ 99 136
++T+ @MessageLn $i.cur
+
++S+ 18
++s+ 30Jan2008:1626
++P+ 113 201
++T+ Add
+
++S+ 7
++s+ 30Jan2008:1622
++P+ 792 608
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 30Jan2008:1622
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
+
++S+ 16
++s+ 30Jan2008:1622
++P+ 690 609
++X+ Format
++T+ @Format
++Z+
+00:01 97 23 Rd
+00:01 97 23 Ru
+00:02 970 9 kRight
+

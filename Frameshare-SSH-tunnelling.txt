@@ -1,0 +1,12 @@
+If you're not at the uni and you want to connect to a server running on a uni machine, most likely you'll need to SSH tunnel to access it.
+This doesn't work for UDP connections (such as FrameShare).
+You could use netcat (or bash and the virtual files in /dev/tcp and /dev/udp) to pipe data from a UDP to TCP, then back to UDP again on the other end of the SSH tunnel, but I couldn't get that working (and good luck trying to do it on Windows).
+
+So, I wrote a little java program to deal with it:
+https://github.com/jtsymon/UDP-SSH-Tunnel
+
+Scripts for Expeditee are in dev/bin/script
+
+Edit "Frameshare-SSH-Tunnel-CONFIG.sh" to set the server port, SSH username and host
+Run "Frameshare-SSH-Tunnel-Client.sh" on the machine that you're running the Expeditee window on
+Run "Frameshare-SSH-Tunnel-Server.sh" on the machine that the Expeditee frameserver is running on (only needs to be run once and it should support all users)

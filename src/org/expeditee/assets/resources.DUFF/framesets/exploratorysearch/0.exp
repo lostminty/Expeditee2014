@@ -1,0 +1,34 @@
+V 8
+U csl14A
+D 12Dec2013[10:07]
+M csl14A
+d 16Jan2014[10:53]
+Z
+
+S T 3
+s 12Dec2013[10:07.24]
+d 0 0 100 100
+P 25 50
+T ExploratorySearch0
+Q 0
+o csl14A
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 886
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:21
+DarkTime:00:00:00
+53:26:938 554 23 Rd
+53:26:962 553 23 Md
+53:27:714 741 319 Ld
+53:27:794 742 319 Lu

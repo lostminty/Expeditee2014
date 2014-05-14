@@ -1,0 +1,36 @@
++A+ SimpleTest18
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1019
++M+ ra33
++d+ 01Feb2008:1818
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1019
++P+ 27 10
++T+ //Test
+
++S+ 7
++s+ 24Jan2008:1020
++P+ 55 80
++T+ ExitAll
+
++S+ 9
++s+ 24Jan2008:1127
++P+ 83 171
++T+ This should not be reached!!
+
++S+ 5
++s+ 24Jan2008:1019
++P+ 884 601
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:02 31 20 Rd
+00:02 31 20 Ru
+00:03 911 21 kRight
+

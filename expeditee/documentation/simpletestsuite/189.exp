@@ -1,0 +1,77 @@
+A SimpleTestSuite189
+V 2
+p 4
+U root
+D 14May2008:2057
+M root
+d 29May2008:1743
+Z
+
+S T 55
+s 14May2008:2057
+d 0 0 100
+P 27 60
+X RunFrame
+f sb41
+T GetRandomItemTest
+
+S T 14
+s 14May2008:2058
+d 0 0 0
+P 88 118
+T GetCurrentFrame $fp.CurrentFrame
+
+S T 17
+s 14May2008:2057
+d 0 0 0
+P 86 178
+T GetRandomTextItem $fp.CurrentFrame $ip.RandomItem
+
+S T 46
+s 14May2008:2109
+d 0 0 0
+P 107 220
+T GetItemText $ip.RandomItem $s.text
+
+S T 51
+s 14May2008:2114
+d 0 0 0
+P 404 265
+T Set $i.minLength 15
+
+S T 53
+s 14May2008:2107
+d 0 0 0
+P 93 266
+T GetStrLength $s.text $i.length
+
+S T 50
+s 14May2008:2109
+d 0 0 0
+P 107 331
+T IfLess $i.length $i.minLength AssertFail
+
+S T 54
+s 14May2008:2114
+d 0 0 0
+P 118 370
+T @MessageLn $s.text
+
+S T 5
+s 14May2008:2057
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:269 200 23 Md
+00:01:391 200 23 Mu
+00:01:932 200 53 Md
+00:02:074 201 54 Mu

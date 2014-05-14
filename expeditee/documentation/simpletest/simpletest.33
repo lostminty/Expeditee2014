@@ -1,0 +1,59 @@
++A+ SimpleTest33
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1518
++M+ ra33
++d+ 01Feb2008:1819
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1518
++P+ 27 10
++T+ Repeat
+
++S+ 44
++s+ 24Jan2008:1516
++P+ 75 81
++T+ Set $i.Multiplier $i.Result
+
++S+ 141
++s+ 29Jan2008:1458
++P+ 75 128
++T+ //Repeat statement inside the procedure calls below
+
++S+ 140
++s+ 24Jan2008:1515
++P+ 89 168
++F+ SimpleTest34
++T+ Call MultiplyByAdding $i.Multiplier $i.Number $i.Result
+
++S+ 139
++s+ 24Jan2008:1557
++P+ 75 201
++F+ SimpleTest34
++T+ @Call MultiplyByAdding $i.Number $i.Multiplier $i.Result
+
++S+ 138
++s+ 24Jan2008:1524
++P+ 83 249
++T+ Add $i.j
+
++S+ 133
++s+ 24Jan2008:1519
++P+ 86 282
++F+ SimpleTest28
++T+ Ifgeq $i.j $i.Exponent
+
++S+ 5
++s+ 24Jan2008:1518
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 44 20 Rd
+00:01 44 20 Ru
+00:02 913 10 kRight
+

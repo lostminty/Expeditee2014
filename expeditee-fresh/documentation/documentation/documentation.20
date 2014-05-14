@@ -1,0 +1,103 @@
++A+ Documentation20
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ root
++d+ 23Feb2008:1606
++Z+
++v+ 22
+
++S+ 17
++s+ 21Feb2008:1000
++d+ 0 0 100
++P+ 18 23
++f+ sr27
++T+ Function Key Assignments
+
++S+ 4
++s+ 21Feb2008:1000
++P+ 78 119
++f+ tr21
++T+ 1- Increase font size
+
++S+ 5
++s+ 21Feb2008:1000
++P+ 78 151
++f+ tr21
++T+ 2- Decrease font size
+
++S+ 6
++s+ 21Feb2008:1000
++P+ 78 183
++f+ tr21
++T+ 3- Toggle colour
+
++S+ 7
++s+ 21Feb2008:1000
++P+ 78 215
++f+ tr21
++T+ 4- Toggle item annotation
+
++S+ 8
++s+ 21Feb2008:1000
++P+ 78 247
++f+ tr21
++T+ 5- Create\Append date
+
++S+ 9
++s+ 21Feb2008:1000
++P+ 78 279
++f+ tr21
++T+ 6- Create new frameset
+
++S+ 18
++s+ 21Feb2008:1011
++d+ 0 0 0
++P+ 78 311
++T+ 7- Toggle font style
+
++S+ 19
++s+ 21Feb2008:1011
++d+ 0 0 0
++P+ 78 343
++f+ tr21
++T+ 8- Toggle font family
+
++S+ 11
++s+ 21Feb2008:1000
++P+ 78 375
++f+ tr21
++T+ 9- Toggle X-Ray Mode on\off
+
++S+ 12
++s+ 21Feb2008:1000
++P+ 78 407
++f+ tr21
++T+ 10- Toggle Audience Mode on\off
+
++S+ 14
++s+ 21Feb2008:1000
++P+ 78 439
++f+ tr21
++T+ 11- --
+
++S+ 15
++s+ 21Feb2008:1000
++P+ 78 471
++f+ tr21
++T+ 12- Force repaint
+
++S+ 24
++s+ 21Feb2008:1012
++d+ 100 0 100
++P+ 935 598
++F+ Documentation27
++T+ @ao
++Z+
+00:01 102 40 Rd
+00:01 102 40 Ru
+00:02 71 102 Ld
+00:02 71 102 Lu
+

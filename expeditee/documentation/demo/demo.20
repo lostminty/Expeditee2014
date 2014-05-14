@@ -1,0 +1,30 @@
++A+ Demo20
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Item Copying
++S+ 12
++P+ 76 240
++f+ tr21
++T+ If you right click on an item, you will pick up a copy and the original will remain on the frame
++S+ 14
++P+ 76 278
++f+ tr21
++T+ If you right click while an item is attached to the cursor, you will anchor a copy on the frame
++T+ and the item will remain on the cursor
++S+ 15
++P+ 884 547
++X+ Format
++f+ tr21
++T+ @Format
++Z+

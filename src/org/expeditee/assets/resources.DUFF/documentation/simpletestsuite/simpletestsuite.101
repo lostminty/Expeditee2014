@@ -1,0 +1,65 @@
++v+ 22
++V+ 5
++p+ 4
++U+ root
++D+ 20Feb2008:1434
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite101
+
++S+ 133
++s+ 20Feb2008:1434
++d+ 0 0 100
++P+ 26 24
++X+ RunFrame
++f+ tr35
++T+ @ReadKbdCond Test
+
++S+ 143
++s+ 26Jun2008:0047
++d+ 0 0 100
++P+ 26 24
++X+ RunFrame
++f+ tr35
++T+ @ReadKbdCond Test
+
++S+ 140
++s+ 20Feb2008:1446
++d+ 0 0 0
++P+ 44 61
++T+ Set $i.seconds 3
+
++S+ 139
++s+ 20Feb2008:1445
++d+ 0 0 0
++P+ 39 100
++T+ Pause $i.seconds
+
++S+ 138
++s+ 20Feb2008:1435
++d+ 0 0 0
++P+ 28 158
++T+ ReadKbdCond
+
++S+ 137
++s+ 20Feb2008:1435
++d+ 0 0 0
++P+ 26 217
++f+ tr21
++T+ MessageLn $b.
+
++S+ 142
++s+ 20Feb2008:1531
++d+ 0 100 100
++P+ 27 266
++T+ ifdefined $c. MessageLn $c.
+
++S+ 129
++s+ 20Feb2008:1434
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:303 147 44 kPage Up

@@ -1,0 +1,53 @@
+V 10
+p 4
+U root
+D 22Jul2008:1037
+M root
+d 22Jul2008:1601
+Z
+
+S T 12
+s 22Jul2008:1037
+d 0 0 100
+P 34 49
+f sb41
+T IFDef $s.asdf
+
+S T 13
+s 22Jul2008:1037
+d 0 70 0
+P 93 130
+T //Do nothing
+w 919
+
+S T 14
+s 22Jul2008:1137
+P 101 169
+T set $b.result false
+w 911
+
+S T 5
+s 22Jul2008:1037
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:47
+DarkTime:00:00:00
+00:01:404 252 165 kBackspace
+00:01:564 241 169 kBackspace
+00:01:709 230 169 kBackspace
+00:01:854 222 169 kBackspace
+00:02:174 215 169 kF
+00:02:269 222 169 kA
+00:02:458 232 169 kL
+00:02:563 238 169 kS
+00:02:633 247 169 kE
+00:03:239 243 232 Ld
+00:03:350 243 232 Lu

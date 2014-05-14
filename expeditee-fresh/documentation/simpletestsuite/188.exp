@@ -1,0 +1,87 @@
+V 2
+p 4
+U root
+D 14May2008:2038
+M root
+d 25Jun2008:1913
+Z
+
+S T 49
+s 14May2008:2038
+d 0 0 100
+P 28 51
+X RunFrame
+f sb41
+T GetRandomRealTest
+
+S T 12
+s 14May2008:2038
+d 0 0 0
+P 53 103
+T Set $r.lowerBound 4.1
+
+S T 13
+s 14May2008:2038
+d 0 0 0
+P 53 139
+T Set $r.upperBound 5.5
+
+S T 48
+s 14May2008:2038
+d 0 0 0
+P 53 175
+T GetRandomReal $r.lowerBound $r.upperBound $r.Result
+
+S T 25
+s 14May2008:2038
+d 0 0 0
+P 53 211
+T ifgeq $r.Result $r.upperBound    AssertFail	
+
+S T 27
+s 14May2008:2038
+d 0 0 0
+P 53 247
+T ifless $r.Result $r.lowerBound    AssertFail	
+
+S T 5
+s 14May2008:2038
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:45
+DarkTime:00:00:00
+00:01:728 370 234 Ld
+00:01:854 370 234 Lu
+00:07:299 374 403 kPage Down
+00:09:084 374 403 kPage Down
+00:09:826 374 403 kPage Down
+00:10:238 374 403 kPage Down
+00:13:226 374 403 kPage Down
+00:13:918 374 403 kPage Down
+00:14:892 374 403 kPage Down
+00:15:311 374 403 kPage Down
+00:15:847 374 403 kPage Down
+00:17:307 374 403 kPage Down
+00:17:824 374 403 kPage Down
+00:18:752 374 403 kPage Down
+00:19:723 374 403 kPage Down
+00:22:185 374 403 kPage Down
+00:26:334 819 156 kPage Down
+00:28:400 819 156 kPage Down
+00:28:986 819 156 kPage Down
+00:30:711 819 156 kPage Down
+00:35:043 819 156 kPage Down
+00:38:814 819 156 kPage Down
+00:42:238 182 12 Md
+00:42:373 182 12 Mu
+00:43:272 183 33 Md
+00:43:400 183 33 Mu
+00:45:002 679 156 kPage Down

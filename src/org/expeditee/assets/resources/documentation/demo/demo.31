@@ -1,0 +1,46 @@
++A+ Demo31
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Pictures
++S+ 4
++P+ 168 82
++f+ tr21
++T+ Pictures are created as text items using the @i tag. With the format:
++T+ @i: <filename>. If the file is in the /images/ folder it will be found automatically,
++T+ but you can also specify the full path to other images
++S+ 21
++P+ 200 158
++f+ tr21
++T+ i: front.jpg
++S+ 22
++P+ 601 175
++f+ tr21
++T+ @i front.jpg
++S+ 9
++P+ 168 277
++f+ tr21
++T+ Animated gifs are also supported:
++S+ 19
++P+ 628 350
++f+ tr21
++T+ @i clock.gif
++S+ 13
++P+ 205 378
++f+ tr21
++T+ i: clock.gif
++S+ 20
++P+ 132 522
++f+ tr21
++T+ NOTE: You need to press F12 to load the image after creating a @i tag
++Z+

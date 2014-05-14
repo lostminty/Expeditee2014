@@ -1,0 +1,36 @@
++v+ 22
++V+ 4
++p+ 4
++U+ root
++D+ 14Feb2008:1553
++M+ root
++d+ 26Jun2008:0053
++A+ SimpleTestSuite95
+
++S+ 133
++s+ 14Feb2008:1553
++d+ 0 0 100
++P+ 26 24
++f+ tr35
++T+ Ifless $i.time $i.maxTime
+
++S+ 134
++s+ 14Feb2008:1553
++d+ 0 0 100
++P+ 177 116
++T+ Set $b.ValidTime "true"
+
++S+ 129
++s+ 14Feb2008:1553
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:02
+DarkTime:00:00:00
+00:00:649 101 13 Md
+00:00:682 101 13 Mu
+00:01:058 96 54 Rd
+00:01:090 96 54 Md
+00:02:242 128 75 Ld
+00:02:373 128 75 Lu

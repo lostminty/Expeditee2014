@@ -1,0 +1,59 @@
+V 4
+p 4
+U root
+D 13Mar2008:1743
+M root
+d 26Jun2008:0046
+Z
+
+S T 172
+s 13Mar2008:1743
+d 0 0 100
+P 39 60
+X RunFrame
+f tr35
+T GetFrameFilePathTest
+
+S T 150
+s 13Mar2008:1744
+d 0 0 0
+P 65 119
+T Set $s.FrameName "SimpleTestSuite111"
+
+S T 147
+s 13Mar2008:1744
+d 0 0 0
+P 64 169
+T GetFrameFilePath $s.FrameName $s.path
+
+S T 155
+s 13Mar2008:1745
+d 0 0 0
+P 67 232
+T Set $s.expectedPath "./expeditee/documentation/simpletestsuite/111.exp"
+
+S T 163
+s 13Mar2008:1753
+d 0 0 0
+P 67 286
+T AssertEquals $s.expectedPath $s.path
+
+S T 135
+s 13Mar2008:1743
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:14
+DarkTime:00:00:00
+00:00:496 109 18 kPage Up
+00:00:909 109 18 kPage Up
+00:01:742 120 39 Md
+00:01:769 120 39 Rd
+00:02:055 120 39 kPage Up

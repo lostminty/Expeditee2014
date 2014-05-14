@@ -1,0 +1,126 @@
+V 15
+U jts21A
+D 20Jan2014[10:21]
+M jts21A
+d 20Jan2014[14:40]
+Z
+
+S T 3
+s 20Jan2014[10:21]
+d 0 0 100 100
+P 15 55
+T Then click here to finish this tutorial
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 892
+h -1.0
+
+S T 7
+s 20Jan2014[10:21.59]
+d 50 50 50 100
+P 45 230
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 8
+s 20Jan2014[10:21.59]
+d 0 70 0 100
+P 179 230
+T // loads in some general functions
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 9
+s 20Jan2014[10:21.59]
+P 45 276
+T var frame = loadTutorialFrame(1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 10
+s 20Jan2014[10:21.59]
+P 45 322
+T setCompleted(frame.getItemWithID(228))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 49
+s 20Jan2014[10:22.36]
+P 45 364
+T frame = loadTutorialFrame(4)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 50
+s 20Jan2014[10:22.36]
+P 45 415
+T frame.addText(70, 511, "Click the background of the frame to return to the tutorials list", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:46
+DarkTime:00:00:00
+40:10:083 238 410 kRight
+40:10:699 248 415 kLeft
+40:11:003 243 415 kBackspace
+40:11:131 232 415 kBackspace
+40:11:387 222 415 kBackspace
+40:11:523 211 415 k5
+40:11:627 222 415 k1
+40:11:811 232 415 k1
+40:12:510 281 497 Ld
+40:12:597 281 497 Lu

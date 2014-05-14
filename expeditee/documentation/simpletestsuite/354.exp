@@ -1,0 +1,201 @@
+V 9
+p 4
+U root
+D 22Jul2008:1103
+M root
+d 22Jul2008:1144
+Z
+
+S T 12
+s 22Jul2008:1103
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T GetItemPropertiesTest
+
+S P 84
+s 22Jul2008:1113
+P 35 67
+h 2.0
+l 88 94
+c 80 83
+
+S P 85
+s 22Jul2008:1113
+P 408 67
+h 2.0
+l 88 89
+c 80 82
+
+S T 18
+s 22Jul2008:1110
+P 70 104
+T GetFrameTitle $fp.Frame $ip.Title
+w 942
+
+S T 15
+s 22Jul2008:1103
+d 50 50 50
+P 592 119
+F 355
+T @Frame
+w 607
+
+S T 17
+s 22Jul2008:1109
+P 70 145
+T GetItemLink $ip.Title $s.Link
+w 936
+
+S T 24
+s 22Jul2008:1111
+d 50 50 50
+P 590 169
+F 356
+T @Frame2
+w 422
+
+S T 20
+s 22Jul2008:1111
+P 62 198
+T AssertEquals $s.Frame $s.Link
+w 950
+
+S P 86
+s 22Jul2008:1113
+P 408 217
+h 2.0
+l 89 93
+c 82 81
+
+S P 92
+s 22Jul2008:1113
+P 35 217
+h 2.0
+l 94 93
+c 83 81
+
+S P 57
+s 22Jul2008:1113
+P 30 235
+h 2.0
+l 61 67
+c 53 56
+
+S P 58
+s 22Jul2008:1113
+P 403 235
+h 2.0
+l 61 62
+c 53 55
+
+S T 26
+s 22Jul2008:1112
+P 61 271
+T GetFrameTitle $fp.Frame2 $ip.Title
+w 942
+
+S T 28
+s 22Jul2008:1112
+P 62 304
+T GetItemLink $ip.Title $s.Link
+w 936
+
+S T 36
+s 22Jul2008:1112
+P 62 339
+T Set $s.ExpectedLink "ExternalFrame1"
+w 941
+
+S T 37
+s 22Jul2008:1112
+P 54 382
+T AssertEquals $s.ExpectedLink $s.Link
+w 950
+
+S P 59
+s 22Jul2008:1113
+P 403 421
+h 2.0
+l 62 66
+c 55 54
+
+S P 65
+s 22Jul2008:1113
+P 30 421
+h 2.0
+l 67 66
+c 56 54
+
+S T 5
+s 22Jul2008:1103
+P 940 572
+F 89
+T @ao
+
+Z
+
+L 88 1
+s 84 85
+
+L 94 1
+s 92 84
+
+L 89 1
+s 85 86
+
+L 93 1
+s 86 92
+
+L 61 1
+s 57 58
+
+L 67 1
+s 65 57
+
+L 62 1
+s 58 59
+
+L 66 1
+s 59 65
+
+Z
+
+C 80 3
+s 84 85
+
+C 83 2
+s 92 84
+
+C 82 2
+s 85 86
+
+C 81 3
+s 86 92
+
+C 53 3
+s 57 58
+
+C 56 2
+s 65 57
+
+C 55 2
+s 58 59
+
+C 54 3
+s 59 65
+
+Z
+
+ActiveTime:00:04:47
+DarkTime:00:09:37
+00:01:355 691 269 Ld
+00:01:435 691 269 Lu
+00:01:931 691 269 Ld
+00:02:011 691 269 Lu
+04:05:241 496 453 kShift
+04:05:361 496 453 k2
+04:06:357 512 453 kBackspace
+04:10:598 368 24 Ld
+04:10:721 368 24 Lu

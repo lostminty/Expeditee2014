@@ -1,0 +1,53 @@
++A+ Demo45
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ F3 Changes the colour of items
++S+ 5
++P+ 95 88
++f+ tr21
++T+ Colours in the 'colour wheel' are:
++S+ 7
++d+ 255 0 0
++P+ 95 126
++f+ tr21
++T+ Red
++S+ 13
++d+ 0 0 255
++P+ 95 164
++f+ tr21
++T+ Blue
++S+ 14
++d+ 0 178 0
++P+ 95 202
++f+ tr21
++T+ Green
++S+ 22
++d+ 255 0 255
++P+ 98 240
++f+ tr21
++T+ Magenta
++S+ 19
++P+ 98 278
++f+ tr21
++T+ (Background Colour)
++S+ 21
++P+ 98 316
++f+ tr21
++T+ Black
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

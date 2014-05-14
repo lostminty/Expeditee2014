@@ -1,0 +1,38 @@
+V 2
+U csl14A
+D 12Dec2013[10:10]
+M csl14A
+d 12Dec2013[16:57]
+Z
+
+S T 3
+s 12Dec2013[10:10]
+d 0 0 100 100
+P 25 50
+T network
+Q 0
+o csl14A
+v S
+f sb50
+w 894
+
+S T 6
+s 12Dec2013[10:10.36]
+P 50 100
+T proxy
+F 3
+Q 0
+v S
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:01
+DarkTime:00:00:00
+57:17:277 139 117 Rd
+57:17:341 139 117 Ru
+57:18:102 83 87 Ld
+57:18:166 83 87 Lu

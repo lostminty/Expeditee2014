@@ -1,0 +1,229 @@
++v+ 22
++V+ 9
++p+ 4
++U+ ra33
++D+ 24Jan2008:1605
++M+ root
++d+ 02Jul2008:1224
++A+ SimpleTest37
+
++S+ 360
++s+ 24Jan2008:1605
++P+ 26 20
++X+ RunFrame
++T+ TrueIfStatments
+
++S+ 103
++s+ 25Jan2008:1057
++P+ 876 29
++h+ 2.0
++l+ 105 137
++c+ 293 297
+
++S+ 104
++s+ 25Jan2008:1057
++P+ 53 29
++h+ 2.0
++l+ 105 218
++c+ 297 296
+
++S+ 107
++s+ 25Jan2008:1057
++P+ 90 48
++T+ Set $s.T "True"
+
++S+ 222
++s+ 25Jan2008:1057
++P+ 291 50
++T+ Set $r.5 5.2
+
++S+ 108
++s+ 25Jan2008:1057
++P+ 90 76
++T+ Set $s.F "False"
+
++S+ 223
++s+ 25Jan2008:1057
++P+ 291 78
++T+ Set $r.5a 5.6
+
++S+ 109
++s+ 25Jan2008:1057
++P+ 90 104
++T+ Set $b.T True
+
++S+ 224
++s+ 25Jan2008:1057
++P+ 295 111
++T+ Set $r.0 0.0
+
++S+ 364
++s+ 02Jul2008:1159
++d+ 50 50 50
++P+ 671 125
++X+ DebugFrame
++T+ @DebugFrame
+
++S+ 110
++s+ 25Jan2008:1057
++P+ 90 132
++T+ Set $b.F False
+
++S+ 225
++s+ 25Jan2008:1057
++P+ 293 139
++T+ Set $r.0a 0.2
+
++S+ 115
++s+ 25Jan2008:1057
++P+ 90 160
++T+ Set $i.5 5
+
++S+ 266
++s+ 25Jan2008:1057
++P+ 295 160
++T+ Set $i.6 6
+
++S+ 352
++s+ 25Jan2008:1108
++P+ 91 200
++T+ Set $i.Counter 0
+
++S+ 375
++s+ 02Jul2008:1207
++P+ 283 205
++T+ Set $r.5exact 5.0
+
++S+ 378
++s+ 02Jul2008:1207
++P+ 97 246
++T+ Set $i.Expected 13
+
++S+ 272
++s+ 25Jan2008:1059
++P+ 638 288
++F+ SimpleTest38
++T+ ifeq $s.T $b.T
+
++S+ 333
++s+ 25Jan2008:1057
++P+ 458 293
++F+ SimpleTest38
++T+ ifeq $i.5 $r.5exact
+
++S+ 336
++s+ 25Jan2008:1057
++P+ 458 324
++F+ SimpleTest38
++T+ if $b.T
+
++S+ 273
++s+ 25Jan2008:1057
++P+ 636 325
++F+ SimpleTest38
++T+ ifnoteq $r.0 $r.0a
+
++S+ 337
++s+ 25Jan2008:1057
++P+ 453 358
++F+ SimpleTest38
++T+ ifnot $b.F
+
++S+ 274
++s+ 25Jan2008:1057
++P+ 636 360
++F+ SimpleTest38
++T+ ifgtr $i.6 $r.5a
+
++S+ 275
++s+ 25Jan2008:1057
++P+ 636 395
++F+ SimpleTest38
++T+ ifgeq $r.5a $r.5
+
++S+ 338
++s+ 25Jan2008:1106
++P+ 454 395
++F+ SimpleTest38
++T+ ifgeq $r.5a $i.5
+
++S+ 276
++s+ 25Jan2008:1057
++P+ 636 430
++F+ SimpleTest38
++T+ ifless $i.5 $i.6
+
++S+ 339
++s+ 25Jan2008:1106
++P+ 454 430
++F+ SimpleTest38
++T+ ifleq $i.5 $r.5
+
++S+ 277
++s+ 25Jan2008:1057
++G+ 0 100 0
++P+ 636 465
++F+ SimpleTest38
++T+ ifgtr $s.T $s.F
+
++S+ 359
++s+ 25Jan2008:1057
++P+ 450 474
++F+ SimpleTest38
++T+ ifnotzero $r.5
+
++S+ 358
++s+ 25Jan2008:1057
++P+ 447 520
++F+ SimpleTest38
++T+ ifzero $r.0a
+
++S+ 376
++s+ 02Jul2008:1207
++P+ 486 561
++T+ assertEquals $i.expected $i.counter
+
++S+ 135
++s+ 25Jan2008:1057
++P+ 876 581
++h+ 2.0
++l+ 137 138
++c+ 293 300
+
++S+ 136
++s+ 25Jan2008:1057
++P+ 53 581
++h+ 2.0
++l+ 218 138
++c+ 296 300
+
++S+ 5
++s+ 24Jan2008:1605
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++L+ 105 1
++s+ 103 104
++L+ 137 1
++s+ 135 103
++L+ 218 1
++s+ 104 136
++L+ 138 1
++s+ 136 135
++C+ 293 2
++s+ 103 135
++C+ 297 3
++s+ 104 103
++C+ 296 2
++s+ 136 104
++C+ 300 3
++s+ 135 136
++Z+
+ActiveTime:00:08:55
+DarkTime:00:00:00
+00:01:445 696 466 kShift
+00:01:616 696 466 kF3
+00:02:560 668 456 kShift
+00:02:755 668 456 kF3
+00:03:411 490 466 kShift
+00:03:559 490 466 kF3

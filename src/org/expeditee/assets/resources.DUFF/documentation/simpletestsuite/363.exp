@@ -1,0 +1,46 @@
+V 2
+p 4
+U root
+D 22Jul2008:1601
+M root
+d 22Jul2008:1601
+Z
+
+S T 12
+s 22Jul2008:1601
+d 0 0 100
+P 34 49
+f sb41
+T else
+
+S T 13
+s 22Jul2008:1601
+P 61 123
+T set $b.result true
+w 911
+
+S T 5
+s 22Jul2008:1601
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:09
+DarkTime:00:00:00
+00:01:245 222 110 kBackspace
+00:01:420 207 123 kBackspace
+00:01:561 198 123 kBackspace
+00:01:716 192 123 kBackspace
+00:01:981 182 123 kBackspace
+00:02:140 175 123 kT
+00:02:370 182 123 kR
+00:02:554 190 123 kU
+00:02:641 201 123 kE
+00:03:413 217 180 Ld
+00:03:517 217 180 Lu

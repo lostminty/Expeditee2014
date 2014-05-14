@@ -1,0 +1,31 @@
+V 4
+p 4
+U root
+D 26Jun2008:0008
+M root
+d 26Jun2008:0008
+Z
+
+S T 12
+s 26Jun2008:0008
+d 0 0 100
+P 34 49
+f sb41
+T //This is a comment
+
+S T 5
+s 26Jun2008:0008
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:00:877 377 125 Ld
+00:00:992 377 125 Lu

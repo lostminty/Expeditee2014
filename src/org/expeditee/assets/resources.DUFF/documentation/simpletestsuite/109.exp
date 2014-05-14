@@ -1,0 +1,107 @@
+A SimpleTestSuite109
+V 1
+v 22
+p UWW
+U root
+D 26Feb2008:2249
+M root
+d 26Feb2008:2313
+Z
+
+v 22
+S T 133
+s 26Feb2008:2249
+d 0 0 100
+P 26 24
+f tr35
+T //Set item color and thickness
+
+S P 158
+s 26Feb2008:2313
+P 452 80
+h 2.0
+l 162 168
+c 154 157
+
+S P 159
+s 26Feb2008:2313
+P 67 80
+h 2.0
+l 162 163
+c 154 156
+
+S T 140
+s 26Feb2008:2247
+P 97 116
+T Set $i.Thickness 10
+
+S T 141
+s 26Feb2008:2247
+d 0 0 0
+P 97 154
+T SetItemThickness $ip. $i.Thickness
+
+S T 142
+s 26Feb2008:2247
+P 97 192
+T @Set $s.Color "Red"
+
+S T 143
+s 26Feb2008:2247
+P 97 230
+T @SetItemColor $ip. $s.Color
+
+S P 160
+s 26Feb2008:2313
+P 67 265
+h 2.0
+l 163 167
+c 156 155
+
+S P 166
+s 26Feb2008:2313
+P 452 265
+h 2.0
+l 168 167
+c 157 155
+
+S T 135
+s 144 145
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 162 1
+s 158 159
+
+L 168 1
+s 166 158
+
+L 163 1
+s 159 160
+
+L 167 1
+s 160 166
+
+Z
+
+C 154 3
+s 158 159
+
+C 157 2
+s 166 158
+
+C 156 2
+s 159 160
+
+C 155 3
+s 160 166
+
+Z
+
+00:02 175 169 kF3
+00:04 449 416 Ld
+00:04 449 416 Lu
+

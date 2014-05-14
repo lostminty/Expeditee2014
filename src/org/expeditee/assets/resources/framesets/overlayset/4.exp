@@ -1,0 +1,529 @@
+V 463
+U csl14A
+D 12Dec2013[10:13]
+M csl14A
+d 14Feb2014[12:26]
+Z
+
+S P 56
+s 12Dec2013[10:14.00]
+d 90 90 90 100
+P 140 0
+e 95 95 95 100
+Q 0
+R 140.0
+N 0.0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 63 65
+c 36 40 1665
+
+S P 55
+s 12Dec2013[10:14.00]
+d 90 90 90 100
+P 0 0
+e 95 95 95 100
+Q 0
+R 0.0
+N 0.0
+o csl14A
+v S
+h 2.0
+l 63 64
+c 36 37
+
+S T 4853
+s 12Feb2014[14:09.29]
+P 11 416
+T @Print
+X writeFrame pdf2
+x F
+Q 0
+R 9.0
+I 204.0
+o csl14A
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 4859
+s 12Feb2014[14:09.29]
+P 7 397
+T @i: iconbutton_print.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 202.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 4854
+s 12Feb2014[14:09.29]
+P 11 446
+T Audience
+X toggleAudienceMode
+x F
+Q 0
+R 9.0
+I 174.0
+o csl14A
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 4861
+s 12Feb2014[14:09.29]
+P 7 427
+T @i: iconbutton_presentation_mode.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 172.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 4855
+s 12Feb2014[14:09.29]
+P 11 476
+T Twinframe
+X toggleTwinFramesMode
+x F
+Q 0
+R 9.0
+I 144.0
+o csl14A
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 4863
+s 12Feb2014[14:09.29]
+P 7 457
+T @i: iconbutton_twin_frame_mode.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 142.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 4865
+s 12Feb2014[14:09.29]
+P 7 487
+T @i: iconbutton_history.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 112.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 4857
+s 12Feb2014[14:09.29]
+P 11 536
+T Settings
+X goToSettings
+x F
+Q 0
+R 9.0
+I 84.0
+o csl14A
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 4867
+s 12Feb2014[14:09.29]
+P 7 517
+T @i: iconbutton_settings.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 82.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S T 4858
+s 12Feb2014[14:09.29]
+P 11 566
+T Expeditee Help
+F Documentation1
+x F
+Q 0
+R 9.0
+I 54.0
+o csl14A
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S T 4869
+s 12Feb2014[14:09.29]
+P 7 547
+T @i: iconbutton_question.png 127
+F Documentation1
+x F
+Q 0
+R 5.0
+I 52.0
+o csl14A
+n F
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h 0.0
+
+S P 2254
+s 18Dec2013[15:26.35]
+d 100 0 0 100
+P 140 579
+e 75 2 1 100
+Q 0
+R 140.0
+I 34.0
+o nathaniel
+v S
+h 0.0
+l 2159 2255
+c 1665 2071 1664 2074
+
+S P 2263
+s 06Feb2014[17:39.26]
+d 100 0 0 100
+P 0 579
+e 75 2 1 100
+Q 0
+R 0.0
+I 34.0
+o nathaniel
+v S
+h 0.0
+l 2159 85
+c 2071 2073
+
+S P 3458
+s 10Feb2014[15:50.02]
+d 60 2 1 100
+P 140 580
+e 100 59 59 100
+Q 0
+R 140.0
+I 33.0
+o nathaniel
+v S
+h 2.0
+l 3461
+c 3452
+
+S P 3457
+s 10Feb2014[15:50.02]
+d 60 2 1 100
+P 0 580
+e 100 59 59 100
+Q 0
+R 0.0
+I 33.0
+o nathaniel
+v S
+h 2.0
+l 3461
+c 3452
+
+S P 58
+s 12Dec2013[10:14.00]
+d 90 90 90 100
+P 0 580
+e 95 95 95 100
+Q 0
+R 0.0
+I 33.0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 64 66
+c 37 47
+
+S P 57
+s 12Dec2013[10:14.00]
+d 90 90 90 100
+P 140 580
+e 95 95 95 100
+Q 0
+R 140.0
+I 33.0
+o Nathaniel
+j 14.000001 0.3 0.75
+v S
+h 2.0
+l 65 66
+c 40 1664 47
+
+S T 1950
+s 06Feb2014[16:23.42]
+d 0 0 0 50
+P 107 616
+T 
+X forward
+x F
+Q 0
+R 105.0
+I 4.0
+o Nathaniel
+v S
+f FontAwesome_r32
+t -1.0
+b 0.0
+m 0.0
+w 36
+h -1.0
+
+S T 1949
+s 06Feb2014[16:21.07]
+d 0 0 0 50
+P 12 616
+T 
+X back
+x F
+Q 0
+R 10.0
+I 4.0
+o Nathaniel
+v S
+f FontAwesome_r32
+t -1.0
+b 0.0
+m 0.0
+w 36
+h -1.0
+
+S T 1948
+s 06Feb2014[16:21.38]
+d 0 0 0 50
+P 52 618
+T 
+X gotohome
+x F
+Q 0
+R 50.0
+I 2.0
+o Nathaniel
+v S
+f FontAwesome_r40
+t -1.0
+b 0.0
+m 0.0
+w 36
+h -1.0
+
+S P 2264
+s 06Feb2014[17:39.26]
+d 100 0 0 100
+P 0 633
+e 75 2 1 100
+Q 0
+R 0.0
+I -20.0
+o nathaniel
+v S
+h 0.0
+l 85 86
+c 2073 2072
+
+S P 2265
+s 06Feb2014[17:39.26]
+d 100 0 0 100
+P 140 633
+e 75 2 1 100
+Q 0
+R 140.0
+I -20.0
+o nathaniel
+v S
+h 0.0
+l 2255 86
+c 2074 2072
+
+S T 3748
+s 10Feb2014[16:06.46]
+P 11 1449
+T Web Browser
+F Documentation1
+x F
+Q 0
+R 9.0
+o nathaniel
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+S P 1734
+s 30Jan2014[11:37.01]
+d 100 0 0 100
+P 1497 7907
+Q 0
+o csl14A
+j 14.000001 0.3 0.75
+v S
+h 2.0
+l 1750
+c 1778
+
+S P 1735
+s 30Jan2014[11:37.01]
+d 100 0 0 100
+P 1357 7907
+Q 0
+o csl14A
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 1750
+c 1778
+
+Z
+
+L 63 1
+s 56 55
+
+L 65 1
+s 57 56
+
+L 64 1
+s 55 58
+
+L 2159 1
+s 2263 2254
+
+L 2255 1
+s 2265 2254
+
+L 85 1
+s 2263 2264
+
+L 3461 1
+s 3457 3458
+
+L 66 1
+s 58 57
+
+L 86 1
+s 2264 2265
+
+L 1750 1
+s 1735 1734
+
+Z
+
+C 36 3
+s 56 55
+
+C 40 2
+s 57 56
+
+C 1665 2
+s 2254 56
+
+C 37 2
+s 55 58
+
+C 2071 3
+s 2254 2263
+
+C 1664 2
+s 2254 57
+
+C 2074 2
+s 2265 2254
+
+C 2073 2
+s 2263 2264
+
+C 3452 3
+s 3457 3458
+
+C 47 3
+s 58 57
+
+C 2072 3
+s 2264 2265
+
+C 1778 3
+s 1735 1734
+
+Z
+
+ActiveTime:03:41:33
+DarkTime:03:05:38

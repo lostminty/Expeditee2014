@@ -1,0 +1,60 @@
+V 13
+p 4
+U root
+D 02Jul2008:1642
+M root
+d 02Jul2008:1657
+Z
+
+S T 12
+s 02Jul2008:1642
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T SearchStrTest
+
+S T 57
+s 02Jul2008:1642
+P 34 95
+T Set $s.searchStr "This is a string to search"
+
+S T 56
+s 02Jul2008:1646
+d 0 70 0
+P 32 133
+F 332
+T //Search for a string that is in the text
+
+S T 144
+s 02Jul2008:1646
+d 0 70 0
+P 37 174
+F 331
+T //Search for a string not in the text
+
+S T 146
+s 02Jul2008:1647
+d 0 70 0
+P 35 222
+F 333
+T //Search for a regEx
+
+S T 5
+s 02Jul2008:1642
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:05:14
+DarkTime:00:05:25
+05:22:786 186 214 kF4
+05:24:046 191 222 kF4
+05:25:209 149 128 Ld
+05:25:299 149 128 Lu

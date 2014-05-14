@@ -1,0 +1,53 @@
++v+ 22
++V+ 6
++p+ 4
++U+ ra33
++D+ 04Feb2008:1042
++M+ root
++d+ 26Jun2008:0052
++A+ SimpleTestSuite22
+
++S+ 17
++s+ 04Feb2008:1042
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ CountCharInStr Test
+
++S+ 28
++s+ 04Feb2008:1042
++P+ 143 115
++T+ Set $s.cur "This is a string!"
+
++S+ 30
++s+ 04Feb2008:1043
++P+ 143 151
++T+ Set $s.pattern "is"
+
++S+ 32
++s+ 04Feb2008:1043
++P+ 143 187
++T+ CountCharsInStr $s.cur $s.pattern $i.count
+
++S+ 37
++s+ 04Feb2008:1043
++P+ 143 223
++T+ Set $i.expectedCount 2
+
++S+ 47
++s+ 04Feb2008:1043
++P+ 144 290
++T+ AssertEquals $i.expectedCount $i.count
+
++S+ 62
++s+ 21Feb2008:1502
++P+ 939 569
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:445 104 20 Rd
+00:00:471 104 20 Md
+00:00:832 104 20 kPage Down

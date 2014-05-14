@@ -1,0 +1,47 @@
++A+ SimpleTest32
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1514
++M+ ra33
++d+ 01Feb2008:1819
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1514
++P+ 27 10
++T+ Call PowerByAdding $i.Number $i.Exponent $i.Result
+
++S+ 6
++s+ 24Jan2008:1514
++P+ 68 116
++T+ //This function uses add to compute a power function
+
++S+ 40
++s+ 24Jan2008:1517
++P+ 77 155
++T+ Set $i.Result $i.Number
+
++S+ 52
++s+ 24Jan2008:1514
++P+ 78 202
++T+ Set $i.j 1
+
++S+ 54
++s+ 24Jan2008:1518
++P+ 81 253
++F+ SimpleTest33
++T+ Repeat
+
++S+ 5
++s+ 24Jan2008:1514
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 77 20 Rd
+00:01 77 20 Ru
+00:05 952 20 kRight
+

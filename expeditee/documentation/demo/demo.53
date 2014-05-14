@@ -1,0 +1,55 @@
++A+ Demo53
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ TwinFrames
++S+ 6
++P+ 66 107
++f+ tr21
++T+ TwinFrames mode shows two frames side by side
++S+ 19
++P+ 66 134
++f+ tr21
++T+ The frames are cropped to fit
++S+ 16
++P+ 66 161
++f+ tr21
++T+ Items can be moved from one frame to the other
++S+ 12
++P+ 66 188
++f+ tr21
++T+ and lines can be drawn across
++S+ 24
++P+ 66 215
++f+ tr21
++T+ The frame loaded in the other side is the startup frame
++T+ both frames have their own back-stack
++S+ 21
++P+ 66 360
++X+ ToggleTwinFramesMode
++f+ tr21
++T+ ToggleTwinFrames
++S+ 20
++P+ 66 487
++f+ tr21
++T+ WARNING: TwinFrames is still experimental
++S+ 22
++P+ 66 518
++f+ tr21
++T+ @line ancoring is buggy though
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

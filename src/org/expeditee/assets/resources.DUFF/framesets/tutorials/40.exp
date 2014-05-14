@@ -1,0 +1,323 @@
+V 20
+U jts21A
+D 21Jan2014[09:54]
+M jts21A
+d 21Jan2014[11:31]
+Z
+
+S T 10
+s 21Jan2014[09:54]
+d 0 0 100 100
+P 16 55
+T Create a Widget, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 175
+s 21Jan2014[10:11.26]
+d 50 50 50 100
+P 26 108
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 174
+s 21Jan2014[10:11.26]
+P 23 146
+T var frame = loadTutorialFrame(44)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 163
+s 21Jan2014[10:19.28]
+P 34 183
+T if(frame.getInteractiveWidgets().size() > 0)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 200
+s 21Jan2014[11:21.00]
+d 100 0 0 100
+P 36 203
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 211 202
+c 510 512
+
+S P 210
+s 21Jan2014[11:21.00]
+d 100 0 0 100
+P 908 203
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 211 212
+c 510 511
+
+S T 214
+s 21Jan2014[11:21.51]
+P 47 242
+T frame.addText(70, 257, "Other examples of widgets include the Web Browser (JfxBrowser),\nthe Password box in proxy settings,\nand a number of charts (charts.Pie, charts.Bar, charts.ScatterPlot, etc).", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 216
+s 21Jan2014[11:27.07]
+P 52 303
+T frame.addText(70, 335, "For programmers, it is possible to create your own widget in order to extend Expeditee\n(TODO: elaborate on this + add drag+drop widget plugin system?)", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 221
+s 21Jan2014[11:21.00]
+P 52 372
+T frame.addText(70, 392, "Click the background of the frame to return to the tutorials list", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 204
+s 21Jan2014[11:21.00]
+P 45 434
+T frame = loadTutorialFrame(1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 205
+s 21Jan2014[11:21.00]
+P 52 466
+T setCompleted(frame.getItemWithID(313))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 206
+s 21Jan2014[11:21.00]
+d 100 0 0 100
+P 36 496
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 202 208
+c 512 513
+
+S P 207
+s 21Jan2014[11:21.00]
+d 100 0 0 100
+P 908 496
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 208 212
+c 511 513
+
+S T 198
+s 21Jan2014[10:11.26]
+P 37 525
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 189
+s 21Jan2014[10:11.38]
+d 0 0 100 100
+P 37 542
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 191 192
+c 91 93
+
+S P 190
+s 21Jan2014[10:11.38]
+d 0 0 100 100
+P 918 542
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 191 196
+c 91 94
+
+S T 193
+s 21Jan2014[10:11.26]
+P 50 571
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a Widget to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 194
+s 21Jan2014[10:11.38]
+d 0 0 100 100
+P 37 588
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 192 197
+c 93 92
+
+S P 195
+s 21Jan2014[10:11.38]
+d 0 0 100 100
+P 918 588
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 196 197
+c 94 92
+
+Z
+
+L 211 1
+s 210 200
+
+L 202 1
+s 200 206
+
+L 212 1
+s 207 210
+
+L 208 1
+s 206 207
+
+L 191 1
+s 190 189
+
+L 192 1
+s 189 194
+
+L 196 1
+s 195 190
+
+L 197 1
+s 194 195
+
+Z
+
+C 510 3
+s 210 200
+
+C 512 2
+s 200 206
+
+C 511 2
+s 207 210
+
+C 513 3
+s 206 207
+
+C 91 3
+s 190 189
+
+C 93 2
+s 189 194
+
+C 94 2
+s 195 190
+
+C 92 3
+s 194 195
+
+Z
+
+ActiveTime:00:14:04
+DarkTime:00:01:04
+31:03:328 392 457 kBackspace
+31:03:703 378 466 k3
+31:04:119 389 466 kBackspace
+31:04:391 378 466 kRight
+31:04:479 389 466 k3
+31:10:474 949 402 Ld
+31:10:537 949 402 Lu

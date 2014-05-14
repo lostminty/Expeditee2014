@@ -1,0 +1,278 @@
++A+ SimpleTest58
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1350
++M+ root
++d+ 15Mar2008:0921
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1350
++P+ 27 10
++X+ RunFrame
++T+ And, Or, Not
+
++S+ 47
++s+ 29Jan2008:1328
++P+ 543 34
++T+ Set $b.T true
+
++S+ 46
++s+ 29Jan2008:1332
++P+ 401 35
++T+ Set $b.T2 true
+
++S+ 28
++s+ 29Jan2008:1332
++P+ 115 37
++T+ Set $b.T1 true
+
++S+ 48
++s+ 29Jan2008:1329
++P+ 115 59
++T+ Set $b.F false
+
++S+ 49
++s+ 29Jan2008:1333
++P+ 401 62
++T+ Set $b.F1 false
+
++S+ 50
++s+ 29Jan2008:1333
++P+ 543 62
++T+ Set $b.F2 false
+
++S+ 13
++s+ 29Jan2008:1329
++P+ 115 81
++T+ Not $b.T $b.Result 
+
++S+ 18
++s+ 29Jan2008:1331
++P+ 115 103
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 19
++s+ 29Jan2008:1332
++P+ 115 125
++T+ Not $b.F $b.Result 
+
++S+ 125
++s+ 29Jan2008:1332
++P+ 114 147
++F+ SimpleTest62
++T+ IfNot $b.Result
+
++S+ 109
++s+ 29Jan2008:1336
++P+ 83 163
++h+ 2.0
++l+ 111 124
++c+ 59 62
+
++S+ 110
++s+ 29Jan2008:1336
++P+ 415 163
++h+ 2.0
++l+ 111 112
++c+ 59 61
+
++S+ 113
++s+ 29Jan2008:1334
++P+ 115 181
++T+ Or $b.T1 $b.F1 $b.F2 $b.Result
+
++S+ 114
++s+ 29Jan2008:1335
++P+ 115 203
++F+ SimpleTest62
++T+ IfNot $b.Result
+
++S+ 115
++s+ 29Jan2008:1334
++P+ 115 225
++T+ Or $b.F1 $b.F2 $b.T2 $b.Result
+
++S+ 116
++s+ 29Jan2008:1335
++P+ 115 247
++F+ SimpleTest62
++T+ IfNot $b.Result
+
++S+ 117
++s+ 29Jan2008:1335
++P+ 115 269
++T+ Or $b.F1 $b.T1 $b.F2 $b.Result
+
++S+ 118
++s+ 29Jan2008:1335
++P+ 115 291
++F+ SimpleTest62
++T+ IfNot $b.Result
+
++S+ 119
++s+ 29Jan2008:1335
++P+ 115 313
++T+ Or $b.F1 $b.F $b.F2 $b.Result
+
++S+ 120
++s+ 29Jan2008:1336
++P+ 115 335
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 121
++s+ 29Jan2008:1336
++P+ 415 358
++h+ 2.0
++l+ 112 123
++c+ 61 60
+
++S+ 122
++s+ 29Jan2008:1336
++P+ 83 358
++h+ 2.0
++l+ 124 123
++c+ 62 60
+
++S+ 95
++s+ 29Jan2008:1336
++P+ 421 373
++h+ 2.0
++l+ 99 104
++c+ 82 84
+
++S+ 96
++s+ 29Jan2008:1336
++P+ 86 373
++h+ 2.0
++l+ 99 102
++c+ 84 83
+
++S+ 87
++s+ 29Jan2008:1336
++P+ 118 391
++T+ And $b.T1 $b.F1 $b.F2 $b.Result
+
++S+ 88
++s+ 29Jan2008:1336
++P+ 118 413
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 89
++s+ 29Jan2008:1336
++P+ 118 435
++T+ And $b.F1 $b.F2 $b.F $b.Result
+
++S+ 90
++s+ 29Jan2008:1336
++P+ 118 457
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 91
++s+ 29Jan2008:1336
++P+ 118 479
++T+ And $b.T1 $b.T1 $b.T2 $b.Result
+
++S+ 92
++s+ 29Jan2008:1336
++P+ 118 501
++F+ SimpleTest62
++T+ IfNot $b.Result
+
++S+ 93
++s+ 29Jan2008:1336
++P+ 118 523
++T+ And $b.T1 $b.T1 $b.F2 $b.Result
+
++S+ 94
++s+ 29Jan2008:1336
++P+ 118 545
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 106
++s+ 29Jan2008:1338
++P+ 112 563
++T+ And $b.F1 $b.T1 $b.T2 $b.Result
+
++S+ 107
++s+ 29Jan2008:1338
++P+ 116 587
++F+ SimpleTest62
++T+ If $b.Result
+
++S+ 98
++s+ 29Jan2008:1336
++P+ 86 597
++h+ 2.0
++l+ 102 105
++c+ 83 85
+
++S+ 103
++s+ 29Jan2008:1336
++P+ 421 597
++h+ 2.0
++l+ 104 105
++c+ 82 85
+
++S+ 26
++s+ 29Jan2008:1333
++P+ 705 606
++X+ Format
++T+ @Format
+
++S+ 7
++s+ 29Jan2008:1327
++P+ 802 607
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 25Jan2008:1350
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++L+ 111 1
++s+ 109 110
++L+ 124 1
++s+ 122 109
++L+ 112 1
++s+ 110 121
++L+ 123 1
++s+ 121 122
++L+ 99 1
++s+ 95 96
++L+ 104 1
++s+ 103 95
++L+ 102 1
++s+ 96 98
++L+ 105 1
++s+ 98 103
++C+ 59 3
++s+ 109 110
++C+ 62 2
++s+ 122 109
++C+ 61 2
++s+ 110 121
++C+ 60 3
++s+ 121 122
++C+ 82 2
++s+ 95 103
++C+ 84 3
++s+ 96 95
++C+ 83 2
++s+ 98 96
++C+ 85 3
++s+ 103 98
++Z+
+00:01 845 614 Ld
+00:05 955 624 Ld
+00:05 955 624 Lu
+

@@ -1,0 +1,120 @@
++v+ 22
++V+ 6
++p+ 4
++U+ ra33
++D+ 05Feb2008:1305
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite25
+
++S+ 17
++s+ 05Feb2008:1305
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ SetStrChar Test
+
++S+ 60
++s+ 05Feb2008:1353
++P+ 16 70
++h+ 2.0
++l+ 64 70
++c+ 56 59
+
++S+ 61
++s+ 05Feb2008:1353
++P+ 483 70
++h+ 2.0
++l+ 64 65
++c+ 56 58
+
++S+ 28
++s+ 05Feb2008:1305
++P+ 35 86
++T+ Set $s.cur "This is a test string"
+
++S+ 32
++s+ 05Feb2008:1306
++P+ 35 122
++T+ Set $c.char "B"
+
++S+ 35
++s+ 05Feb2008:1306
++P+ 35 158
++T+ Set $i.pos 11
+
++S+ 30
++s+ 05Feb2008:1305
++d+ 0 100 100
++P+ 35 194
++T+ SetStrChar $s.cur $i.pos $c.char
+
++S+ 40
++s+ 05Feb2008:1308
++P+ 35 230
++T+ Set $c.char "."
+
++S+ 42
++s+ 05Feb2008:1308
++P+ 35 266
++T+ Set $i.pos 24
+
++S+ 47
++s+ 05Feb2008:1308
++P+ 35 302
++T+ SetStrChar $s.cur $i.pos $c.char
+
++S+ 46
++s+ 05Feb2008:1308
++P+ 35 338
++T+ Set $s.expected "This is a Best string..."
+
++S+ 45
++s+ 05Feb2008:1309
++P+ 35 374
++T+ AssertEquals $s.expected $s.cur
+
++S+ 62
++s+ 05Feb2008:1353
++P+ 483 406
++h+ 2.0
++l+ 65 69
++c+ 58 57
+
++S+ 68
++s+ 05Feb2008:1353
++P+ 16 406
++h+ 2.0
++l+ 70 69
++c+ 59 57
+
++S+ 85
++s+ 21Feb2008:1503
++P+ 939 572
++F+ SimpleTestSuite89
++T+ @ao
++L+ 64 1
++s+ 60 61
++L+ 70 1
++s+ 68 60
++L+ 65 1
++s+ 61 62
++L+ 69 1
++s+ 62 68
++C+ 56 3
++s+ 60 61
++C+ 59 2
++s+ 68 60
++C+ 58 2
++s+ 61 62
++C+ 57 3
++s+ 62 68
++Z+
+ActiveTime:00:00:01
+DarkTime:00:00:00
+00:00:408 104 20 kPage Down
+00:00:839 104 20 kPage Up
+00:01:169 104 20 Rd
+00:01:196 104 20 Md
+00:01:619 104 20 kPage Down

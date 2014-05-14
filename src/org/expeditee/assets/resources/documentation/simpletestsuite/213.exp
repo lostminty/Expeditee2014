@@ -1,0 +1,27 @@
+A SimpleTestSuite213
+V 4
+p 4
+U root
+D 29May2008:2059
+M root
+d 29May2008:2059
+Z
+
+S T 5
+s 29May2008:2059
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:190 533 32 Rd
+00:01:267 533 32 Md
+00:03:230 977 682 Ld
+00:03:327 977 682 Lu

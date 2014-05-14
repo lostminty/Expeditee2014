@@ -1,0 +1,78 @@
++v+ 22
++V+ 4
++p+ 4
++U+ root
++D+ 14Feb2008:1542
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite93
+
++S+ 377
++s+ 14Feb2008:1542
++d+ 0 0 100
++P+ 38 43
++X+ RunFrame
++f+ tr35
++T+ GetTimeElapsed Test
+
++S+ 376
++s+ 20Feb2008:1358
++d+ 0 0 0
++P+ 83 115
++T+ Set $i. 0
+
++S+ 375
++s+ 20Feb2008:1356
++d+ 0 0 0
++P+ 83 156
++F+ SimpleTestSuite99
++T+ Repeat
+
++S+ 368
++s+ 14Feb2008:1551
++d+ 0 0 100
++P+ 83 197
++T+ Set $i.minTime 0
+
++S+ 369
++s+ 14Feb2008:1551
++d+ 0 0 100
++P+ 83 238
++T+ Set $i.maxTime 10000
+
++S+ 317
++s+ 14Feb2008:1542
++d+ 0 0 100
++P+ 83 279
++T+ GetElapsedTime $i.time
+
++S+ 321
++s+ 20Feb2008:1352
++d+ 0 0 0
++P+ 83 320
++T+ @MessageLn $i.time
+
++S+ 319
++s+ 14Feb2008:1550
++d+ 0 0 0
++P+ 83 361
++F+ SimpleTestSuite94
++T+ Ifgtr $i.time $i.minTime
+
++S+ 318
++s+ 14Feb2008:1547
++d+ 0 0 0
++P+ 83 402
++T+ AssertDefined $b.ValidTime
+
++S+ 129
++s+ 14Feb2008:1542
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:514 146 37 Rd
+00:00:539 146 37 Md
+00:00:977 145 46 kPage Up

@@ -1,0 +1,31 @@
++A+ SimpleTest28
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1441
++M+ ra33
++d+ 01Feb2008:1818
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1441
++P+ 27 10
++T+ Ifgeq
+
++S+ 7
++s+ 24Jan2008:1456
++P+ 91 102
++T+ exitRepeat
+
++S+ 5
++s+ 24Jan2008:1441
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 38 25 Rd
+00:01 38 25 Ru
+00:03 931 14 kRight
+

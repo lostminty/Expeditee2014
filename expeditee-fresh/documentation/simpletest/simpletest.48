@@ -1,0 +1,31 @@
++A+ SimpleTest48
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1306
++M+ ra33
++d+ 01Feb2008:1820
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1306
++P+ 27 10
++T+ IfAnnotation $ip.Item
+
++S+ 6
++s+ 25Jan2008:1306
++P+ 102 109
++T+ Add $i.AnnotationCount
+
++S+ 5
++s+ 25Jan2008:1306
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:00 193 24 Rd
+00:00 193 24 Ru
+00:01 941 20 kRight
+

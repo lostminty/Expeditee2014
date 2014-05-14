@@ -1,0 +1,124 @@
+V 30
+p 4
+U root
+D 22Jul2008:1036
+M root
+d 22Jul2008:1600
+Z
+
+S T 12
+s 22Jul2008:1036
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T IfNotDefinedTest
+
+S P 154
+s 22Jul2008:1139
+P 39 104
+h 2.0
+l 156 167
+c 139 142
+
+S P 155
+s 22Jul2008:1139
+P 493 104
+h 2.0
+l 156 157
+c 139 141
+
+S T 158
+s 22Jul2008:1036
+P 89 150
+F 362
+T IFnotDefined $s.nonsence
+w 911
+
+S T 159
+s 22Jul2008:1137
+P 92 183
+F 358
+T else
+w 927
+
+S T 160
+s 22Jul2008:1138
+P 83 216
+T AssertTrue $b.result
+w 930
+
+S T 161
+s 22Jul2008:1118
+P 79 259
+T IFNotDefined $s.nonsence Set $b.result true
+w 911
+
+S T 162
+s 22Jul2008:1138
+P 79 308
+T Else set $b.result false
+w 926
+
+S T 163
+s 22Jul2008:1137
+P 82 355
+T AssertTrue $b.result
+w 930
+
+S P 164
+s 22Jul2008:1139
+P 493 399
+h 2.0
+l 157 166
+c 141 140
+
+S P 165
+s 22Jul2008:1139
+P 39 399
+h 2.0
+l 167 166
+c 142 140
+
+S T 5
+s 22Jul2008:1036
+P 940 572
+F 89
+T @ao
+
+Z
+
+L 156 1
+s 154 155
+
+L 167 1
+s 165 154
+
+L 157 1
+s 155 164
+
+L 166 1
+s 164 165
+
+Z
+
+C 139 3
+s 154 155
+
+C 142 2
+s 165 154
+
+C 141 2
+s 155 164
+
+C 140 3
+s 164 165
+
+Z
+
+ActiveTime:00:03:58
+DarkTime:00:11:30
+00:01:464 213 137 kCtrl
+00:01:750 213 137 kL
+00:02:552 213 136 Ld
+00:02:575 213 136 Lu

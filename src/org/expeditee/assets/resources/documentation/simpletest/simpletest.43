@@ -1,0 +1,32 @@
++A+ SimpleTest43
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1043
++M+ ra33
++d+ 01Feb2008:1820
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1043
++P+ 27 10
++T+ if $b.F
+
++S+ 6
++s+ 25Jan2008:1043
++P+ 103 158
++T+ This code should not be reached!
+
++S+ 5
++s+ 25Jan2008:1043
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 57 16 Rd
+00:01 57 16 Ru
+00:02 901 25 kRight
+00:03 905 19 kRight
+

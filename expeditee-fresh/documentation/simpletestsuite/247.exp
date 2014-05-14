@@ -1,0 +1,114 @@
+V 15
+p 4
+U root
+D 05Jun2008:1707
+M root
+d 26Jul2008:1307
+Z
+
+S T 12
+s 05Jun2008:1707
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T TooManyParamsTest
+
+S P 20
+s 05Jun2008:1707
+P 37 68
+h 2.0
+l 37 24
+c 124 126
+
+S P 36
+s 05Jun2008:1707
+P 595 68
+h 2.0
+l 37 38
+c 124 125
+
+S T 14
+s 05Jun2008:1707
+d 100 0 100
+P 58 98
+T @ThrowsException
+
+S T 15
+s 05Jun2008:1707
+d 0 0 0
+P 62 137
+T #dgh gdh g hf
+
+S T 16
+s 05Jun2008:1707
+d 0 0 0
+P 64 174
+T Set $i.test 5
+
+S T 17
+s 05Jun2008:1707
+d 0 0 0
+P 64 225
+T Add $i.test $i.test $i.test $i.TEst4 //This is a comment test
+
+S T 18
+s 05Jun2008:1707
+d 0 0 0
+P 63 327
+T @MessageLn $i.test3
+
+S P 21
+s 05Jun2008:1707
+P 37 296
+h 2.0
+l 24 35
+c 126 127
+
+S P 33
+s 05Jun2008:1707
+P 595 296
+h 2.0
+l 38 35
+c 125 127
+
+S T 5
+s 05Jun2008:1707
+P 940 572
+F 89
+T @ao
+
+Z
+
+L 37 1
+s 36 20
+
+L 24 1
+s 20 21
+
+L 38 1
+s 33 36
+
+L 35 1
+s 21 33
+
+Z
+
+C 124 3
+s 36 20
+
+C 126 2
+s 20 21
+
+C 125 2
+s 33 36
+
+C 127 3
+s 21 33
+
+Z
+
+ActiveTime:00:00:45
+DarkTime:00:10:34
+00:02:513 962 685 Ld
+00:02:551 962 685 Lu

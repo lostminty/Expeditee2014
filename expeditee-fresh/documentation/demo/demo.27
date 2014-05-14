@@ -1,0 +1,38 @@
++A+ Demo27
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ ra33
++d+ 11Feb2008:1121
++Z+
++v+ 22
+
++S+ 3
++s+ 11Feb2008:1121
++P+ 0 0
++f+ tr21
++T+ Creation
+
++S+ 23
++s+ 11Feb2008:1121
++P+ 142 89
++f+ tr21
++T+ Lines are created by middle-clicking in 'free space'
+
++S+ 24
++s+ 11Feb2008:1121
++P+ 126 344
++f+ tr21
++T+ Lines are also auto-straightening if within a given threshold
++Z+
+00:02 235 157 Md
+00:03 235 157 Mu
+00:08 511 160 Md
+00:08 511 160 Mu
+00:09 418 160 Md
+00:09 418 160 Rd
+00:10 292 233 Ld
+00:10 292 233 Lu
+

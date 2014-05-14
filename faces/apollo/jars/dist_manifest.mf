@@ -1,0 +1,4 @@
+Manifest-Version: DEV2008
+Created-By: Brook Novak
+Main-Class: org.apollo.ApolloSystem
+Class-Path: jars_apollo/tritonus_remaining-0.3.6.jar jars_apollo/tritonus_share-0.3.6.jar jars_apollo/javalayer.jar jars_apollo/tritonus_mp3-0.3.6.jar jars/activation.jar jars/cobra.jar jars/ext jars/iText-2.1.3.jar jars/jcommon-1.0.13.jar jars/JEP.jar jars/JFreeCharts.jar jars/js.jar jars/lobo.jar jars/lobo-pub.jar jars/mail.jar

@@ -1,0 +1,41 @@
+V 7
+p 4
+U root
+D 05Jun2008:1709
+M root
+d 26Jun2008:0047
+Z
+
+S T 12
+s 05Jun2008:1709
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T DoNothingTest
+
+S T 23
+s 05Jun2008:1848
+d 100 0 100
+P 86 97
+T @ThrowsException
+
+S T 5
+s 05Jun2008:1709
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:01:40
+DarkTime:00:00:00
+00:00:387 109 36 kPage Up
+00:00:868 109 36 kPage Down
+00:01:162 109 36 Rd
+00:01:189 109 36 Md
+00:01:507 109 36 kPage Up

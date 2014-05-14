@@ -1,0 +1,536 @@
+V 42
+U jts21A
+D 20Jan2014[10:06]
+M jts21A
+d 21Jan2014[13:41]
+Z
+
+S T 3
+s 20Jan2014[10:06]
+d 0 0 100 100
+P 15 55
+T Move the above item, then click here
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 892
+h -1.0
+
+S T 399
+s 20Jan2014[10:05.48]
+d 50 50 50 100
+P 54 92
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 400
+s 20Jan2014[10:07.15]
+P 47 123
+T var frame = loadTutorialFrame(4)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 632
+s 20Jan2014[14:19.47]
+P 45 153
+T var iterator = frame.getTextItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 633
+s 20Jan2014[14:22.39]
+P 43 184
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 536
+s 20Jan2014[14:20.02]
+P 27 217
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 537
+s 20Jan2014[14:20.16]
+d 100 0 0 100
+P 968 230
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 539 616
+c 331 334
+
+S P 538
+s 20Jan2014[14:20.16]
+d 100 0 0 100
+P 27 230
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 539 540
+c 331 333
+
+S T 541
+s 20Jan2014[14:20.18]
+P 44 259
+T var t = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 630
+s 20Jan2014[14:20.59]
+P 48 296
+T if(t.getData() != null && t.getData().contains("itemToMove") && (t.getX() != 70 || t.getY() != 217))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 618
+s 20Jan2014[14:22.19]
+d 0 0 100 100
+P 247 325
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 620 626
+c 459 462
+
+S P 619
+s 20Jan2014[14:22.19]
+d 0 0 100 100
+P 74 325
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 620 621
+c 459 461
+
+S T 629
+s 20Jan2014[14:22.21]
+P 98 351
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 628
+s 20Jan2014[14:22.26]
+P 104 384
+T break
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 624
+s 20Jan2014[14:22.19]
+d 0 0 100 100
+P 74 396
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 621 627
+c 461 460
+
+S P 625
+s 20Jan2014[14:22.19]
+d 0 0 100 100
+P 247 396
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 626 627
+c 462 460
+
+S P 553
+s 20Jan2014[14:20.16]
+d 100 0 0 100
+P 27 417
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 540 617
+c 333 332
+
+S P 615
+s 20Jan2014[14:20.16]
+d 100 0 0 100
+P 968 417
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 616 617
+c 334 332
+
+S T 614
+s 20Jan2014[14:22.47]
+P 30 448
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 582
+s 20Jan2014[10:11.19]
+d 100 0 0 100
+P 33 473
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 593 584
+c 31 33
+
+S P 592
+s 20Jan2014[10:11.19]
+d 100 0 0 100
+P 1000 473
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 593 609
+c 31 34
+
+S T 595
+s 20Jan2014[10:13.52]
+P 51 503
+T var t = frame.addText(70, 310, "Items can be duplicated by right clicking them", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 613
+s 20Jan2014[14:14.45]
+P 61 559
+T t.setData("itemToDupe")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 611
+s 20Jan2014[10:07.15]
+P 59 607
+T frame.addText(70, 346, "Duplicate the above item, then click here", "runJSFrame", "Tutorials7")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 588
+s 20Jan2014[10:11.19]
+d 100 0 0 100
+P 33 638
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 584 610
+c 33 32
+
+S P 608
+s 20Jan2014[10:11.19]
+d 100 0 0 100
+P 1000 638
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 609 610
+c 34 32
+
+S T 607
+s 20Jan2014[10:23.22]
+P 41 700
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 598
+s 20Jan2014[10:23.24]
+d 100 0 0 100
+P 932 725
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 600 605
+c 192 195
+
+S P 599
+s 20Jan2014[10:23.24]
+d 100 0 0 100
+P 28 725
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 600 601
+c 192 194
+
+S T 602
+s 20Jan2014[10:23.26]
+P 52 756
+T org.expeditee.gui.MessageBay.errorMessage("You need to move the text item to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 603
+s 20Jan2014[10:23.24]
+d 100 0 0 100
+P 28 791
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 601 606
+c 194 193
+
+S P 604
+s 20Jan2014[10:23.24]
+d 100 0 0 100
+P 932 791
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 605 606
+c 195 193
+
+Z
+
+L 539 1
+s 537 538
+
+L 616 1
+s 615 537
+
+L 540 1
+s 538 553
+
+L 620 1
+s 618 619
+
+L 626 1
+s 625 618
+
+L 621 1
+s 619 624
+
+L 627 1
+s 624 625
+
+L 617 1
+s 553 615
+
+L 593 1
+s 592 582
+
+L 584 1
+s 582 588
+
+L 609 1
+s 608 592
+
+L 610 1
+s 588 608
+
+L 600 1
+s 598 599
+
+L 605 1
+s 604 598
+
+L 601 1
+s 599 603
+
+L 606 1
+s 603 604
+
+Z
+
+C 331 3
+s 537 538
+
+C 334 2
+s 615 537
+
+C 333 2
+s 538 553
+
+C 459 3
+s 618 619
+
+C 462 2
+s 625 618
+
+C 461 2
+s 619 624
+
+C 460 3
+s 624 625
+
+C 332 3
+s 553 615
+
+C 31 3
+s 592 582
+
+C 33 2
+s 582 588
+
+C 34 2
+s 608 592
+
+C 32 3
+s 588 608
+
+C 192 3
+s 598 599
+
+C 195 2
+s 604 598
+
+C 194 2
+s 599 603
+
+C 193 3
+s 603 604
+
+Z
+
+ActiveTime:00:12:44
+DarkTime:00:01:27
+41:22:392 993 417 Rd
+41:22:495 993 417 Ru
+41:27:080 18 131 Rd
+41:27:167 18 131 Ru
+41:28:248 552 161 Ld
+41:28:367 552 161 Lu

@@ -1,0 +1,38 @@
+V 1
+p UWW
+U root
+D 17Apr2008:1459
+M root
+d 18Apr2008:1023
+Z
+
+S T 133
+s 17Apr2008:1459
+d 0 0 100
+P 26 24
+f tr35
+T ForEachDot $ip.Item $fp.cur
+
+S T 136
+s 17Apr2008:1459
+d 0 0 0
+P 113 141
+T DeleteItem $ip.Item
+
+S T 135
+s 17Apr2008:1459
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+00:00 122 197 Md
+00:00 122 197 Rd
+00:01 158 247 Ld
+00:01 158 247 Lu
+

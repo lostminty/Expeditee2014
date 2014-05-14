@@ -1,0 +1,41 @@
++A+ SimpleTest22
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 24Jan2008:1209
++M+ ra33
++d+ 01Feb2008:1818
++Z+
++v+ 22
+
++S+ 4
++s+ 24Jan2008:1209
++P+ 27 10
++T+ //This is another comment
+
++S+ 7
++s+ 24Jan2008:1209
++P+ 142 132
++T+ Set $i.5 55
+
++S+ 6
++s+ 24Jan2008:1209
++P+ 141 180
++T+ Return
+
++S+ 8
++s+ 24Jan2008:1209
++P+ 151 250
++T+ This code should not be reached!!
+
++S+ 5
++s+ 24Jan2008:1209
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:01 242 24 Rd
+00:01 242 24 Ru
+00:02 888 18 kRight
+

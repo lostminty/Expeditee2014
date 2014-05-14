@@ -1,0 +1,128 @@
+V 5
+p 4
+U root
+D 22Jul2008:1139
+M root
+d 22Jul2008:1601
+Z
+
+S T 12
+s 22Jul2008:1139
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T IfDefinedTest
+
+S P 20
+s 22Jul2008:1139
+P 34 88
+h 2.0
+l 24 27
+c 190 191
+
+S P 21
+s 22Jul2008:1139
+P 488 88
+h 2.0
+l 24 25
+c 190 192
+
+S T 14
+s 22Jul2008:1139
+P 84 134
+F 352
+T IFDefined $s.nonsence
+w 911
+
+S T 15
+s 22Jul2008:1139
+P 87 167
+F 363
+T else
+w 927
+
+S T 16
+s 22Jul2008:1139
+P 78 200
+T AssertTrue $b.result
+w 930
+
+S T 17
+s 22Jul2008:1139
+P 74 243
+T IfDefined $s.nonsence Set $b.result false
+w 911
+
+S T 18
+s 22Jul2008:1139
+P 74 292
+T Else set $b.result true
+w 926
+
+S T 19
+s 22Jul2008:1139
+P 77 339
+T AssertTrue $b.result
+w 930
+
+S P 22
+s 22Jul2008:1139
+P 488 383
+h 2.0
+l 25 26
+c 192 193
+
+S P 23
+s 22Jul2008:1139
+P 34 383
+h 2.0
+l 27 26
+c 191 193
+
+S T 5
+s 22Jul2008:1139
+P 940 572
+F 89
+T @ao
+
+Z
+
+L 24 1
+s 20 21
+
+L 27 1
+s 23 20
+
+L 25 1
+s 21 22
+
+L 26 1
+s 22 23
+
+Z
+
+C 190 3
+s 20 21
+
+C 191 2
+s 23 20
+
+C 192 2
+s 21 22
+
+C 193 3
+s 22 23
+
+Z
+
+ActiveTime:00:00:29
+DarkTime:00:00:00
+00:03:073 118 119 Rd
+00:03:157 118 119 Ru
+00:03:637 133 159 Ld
+00:03:749 133 159 Lu
+00:05:729 106 159 kCtrl
+00:05:923 106 159 kL
+00:06:570 105 158 Ld
+00:06:620 105 158 Lu

@@ -1,0 +1,64 @@
+V 20
+p 4
+U Michael
+D 17Nov2008:1243
+M Michael
+d 17Nov2008:1338
+Z
+
+S T 12
+s 17Nov2008:1243
+d 0 0 100
+P 34 49
+T Total: 165
+Q 0
+f sb41
+w 1169
+
+S T 13
+s 17Nov2008:1244
+P 130 130
+T 55
+Q 0
+f tr18
+w 1255
+
+S T 20
+s 17Nov2008:1244
+P 174 187
+T Testing
+Q 0
+f tr18
+w 1155
+
+S T 19
+s 17Nov2008:1244
+P 278 251
+T 55
+Q 0
+f tr18
+w 1255
+
+S T 16
+s 17Nov2008:1244
+P 135 259
+T 55
+Q 0
+f tr18
+w 1255
+
+S T 21
+s 17Nov2008:1243
+P 957 573
+T @ao
+F 89
+Q 0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:39
+DarkTime:00:01:48

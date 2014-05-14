@@ -1,0 +1,152 @@
+V 5
+p 4
+U root
+D 15Mar2008:1502
+M root
+d 26Jun2008:0046
+Z
+
+S T 203
+s 15Mar2008:1502
+d 0 0 100
+P 25 27
+X RunFrame
+f tr35
+T TypeTest
+
+S T 235
+s 15Mar2008:1524
+d 0 0 0
+P 29 119
+T Set $s.1 "Type this first"
+
+S T 257
+s 25Jun2008:1847
+P 292 119
+T ClearFrame $fp.stageFrame
+
+S T 236
+s 15Mar2008:1502
+d 0 0 0
+P 29 149
+T Set $s.2 "
+T Type this second"
+
+S P 237
+s 15Mar2008:1602
+P 8 183
+h 2.0
+l 239 246
+c 188 191
+
+S P 238
+s 15Mar2008:1602
+P 236 183
+h 2.0
+l 239 240
+c 188 190
+
+S T 241
+s 15Mar2008:1502
+d 0 0 0
+P 29 199
+T Set $i.x 300
+
+S T 242
+s 15Mar2008:1502
+d 0 0 0
+P 29 229
+T Set $i.y 300
+
+S T 243
+s 15Mar2008:1504
+d 0 0 0
+P 29 259
+T MoveCursorTo $i.x $i.y
+
+S P 244
+s 15Mar2008:1602
+P 236 269
+h 2.0
+l 240 247
+c 190 189
+
+S P 245
+s 15Mar2008:1602
+P 8 269
+h 2.0
+l 246 247
+c 191 189
+
+S T 260
+s 15Mar2008:1506
+d 0 0 0
+P 27 308
+T Goto $s.StageFrame
+
+S T 152
+s 15Mar2008:1506
+d 100 0 100
+P 420 342
+F 113
+T @StageFrame
+
+S T 250
+s 15Mar2008:1531
+d 0 0 0
+P 29 349
+T Set $i.pause 1
+
+S T 251
+s 15Mar2008:1531
+d 0 0 0
+P 29 379
+T Pause $i.pause
+
+S T 252
+s 15Mar2008:1503
+d 0 0 0
+P 29 409
+T Type $s.1 $s.2
+
+S T 135
+s 15Mar2008:1502
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+L 239 1
+s 237 238
+
+L 246 1
+s 245 237
+
+L 240 1
+s 238 244
+
+L 247 1
+s 244 245
+
+Z
+
+C 188 3
+s 237 238
+
+C 191 2
+s 245 237
+
+C 190 2
+s 238 244
+
+C 189 3
+s 244 245
+
+Z
+
+ActiveTime:00:01:10
+DarkTime:00:00:00
+00:00:765 111 22 Md
+00:00:792 111 22 Rd
+00:01:114 110 22 kPage Up

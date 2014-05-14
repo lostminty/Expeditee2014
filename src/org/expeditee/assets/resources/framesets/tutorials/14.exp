@@ -1,0 +1,522 @@
+V 20
+U jts21A
+D 20Jan2014[10:38]
+M jts21A
+d 21Jan2014[14:29]
+Z
+
+S T 3
+s 20Jan2014[10:38]
+d 0 0 100 100
+P 15 55
+T Delete the shape and all it's items, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 881
+h -1.0
+
+S T 490
+s 21Jan2014[14:27.24]
+d 50 50 50 100
+P 56 122
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 491
+s 21Jan2014[14:27.24]
+P 49 157
+T var frame = loadTutorialFrame(11)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 492
+s 21Jan2014[14:27.24]
+P 59 191
+T var iterator = frame.getTextItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 493
+s 21Jan2014[14:27.24]
+P 82 222
+T var success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 494
+s 21Jan2014[14:27.24]
+P 97 257
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 383
+s 21Jan2014[14:27.24]
+d 100 0 0 100
+P 1023 271
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 496 518
+c 739 740
+
+S P 495
+s 21Jan2014[14:27.24]
+d 100 0 0 100
+P 104 271
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 496 497
+c 739 741
+
+S T 498
+s 21Jan2014[14:27.24]
+P 121 300
+T var t = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 499
+s 21Jan2014[14:27.24]
+P 125 337
+T if(t.getData() != null && t.getData().contains("itemsToDelete"))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 500
+s 21Jan2014[14:27.24]
+d 0 0 100 100
+P 324 366
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 502 509
+c 743 744
+
+S P 501
+s 21Jan2014[14:27.24]
+d 0 0 100 100
+P 151 366
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 502 503
+c 743 745
+
+S T 504
+s 21Jan2014[14:27.24]
+P 175 392
+T success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 505
+s 21Jan2014[14:27.24]
+P 181 425
+T break
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 506
+s 21Jan2014[14:27.24]
+d 0 0 100 100
+P 151 437
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 503 508
+c 745 746
+
+S P 507
+s 21Jan2014[14:27.24]
+d 0 0 100 100
+P 324 437
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 508 509
+c 744 746
+
+S P 510
+s 21Jan2014[14:27.24]
+d 100 0 0 100
+P 104 462
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 497 517
+c 741 742
+
+S P 516
+s 21Jan2014[14:27.24]
+d 100 0 0 100
+P 1023 462
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 517 518
+c 740 742
+
+S T 585
+s 20Jan2014[10:55.02]
+P 46 518
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 586
+s 20Jan2014[10:46.44]
+d 100 0 0 100
+P 1030 543
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 588 593
+c 75 78
+
+S P 587
+s 20Jan2014[10:46.44]
+d 100 0 0 100
+P 46 543
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 588 589
+c 75 77
+
+S T 590
+s 20Jan2014[10:45.06]
+P 63 583
+T frame.addText(70, 400, "Similarly, un-deleting a shape will\nun-delete all the items that were deleted with it", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 591
+s 20Jan2014[10:45.06]
+P 63 658
+T frame.addText(70, 455, "Un-delete the shape, then click here to continue", "runJSFrame", "Tutorials15")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 592
+s 20Jan2014[10:46.44]
+d 100 0 0 100
+P 1030 686
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 593 595
+c 78 76
+
+S P 594
+s 20Jan2014[10:46.44]
+d 100 0 0 100
+P 46 686
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 589 595
+c 77 76
+
+S T 600
+s 20Jan2014[10:45.06]
+P 47 735
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 601
+s 20Jan2014[10:45.06]
+d 100 0 0 100
+P 945 762
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 603 608
+c 165 166
+
+S P 602
+s 20Jan2014[10:45.06]
+d 100 0 0 100
+P 41 762
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 603 604
+c 165 167
+
+S T 605
+s 20Jan2014[10:45.06]
+P 73 790
+T org.expeditee.gui.MessageBay.errorMessage("You need to delete the shape to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 606
+s 20Jan2014[10:45.06]
+d 100 0 0 100
+P 41 828
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 604 609
+c 167 168
+
+S P 607
+s 20Jan2014[10:45.06]
+d 100 0 0 100
+P 945 828
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 608 609
+c 166 168
+
+Z
+
+L 496 1
+s 383 495
+
+L 518 1
+s 516 383
+
+L 497 1
+s 495 510
+
+L 502 1
+s 500 501
+
+L 509 1
+s 507 500
+
+L 503 1
+s 501 506
+
+L 508 1
+s 506 507
+
+L 517 1
+s 510 516
+
+L 588 1
+s 586 587
+
+L 593 1
+s 592 586
+
+L 589 1
+s 587 594
+
+L 595 1
+s 594 592
+
+L 603 1
+s 601 602
+
+L 608 1
+s 607 601
+
+L 604 1
+s 602 606
+
+L 609 1
+s 606 607
+
+Z
+
+C 739 3
+s 383 495
+
+C 740 2
+s 516 383
+
+C 741 2
+s 495 510
+
+C 743 3
+s 500 501
+
+C 744 2
+s 507 500
+
+C 745 2
+s 501 506
+
+C 746 3
+s 506 507
+
+C 742 3
+s 510 516
+
+C 75 3
+s 586 587
+
+C 78 2
+s 592 586
+
+C 77 2
+s 587 594
+
+C 76 3
+s 594 592
+
+C 165 3
+s 601 602
+
+C 166 2
+s 607 601
+
+C 167 2
+s 602 606
+
+C 168 3
+s 606 607
+
+Z
+
+ActiveTime:00:07:27
+DarkTime:00:00:00
+29:57:129 49 173 Rd
+29:57:232 49 173 Ru
+29:58:401 1201 482 Rd
+29:58:480 1201 482 Ru
+29:59:032 1120 491 Ld
+29:59:152 1120 491 Lu

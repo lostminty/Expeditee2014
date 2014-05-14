@@ -1,0 +1,57 @@
+V 7
+p 4
+U root
+D 09Jul2008:1347
+M root
+d 09Jul2008:1425
+Z
+
+S T 12
+s 09Jul2008:1347
+d 0 0 100
+P 34 49
+f sb41
+T @TopFrame
+
+S T 13
+s 09Jul2008:1347
+P 166 174
+T THis is a test of a frame with no links
+
+S T 16
+s 09Jul2008:1347
+P 160 245
+T THis is a test of a frame with no links
+
+S T 18
+s 09Jul2008:1347
+P 173 305
+F 344
+T THis is a test of a frame with no links
+
+S T 19
+s 09Jul2008:1347
+P 174 398
+T THis is a test TESTING of a frame with no links
+
+S T 21
+s 09Jul2008:1425
+P 179 454
+T THis is a test of a frame with no links
+
+S T 5
+s 09Jul2008:1347
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:46
+DarkTime:00:00:00
+00:03:259 308 303 Ld
+00:03:383 308 303 Lu

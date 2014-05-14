@@ -1,0 +1,48 @@
++A+ SimpleTest47
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 25Jan2008:1258
++M+ ra33
++d+ 02Feb2008:1529
++Z+
++v+ 22
+
++S+ 4
++s+ 25Jan2008:1258
++P+ 27 10
++T+ ForEach $ip.Item $fp.Frame
+
++S+ 6
++s+ 25Jan2008:1258
++P+ 129 128
++T+ Add $i.ItemCount
+
++S+ 7
++s+ 25Jan2008:1305
++P+ 132 188
++F+ SimpleTest48
++T+ IfAnnotation $ip.Item
+
++S+ 10
++s+ 25Jan2008:1401
++P+ 132 245
++F+ SimpleTest59
++T+ IfLinked $ip.Item
+
++S+ 11
++s+ 25Jan2008:1431
++P+ 136 301
++F+ SimpleTest60
++T+ IfBodyText $ip.Item
+
++S+ 5
++s+ 25Jan2008:1258
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
++Z+
+00:00 223 310 Ld
+00:00 223 310 Lu
+

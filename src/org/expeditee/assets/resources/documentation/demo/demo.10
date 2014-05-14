@@ -1,0 +1,45 @@
++A+ Demo10
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ ra33
++d+ 11Feb2008:1120
++Z+
++v+ 22
+
++S+ 3
++s+ 11Feb2008:1120
++P+ 0 0
++f+ tr21
++T+ JAGs
+
++S+ 4
++s+ 11Feb2008:1120
++P+ 0 0
++f+ tr21
++T+ JAGs & Agents
+
++S+ 12
++s+ 11Feb2008:1120
++P+ 93 62
++f+ tr21
++T+ KMS has many 'agents' which are frames made up of items that have actions
+
++S+ 14
++s+ 11Feb2008:1120
++P+ 93 100
++f+ tr21
++T+ The actions can then be used to write programs that perform tasks on the current frame
+
++S+ 17
++s+ 11Feb2008:1120
++P+ 99 226
++F+ Demo59
++f+ tr21
++T+ Expeditee also has a notion of Java Agents, or JAGs
++Z+
+00:08 198 239 Ld
+00:08 198 239 Lu
+

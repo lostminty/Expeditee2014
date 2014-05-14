@@ -1,0 +1,295 @@
+V 63
+U csl14A
+D 12Dec2013[10:15]
+M csl14A
+d 18Dec2013[15:28]
+Z
+
+S P 90
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 1008 0
+e 0 0 0 0
+Q 0
+v S
+h 2.0
+l 102 103
+c 63 64
+
+S P 91
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 0 0
+e 0 0 0 0
+Q 0
+v S
+h 2.0
+l 102 104
+c 63 65
+
+S P 94
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 1008 0
+Q 0
+v S
+h 2.0
+l 106 107
+c 67 68 70
+
+S P 95
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 0 0
+Q 0
+v S
+h 2.0
+l 106 108
+c 67 71 73
+
+S P 100
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 765 0
+Q 0
+v S
+h 2.0
+l 111
+c 70 73
+
+S P 412
+s 13Dec2013[15:36.16]
+d 100 0 0 100
+P 140 0
+Q 0
+v S
+h 2.0
+l 414
+
+S T 556
+s 18Dec2013[15:23.52]
+d 50 50 50 100
+P 819 18
+T @i: home.png 32
+X GoToHome
+Q 0
+v S
+
+S T 558
+s 18Dec2013[15:23.52]
+d 50 50 50 100
+P 859 22
+T @i: rightArrow.png 32
+X Forward
+Q 0
+v S
+
+S T 560
+s 18Dec2013[15:23.52]
+d 50 50 50 100
+P 780 22
+T @i: leftArrow.png 32
+X Back
+Q 0
+v S
+
+S T 438
+s 18Dec2013[12:21.59]
+P 600 45
+T Get Hexagon
+F PlatonicForms4
+X getItemsFromChildFrame
+Q 0
+v S
+
+S T 88
+s 12Dec2013[10:15.14]
+P 0 45
+T Mindmap
+Q 0
+v S
+f sr25
+w 140
+k C
+
+S T 83
+s 12Dec2013[10:15.14]
+P 335 45
+T Get Arrow
+F PlatonicForms2
+X getItemsFromChildFrame
+Q 0
+v S
+f sr18
+
+S T 292
+s 12Dec2013[10:15.14]
+P 190 45
+T Get Square
+F PlatonicForms1
+X getItemsFromChildFrame
+Q 0
+v S
+f sr18
+
+S T 516
+s 12Dec2013[10:15.14]
+P 475 45
+T Get Circle
+F PlatonicForms3
+X getItemsFromChildFrame
+Q 0
+v S
+f sr18
+
+S T 561
+s 18Dec2013[15:23.52]
+P 917 46
+T HELP
+F Documentation1
+Q 0
+v S
+f sr25
+
+S P 92
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 0 70
+e 0 0 0 0
+Q 0
+v S
+h 2.0
+l 104 105
+c 65 66
+
+S P 93
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 1008 70
+e 0 0 0 0
+Q 0
+v S
+h 2.0
+l 103 105
+c 64 66
+
+S P 96
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 0 70
+Q 0
+v S
+h 2.0
+l 108 109
+c 71 75 76
+
+S P 97
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 1008 70
+Q 0
+j 50.0 0.3 0.75
+v S
+h 2.0
+l 107 109
+c 68 75 78
+
+S P 101
+s 12Dec2013[10:15.14]
+d 100 0 0 100
+P 765 70
+Q 0
+v S
+h 2.0
+l 111
+c 76 78
+
+S P 413
+s 13Dec2013[15:36.16]
+d 100 0 0 100
+P 140 70
+Q 0
+v S
+h 2.0
+l 414
+
+Z
+
+L 102 1
+s 90 91
+
+L 103 1
+s 93 90
+
+L 104 1
+s 91 92
+
+L 106 1
+s 94 95
+
+L 107 1
+s 97 94
+
+L 108 1
+s 95 96
+
+L 111 1
+s 101 100
+
+L 414 1
+s 413 412
+
+L 105 1
+s 92 93
+
+L 109 1
+s 96 97
+
+Z
+
+C 63 3
+s 90 91
+
+C 64 2
+s 93 90
+
+C 65 2
+s 91 92
+
+C 67 3
+s 94 95
+
+C 68 2
+s 97 94
+
+C 70 3
+s 100 94
+
+C 71 2
+s 95 96
+
+C 73 3
+s 100 95
+
+C 66 3
+s 92 93
+
+C 75 3
+s 96 97
+
+C 76 3
+s 101 96
+
+C 78 3
+s 101 97
+
+Z
+
+ActiveTime:00:24:31
+DarkTime:00:00:00
+28:51:521 521 281 kRight
+28:51:729 521 281 kRight
+28:54:269 666 47 Ld
+28:54:333 666 47 Lu
+28:55:060 488 201 Rd
+28:55:108 493 203 Md

@@ -1,0 +1,132 @@
+/* 
+ * CSS for JavaFX UI components. Currently just for the JFXBrowser widget
+ * Author: ngw8
+ */
+
+#jfxbrowser {
+    -light-gray: rgb(245, 245, 245);
+    -dark-gray: rgb(10, 10, 10);
+    -highlight: #79b3d4;
+    -red-highlight: #d44747;
+    -red-highlight-transparent: rgba(248,118,92.0.2);
+    
+    -green-highlight: #62c139;
+    -green-highlight-transparent: rgba(135,212,101, 0.4);
+    
+    -fx-accent: -highlight;
+    -fx-shadow-highlight-color: rgba(255, 255, 255, 0.5);
+    -fx-base: #eee;
+}
+
+
+.browser-overlay .progress-indicator {    
+    -fx-progress-color: black;
+    -fx-blend-mode: screen;
+}
+
+.browser-overlay {    
+    -fx-background-color: rgba(0,0,0,0.8);
+    
+}
+
+.browser-overlay .label {
+    -fx-font: 16px "Sans Serif";
+    -fx-text-fill: white;
+}
+
+.button, .text-field {
+    -fx-background-radius: 2;
+    -fx-padding: 0.2em 1em 0.2em 1em;
+}
+
+.first {
+    -fx-background-radius: 2 0 0 2;
+}
+
+.last {
+    -fx-background-radius: 0 2 2 0;
+}
+
+.custom-toolbar {
+    -fx-font-size: 12px;
+    -fx-background-color:  linear-gradient(to bottom, derive(-fx-base, -2%), derive(-fx-base, -12%));       
+    -fx-padding: 0.4em;
+}
+
+.url-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: -dark-gray;
+}
+
+.url-progress-bar .track {
+    -fx-background-color:-light-gray;
+    
+    -fx-background-radius: 2;
+}
+
+.url-progress-bar .bar {
+    -fx-background-color:
+        -light-gray, -light-gray, 
+        linear-gradient(to bottom, derive(-highlight,50%), derive(-highlight,30%)); /* actual color of the progess bit of the bar */
+    -fx-background-insets: 1;
+}
+
+/* Used when the page has completed loading */
+.url-progress-bar.completed .bar {
+    -fx-background-color:
+        -light-gray, -light-gray,
+        transparent; /* actual color of the progess bit of the bar */
+}
+
+.browser-status-label {
+    -fx-background-color: derive(-fx-base, -16%), linear-gradient(to bottom, derive(-fx-base, 2%), derive(-fx-base, -8%));
+    -fx-background-insets: 0, 1 1 0 0;
+    -fx-padding: 4 8 4 8;
+    -fx-background-radius: 0 2 0 0;
+}
+
+.fa {
+    -fx-font-family: FontAwesome;   
+}
+
+.button.fa .text :not(.tooltip) {
+    -fx-effect: dropshadow(one-pass-box, -fx-shadow-highlight-color, 0,0,0,1);
+}
+
+.url-button { 
+    -fx-background-color: transparent;
+    -fx-padding: 0 8 0 2;
+    -fx-text-fill: derive(-fx-base, -30%);
+}
+
+.url-button .text :not(.tooltip) {
+    -fx-effect: dropshadow(two-pass-box, -light-gray, 6,0.8,0,0) !important;   
+}
+
+.url-cancel-button {
+    -hover-color: -red-highlight;
+    -glow-color: -red-highlight-transparent;
+}
+
+.url-go-button {
+    -hover-color: -green-highlight;
+    -glow-color: -green-highlight-transparent;
+}
+
+.url-button:hover  { 
+    -fx-text-fill: -hover-color;
+}
+
+/* Tooltip is a child of the button, so have to exclude it from the style */
+.url-button:hover .text :not(.tooltip) {
+     -fx-effect: dropshadow( two-pass-box , -glow-color, 6,0,0,0 );
+}
+
+.url-button:active {
+    -fx-text-fill: derive(-hover-color, -30%);
+}
+
+.scrollbars-hidden .scroll-bar {
+    visibility: hidden;
+}
+

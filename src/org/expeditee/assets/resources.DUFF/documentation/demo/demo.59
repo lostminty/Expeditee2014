@@ -1,0 +1,49 @@
++A+ Demo59
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Expeditee also has a notion of Java Agents, or JAGs
++S+ 6
++P+ 59 105
++f+ tr21
++T+ JAGs are classes implementing an Agent interface, that can be called dynamically at run-time
++S+ 8
++P+ 59 173
++f+ tr21
++T+ Current JAGs:
++S+ 18
++P+ 59 241
++F+ Demo60
++f+ tr21
++T+ Sort - swaps positions on a frame so they are ordered
++S+ 15
++P+ 59 309
++F+ Demo61
++f+ tr21
++T+ Format - aligns items on a frame
++S+ 17
++P+ 59 377
++F+ MotionTest1
++f+ tr21
++T+ DisplayTree - displays a tree of frames in depth-first traversal
++S+ 14
++P+ 59 445
++F+ Demo9
++f+ tr21
++T+ WriteTree - outputs a tree of frames to a file (more on this in Exports)
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

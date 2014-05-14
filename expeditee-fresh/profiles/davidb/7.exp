@@ -1,0 +1,414 @@
+V 1
+U davidb
+D 14Jan2014[17:56]
+M davidb
+d 14Jan2014[17:56]
+Z
+
+S T 3
+s 14Jan2014[17:56]
+P 15 42
+T settings
+Q 0
+o davidb
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 927
+h -1.0
+
+S T 6
+s 14Jan2014[17:56.16]
+d 0 0 100 100
+P 35 102
+T TitleTemplate
+Q 0
+o davidb
+v S
+f sb50
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 7
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 102
+T // Template for Title text item
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 9
+s 14Jan2014[17:56.16]
+P 35 148
+T ItemTemplate
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 10
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 148
+T // Template for normal text items
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 12
+s 14Jan2014[17:56.16]
+P 35 188
+T DotTemplate
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 13
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 188
+T // Template for dot items
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 15
+s 14Jan2014[17:56.16]
+d 50 50 50 100
+P 35 228
+T AnnotationTemplate
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 16
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 228
+T // Template for annotation text items
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 18
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 35 268
+T CodeCommentTemplate
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 19
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 268
+T // Template for code comment text items
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 21
+s 14Jan2014[17:56.16]
+d 0 0 0 100
+G 90 90 90 100
+P 35 307
+T StatTemplate
+Q 0
+o davidb
+v S
+f mr14
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 22
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 307
+T // Template for statistics (e.g. extracted attributes) text items
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 24
+s 14Jan2014[17:56.16]
+d 0 0 0 100
+G 70 70 90 100
+P 35 345
+T TooltipTemplate
+Q 0
+o davidb
+v S
+f tr14
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 25
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 345
+T // Template for tooltips
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 27
+s 14Jan2014[17:56.16]
+P 35 385
+T ColorWheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 28
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 385
+T // The colours of items in the child frame are used to populate the colour wheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 30
+s 14Jan2014[17:56.16]
+P 35 448
+T FillColorWheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 31
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 448
+T // The colours of items in the child frame are used to populate the colour wheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 33
+s 14Jan2014[17:56.16]
+P 35 511
+T BackgroundColorWheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 34
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 511
+T // The colours of items in the child frame are used to populate the colour wheel
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 36
+s 14Jan2014[17:56.16]
+P 35 574
+T Style
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 37
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 574
+T // Set the style (TODO: what does this do?)
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 39
+s 14Jan2014[17:56.16]
+P 35 614
+T SpellChecker
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 40
+s 14Jan2014[17:56.16]
+d 0 70 0 100
+P 450 614
+T // Enables the dictionary with the default dictionary
+Q 0
+o davidb
+v S
+t -1.0
+b 0.0
+m 0.0
+w 550
+h -1.0
+
+S T 4
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 846 648
+T @Previous
+F davidb6
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+S T 5
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 767 648
+T @First
+F davidb2
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+S T 42
+s 14Jan2014[17:56.16]
+G 75 75 75 100
+K 25 25 25 100
+P 955 648
+T @Next
+F davidb8
+Q 0
+o davidb
+n F
+v S
+t -1.0
+b 0.0
+m 0.0
+h 2.0
+B F
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="Apollo">
+
+	<tstamp>
+		<format property="TODAY_EXP" pattern="yy.MM.dd"/>
+	</tstamp>
+
+	<property environment="env"/>
+
+	<property name="dist.dir.apollo" location="releases" />
+	<!--
+		<property name="dist.filename.exp" value="Exp.${TODAY_EXP}.jar" />
+	-->
+	<property name="dist.filename.apollo"   value="Apollo.jar" />
+	<property name="build.dir.exp"   location="../../bin" />
+	<property name="build.dir.apollo"   location="bin" />
+	<property name="manifest.path.apollo"  value="makeFiles/apollo_manifest.mf" />
+	<property name="lib.dir.exp"  location="../../releases/jars" />
+	<property name="lib.src.dir.apollo"  location="jars" />
+	<property name="lib.dir.apollo"  location="releases/jars" />
+	<property name="inst.dir.apollo" location="inst" />
+
+	<!--
+	     If changing this value, make sure you run `ant clean`
+	-->
+	<property name="javac.source" value="1.7" />
+	<property name="javac.target" value="${javac.source}" />
+
+        <property name="expeditee.server.port" value="3000"/>
+
+	<path id="classpath.apollo">
+		<fileset dir="${lib.dir.apollo}">
+			<include name="*.jar" />
+			<include name="ext/*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="clean">
+		<!-- delete only the class files built by expeditee -->
+		<delete dir="${build.dir.exp}/org"/>
+		<delete dir="${build.dir.apollo}/org"/>
+		<delete dir="${dist.dir.apollo}" />
+		<delete dir="${inst.dir.apollo}" />
+	</target>
+	<target depends="clean" name="cleanall"/>
+
+	<target name="init">
+		<ant useNativeBasedir="true" antfile="../../build.xml" target="init"/>
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<mkdir dir="${build.dir.apollo}"/>
+		<copy includeemptydirs="false" todir="${build.dir.apollo}">
+			<fileset dir="${build.dir.exp}"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${build.dir.apollo}">
+			<fileset dir="src">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<mkdir dir="${dist.dir.apollo}"/>
+		<mkdir dir="${lib.dir.apollo}"/>
+		<copy includeemptydirs="false" todir="${lib.dir.apollo}">
+			<fileset dir="${lib.dir.exp}"/>
+			<fileset dir="${lib.src.dir.apollo}"/>
+		</copy>
+	</target>
+	
+	<target depends="init" name="build">
+		<ant useNativeBasedir="true" antfile="../../build.xml" target="build"/>
+		<copy includeemptydirs="false" todir="${build.dir.apollo}/org">
+			<fileset dir="${build.dir.exp}/org"/>
+		</copy>
+		<javac source="${javac.source}" target="${javac.target}" debug="false" 
+                       destdir="${build.dir.apollo}" includeantruntime="false">                       
+			
+			<src path="src"/>
+			
+			<classpath>
+				<path refid="classpath.apollo"/>
+			</classpath>
+		</javac>
+	</target>
+
+	<target depends="build" name="jar">
+		<jar destfile="${dist.dir.apollo}/${dist.filename.apollo}" manifest="${manifest.path.apollo}">
+			<manifest>
+				<attribute name="Main-Class" value="org.apollo.ApolloSystem"/>
+				<attribute name="Class-Path" value="."/>
+			</manifest>
+			<fileset dir="${build.dir.apollo}">
+				<exclude name="src/**"/>
+			</fileset>
+		</jar>
+	</target>
+	<target depends="jar" name="inst">
+		<mkdir dir="${inst.dir.apollo}" />
+		<mkdir dir="${inst.dir.apollo}/jars" />
+		<copy file="${dist.dir.apollo}/${dist.filename.apollo}" tofile="${inst.dir.apollo}/${dist.filename.apollo}" />
+		<copy todir="${inst.dir.apollo}/jars">
+			<path refid="classpath.apollo" />
+		</copy>
+	</target>
+
+	<target name="run">
+		<java classname="org.apollo.ApolloSystem" failonerror="true" fork="yes">
+			<classpath>
+				<path refid="classpath.apollo"/>
+				
+				<pathelement location="${build.dir.apollo}"/>
+			</classpath>
+		</java>
+	</target>
+</project>

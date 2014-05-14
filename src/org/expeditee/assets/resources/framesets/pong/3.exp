@@ -1,0 +1,308 @@
+V 2
+U jts
+D 16Feb2014[16:45]
+M jts
+d 16Feb2014[16:45]
+Z
+
+S T 3
+s 16Feb2014[16:45]
+d 0 0 100 100
+P 15 55
+T @mouseListener
+Q 0
+o jts
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 1808
+h -1.0
+
+S T 33
+s 16Feb2014[16:45.35]
+P 352 56
+T @itemtemplate
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 8
+s 16Feb2014[15:58.36]
+P 49 129
+T var mouseListener = new Object()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 9
+s 16Feb2014[15:58.52]
+P 49 165
+T mouseListener.mouseClicked = function(e)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 10
+s 16Feb2014[15:58.41]
+d 0 70 0 100
+P 45 175
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 13 11
+c 781 782
+
+S P 12
+s 16Feb2014[15:58.41]
+d 0 70 0 100
+P 823 175
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 13 26
+c 781 783
+
+S T 14
+s 16Feb2014[16:00.27]
+P 76 211
+T if(e.getButton() == java.awt.event.MouseEvent.BUTTON1)
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 15
+s 16Feb2014[16:00.59]
+d 0 0 100 100
+P 639 232
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 18 22
+c 835 838
+
+S P 16
+s 16Feb2014[16:00.59]
+d 0 0 100 100
+P 83 232
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 18 17
+c 835 837
+
+S T 19
+s 16Feb2014[16:02.11]
+P 105 262
+T threadRef.start()
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S P 20
+s 16Feb2014[16:00.59]
+d 0 0 100 100
+P 83 277
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 17 23
+c 837 836
+
+S P 21
+s 16Feb2014[16:00.59]
+d 0 0 100 100
+P 639 277
+e 59 59 100 100
+Q 0
+o jts
+v S
+h 2.0
+l 22 23
+c 838 836
+
+S P 24
+s 16Feb2014[15:58.41]
+d 0 70 0 100
+P 45 290
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 11 27
+c 782 784
+
+S P 25
+s 16Feb2014[15:58.41]
+d 0 70 0 100
+P 823 290
+e 59 100 59 100
+Q 0
+o jts
+v S
+h 2.0
+l 26 27
+c 783 784
+
+S T 28
+s 16Feb2014[15:59.17]
+P 52 333
+T mouseListener.mouseEntered = function(e) {}
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 29
+s 16Feb2014[15:59.25]
+P 54 367
+T mouseListener.mouseExited = function(e) {}
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 30
+s 16Feb2014[15:59.30]
+P 54 401
+T mouseListener.mousePressed = function(e) {}
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 31
+s 16Feb2014[15:59.29]
+P 54 435
+T mouseListener.mouseReleased = function(e) {}
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 32
+s 16Feb2014[15:58.41]
+P 54 469
+T component.addMouseListener(invocable.getInterface(mouseListener, java.awt.event.MouseListener.class))
+Q 0
+o jts
+v S
+f DejaVu Sans Mono_r18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+Z
+
+L 13 1
+s 12 10
+
+L 11 1
+s 10 24
+
+L 26 1
+s 25 12
+
+L 18 1
+s 15 16
+
+L 22 1
+s 21 15
+
+L 17 1
+s 16 20
+
+L 23 1
+s 20 21
+
+L 27 1
+s 24 25
+
+Z
+
+C 781 3
+s 12 10
+
+C 782 2
+s 10 24
+
+C 783 2
+s 25 12
+
+C 835 3
+s 15 16
+
+C 838 2
+s 21 15
+
+C 837 2
+s 16 20
+
+C 836 3
+s 20 21
+
+C 784 3
+s 24 25
+
+Z
+
+ActiveTime:00:00:05
+DarkTime:00:00:00
+45:43:429 415 44 Md
+45:43:541 414 44 Mu
+45:43:811 584 111 kRight
+45:44:275 588 112 kLeft

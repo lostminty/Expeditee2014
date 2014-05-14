@@ -1,0 +1,93 @@
+V 30
+U jts21A
+D 20Jan2014[09:28]
+M jts21A
+d 21Jan2014[10:55]
+Z
+
+S T 3
+s 20Jan2014[09:28]
+d 0 0 100 100
+P 15 55
+T Links and actions
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 892
+h -1.0
+
+S T 6
+s 20Jan2014[09:28.30]
+P 70 141
+T You just followed a link to get here.
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 130
+s 20Jan2014[09:28.49]
+P 70 177
+T Actions are similar to links in that they are activated with a left click
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 135
+s 20Jan2014[09:45.43]
+P 70 213
+T Links have a hollow circle next to them, actions have a filled black circle,
+T and linked actions have a filled red circle
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 163
+s 20Jan2014[09:29.47]
+P 70 270
+T Click here to continue
+F 3
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:05:21
+DarkTime:00:00:00
+55:41:391 263 304 Rd
+55:41:398 263 304 Md
+55:41:799 257 407 Ld
+55:41:878 257 407 Lu

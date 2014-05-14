@@ -1,0 +1,38 @@
++v+ 22
++V+ 4
++p+ 4
++U+ root
++D+ 14Feb2008:1551
++M+ root
++d+ 26Jun2008:0053
++A+ SimpleTestSuite94
+
++S+ 133
++s+ 14Feb2008:1551
++d+ 0 0 100
++P+ 26 24
++f+ tr35
++T+ Ifgrt $i.time $i.minTime
+
++S+ 136
++s+ 14Feb2008:1552
++d+ 0 0 100
++P+ 61 122
++F+ SimpleTestSuite95
++f+ tr35
++T+ Ifless $i.time $i.maxTime
+
++S+ 129
++s+ 14Feb2008:1551
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:587 102 5 Md
+00:01:732 102 7 Mu
+00:02:214 95 51 Rd
+00:02:240 95 51 Md
+00:03:175 126 103 Ld
+00:03:262 126 103 Lu

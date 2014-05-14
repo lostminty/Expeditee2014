@@ -1,0 +1,146 @@
+#!/bin/bash
+
+if [ ! -z $explang ] ; then
+  explang=en
+fi
+
+# Our French and Spanish strings are in 'ISO-8859-1' (Latin 1) encoding; 
+# Russian is the Cyrillic alphabet encoding, 'KOI8-R'
+
+if [ "x$PROGNAME" = "x" ] ; then
+  if [ "$explang" = "es" ]; then
+    PROGNAME="Navegador Expeditee"
+  elif [ "$explang" = "fr" ]; then
+    PROGNAME="Navigateur Expeditee"
+  elif [ "$explang" = "ru" ]; then
+    PROGNAME="Браузер Expeditee"
+  else
+    PROGNAME="Expeditee Browser"
+  fi
+fi
+
+if [ "x$PROGABBR" = "x" ] ; then
+    PROGABBR="Expeditee"
+fi
+
+if [ "x$PROGNAME_EN" = "x" ] ; then
+    PROGNAME_EN="Expeditee Browser"
+fi
+
+if [ "x$EXPMODE" = "x" ] ; then
+    EXPMODE="local"
+fi
+
+echo
+if [ "$explang" = "es" ]; then
+    echo "Interfaz de la $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2013, New Zealand Digital Library Project, University Of Waikato"
+    echo "La Interfaz de la $PROGNAME NO INCLUYE ABSOLUTAMENTE NINGUNA GARANTмA."
+    echo "Para mayor informaciСn vea los tИrminos de la licencia en LICENSE.txt"
+    echo "Este es un software abierto, por lo que lo invitamos a que lo distribuya de forma gratuita"
+elif [ "$explang" = "fr" ]; then
+    echo "Interface du $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2013, New Zealand Digital Library Project, University Of Waikato"
+    echo "$PROGABBR est fourni sans AUCUNE GARANTIE; pour des dИtails, voir LICENSE.txt"
+    echo "Ceci est un logiciel libre, et vous Йtes invitИ Ю le redistribuer"
+elif [ "$explang" = "ru" ]; then
+    echo "Библиотечный $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2013, New Zealand Digital Library Project, University Of Waikato"
+    echo "БИГ не дает АБСОЛЮТНО НИКАКИХ ГАРАНТИЙ; детали см. в тексте LICENSE.TXT"
+    echo "Это - свободно распространяемое программное обеспечение и Вы можете распространять его"
+else
+    echo "$PROGNAME ($PROGABBR)"
+    echo "Copyright (C) 2013, New Zealand Digital Library Project, University Of Waikato"
+    echo "$PROGABBR comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.txt"
+    echo "This is free software, and you are welcome to redistribute it"
+fi
+echo
+
+##  -------- Run the Expeditee Browser --------
+# This script is designed to be run from its own directory (instead of whichever directory it may be called from)
+# => Work out where that is, and 'cd' there
+thisdir="`dirname \"$0\"`"
+thisdir="`cd \"$thisdir\" && pwd`"
+cd "$thisdir"
+
+
+##  ---- Determine EXPEDITEE_HOME ----
+# need to source a script in order to inherit the env vars it has set
+# Exit on error code (non-zero)
+exit_status=0
+#source ./findexpeditee.sh
+#exit_status=$?
+#if [ "$exit_status" -eq 1 ]; then
+#    exit 1;
+#fi
+
+## ---- Check Java ----
+# call the script with source, so that we have the variables it sets ($javapath)
+#exit_status=0
+#source ./findjava.sh "$explang" "$PROGNAME"
+#exit_status=$?
+#if [ "$exit_status" -eq 1 ]; then
+#    exit 1;
+#fi
+
+## ---- Finally, run Expeditee ----
+if [ "$explang" = "es" ]; then
+    echo "Ejecutando la Interfaz de la $PROGNAME..."
+elif [ "$explang" = "fr" ]; then
+    echo "ExИcution de $PROGNAME..."
+elif [ "$explang" = "ru" ]; then
+    echo "Текущий библиотечный $PROGNAME..."
+else
+    echo "Running the $PROGNAME..."
+fi
+
+# basic_command is the cmd string to execution is
+#   basic_command="$javapath -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar org.greenstone.gatherer.GathererProg"
+
+    
+# Other arguments you can provide to GLI to work around memory limitations, or debug
+# -Xms<number>M    To set minimum memory (by default 32MB)
+# -Xmx<number>M    To set maximum memory (by default the nearest 2^n to the total remaining physical memory)
+# -verbose:gc      To set garbage collection messages
+# -Xincgc          For incremental garbage collection (significantly slows performance)
+# -Xprof           Function call profiling
+# -Xloggc:<file>   Write garbage collection log
+
+# -Xdock:name      To set the name of the app in the MacOS Dock bar
+# -Xdock:icon      Path to the MacOS Doc icon (not necessary for GS)    
+
+
+custom_vm_args=""
+if [ "$EXPOS" = "darwin" ]; then
+   custom_vm_args="-Xdock:name=$PROGABBR"
+fi
+    
+#"$javapath" -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar $custom_vm_args org.greenstone.gatherer.GathererProg -gsdl "$GSDLHOME" -gsdlos $GSDLOS -gsdl3 "$GSDL3HOME" -gsdl3src "$GSDL3SRCHOME" $*
+  
+
+
+jars='jars/JEP.jar:jars/JFreeCharts.jar:jars/activation.jar:jars/cobra.jar:jars/ext:jars/iText-2.1.3.jar:jars/jazzy-core.jar:jars/jcommon-1.0.13.jar:jars/js.jar:jars/lobo-pub.jar:jars/lobo.jar:jars/mail.jar:jars/xercesImpl.jar'
+
+jars="$jars:releases/Expeditee.jar"
+
+cygpath 2>/dev/null
+if [ $? != 0 ] ; then
+  jars=`cygpath -wp "$jars"`
+fi
+
+#java -classpath "$jars"  org.expeditee.gui.Browser $*
+
+cd "$EXPEDITEE_HOME"
+java -classpath releases\\Expeditee.jar  org.expeditee.gui.Browser $*
+
+
+  
+if [ "$explang" = "es" ]; then
+    echo "Hecho."
+elif [ "$explang" = "fr" ]; then
+    echo "TerminИ."
+elif [ "$explang" = "ru" ]; then
+    echo "Выполнено."
+else
+    echo "Done."
+fi

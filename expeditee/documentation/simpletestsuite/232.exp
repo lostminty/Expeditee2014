@@ -1,0 +1,96 @@
+V 33
+p 4
+U root
+D 04Jun2008:2139
+M root
+d 04Jun2008:2357
+Z
+
+S T 12
+s 04Jun2008:2139
+d 0 0 100
+P 34 49
+X DebugFrame -4 red
+f sb41
+T @DisplayCodeTest
+
+S T 48
+s 04Jun2008:2149
+d 0 0 0
+P 263 126
+T Set $i.expected 46
+
+S T 49
+s 04Jun2008:2149
+d 0 0 0
+P 132 134
+T Set $i. 50
+
+S T 50
+s 04Jun2008:2149
+d 0 0 0
+P 279 159
+T Set $i.dec 3
+
+S T 105
+s 04Jun2008:2149
+d 0 0 0
+P 122 166
+T Subtract $i.
+
+S T 66
+s 04Jun2008:2151
+d 0 0 0
+P 197 187
+f tr18
+T MessageLn $i.
+
+S T 52
+s 04Jun2008:2149
+d 0 0 0
+P 120 202
+T Subtract
+
+S T 122
+s 04Jun2008:2149
+d 0 0 0
+P 322 208
+T Subtract $i.
+
+S T 104
+s 04Jun2008:2149
+d 0 0 0
+P 221 217
+T Subtract
+
+S T 95
+s 04Jun2008:2250
+d 0 0 0
+P 118 257
+F 233
+f tr18
+T //Do this stuff
+
+S T 96
+s 04Jun2008:2152
+d 0 0 0
+P 121 303
+T MessageLn $i.
+
+S T 5
+s 04Jun2008:2139
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:02
+DarkTime:00:00:00
+00:01:659 133 52 kF4
+00:02:696 448 377 Ld
+00:02:816 448 377 Lu

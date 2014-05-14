@@ -1,0 +1,115 @@
+V 11
+p 4
+U root
+D 07Jul2008:1143
+M root
+d 08Jul2008:1346
+Z
+
+S T 12
+s 07Jul2008:1143
+d 0 0 100
+P 31 49
+X runframe
+f sb42
+T SearchFrameTest
+
+S T 20
+s 07Jul2008:1222
+d 100 0 0
+P 575 87
+F 339
+T @FrameToSearch
+
+S T 52
+s 08Jul2008:1345
+P 358 112
+T set $s.red "red"
+
+S T 17
+s 07Jul2008:1223
+P 44 115
+T Set $s.pattern "THIS phrase"
+
+S T 16
+s 07Jul2008:1222
+P 44 162
+T SearchFrame $fp.FrameToSearch $s.pattern $b.found $ip.foundItem $i.startChar $i.endChar
+
+S T 21
+s 07Jul2008:1227
+P 44 209
+T AssertTrue $b.found
+
+S T 61
+s 08Jul2008:1337
+P 38 257
+T AssertNotNull $ip.foundItem
+
+S T 60
+s 08Jul2008:1345
+P 39 300
+T SetItemColor $ip.foundItem $s.red
+
+S T 59
+s 07Jul2008:1228
+P 38 359
+T Set $i.expectedStart 6
+
+S T 58
+s 07Jul2008:1228
+P 41 399
+T Set $i.expectedEnd 16
+
+S T 57
+s 07Jul2008:1228
+P 43 456
+T AssertEquals $i.expectedStart $i.startChar
+
+S T 56
+s 07Jul2008:1228
+P 42 499
+T AssertEquals $i.expectedEnd $i.endChar
+
+S T 5
+s 07Jul2008:1143
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:13:35
+DarkTime:00:33:52
+00:01:583 448 194 Ld
+00:01:711 448 194 Lu
+00:04:372 298 427 Md
+00:04:494 298 427 Mu
+00:05:253 297 497 Md
+00:05:366 297 497 Mu
+00:06:037 254 375 Md
+00:06:141 254 375 Mu
+00:06:851 255 445 Md
+00:06:934 255 445 Mu
+00:07:505 187 348 Md
+00:07:614 187 348 Mu
+00:08:334 186 398 Md
+00:08:428 186 398 Mu
+00:08:939 162 302 Md
+00:09:052 162 302 Mu
+00:09:724 160 349 Md
+00:09:812 160 349 Mu
+00:10:484 132 268 Md
+00:10:588 132 268 Mu
+00:11:064 127 293 Md
+00:11:155 127 293 Mu
+00:11:651 124 240 Md
+00:11:764 123 240 Mu
+00:12:235 119 251 Md
+00:12:339 119 251 Mu
+00:12:843 176 34 Ld
+00:12:947 176 34 Lu

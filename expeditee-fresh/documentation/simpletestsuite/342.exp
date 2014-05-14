@@ -1,0 +1,75 @@
+V 16
+p 4
+U root
+D 09Jul2008:1238
+M root
+d 10Jul2008:1516
+Z
+
+S T 12
+s 09Jul2008:1238
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T SearchTreeTest
+
+S T 23
+s 09Jul2008:1241
+d 50 50 50
+P 61 106
+F 343
+T @TopFrame
+
+S T 94
+s 09Jul2008:1349
+d 50 50 50
+P 225 108
+F TestFrameset1
+T @TestFrameset
+
+S T 25
+s 09Jul2008:1238
+P 255 163
+T set $s.phrase "TESTING"
+
+S T 87
+s 09Jul2008:1238
+P 62 163
+T set $b.replace false
+
+S T 86
+s 09Jul2008:1349
+P 497 164
+T set $s.frameset "TestFrameset"
+
+S T 82
+s 09Jul2008:1238
+P 63 207
+T SearchTree $s.topFrame $s.phrase $s.frameset $b.Replace $s.replacementString $s.ResultFrame
+
+S T 83
+s 09Jul2008:1423
+P 62 254
+T Goto $s.resultFrame
+
+S T 5
+s 09Jul2008:1238
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:07:46
+DarkTime:01:08:01
+00:11:726 239 99 Md
+00:11:846 239 99 Mu
+00:12:189 272 101 Md
+00:12:309 272 101 Mu
+00:12:661 272 104 Ld
+00:12:741 272 104 Lu

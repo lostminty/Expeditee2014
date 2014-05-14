@@ -1,0 +1,68 @@
++A+ Demo28
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ ra33
++d+ 11Feb2008:1121
++Z+
++v+ 22
+
++S+ 3
++s+ 11Feb2008:1121
++P+ 0 0
++f+ tr21
++T+ Moving
+
++S+ 4
++s+ 11Feb2008:1121
++P+ 125 70
++f+ tr21
++T+ Lines can be picked up by middle clicking the middle of the line
+
++S+ 20
++s+ 11Feb2008:1121
++P+ 420 122
++h+ 2.0
++l+ 21
+
++S+ 22
++s+ 11Feb2008:1121
++P+ 205 198
++h+ 2.0
++l+ 21
+
++S+ 19
++s+ 11Feb2008:1121
++P+ 116 308
++f+ tr21
++T+ And the endpoints can be rubber-banded by middle clicking the end point
+
++S+ 17
++s+ 11Feb2008:1121
++P+ 452 383
++h+ 2.0
++l+ 24
+
++S+ 23
++s+ 11Feb2008:1121
++P+ 231 496
++h+ 2.0
++l+ 24
++L+ 21 1
++s+ 22 20
++L+ 24 1
++s+ 23 17
++Z+
+00:03 249 202 Md
+00:03 249 202 Mu
+00:04 269 201 Md
+00:04 269 201 Mu
+00:06 221 475 Md
+00:06 221 475 Mu
+00:09 238 514 Md
+00:09 238 514 Mu
+00:09 146 414 Ld
+00:09 146 414 Lu
+

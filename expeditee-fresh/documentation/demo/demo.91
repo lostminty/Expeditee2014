@@ -1,0 +1,79 @@
++A+ Demo91
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ -21248
++M+ ra33
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++T+ test
++S+ 208
++P+ 580 9
++f+ tr14
++T+ Date: 28Nov2007
++T+ Time: 16:55 --> 16:56 = 0
++T+ Version: Expeditee28Nov2007A
++T+ FramesAccessed: 7 --> 420 per hour
++T+ FramesEdited: 6 --> 360 per hour
++T+ ResponseTime: 0.04sec, 0.03avg
++T+ Chars: 18 --> 1080 per hour
++T+ Words: 2 --> 120 per hour
++T+ Sentances: 0 --> 0 per hour
++T+ Items: 2 --> 120 per hour
++T+ Frames: 0 --> 0 per hour
++T+ 
++S+ 210
++P+ 21 38
++f+ tr16
++T+ Date: 28Nov2007
++T+ Time: 16:56 --> 16:56 = 0
++T+ Version: Expeditee28Nov2007A
++T+ FramesAccessed: 1 --> 60 per hour
++T+ FramesEdited: 1 --> 60 per hour
++T+ ResponseTime: 0.02sec, 0.28avg
++T+ Chars: 0 --> 0 per hour
++T+ Words: 0 --> 0 per hour
++T+ Sentances: 0 --> 0 per hour
++T+ Items: 3 --> 180 per hour
++T+ Frames: 0 --> 0 per hour
++T+ 
++S+ 217
++P+ 337 183
++f+ tr28
++T+ Date: 28Nov2007
++T+ Time: 16:56 --> 16:58 = 1
++T+ Version: Expeditee28Nov2007A
++T+ FramesAccessed: 7 --> 420 per hour
++T+ FramesEdited: 8 --> 480 per hour
++T+ ResponseTime: 0.06sec, 0.07avg
++T+ Chars: 0 --> 0 per hour
++T+ Words: 0 --> 0 per hour
++T+ Sentances: 0 --> 0 per hour
++T+ Items: 3 --> 180 per hour
++T+ Frames: 0 --> 0 per hour
++T+ 
++S+ 216
++P+ 35 301
++f+ tr18
++T+ Date: 28Nov2007
++T+ Time: 16:56 --> 16:56 = 0
++T+ Version: Expeditee28Nov2007A
++T+ FramesAccessed: 3 --> 180 per hour
++T+ FramesEdited: 3 --> 180 per hour
++T+ ResponseTime: 0.03sec, 0.11avg
++T+ Chars: 0 --> 0 per hour
++T+ Words: 0 --> 0 per hour
++T+ Sentances: 0 --> 0 per hour
++T+ Items: 3 --> 180 per hour
++T+ Frames: 0 --> 0 per hour
++T+ 
++S+ 214
++P+ 581 512
++X+ ResetStats
++T+ a:ResetStats
++Z+

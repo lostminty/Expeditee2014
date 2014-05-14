@@ -1,0 +1,32 @@
++A+ SimpleTest14
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 22Jan2008:1632
++M+ ra33
++d+ 24Jan2008:1210
++Z+
++v+ 22
+
++S+ 3
++s+ 22Jan2008:1632
++P+ 20 0
++T+ Call Swap $s.A $s.B
+
++S+ 4
++s+ 22Jan2008:1632
++P+ 102 96
++T+ Set $s.Temp $s.A
+
++S+ 5
++s+ 22Jan2008:1632
++P+ 107 147
++T+ Set $s.A $s.B
+
++S+ 6
++s+ 22Jan2008:1632
++P+ 97 198
++T+ Set $s.B $s.Temp
++Z+
+

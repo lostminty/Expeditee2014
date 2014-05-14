@@ -1,0 +1,155 @@
+#!/bin/bash
+
+if [ ! -z $explang ] ; then
+  explang=en
+fi
+
+if [ "x$PROGNAME" = "x" ] ; then
+  if [ "$explang" = "es" ]; then
+    PROGNAME="Navegador Expeditee"
+  elif [ "$explang" = "fr" ]; then
+    PROGNAME="Navigateur Expeditee"
+  elif [ "$explang" = "ru" ]; then
+    PROGNAME="Браузер Expeditee"
+  else
+    PROGNAME="Expeditee Browser"
+  fi
+fi
+
+if [ "x$PROGABBR" = "x" ] ; then
+    PROGABBR="Expeditee"
+fi
+
+if [ "x$PROGNAME_EN" = "x" ] ; then
+    PROGNAME_EN="Expeditee Browser"
+fi
+
+if [ "x$EXPMODE" = "x" ] ; then
+    EXPMODE="local"
+fi
+
+echo
+if [ "$explang" = "es" ]; then
+    echo "Interfaz de la $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2006, New Zealand Digital Library Project, University Of Waikato"
+    echo "La Interfaz de la $PROGNAME NO INCLUYE ABSOLUTAMENTE NINGUNA GARANTÍA."
+    echo "Para mayor información vea los términos de la licencia en LICENSE.txt"
+    echo "Este es un software abierto, por lo que lo invitamos a que lo distribuya de forma gratuita"
+elif [ "$explang" = "fr" ]; then
+    echo "Interface du $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2006, New Zealand Digital Library Project, University Of Waikato"
+    echo "$PROGABBR est fourni sans AUCUNE GARANTIE; pour des détails, voir LICENSE.txt"
+    echo "Ceci est un logiciel libre, et vous êtes invité à le redistribuer"
+elif [ "$explang" = "ru" ]; then
+    echo "âÉÂÌÉÏÔÅÞÎÙÊ $PROGNAME ($PROGNAME_EN - $PROGABBR)"
+    echo "Copyright (C) 2006, New Zealand Digital Library Project, University Of Waikato"
+    echo "âéç ÎÅ ÄÁÅÔ áâóïìàôîï îéëáëéè çáòáîôéê; ÄÅÔÁÌÉ ÓÍ. × ÔÅËÓÔÅ LICENSE.TXT"
+    echo "üÔÏ - Ó×ÏÂÏÄÎÏ ÒÁÓÐÒÏÓÔÒÁÎÑÅÍÏÅ ÐÒÏÇÒÁÍÍÎÏÅ ÏÂÅÓÐÅÞÅÎÉÅ É ÷Ù ÍÏÖÅÔÅ ÒÁÓÐÒÏÓÔÒÁÎÑÔØ ÅÇÏ"
+else
+    echo "$PROGNAME ($PROGABBR)"
+    echo "Copyright (C) 2006, New Zealand Digital Library Project, University Of Waikato"
+    echo "$PROGABBR comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.txt"
+    echo "This is free software, and you are welcome to redistribute it"
+fi
+echo
+
+##  -------- Run the Expeditee Browser --------
+# This script is designed to be run from its own directory (instead of whichever directory it may be called from)
+# => Work out where that is, and 'cd' there
+thisdir="`dirname \"$0\"`"
+thisdir="`cd \"$thisdir\" && pwd`"
+cd "$thisdir"
+
+
+##  ---- Determine EXPEDITEE_HOME ----
+# need to source a script in order to inherit the env vars it has set
+# Exit on error code (non-zero)
+exit_status=0
+source ./findexpeditee.sh
+exit_status=$?
+if [ "$exit_status" -eq 1 ]; then
+    exit 1;
+fi
+
+## ---- Check Java ----
+# call the script with source, so that we have the variables it sets ($javapath)
+exit_status=0
+source ./findjava.sh "$explang" "$PROGNAME"
+exit_status=$?
+if [ "$exit_status" -eq 1 ]; then
+    exit 1;
+fi
+
+## ---- Finally, run Expeditee ----
+if [ "$explang" = "es" ]; then
+    echo "Ejecutando la Interfaz de la $PROGNAME..."
+elif [ "$explang" = "fr" ]; then
+    echo "Exécution de $PROGNAME..."
+elif [ "$explang" = "ru" ]; then
+    echo "ôÅËÕÝÉÊ ÂÉÂÌÉÏÔÅÞÎÙÊ $PROGNAME..."
+else
+    echo "Running the $PROGNAME..."
+fi
+
+# basic_command is the cmd string common to both Greenstone 3 and Greenstone 2 execution
+#basic_command="$javapath -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar org.greenstone.gatherer.GathererProg"
+stop_gli=0
+while [ "$stop_gli" = "0" ] ; do 
+    
+    # Other arguments you can provide to GLI to work around memory limitations, or debug
+    # -Xms<number>M    To set minimum memory (by default 32MB)
+    # -Xmx<number>M    To set maximum memory (by default the nearest 2^n to the total remaining physical memory)
+    # -verbose:gc      To set garbage collection messages
+    # -Xincgc          For incremental garbage collection (significantly slows performance)
+    # -Xprof           Function call profiling
+    # -Xloggc:<file>   Write garbage collection log
+
+    # -Xdock:name      To set the name of the app in the MacOS Dock bar
+    # -Xdock:icon      Path to the MacOS Doc icon (not necessary for GS)    
+    custom_vm_args=""
+    if [ "$GSDLOS" = "darwin" ]; then
+    	custom_vm_args="-Xdock:name=$PROGABBR"
+    fi
+    
+    exit_status=0
+    if [ "$_version" -eq 2 ]; then
+# GS2 webLib
+	if [ "$PROGABBR" = "FLI" -o ! -f "$GSDLHOME/gs2-server.sh" ]; then
+	    "$javapath" -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar $custom_vm_args org.greenstone.gatherer.GathererProg -gsdl "$GSDLHOME" -gsdlos $GSDLOS $*
+	    exit_status=$?
+# GS2 localLib
+	else
+	    "$javapath" -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar $custom_vm_args org.greenstone.gatherer.GathererProg -gsdl "$GSDLHOME" -gsdlos $GSDLOS -local_library "$GSDLHOME/gs2-server.sh" $*
+	    exit_status=$?
+	fi
+# GS3
+    elif [ "$_version" -eq 3 ]; then    
+        "$javapath" -Xmx128M -classpath classes/:GLI.jar:lib/apache.jar:lib/qfslib.jar:lib/rsyntaxtextarea.jar $custom_vm_args org.greenstone.gatherer.GathererProg -gsdl "$GSDLHOME" -gsdlos $GSDLOS -gsdl3 "$GSDL3HOME" -gsdl3src "$GSDL3SRCHOME" $*
+        exit_status=$?
+    fi
+    
+    if [ "$exit_status" != "2" ] ; then
+        stop_gli=1
+    else
+        echo
+        if [ "$explang" = "es" ]; then
+            echo "Restarting/Ejecutando la Interfaz de la $PROGNAME..."
+        elif [ "$explang" = "fr" ]; then
+            echo "Restarting/Exécution de $PROGNAME..."
+        elif [ "$explang" = "ru" ]; then
+            echo "Restarting/ôÅËÕÝÉÊ ÂÉÂÌÉÏÔÅÞÎÙÊ $PROGNAME..."
+        else
+            echo "Restarting the $PROGNAME..."
+        fi
+    fi
+done 
+
+if [ "$explang" = "es" ]; then
+    echo "Hecho."
+elif [ "$explang" = "fr" ]; then
+    echo "Terminé."
+elif [ "$explang" = "ru" ]; then
+    echo "÷ÙÐÏÌÎÅÎÏ."
+else
+    echo "Done."
+fi

@@ -1,0 +1,108 @@
+V 11
+p 4
+U root
+D 15Mar2008:1601
+M root
+d 26Jun2008:0046
+Z
+
+S T 432
+s 15Mar2008:1601
+d 0 0 100
+P 31 48
+X RunFrame
+f tr35
+T GlideItemToTest
+
+S T 447
+s 25Jun2008:1839
+P 59 113
+T ClearFrame $fp.stageFrame
+
+S T 446
+s 15Mar2008:1603
+d 0 0 0
+P 61 151
+T Goto $s.stageFrame
+
+S T 448
+s 15Mar2008:1602
+d 0 0 0
+P 66 197
+F 118
+T @ForEach $ip.Item $fp.stageFrame
+
+S T 431
+s 15Mar2008:1602
+d 0 0 0
+P 191 247
+D 0
+T Set $i.y 300
+
+S T 204
+s 15Mar2008:1602
+d 0 0 0
+P 64 249
+D 0
+T Set $i.x 300
+
+S T 151
+s 15Mar2008:1601
+d 100 0 100
+P 740 262
+F 117
+T @StageFrame
+
+S T 429
+s 15Mar2008:1638
+d 0 0 100
+P 64 289
+T CreateItem $fp.StageFrame $i.x $i.y $ip.Cur $s.stageframe
+
+S T 342
+s 15Mar2008:1636
+d 0 0 0
+P 64 329
+D 0
+T AddItemToFrame $fp.stageFrame $ip.Cur
+
+S T 430
+s 15Mar2008:1639
+d 0 0 0
+P 185 367
+D 0
+T Set $i.y 500
+
+S T 394
+s 15Mar2008:1639
+d 0 0 0
+P 64 369
+D 0
+T Set $i.x 500
+
+S T 428
+s 15Mar2008:1639
+d 0 0 0
+P 64 409
+T GlideItemTo $ip.Cur $i.x $i.y
+
+S T 135
+s 15Mar2008:1601
+P 933 574
+F SimpleTestSuite89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:03:57
+DarkTime:00:02:49
+00:00:418 109 26 kPage Up
+00:01:001 109 25 kPage Up
+00:01:441 109 24 kPage Up
+00:02:372 109 32 Rd
+00:02:397 109 32 Md
+00:02:757 109 32 kPage Up

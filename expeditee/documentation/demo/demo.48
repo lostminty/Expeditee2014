@@ -1,0 +1,117 @@
++A+ Demo48
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ Audience Mode
++S+ 5
++P+ 48 68
++f+ tr21
++T+ Audience mode is designed for giving presentations, it hides all annotation items
++S+ 23
++P+ 770 85
++f+ tr21
++T+ @and these
++S+ 64
++P+ 606 96
++f+ tr21
++T+ @and these
++S+ 63
++P+ 474 102
++f+ tr21
++T+ @and these
++S+ 43
++P+ 302 110
++f+ tr21
++T+ @and these
++S+ 37
++P+ 637 122
++f+ tr21
++T+ @and these
++S+ 39
++P+ 761 124
++f+ tr21
++T+ @and these
++S+ 12
++P+ 451 131
++f+ tr21
++T+ @and these
++S+ 9
++P+ 254 143
++f+ tr21
++T+ @and this one
++S+ 6
++P+ 39 147
++f+ tr21
++T+ @Like this one
++S+ 19
++P+ 780 160
++f+ tr21
++T+ @and these
++S+ 41
++P+ 630 167
++f+ tr21
++T+ @and these
++S+ 31
++P+ 421 170
++f+ tr21
++T+ @and these
++S+ 45
++P+ 263 184
++f+ tr21
++T+ @and these
++S+ 25
++P+ 605 195
++f+ tr21
++T+ @and these@and these
++S+ 29
++P+ 389 207
++f+ tr21
++T+ @and these
++S+ 60
++P+ 789 223
++f+ tr21
++T+ @and these
++S+ 17
++P+ 606 226
++f+ tr21
++T+ @and these
++S+ 62
++P+ 255 228
++f+ tr21
++T+ @and these
++S+ 49
++P+ 489 237
++f+ tr21
++T+ @and these
++S+ 35
++P+ 768 245
++f+ tr21
++T+ @and these
++S+ 52
++P+ 693 262
++f+ tr21
++T+ @and these
++S+ 54
++P+ 53 349
++f+ tr21
++T+ This allows presenters to make notes on frames that will not be shown to the audience
++S+ 57
++P+ 306 394
++f+ tr21
++T+ @Items can still be typed in audience mode though
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++Z+

@@ -1,0 +1,60 @@
++v+ 22
++V+ 2
++p+ 4
++U+ ra33
++D+ 12Feb2008:1612
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite77
+
++S+ 17
++s+ 12Feb2008:1612
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ @Pause Test
+
++S+ 114
++s+ 26Jun2008:0047
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ @Pause Test
+
++S+ 102
++s+ 12Feb2008:1612
++P+ 34 66
++T+ Set $s.cur "Pause test"
+
++S+ 112
++s+ 12Feb2008:1612
++d+ 0 0 0
++P+ 43 116
++T+ MessageLn 
+
++S+ 111
++s+ 12Feb2008:1612
++P+ 39 160
++T+ Set $r.2 2.0
+
++S+ 110
++s+ 12Feb2008:1612
++P+ 41 201
++T+ Pause $r.2
+
++S+ 109
++s+ 12Feb2008:1612
++P+ 39 253
++T+ MessageLn
+
++S+ 113
++s+ 21Feb2008:1504
++P+ 934 508
++F+ SimpleTestSuite89
++T+ @ao
++Z+
+ActiveTime:00:00:00
+DarkTime:00:00:00
+00:00:436 109 15 kPage Down

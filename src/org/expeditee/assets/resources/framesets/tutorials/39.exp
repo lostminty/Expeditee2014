@@ -1,0 +1,596 @@
+V 20
+U jts21A
+D 21Jan2014[09:46]
+M jts21A
+d 21Jan2014[11:18]
+Z
+
+S T 10
+s 21Jan2014[09:46]
+d 0 0 100 100
+P 16 55
+T Create a cropped Picture, then click here to continue
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 320
+s 21Jan2014[09:47.09]
+d 50 50 50 100
+P 21 85
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 295
+s 21Jan2014[09:47.09]
+P 18 112
+T var frame = loadTutorialFrame(37)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 296
+s 21Jan2014[09:47.09]
+P 28 142
+T var iterator = frame.getAllItems().iterator()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 297
+s 21Jan2014[09:47.09]
+P 38 169
+T var success = false
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 298
+s 21Jan2014[09:47.09]
+P 50 197
+T while(iterator.hasNext())
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 24
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 587 222
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 40 248
+c 165 166
+
+S P 25
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 25 222
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 40 41
+c 165 167
+
+S T 16
+s 21Jan2014[09:47.09]
+P 43 248
+T var item = iterator.next()
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 17
+s 21Jan2014[09:47.09]
+P 43 284
+T if(item instanceof Picture)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 87
+s 21Jan2014[09:47.09]
+d 0 70 0 100
+P 425 303
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 89 245
+c 169 170
+
+S P 88
+s 21Jan2014[09:47.09]
+d 0 70 0 100
+P 54 303
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 89 90
+c 169 171
+
+S T 91
+s 21Jan2014[09:48.08]
+P 72 328
+T if(item.isCropped()) 
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 235
+s 21Jan2014[09:48.22]
+d 100 0 0 100
+P 273 337
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 237 242
+c 110 113
+
+S P 236
+s 21Jan2014[09:48.22]
+d 100 0 0 100
+P 90 337
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 237 238
+c 110 112
+
+S T 239
+s 21Jan2014[09:47.09]
+P 110 372
+T success = true
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 240
+s 21Jan2014[09:48.22]
+d 100 0 0 100
+P 90 392
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 238 243
+c 112 111
+
+S P 241
+s 21Jan2014[09:48.22]
+d 100 0 0 100
+P 273 392
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 242 243
+c 113 111
+
+S P 93
+s 21Jan2014[09:47.09]
+d 0 70 0 100
+P 54 399
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 90 246
+c 171 172
+
+S P 244
+s 21Jan2014[09:47.09]
+d 0 70 0 100
+P 425 399
+e 59 100 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 245 246
+c 170 172
+
+S P 26
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 25 402
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 41 249
+c 167 168
+
+S P 247
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 587 402
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 248 249
+c 166 168
+
+S T 291
+s 21Jan2014[09:47.09]
+P 11 435
+T if(success)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 331
+s 21Jan2014[10:11.35]
+d 100 0 0 100
+P 980 447
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 333 339
+c 64 67
+
+S P 332
+s 21Jan2014[10:11.35]
+d 100 0 0 100
+P 14 447
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 333 334
+c 64 66
+
+S T 335
+s 21Jan2014[10:11.26]
+P 27 476
+T frame.addText(70, 368, "By pressing F10, you can toggle XRay mode,\nwhich allows you to see and edit the text describing Pictures/Widgets\nFor example, you can apply a rotation value to a Picture by using XRay mode to\nappend \"rotation=<value in degrees>\" to the Picture's data", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 336
+s 21Jan2014[10:11.26]
+P 19 561
+T frame.addText(70, 467, "Rotate an image using XRay mode, then click here to continue", "runJSFrame", "Tutorials42")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 337
+s 21Jan2014[10:11.35]
+d 100 0 0 100
+P 14 596
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 334 340
+c 66 65
+
+S P 338
+s 21Jan2014[10:11.35]
+d 100 0 0 100
+P 980 596
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 339 340
+c 67 65
+
+S T 280
+s 21Jan2014[09:47.09]
+P 20 616
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 265
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 881 640
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 267 272
+c 177 178
+
+S P 266
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 18 640
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 267 268
+c 177 179
+
+S T 269
+s 21Jan2014[09:47.09]
+P 32 682
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a cropped Picture to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 270
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 18 694
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 268 273
+c 179 180
+
+S P 271
+s 21Jan2014[09:47.09]
+d 0 0 100 100
+P 881 694
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 272 273
+c 178 180
+
+Z
+
+L 40 1
+s 24 25
+
+L 248 1
+s 247 24
+
+L 41 1
+s 25 26
+
+L 89 1
+s 87 88
+
+L 245 1
+s 244 87
+
+L 90 1
+s 88 93
+
+L 237 1
+s 235 236
+
+L 242 1
+s 241 235
+
+L 238 1
+s 236 240
+
+L 243 1
+s 240 241
+
+L 246 1
+s 93 244
+
+L 249 1
+s 26 247
+
+L 333 1
+s 331 332
+
+L 339 1
+s 338 331
+
+L 334 1
+s 332 337
+
+L 340 1
+s 337 338
+
+L 267 1
+s 265 266
+
+L 272 1
+s 271 265
+
+L 268 1
+s 266 270
+
+L 273 1
+s 270 271
+
+Z
+
+C 165 3
+s 24 25
+
+C 166 2
+s 247 24
+
+C 167 2
+s 25 26
+
+C 169 3
+s 87 88
+
+C 170 2
+s 244 87
+
+C 171 2
+s 88 93
+
+C 110 3
+s 235 236
+
+C 113 2
+s 241 235
+
+C 112 2
+s 236 240
+
+C 111 3
+s 240 241
+
+C 172 3
+s 93 244
+
+C 168 3
+s 26 247
+
+C 64 3
+s 331 332
+
+C 67 2
+s 338 331
+
+C 66 2
+s 332 337
+
+C 65 3
+s 337 338
+
+C 177 3
+s 265 266
+
+C 178 2
+s 271 265
+
+C 179 2
+s 266 270
+
+C 180 3
+s 270 271
+
+Z
+
+ActiveTime:00:06:18
+DarkTime:00:00:00
+18:51:610 218 559 kBackspace
+18:51:753 206 561 kBackspace
+18:52:057 196 561 kBackspace
+18:52:641 185 561 k4
+18:53:177 196 561 k6
+18:53:377 206 561 k7
+18:54:140 696 373 Ld
+18:54:203 696 373 Lu

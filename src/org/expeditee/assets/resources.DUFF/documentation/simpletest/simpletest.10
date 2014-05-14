@@ -1,0 +1,69 @@
++v+ 22
++V+ 8
++p+ UWW
++U+ ra33
++D+ 22Jan2008:1338
++M+ root
++d+ 24Jun2008:1709
++A+ SimpleTest10
+
++S+ 12
++s+ 22Jan2008:1338
++P+ 27 24
++F+ 10
++X+ RunFrame
++T+ CallStatements
+
++S+ 11
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 138 113
++T+ Set $i.1 10
+
++S+ 5
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 134 152
++T+ Set $i.2 20
+
++S+ 6
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 137 220
++F+ 76
++T+ Call Inc $i.1
+
++S+ 7
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 135 264
++F+ SimpleTest76
++T+ Call Inc $i.2
+
++S+ 8
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 136 312
++F+ SimpleTest76
++T+ Call Inc $i.1
+
++S+ 9
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 139 363
++F+ 77
++T+ Call Double $i.2
+
++S+ 10
++s+ 22Jan2008:1338
++d+ 0 0 100
++P+ 140 411
++F+ SimpleTest77
++T+ Call Double2 $i.1
++Z+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:431 236 403 Md
+00:01:547 236 403 Mu
+00:03:696 121 23 Ld
+00:03:802 121 23 Lu

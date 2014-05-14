@@ -1,0 +1,113 @@
++v+ 22
++V+ 6
++p+ 4
++U+ ra33
++D+ 13Feb2008:1623
++M+ root
++d+ 26Jun2008:0051
++A+ SimpleTestSuite91
+
++S+ 133
++s+ 13Feb2008:1623
++d+ 0 0 100
++P+ 26 24
++X+ RunFrame
++f+ tr35
++T+ Else If Else Test
+
++S+ 143
++s+ 13Feb2008:1623
++P+ 52 79
++h+ 2.0
++l+ 147 148
++c+ 165 167
+
++S+ 144
++s+ 13Feb2008:1623
++P+ 501 79
++h+ 2.0
++l+ 147 149
++c+ 167 166
+
++S+ 134
++s+ 13Feb2008:1623
++P+ 64 105
++T+ Set $s.cur "If Else Test"
+
++S+ 135
++s+ 13Feb2008:1623
++P+ 64 141
++T+ Set $b.True "true"
+
++S+ 136
++s+ 13Feb2008:1623
++P+ 64 177
++T+ Set $b.False "false"
+
++S+ 137
++s+ 13Feb2008:1623
++P+ 64 213
++T+ Set $b.ElseReached "false"
+
++S+ 138
++s+ 13Feb2008:1623
++P+ 64 249
++T+ ifnot $b.True ThisCodeShouldNotBeReached
+
++S+ 139
++s+ 13Feb2008:1623
++P+ 64 285
++T+ else if $b.False ThisCodeShouldNotBeReached
+
++S+ 140
++s+ 13Feb2008:1623
++P+ 64 321
++F+ SimpleTestSuite92
++T+ else
+
++S+ 151
++s+ 13Feb2008:1623
++P+ 74 373
++T+ AssertTrue $b.ElseReached
+
++S+ 145
++s+ 13Feb2008:1623
++P+ 52 470
++h+ 2.0
++l+ 148 150
++c+ 165 168
+
++S+ 146
++s+ 13Feb2008:1623
++P+ 501 470
++h+ 2.0
++l+ 149 150
++c+ 166 168
+
++S+ 129
++s+ 13Feb2008:1623
++P+ 926 570
++F+ SimpleTestSuite89
++T+ @ao
++L+ 147 1
++s+ 143 144
++L+ 148 1
++s+ 145 143
++L+ 149 1
++s+ 144 146
++L+ 150 1
++s+ 146 145
++C+ 165 2
++s+ 143 145
++C+ 167 3
++s+ 144 143
++C+ 166 2
++s+ 146 144
++C+ 168 3
++s+ 145 146
++Z+
+ActiveTime:00:00:03
+DarkTime:00:00:00
+00:01:436 90 13 Rd
+00:01:480 90 13 Md
+00:03:048 153 39 kPage Up

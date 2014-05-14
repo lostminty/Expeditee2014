@@ -1,0 +1,37 @@
++A+ SimpleTest13
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 22Jan2008:1631
++M+ ra33
++d+ 31Jan2008:1331
++Z+
++v+ 22
+
++S+ 3
++s+ 22Jan2008:1631
++P+ 20 0
++F+ SimpleTest13
++X+ RunFrame
++T+ CallInProcedureTitle
+
++S+ 4
++s+ 22Jan2008:1632
++P+ 136 106
++T+ Set $s.1 "String1"
+
++S+ 5
++s+ 22Jan2008:1632
++P+ 139 150
++T+ Set $s.2 "String2"
+
++S+ 6
++s+ 22Jan2008:1632
++P+ 144 198
++F+ SimpleTest14
++T+ Call Swap $s.1 $s.2
++Z+
+00:02 60 10 Ld
+00:02 60 10 Lu
+

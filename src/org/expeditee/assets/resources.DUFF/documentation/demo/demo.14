@@ -1,0 +1,46 @@
++A+ Demo14
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Text
++S+ 4
++P+ 112 108
++F+ Demo18
++f+ tr21
++T+ Text Creation
++S+ 6
++P+ 112 146
++F+ Demo17
++f+ tr21
++T+ Text Editing
++S+ 27
++P+ 107 185
++F+ Demo24
++f+ tr21
++T+ Copy to clipboard
++S+ 29
++P+ 110 224
++F+ Demo25
++f+ tr21
++T+ Paste from clipboard
++S+ 34
++P+ 110 267
++F+ Demo35
++f+ tr21
++T+ Annotation items
++S+ 35
++P+ 109 313
++F+ Demo26
++f+ tr21
++T+ Property Merging
++Z+

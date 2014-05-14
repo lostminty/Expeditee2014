@@ -1,0 +1,48 @@
++A+ Demo44
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 4
++P+ 0 0
++f+ tr21
++T+ F1 & F2 Increase\Decrease the size of items
++S+ 31
++P+ 110 109
++f+ tr25
++T+ Text item's sizes can be changed
++S+ 28
++P+ 722 189
++f+ tr21
++T+ So can images:
++S+ 29
++P+ 709 225
++f+ tr5
++T+ @i: clock.gif
++S+ 30
++P+ 187 422
++f+ tr21
++T+ and lines:
++S+ 25
++P+ 539 465
++h+ 2
++l+ 24
++S+ 26
++P+ 85 465
++h+ 1
++l+ 24
++S+ 3
++P+ 878 552
++X+ Format
++f+ tr21
++T+ @Format
++L+ 24 1
++s+ 26 25
++j+ 0 0.0
++Z+

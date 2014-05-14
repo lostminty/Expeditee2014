@@ -1,0 +1,36 @@
++A+ Demo21
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ Items
++S+ 4
++P+ 116 95
++F+ Demo19
++f+ tr21
++T+ Item Moving
++S+ 5
++P+ 116 149
++F+ Demo20
++f+ tr21
++T+ Item Copying
++S+ 8
++P+ 116 203
++F+ Demo32
++f+ tr21
++T+ Item Deletion
++S+ 9
++P+ 887 560
++X+ Format
++f+ tr21
++T+ @Format
++Z+

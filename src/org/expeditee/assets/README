@@ -1,0 +1,4 @@
+Anything in this folder will be packed into the Expeditee jar and accessible at runtime with:
+	ClassLoader.getSystemResource("org/expeditee/assets/...");
+
+Anything in the resources subfolder will be extracted into the main Expeditee folder on the first time Expeditee runs (when the default profile is generated). This allows for adding framesets and images to be accessed by Expeditee without having to write code for it.

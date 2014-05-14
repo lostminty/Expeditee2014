@@ -1,0 +1,31 @@
+V 85
+p 4
+U root
+D 26Feb2008:2220
+M Michael
+d 17Nov2008:1337
+Z
+
+S T 133
+s 26Feb2008:2220
+d 0 0 100
+P 26 24
+T @StageFrame
+Q 0
+f tr35
+
+S P 256
+s 17Nov2008:1337
+d 0 0 100
+P 300 300
+Q 0
+h 20.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:05:20
+DarkTime:00:00:00

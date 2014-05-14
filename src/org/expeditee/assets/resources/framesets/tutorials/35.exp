@@ -1,0 +1,297 @@
+V 13
+U jts21A
+D 20Jan2014[15:27]
+M jts21A
+d 21Jan2014[10:51]
+Z
+
+S T 10
+s 20Jan2014[15:27]
+d 0 0 100 100
+P 16 55
+T asd
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 63
+s 20Jan2014[15:32.02]
+d 50 50 50 100
+P 32 88
+T @functions
+F Javascript1
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 146
+s 20Jan2014[15:27.41]
+P 30 153
+T var frame = loadTutorialFrame(28)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 139
+s 20Jan2014[15:27.41]
+P 26 196
+T if(hasRectangle(frame))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 128
+s 20Jan2014[15:27.41]
+d 100 0 0 100
+P 979 234
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 130 137
+c 318 319
+
+S P 129
+s 20Jan2014[15:27.41]
+d 100 0 0 100
+P 14 234
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 130 131
+c 318 320
+
+S T 132
+s 20Jan2014[15:32.38]
+P 33 265
+T frame.addText(70, 578, "Click the background of the frame to return to the tutorials list", null)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 150
+s 20Jan2014[15:32.38]
+P 31 306
+T frame = loadTutorialFrame(1)
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 149
+s 20Jan2014[15:32.38]
+P 33 345
+T setCompleted(frame.getItemWithID(291))
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 135
+s 20Jan2014[15:27.41]
+d 100 0 0 100
+P 14 368
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 131 138
+c 320 321
+
+S P 136
+s 20Jan2014[15:27.41]
+d 100 0 0 100
+P 979 368
+e 100 59 59 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 137 138
+c 319 321
+
+S T 127
+s 20Jan2014[15:27.41]
+P 26 400
+T else
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 118
+s 20Jan2014[15:27.41]
+d 0 0 100 100
+P 818 428
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 120 125
+c 322 323
+
+S P 119
+s 20Jan2014[15:27.41]
+d 0 0 100 100
+P 16 428
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 120 121
+c 322 324
+
+S T 122
+s 20Jan2014[15:27.41]
+P 29 462
+T org.expeditee.gui.MessageBay.errorMessage("You need to create a rectangle to continue")
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S P 123
+s 20Jan2014[15:27.41]
+d 0 0 100 100
+P 16 483
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 121 126
+c 324 325
+
+S P 124
+s 20Jan2014[15:27.41]
+d 0 0 100 100
+P 818 483
+e 59 59 100 100
+Q 0
+o jts21A
+v S
+h 2.0
+l 125 126
+c 323 325
+
+Z
+
+L 130 1
+s 128 129
+
+L 137 1
+s 136 128
+
+L 131 1
+s 129 135
+
+L 138 1
+s 135 136
+
+L 120 1
+s 118 119
+
+L 125 1
+s 124 118
+
+L 121 1
+s 119 123
+
+L 126 1
+s 123 124
+
+Z
+
+C 318 3
+s 128 129
+
+C 319 2
+s 136 128
+
+C 320 2
+s 129 135
+
+C 321 3
+s 135 136
+
+C 322 3
+s 118 119
+
+C 323 2
+s 124 118
+
+C 324 2
+s 119 123
+
+C 325 3
+s 123 124
+
+Z
+
+ActiveTime:00:02:12
+DarkTime:00:00:00
+51:53:969 176 328 Md
+51:54:069 170 331 Mu
+51:54:849 166 345 Md
+51:54:952 166 345 Mu
+51:55:401 144 293 Md
+51:55:472 144 293 Mu
+51:56:057 137 304 Md
+51:56:152 137 304 Mu
+51:58:197 714 880 kRight

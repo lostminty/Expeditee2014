@@ -1,0 +1,71 @@
+V 12
+U jts21A
+D 21Jan2014[11:17]
+M jts21A
+d 21Jan2014[11:31]
+Z
+
+S T 10
+s 21Jan2014[11:17]
+d 0 0 100 100
+P 16 55
+T Widgets
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 880
+h -1.0
+
+S T 35
+s 21Jan2014[11:19.47]
+P 70 122
+T Widgets are special items which can extend the functionality of Expeditee.
+T Widgets can be created by typing "@iw:<widget-name>",
+T where widget-name is the name of a widget known to Expeditee,
+T for example "MemoryMonitor"
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 47
+s 21Jan2014[11:20.19]
+P 70 221
+T Create a Widget, then click here to continue
+F Tutorials40
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:04
+DarkTime:00:00:00
+31:20:098 901 530 Rd
+31:20:179 890 529 Ru
+31:21:210 19 243 Md
+31:21:281 19 243 Mu
+31:21:667 219 468 Rd
+31:21:674 219 468 Md
+31:22:322 196 451 Ld
+31:22:393 196 451 Lu

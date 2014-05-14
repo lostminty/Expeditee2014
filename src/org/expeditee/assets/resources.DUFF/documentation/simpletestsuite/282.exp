@@ -1,0 +1,54 @@
+V 9
+p 4
+U root
+D 20Jun2008:1423
+M root
+d 22Jun2008:0019
+Z
+
+S T 12
+s 20Jun2008:1423
+d 0 70 0
+P 34 49
+X runframe
+f sb41
+T @GetCurrentItemTest
+
+S T 15
+s 20Jun2008:1423
+d 0 0 0
+P 34 128
+T GetCurrentitem $ip.CurrentItem $i.line $i.char
+
+S T 19
+s 20Jun2008:1423
+d 0 0 0
+P 33 190
+T MessageLn $i.line $i.char
+
+S T 5
+s 20Jun2008:1423
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:02:41
+DarkTime:00:00:00
+00:07:561 578 570 Ld
+00:07:607 578 570 Lu
+00:09:990 155 42 kF3
+00:11:328 155 42 kF4
+00:11:785 155 42 kF4
+00:12:185 155 42 kF4
+00:16:512 155 42 kF4
+00:17:124 155 42 kF4
+00:17:972 155 42 kF4
+00:21:459 140 41 kF4
+00:22:071 140 41 kF4
+00:23:139 140 41 kF4

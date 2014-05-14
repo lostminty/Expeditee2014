@@ -1,0 +1,43 @@
++A+ Demo37
++V+ 1
++v+ 22
++p+ UWW
++U+ rma
++D+ -21248
++M+ rma
++d+ -21248
++t+ 73439000
++Z+
++v+ 22
++S+ 3
++P+ 0 0
++f+ tr21
++T+ TDFC
++S+ 10
++P+ 68 99
++f+ tr21
++T+ Top-Down-Frame-Creation (TDFC) can be performed from any item that does not yet have a link
++S+ 39
++P+ 68 174
++f+ tr21
++T+ The title of the created frame is automatically set to the text of the 'parent' item (if it is a text item)
++S+ 17
++P+ 68 249
++f+ tr21
++T+ When creating a new frame, the 0 frame is copied and so anything on the 0 frame is carried over
++T+ to the newly created frames
++S+ 40
++P+ 82 330
++F+ Demo0
++f+ tr21
++T+ Zero Frame
++S+ 36
++P+ 68 417
++f+ tr21
++T+ TDFC Templates can also be specified to override which frame is copied when performing TDFC.
++T+ If a @TDFCTemplate item is on the frame, the frame it links to is copied
++S+ 37
++P+ 68 492
++f+ tr21
++T+ TDFCTemplate
++Z+

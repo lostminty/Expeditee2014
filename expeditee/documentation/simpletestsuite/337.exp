@@ -1,0 +1,52 @@
+V 5
+p 4
+U root
+D 05Jul2008:1253
+M root
+d 05Jul2008:1300
+Z
+
+S T 12
+s 05Jul2008:1253
+d 0 0 100
+P 34 49
+X runframe
+f sb41
+T IsSearchPatternValidTest
+
+S T 79
+s 05Jul2008:1256
+P 47 119
+T Set $s.pattern "testing"
+
+S T 85
+s 05Jul2008:1253
+d 0 0 100
+P 43 154
+f sb21
+T IsSearchPatternValid $s.pattern $b.valid
+
+S T 78
+s 05Jul2008:1255
+P 45 192
+T AssertTrue $b.valid
+
+S T 81
+s 05Jul2008:1253
+P 951 569
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:04:31
+DarkTime:00:00:00
+00:36:641 249 156 kShift
+00:38:321 253 147 Md
+00:38:459 253 147 Mu
+00:42:762 335 145 Md
+00:42:890 335 145 Mu

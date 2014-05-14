@@ -1,0 +1,50 @@
+V 216
+U csl14A
+D 12Dec2013[10:07]
+M csl14A
+d 14Feb2014[10:51]
+Z
+
+S T 24
+s 12Dec2013[10:16.21]
+d 50 50 50 100
+P 1048 68
+T @ao: 3
+F overlayset1
+Q 0
+H -100.0
+N 50.0
+o csl14A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+h -1.0
+
+S T 36
+s 16Jan2014[15:52.06]
+P 11 506
+T @old
+Q 0
+R 9.0
+I 114.0
+o csl14A
+n F
+v S
+f Roboto Condensed_r15
+t -1.0
+b 0.0
+m 0.0
+w 116
+k R
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:55:53
+DarkTime:01:21:18

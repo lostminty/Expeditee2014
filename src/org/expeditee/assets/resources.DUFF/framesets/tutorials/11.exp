@@ -1,0 +1,73 @@
+V 96
+U jts21A
+D 20Jan2014[10:30]
+M jts21A
+d 21Jan2014[14:35]
+Z
+
+S T 3
+s 20Jan2014[10:30]
+d 0 0 100 100
+P 15 55
+T Deletion
+Q 0
+o jts21A
+v S
+f sb30
+t -1.0
+b 0.0
+m 0.0
+w 881
+h -1.0
+
+S T 45
+s 20Jan2014[10:30.11]
+P 70 138
+T Items can be deleted by hovering them and clicking the middle+right mouse buttons
+D itemToDelete
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+S T 59
+s 20Jan2014[10:30.44]
+P 70 174
+T Delete the above item, then click here to continue
+F 12
+X runJSFrame
+Q 0
+o jts21A
+v S
+f tr18
+t -1.0
+b 0.0
+m 0.0
+w 974
+h -1.0
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:14:04
+DarkTime:00:03:35
+35:35:520 977 619 Rd
+35:35:623 977 619 Ru
+35:37:541 23 183 Md
+35:37:583 23 183 Mu
+35:38:153 42 226 Md
+35:38:161 42 226 Rd
+35:39:112 197 125 Rd
+35:39:127 197 125 Ld
+35:40:296 175 244 Rd
+35:40:303 175 244 Md
+35:40:937 111 278 Ld
+35:40:999 111 278 Lu

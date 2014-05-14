@@ -1,0 +1,6 @@
+Manifest-Version: Dev-2013
+Created-By: Brook Novak and David Bainbridge
+Main-Class: org.apollo.ApolloSystem
+Permissions: all-permissions
+Application-Name: Expeditee
+Class-Path:  jars/activation.jar jars/cobra.jar jars/iText-2.1.3.jar jars/jazzy-core.jar jars/jcommon-1.0.13.jar jars/JEP.jar jars/JFreeCharts.jar jars/js.jar jars/junit.jar jars/lobo.jar jars/lobo-pub.jar jars/mail.jar jars/xercesImpl.jar jars_apollo/javalayer.jar jars_apollo/tritonus_mp3-0.3.6.jar jars_apollo/tritonus_remaining-0.3.6.jar jars_apollo/tritonus_share-0.3.6.jar

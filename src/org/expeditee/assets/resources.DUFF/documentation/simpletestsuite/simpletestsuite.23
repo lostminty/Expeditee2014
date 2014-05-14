@@ -1,0 +1,136 @@
++v+ 22
++V+ 7
++p+ 4
++U+ ra33
++D+ 05Feb2008:1215
++M+ root
++d+ 20Aug2008:0952
++A+ simpletestsuite23
+
++S+ 17
++s+ 05Feb2008:1215
++d+ 0 0 100
++P+ 35 20
++X+ RunFrame
++f+ tr35
++T+ GetCurrentFrame & Goto Test
+
++S+ 102
++s+ 05Feb2008:1224
++P+ 42 69
++T+ GetCurrentFrame $fp.cur $s.currFrameName
+
++S+ 87
++s+ 05Feb2008:1223
++P+ 32 116
++h+ 2.0
++l+ 89 96
++c+ 62 65
+
++S+ 88
++s+ 05Feb2008:1223
++P+ 423 116
++h+ 2.0
++l+ 89 123
++c+ 62 64
+
++S+ 91
++s+ 05Feb2008:1223
++P+ 61 143
++T+ Set $s.frameName "SimpleTestSuite1"
+
++S+ 92
++s+ 05Feb2008:1223
++P+ 61 179
++T+ Goto $s.frameName
+
++S+ 94
++s+ 05Feb2008:1223
++P+ 32 205
++h+ 2.0
++l+ 96 124
++c+ 65 63
+
++S+ 122
++s+ 05Feb2008:1223
++P+ 423 205
++h+ 2.0
++l+ 123 124
++c+ 64 63
+
++S+ 97
++s+ 05Feb2008:1215
++P+ 41 249
++T+ GetCurrentFrame $fp.new $s.newFrameName
+
++S+ 98
++s+ 05Feb2008:1224
++d+ 0 100 100
++P+ 42 298
++T+ AssertEquals $s.frameName $s.newFrameName
+
++S+ 103
++s+ 05Feb2008:1225
++P+ 51 354
++T+ Goto $s.currFrameName
+
++S+ 118
++s+ 21Feb2008:1502
++P+ 946 573
++F+ SimpleTestSuite89
++T+ @ao
++L+ 89 1
++s+ 87 88
++L+ 96 1
++s+ 94 87
++L+ 123 1
++s+ 88 122
++L+ 124 1
++s+ 122 94
++C+ 62 3
++s+ 87 88
++C+ 65 2
++s+ 94 87
++C+ 64 2
++s+ 88 122
++C+ 63 3
++s+ 122 94
++Z+
+ActiveTime:00:00:15
+DarkTime:00:00:00
+00:05:090 349 138 kBackspace
+00:05:590 337 143 kBackspace
+00:05:646 326 143 kBackspace
+00:05:681 315 143 kBackspace
+00:05:713 305 143 kBackspace
+00:05:744 295 143 kBackspace
+00:05:774 290 143 kBackspace
+00:05:980 280 143 kBackspace
+00:06:145 263 143 kBackspace
+00:06:300 258 143 kBackspace
+00:06:471 248 143 kBackspace
+00:06:861 231 143 kShift
+00:06:975 231 143 kS
+00:07:186 241 143 kI
+00:07:316 247 143 kM
+00:07:460 264 143 kP
+00:07:640 275 143 kL
+00:07:713 281 143 kE
+00:07:966 290 143 kShift
+00:08:111 290 143 kT
+00:08:254 302 143 kE
+00:08:366 312 143 kS
+00:08:476 321 143 kT
+00:09:311 328 143 kShift
+00:09:381 328 143 kS
+00:09:609 338 143 kU
+00:09:707 349 143 kI
+00:09:830 355 143 kT
+00:09:929 362 143 kE
+00:11:411 371 143 k1
+00:13:043 381 202 Md
+00:13:187 381 202 Mu
+00:14:043 423 205 Md
+00:14:179 423 205 Mu
+00:15:618 195 7 Ld
+00:15:730 195 7 Lu

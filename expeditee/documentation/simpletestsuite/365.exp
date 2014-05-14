@@ -1,0 +1,29 @@
+V 1
+p 4
+U root
+D 26Jul2008:1132
+M root
+d 26Jul2008:1132
+Z
+
+S T 12
+s 26Jul2008:1132
+d 0 0 100
+P 34 49
+f sb26
+T CalculateString $s.toCalculate $r.result $b.result $s.error
+
+S T 5
+s 26Jul2008:1132
+P 940 572
+F 89
+T @ao
+
+Z
+
+Z
+
+Z
+
+ActiveTime:00:00:00
+DarkTime:00:00:00

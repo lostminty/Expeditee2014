@@ -1,0 +1,138 @@
++A+ SimpleTest63
++V+ 1
++v+ 22
++p+ UWW
++U+ ra33
++D+ 30Jan2008:1403
++M+ ra33
++d+ 30Jan2008:1722
++Z+
++v+ 22
+
++S+ 4
++s+ 30Jan2008:1403
++P+ 27 10
++X+ RunFrame
++T+ OpenFileWriter
+
++S+ 21
++s+ 30Jan2008:1404
++P+ 27 94
++T+ Set $s.filePath "Test.txt"
+
++S+ 64
++s+ 30Jan2008:1721
++P+ 665 115
++h+ 2.0
++l+ 68 74
++c+ 60 63
+
++S+ 65
++s+ 30Jan2008:1721
++P+ 7 115
++h+ 2.0
++l+ 68 69
++c+ 60 62
+
++S+ 22
++s+ 30Jan2008:1404
++P+ 26 158
++T+ OpenWriteFile $s.filePath $f.Cur $b.Success
+
++S+ 51
++s+ 30Jan2008:1448
++P+ 29 209
++T+ WriteLineFile $f.Cur $b.Success $b.Success $b.success
+
++S+ 49
++s+ 30Jan2008:1450
++P+ 25 242
++T+ WriteLineFile $f.Cur $b.Success $b.Success $b.success
+
++S+ 46
++s+ 30Jan2008:1449
++P+ 23 274
++T+ WriteFile $f.Cur $b.Success $b.Success $b.success
+
++S+ 47
++s+ 30Jan2008:1449
++P+ 21 309
++T+ WriteFile $f.Cur $b.Success $b.Success $b.success
+
++S+ 50
++s+ 30Jan2008:1450
++P+ 18 344
++T+ WriteLineFile $f.Cur $b.Success $b.Success $b.success
+
++S+ 66
++s+ 30Jan2008:1721
++P+ 7 372
++h+ 2.0
++l+ 69 73
++c+ 61 62
+
++S+ 72
++s+ 30Jan2008:1721
++P+ 665 372
++h+ 2.0
++l+ 73 74
++c+ 61 63
+
++S+ 42
++s+ 30Jan2008:1420
++P+ 14 405
++T+ CloseWriteFile $f.Cur
+
++S+ 41
++s+ 30Jan2008:1419
++P+ 16 442
++T+ Set $s.Message "File closed!"
+
++S+ 40
++s+ 30Jan2008:1419
++P+ 19 479
++T+ MessageLn $s.Message
+
++S+ 7
++s+ 30Jan2008:1403
++P+ 792 608
++F+ Walmsley314
++T+ @Home
+
++S+ 5
++s+ 30Jan2008:1403
++P+ 885 609
++F+ SimpleTest0
++T+ @ZeroFrame
+
++S+ 16
++s+ 30Jan2008:1403
++P+ 690 609
++X+ Format
++T+ @Format
++L+ 68 1
++s+ 64 65
++L+ 74 1
++s+ 72 64
++L+ 69 1
++s+ 65 66
++L+ 73 1
++s+ 66 72
++C+ 60 3
++s+ 64 65
++C+ 63 2
++s+ 72 64
++C+ 62 2
++s+ 65 66
++C+ 61 3
++s+ 66 72
++Z+
+00:07 12 135 Rd
+00:08 12 135 Ru
+00:09 670 392 Md
+00:10 670 392 Mu
+00:38 609 312 Rd
+00:38 609 312 Ru
+00:41 762 455 Ld
+00:41 762 455 Lu
+
